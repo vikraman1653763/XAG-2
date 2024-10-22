@@ -1,0 +1,119 @@
+.fc-tab-container{
+background-color: #000000;
+width: 100%;
+height: 100%;
+color: #d4d4d4;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+.fc-index-container{
+  background-color: #000000;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  top: 7.5%;
+}
+.fc-index {
+  width: fit-content;
+  position: relative;
+}
+
+.fc-index button {
+  font-size: var(--fs-s);
+  padding: 1em 2em;
+  border: none;
+  text-align: center;
+  color: #d4d4d4;
+  background-color: #000000;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+.fc-tab-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: .2em;
+  border-radius: 2em;
+  transition: left .4s linear, width 0.4s linear; 
+  background: lawngreen;
+}
+
+
+.fc-tab-indicator.active {
+  left: var(--left);
+  width: var(--width);
+}
+
+.fc-content {
+  width: 99vw; 
+  height: 100%; /* Adjusted to fill the viewport height */
+  display: flex;
+  flex-direction: column;
+  /* padding: 1rem 13rem; */
+  justify-content: flex-start; /* Changed to align content to the start */
+}
+.fc-box {
+  display: flex;
+  height: 100vh;
+  
+  scroll-snap-align: start; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: row-reverse;
+  transition: all  5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.fc-pmu {
+  flex-direction: row;
+  background-image: url('/assets/PMU01.webp' );
+}
+.fc-fmu{
+  background-image: url('/assets/FMU01.webp' );
+}
+.fc-gnss{
+  background-image: url('/assets/GNSS01.webp' );
+}
+
+
+.fc-box-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  height: 99vh;
+  width: 50vw;
+  padding: 0em 7em;
+  margin: 0em 6em ;
+  /* border: 2px solid yellow ; */
+}
+
+.section-8{
+  height: 100vh;
+  color:#d4d4d4;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-8 h2{
+  color: #d4d4d4;
+  font-size: var(--fs-xxxl);
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+  background: -webkit-linear-gradient(#4e4e4e, #ffffff, #000000); 
+background: linear-gradient(#4e4e4e, #ffffff, #000000);
+-webkit-background-clip: text; 
+-moz-background-clip: text;
+background-clip: text; 
+-webkit-text-fill-color: transparent;
+}
