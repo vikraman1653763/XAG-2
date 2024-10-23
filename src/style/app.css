@@ -461,26 +461,35 @@ canvas {
        width: 100%;
        bottom: 0%;
         position: absolute;
-        height: 40vh;
+        height: 100vh;
         display: flex;
-        align-items: end;
+        justify-content: center;
+        align-items: center;
     }
     
     #inner-layer {
-        position: absolute;
+        position: sticky;
         width: 100%;
         height: 8vh;
-        top: 10%;
+        bottom: 20%;
 
 }
-.scroll-shade{
+#outer-layer-2 {
+    width: 100%;
+    bottom: 0%;
     position: absolute;
+    height: 100vh;
+    
+ }
+.scroll-shade {
+    position: absolute; /* Fixed to keep it relative to the viewport */
     width: 100%;
     z-index: -1;
-    bottom: -55em;
-    object-fit: fill;
-    /* border: 1px solid red; */
-  }
+    bottom: 0%; /* Start from the bottom */
+    height: 100%; /* Ensure it covers the screen */
+  
+    /* border: 2px solid yellow; */
+}
 
 #buttons {
     position: sticky;

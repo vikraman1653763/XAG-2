@@ -59,19 +59,33 @@ const Section0 = () => {
         };
     }, []);
     
-    const handleScroll = () => {
-        setOffsetY(window.scrollY);
-      };
-
+    // const handleScroll = () => {
+    //     const scrollFraction = window.scrollY / document.documentElement.scrollHeight;
+        
+    //     // Adjust this value to control when the shade starts appearing
+    //     if (scrollFraction > 0.5) {
+    //         setOffsetY(0); // Bring the shade in
+    //     } else {
+    //         setOffsetY(100); // Hide the shade off-screen
+    //     }
+    // };
+    
+    // useEffect(() => {
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll);
+    //     };
+    // }, []);
+    
 
     //   parallex for shade 
-      const [offsetY, setOffsetY] = useState(0);
-      useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-          window.removeEventListener("scroll", handleScroll);
-        };
-      }, []);
+    //   const [offsetY, setOffsetY] = useState(0);
+    //   useEffect(() => {
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => {
+    //       window.removeEventListener("scroll", handleScroll);
+    //     };
+    //   }, []);
     return (
         <section id="sec-1">
 
@@ -81,10 +95,11 @@ const Section0 = () => {
                     <div id="buttons">
                         <button>Learn more &nbsp; <i className="fa-solid fa-arrow-trend-up fa-lg"></i></button>
                         <button>Watch video &nbsp; <i className="fa-regular fa-circle-play fa-lg"></i></button>
-             <img src={shade}alt="shade"className="scroll-shade"
-                style={{transform: `translateY(-${offsetY * .2}px)`}}/>
                     </div>
                 </div>
+            </div>
+            <div id="outer-layer-2">
+                <img src={shade}alt="shade"className="scroll-shade"/>
             </div>
         </section>
     );

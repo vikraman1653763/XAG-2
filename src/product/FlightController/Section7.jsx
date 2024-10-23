@@ -83,7 +83,7 @@ function Section7() {
               animate={visibleTabs[tab] ? { opacity: 1, y: 0, filter: 'blur(0px)' } : { opacity: 0, y: 100, filter: 'blur(10px)' }}
               transition={{ duration: 1 }}>
                 
-                {tab === 'fmu' ? 'Flight Management Unit (FMU)' : tab === 'pmu' ? 'Power Management Unit (PMU)' : 'Global Navigation Satellite System (GNSS)'}</motion.h2>
+                {tab === 'fmu' ? 'Flight Module Unit (FMU)' : tab === 'pmu' ? 'Power Module Unit (PMU)' : 'Global Navigation Satellite System (GNSS)'}</motion.h2>
               
               <motion.p initial={{ opacity: 0, y: 500, filter: 'blur(100px)' }}
               animate={visibleTabs[tab] ? { opacity: 1, y: 0, filter: 'blur(0px)' } : { opacity: 0, y: 100, filter: 'blur(10px)' }}
