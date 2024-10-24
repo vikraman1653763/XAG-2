@@ -81,10 +81,11 @@ const Section1 = () => {
             <div id="buttons">
                 <button>Learn more &nbsp; <i className="fa-solid fa-arrow-trend-up fa-lg"></i></button>
                 <button>Watch video &nbsp; <i className="fa-regular fa-circle-play fa-lg"></i></button>
-     <img src={shade}alt="shade"className="scroll-shade"
-        style={{transform: `translateY(-${offsetY * .2}px)`}}/>
             </div>
         </div>
+    </div>
+    <div id="outer-layer-2">
+        <img src={shade}alt="shade"className="scroll-shade"/>
     </div>
 </section>
 );

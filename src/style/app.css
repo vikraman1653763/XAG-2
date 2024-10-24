@@ -454,7 +454,7 @@ canvas {
     z-index: -1;
     height: 110vh;
     width: 99vw;
-    object-fit:fill;
+    object-fit:contain;
 }
 
 #outer-layer {

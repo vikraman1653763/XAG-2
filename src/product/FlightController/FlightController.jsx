@@ -9,6 +9,7 @@ import Section6 from './Section6.jsx';
 import Section0 from './Section0.jsx';
 import Section7 from './Section7.jsx';
 import Section8 from './Section8.jsx';
+import Section9 from './Section9.jsx';
 const FlightController = () => {
     
 
@@ -17,6 +18,7 @@ const FlightController = () => {
             <Section0/>
             <Section8/>
             <Section7/>
+            <Section9/>
             {/* <Section1/>
             <Section2/>
             <Section3/>

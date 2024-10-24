@@ -112,7 +112,7 @@ const Career = () => {
                         <h2>We're Not Hiring Right Now</h2>
                         <p>Thank you for your interest in joining our team! While there are no open positions at the moment, we encourage you to check back soon or follow us for updates on future opportunities.</p>
                       </div>
-              <img src="/assets/noJob.webp" alt="no Jobs" data-aos="fade-up" />
+              <img src="/assets/noJob.webp" alt="no Jobs"  />
                   </div>
                     )}
                 </div>

@@ -51,7 +51,7 @@ const Section2 = () => {
                 <h2>No Blogs Available</h2>
                 <p>There are no blogs available at the moment. Please check back later for updates.</p>
               </div>
-              <img src="/assets/noBlog.webp" data-aos="fade-up" alt="no blogs" />
+              <img src="/assets/noBlog.webp"  alt="no blogs" />
           </div>
           {/* {error && (
           <div className="alert alert-danger">
