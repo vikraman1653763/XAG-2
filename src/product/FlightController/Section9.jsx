@@ -33,7 +33,7 @@ function Section9() {
             }}
           >
             <div className='sec-9-card-details'>
-              <h4>{index + 1}</h4>
+              <h4>{String(index + 1).padStart(2, '0')}</h4>
               <h3>{project.title}</h3>
             </div>
             <p>{project.description}</p>

@@ -1,5 +1,5 @@
 import React, { useState,useEffect, useRef } from 'react';
-import shade from "/assets/shade.webp";
+import shade from "/assets/shadenew.png";
 
 const Section0 = () => {
     const [showScroll, setShowScroll] = useState(true);
@@ -53,6 +53,10 @@ const Section0 = () => {
         canvas.width = 2560;
         canvas.height = 1200;
 
+
+
+
+        
         // Draw the first image
         imgRef.current.src = currentFrame(1);
 

@@ -169,7 +169,8 @@ background-clip: text;
  align-items: center;
  justify-content: center;
  flex-direction: column;
- margin-bottom: 50vh;
+ margin-bottom: 30%;
+ /* border: 1px solid red; */
 }
 
 .section-9 h2{
@@ -198,17 +199,19 @@ background-clip: text;
   color: #d4d4d4;
   top: 30%; /* Adjusted for lower fixed deck */
   width: 50vw;
-  height:30vh;
+  height:20vh;
   border: 2px solid rgb(51, 51, 51);
   border-radius: 1em;
   overflow: hidden;
   margin-top: 100px; /* Overlap cards slightly */
   transition: transform 1s ease-in-out, z-index 0.4s ease;
   z-index:- var(--card-stack-index);
-  transform: translateY(calc(var(--card-z-index) * 30px));
+  transform: translateY(calc(var(--card-z-index) * 45px));
   -webkit-box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
   -moz-box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
   box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
+  /* border: 2px solid red; */
+  padding: 1em 0rem ;
 }
 
 
@@ -218,9 +221,11 @@ background-clip: text;
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 30%;
+  height: 100%;
   justify-content:space-between;
   border-bottom: 2px dashed #323232;
+  /* border: 2px solid yellow; */
+  padding-bottom: .3em;
 }
 .sec-9-card-details h4{
   width: 10%;
