@@ -485,13 +485,11 @@ canvas {
     
  }
 .scroll-shade {
-    position: absolute; /* Fixed to keep it relative to the viewport */
+    position: absolute;
     width: 100%;
     z-index: -1;
-    bottom: 0%; /* Start from the bottom */
-    height: 50%; /* Ensure it covers the screen */
-  
-    /* border: 2px solid yellow; */
+    bottom: 0%; 
+    height: 50%; 
 }
 
 #buttons {

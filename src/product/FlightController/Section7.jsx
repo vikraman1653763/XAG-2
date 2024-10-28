@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const tabs = ['fmu', ` pmu`, 'gnss'];
+const tabs = ['fmu', 'pmu', 'gnss'];
 
 function Section7() {
   const [active, setActive] = useState('fmu');
-  const [indicatorStyle, setIndicatorStyle] = useState({ left: '0%', width: '33%' });
+  const [indicatorStyle, setIndicatorStyle] = useState({ left: '0%', width: '1%' });
   const [visibleTabs, setVisibleTabs] = useState({});
   const boxRefs = useRef({});
   const observer = useRef(null);

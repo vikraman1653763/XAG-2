@@ -80,8 +80,8 @@ const Section0 = () => {
             <div id="outer-layer">
                 <div id="inner-layer">
                     <div id="buttons">
-                        <button>Buy now &nbsp; <i className="fa-solid fa-arrow-trend-up fa-lg"></i></button>
-                        <button>Watch video &nbsp; <i className="fa-regular fa-circle-play fa-lg"></i></button>
+                        <button>Buy now</button>
+                        <button>Watch video</button>
                     </div>
                 </div>
             </div>
