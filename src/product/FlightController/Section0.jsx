@@ -2,9 +2,11 @@ import React, { useState,useEffect, useRef } from 'react';
 import shade from "/assets/shade.webp";
 
 const Section0 = () => {
+    const [showScroll, setShowScroll] = useState(true);
+
     const canvasRef = useRef(null);
     const imgRef = useRef(new Image());
-    const frameCount = 70;
+    const frameCount = 100;
     const images = useRef([]);
     const currentFrame = index => (
         `/fcImage/${index.toString().padStart(4, '0')}.webp`
@@ -37,7 +39,7 @@ const Section0 = () => {
             const maxScrollTop = html.scrollHeight - window.innerHeight;
             const scrollFraction = scrollTop / maxScrollTop;
             const frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount*5));
-
+            if (scrollTop > 0) setShowScroll(false);
             requestAnimationFrame(() => {
                 if (images.current[frameIndex + 1]) {
                     drawImage(images.current[frameIndex + 1]);
@@ -48,8 +50,8 @@ const Section0 = () => {
         preloadImages();
 
         // Set canvas dimensions
-        canvas.width = 1920;
-        canvas.height = 950;
+        canvas.width = 2560;
+        canvas.height = 1200;
 
         // Draw the first image
         imgRef.current.src = currentFrame(1);
@@ -59,37 +61,18 @@ const Section0 = () => {
         };
     }, []);
     
-    // const handleScroll = () => {
-    //     const scrollFraction = window.scrollY / document.documentElement.scrollHeight;
-        
-    //     // Adjust this value to control when the shade starts appearing
-    //     if (scrollFraction > 0.5) {
-    //         setOffsetY(0); // Bring the shade in
-    //     } else {
-    //         setOffsetY(100); // Hide the shade off-screen
-    //     }
-    // };
     
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll);
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll);
-    //     };
-    // }, []);
-    
-
-    //   parallex for shade 
-    //   const [offsetY, setOffsetY] = useState(0);
-    //   useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll);
-    //     return () => {
-    //       window.removeEventListener("scroll", handleScroll);
-    //     };
-    //   }, []);
     return (
         <section id="sec-1">
-
+<div className={`fc-scroll-downs ${!showScroll ? 'hide' : ''}`}>     
+     <div className="fc-mousey">
+        <div className="fc-scroller"></div>
+      </div>  
+    </div>
             <canvas ref={canvasRef} id="img-seq"></canvas>
+            <div id="outer-layer-2">
+                <img src={shade}alt="shade"className="scroll-shade"/>
+            </div>
             <div id="outer-layer">
                 <div id="inner-layer">
                     <div id="buttons">
@@ -97,9 +80,6 @@ const Section0 = () => {
                         <button>Watch video &nbsp; <i className="fa-regular fa-circle-play fa-lg"></i></button>
                     </div>
                 </div>
-            </div>
-            <div id="outer-layer-2">
-                <img src={shade}alt="shade"className="scroll-shade"/>
             </div>
         </section>
     );

@@ -98,6 +98,7 @@ span{
 }
 main{
     margin-top: 3rem;
+    
 }
 
 @media( max-width: 767px){
@@ -446,15 +447,17 @@ main{
     width: 99vw;
     height: 450vh;
     position: relative;
+    top: 1rem;
+    
 }
 
 canvas {
     position: sticky;
-    top: 3rem;
+    top:3rem;
     z-index: -1;
-    height: 110vh;
+    height: 100vh;
     width: 99vw;
-    object-fit:contain;
+    object-fit:cover;
 }
 
 #outer-layer {
@@ -470,8 +473,8 @@ canvas {
     #inner-layer {
         position: sticky;
         width: 100%;
-        height: 8vh;
-        bottom: 20%;
+        height: 90%;
+        bottom: 0%;
 
 }
 #outer-layer-2 {

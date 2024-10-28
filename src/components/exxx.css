@@ -27,7 +27,7 @@ position: relative;
   border: none;
   text-align: center;
   color: #d4d4d4;
-  background-color: #000000;
+  background-color: #00000000;
   position: relative;
   cursor: pointer;
 }
@@ -92,7 +92,6 @@ position: relative;
   width: 50vw;
   padding: 0em 7em;
   margin: 0em 6em ;
-  /* border: 2px solid yellow ; */
 }
 
 .section-8{
@@ -106,16 +105,57 @@ position: relative;
 }
 .section-8 h2{
   color: #d4d4d4;
-  font-size: var(--fs-xxxl);
+  font-size: var(--fs-xxl);
   text-align: center;
   text-transform: uppercase;
-  width: 50%;
+  width: 70%;
   background: -webkit-linear-gradient(#4e4e4e, #ffffff, #000000); 
 background: linear-gradient(#4e4e4e, #ffffff, #000000);
 -webkit-background-clip: text; 
 -moz-background-clip: text;
 background-clip: text; 
 -webkit-text-fill-color: transparent;
+}
+
+
+.fc-scroll-downs {
+
+  margin: auto;
+  width :34px;
+  height: 55px;
+  position: absolute;
+  top: 18%;
+  right: 0%;
+  left: 0%;
+}
+.fc-scroll-downs.hide {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  pointer-events: none;
+}
+.fc-mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.fc-scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
 }
 .section-9{
   position: relative;
@@ -124,12 +164,12 @@ background-clip: text;
 
 .sec-9-card-container{
   position: relative;
- 
+ height: auto;
  display: flex;
  align-items: center;
  justify-content: center;
  flex-direction: column;
- 
+ margin-bottom: 50vh;
 }
 
 .section-9 h2{
@@ -138,9 +178,9 @@ background-clip: text;
   position: sticky;
   text-align: center;
   top: 20%;
-  bottom: 50%;
+  bottom: 80%;
   transform: translateY(-10%);
-  margin-bottom: 33%;
+  margin-bottom: 15%;
   color: #d4d4d4;
   font-size: var(--fs-xl);
   font-weight: 500;
@@ -149,51 +189,59 @@ background-clip: text;
   justify-content: center;
   align-items: center;
 }
-.sec-9-card{
+.sec-9-card {
   position: sticky;
-  scroll-snap-align: start; 
-
-  display: flex;
-  flex-direction: row;
-  justify-content:first baseline;
-  align-items:center;
-  background-color: #000000;
-  color:  #d4d4d4;
-  top: 90%;
-  transform: translateY(-90%);
-  
-  width: 75vw;
-  height: 45vh;
-  border: 2px solid rgb(51, 51, 51);
-  margin-top: 25%;
-  border-radius: 2em;
-  overflow: hidden;
-}
-
-.sec-9-card img{
-  width:30%;
- height: 100%;
-  object-position: left;
-  object-fit:cover;
-}
-.sec-9-card-details{
   display: flex;
   flex-direction: column;
+  align-items: first baseline;
+  background-color: #000000;
+  color: #d4d4d4;
+  top: 30%; /* Adjusted for lower fixed deck */
+  width: 50vw;
+  height:30vh;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 1em;
+  overflow: hidden;
+  margin-top: 100px; /* Overlap cards slightly */
+  transition: transform 1s ease-in-out, z-index 0.4s ease;
+  z-index:- var(--card-stack-index);
+  transform: translateY(calc(var(--card-z-index) * 30px));
+  -webkit-box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
+  -moz-box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
+  box-shadow: 3px -3px 13px 0px rgba(61,61,61,1);
+}
+
+
+
+
+.sec-9-card-details{
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  min-height: 100%;
-  justify-content: space-around;
-  margin-left: 3em;  
+  height: 30%;
+  justify-content:space-between;
+  border-bottom: 2px dashed #323232;
+}
+.sec-9-card-details h4{
+  width: 10%;
+  font-size: var(--fs-s);
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  color: #9BF00B;
 }
 .sec-9-card-details h3{
+  white-space-collapse:preserve-spaces;
+  text-align: center;
+  width: 100%;
   color: #d4d4d4;
-  font-size: var(--fs-xl);
+  font-size: var(--fs-m);
   text-transform:uppercase;
-  text-align: left;
   line-height: 100%;
-  background: -webkit-linear-gradient( #ffffff, #000000); 
-  background: linear-gradient(#4e4e4e, #ffffff, #000000);
-  -webkit-background-clip: text; 
-  -moz-background-clip: text;
-  background-clip: text; 
-  -webkit-text-fill-color: transparent;
+
+}
+.sec-9-card p{
+  text-align: center;
+  padding: 1em 2em;
+  width: 100%;
 }
