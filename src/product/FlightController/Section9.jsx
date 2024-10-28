@@ -21,7 +21,7 @@ function Section9() {
   return (
     <div className='section-9'>
       <section className='sec-9-card-container'>
-        <h2>Advanced Performance for Every Mission</h2>
+        <h2> key feature</h2>
         {projects.map((project, index) => (
           <div 
             className='sec-9-card'

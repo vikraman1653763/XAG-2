@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const tabs = ['fmu', 'pmu', 'gnss'];
+const tabs = ['fmu', ` pmu`, 'gnss'];
 
 function Section7() {
   const [active, setActive] = useState('fmu');
-  const [indicatorStyle, setIndicatorStyle] = useState({ left: '0%', width: '33.3%' });
+  const [indicatorStyle, setIndicatorStyle] = useState({ left: '0%', width: '33%' });
   const [visibleTabs, setVisibleTabs] = useState({});
   const boxRefs = useRef({});
   const observer = useRef(null);
@@ -49,8 +49,8 @@ function Section7() {
   const updateIndicator = (tab) => {
     const activeIndex = tabs.indexOf(tab);
     const tabWidth = 100 / tabs.length;
-    const targetLeft = (activeIndex * tabWidth+1) + '%';
-    const targetWidth = (tabWidth-5 )+ '%';
+    const targetLeft = (activeIndex * tabWidth+10) + '%';
+    const targetWidth = (tabWidth-22 )+ '%';
     setIndicatorStyle({
       left: targetLeft,
       width: targetWidth,
@@ -110,9 +110,7 @@ function Section7() {
               key={tab}
               onClick={() => goTo(tab)}
               className={active === tab ? 'active' : ''}
-            >
-              {tab.toUpperCase()}
-            </button>
+            >{tab.toUpperCase()}</button>
           ))}
           <div className='fc-tab-indicator' style={indicatorStyle} />
         </div>

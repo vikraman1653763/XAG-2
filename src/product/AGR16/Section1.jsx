@@ -1,5 +1,5 @@
 import React, { useEffect, useRef,useState } from 'react';
-import shade from "/assets/shade.webp";
+import shade from "/assets/shadenew.png";
 
 const Section1 = () => {
     const canvasRef = useRef(null);

@@ -17,8 +17,10 @@ position: relative;
   top: 7.5%;
 }
 .fc-index {
-  width: fit-content;
+  width: 30%;
   position: relative;
+  display: flex;
+  justify-content:space-around;
 }
 
 .fc-index button {
@@ -26,10 +28,11 @@ position: relative;
   padding: 1em 2em;
   border: none;
   text-align: center;
-  color: #d4d4d4;
+  color: #ffffff;
   background-color: #00000000;
   position: relative;
   cursor: pointer;
+  
 }
 
 
@@ -104,17 +107,12 @@ position: relative;
   align-items: center;
 }
 .section-8 h2{
-  color: #d4d4d4;
   font-size: var(--fs-xxl);
   text-align: center;
   text-transform: uppercase;
   width: 70%;
-  background: -webkit-linear-gradient(#4e4e4e, #ffffff, #000000); 
-background: linear-gradient(#4e4e4e, #ffffff, #000000);
--webkit-background-clip: text; 
--moz-background-clip: text;
-background-clip: text; 
--webkit-text-fill-color: transparent;
+
+color: #d4d4d4;
 }
 
 
@@ -229,14 +227,15 @@ background-clip: text;
 }
 .sec-9-card-details h4{
   width: 10%;
-  font-size: var(--fs-s);
+  font-size: var(--fs-m);
   display: flex;
-  align-items:flex-start;
+  align-items:center;
   justify-content: center;
   color: #9BF00B;
+  /* border: 1px solid red; */
+height:60%;
 }
 .sec-9-card-details h3{
-  white-space-collapse:preserve-spaces;
   text-align: center;
   width: 100%;
   color: #d4d4d4;
