@@ -489,7 +489,7 @@ canvas {
     width: 100%;
     z-index: -1;
     bottom: 0%; /* Start from the bottom */
-    height: 100%; /* Ensure it covers the screen */
+    height: 50%; /* Ensure it covers the screen */
   
     /* border: 2px solid yellow; */
 }
