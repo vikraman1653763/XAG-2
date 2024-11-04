@@ -242,8 +242,81 @@ color: #d4d4d4;
   line-height: 100%;
 
 }
+.sec-9-card-details .fcIcon{
+  /* border: 1px solid red; */
+  margin: .5em;
+}
 .sec-9-card p{
   text-align: center;
   padding: 1em 2em;
   width: 100%;
+}
+
+/* section 10 */
+.fc-section-10{
+  position: relative;
+}
+.fc-video-index{
+  left: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+
+}
+.fc-video-index button{
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: white;
+}
+.fc-video-index button span{
+  color: white;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+
+}
+.fc-video-index:hover >button span{
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+.fc-video-canvas{
+  border: 1px solid yellow;
+  width: 99vw;
+  object-fit: contain;
+  object-position: top;
+  
+}
+.fc-video-canvas img{
+  border: 1px solid orange;
+  object-fit: contain;
+  width: 100%;
+}
+
+.fc-sec-11-main-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.fc-sec-11-card-container {
+  display: flex;
+  width: 400vw;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.fc-sec-11-card {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #f0f0f0;
+  margin-right: 10px;
 }
