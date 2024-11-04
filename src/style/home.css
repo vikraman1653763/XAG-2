@@ -13,7 +13,7 @@
     position: absolute;
     width: 100%;
     height: 120%;
-    z-index: 9;
+    z-index: 0;
     top:45%;
     object-fit: cover;
   }
@@ -171,17 +171,18 @@ background: none;
 }
 
 #home-prev, #home-next{
-  background-color: #9cf00b00;
-  border: none;
+    background-color: #9cf00b00;
+    border: none;
 }
 #home-prev svg,
 #home-next svg {
     width: 3rem;
     height: 10rem;
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0);
     color: aliceblue;
     
-  font-family: monospace;
+    font-family: monospace;
 }
 
 

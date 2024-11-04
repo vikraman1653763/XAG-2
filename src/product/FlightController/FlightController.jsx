@@ -22,7 +22,7 @@ const FlightController = () => {
             <Section7/>
             <Section9/>
             <Section10/>
-            <Section11/>
+            {/* <Section11/> */}
             {/* <Section1/> */}
             {/* <Section2/>
             <Section3/>

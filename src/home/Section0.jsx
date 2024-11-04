@@ -67,14 +67,7 @@ const HomeCarousel = () => {
   
   return (
     <div className="home-carousel">
-      <img
-        src={shade}
-        alt="shade"
-        className="shade"
-        style={{
-          transform: `translateY(-${offsetY * .65}px)`,
-        }}
-      />
+      
       <div
         className="home-list"
         style={{
@@ -102,7 +95,16 @@ const HomeCarousel = () => {
           </div>
         ))}
       </div>
-      <div className="home-arrows-container">
+     
+      <img
+        src={shade}
+        alt="shade"
+        className="shade"
+        style={{
+          transform: `translateY(-${offsetY * .65}px)`,
+        }}
+      />
+       <div className="home-arrows-container">
         <div className="home-arrows">
           <button className="home-prev" id="home-prev" aria-label="Previous Slide" onClick={() => handleManualChange(handlePrev)}>
             <IoIosArrowBack />

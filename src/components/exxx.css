@@ -279,7 +279,7 @@ color: #d4d4d4;
 
 }
 .fc-video-index:hover >button span{
-  opacity: 1;
+  opacity: 1 !important;
   transition: all .5s ease-in-out;
 }
 .fc-video-canvas{
