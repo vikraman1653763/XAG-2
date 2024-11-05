@@ -12,12 +12,19 @@
 .shade {
     position: absolute;
     width: 100%;
+<<<<<<< HEAD
     height: 100%;
     z-index: 0;
     top:90%;
     object-fit: cover;
     border: 1px solid red;
     /* display: none; */
+=======
+    height: 120%;
+    z-index: 0;
+    top:45%;
+    object-fit: cover;
+>>>>>>> 97f129c852433c3e4f737468e9a45eb175b4f981
   }
   
 
