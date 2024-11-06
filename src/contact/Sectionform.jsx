@@ -50,7 +50,7 @@ const handleSubmit = async (e)=>{
 }
 
   return (
-    <section className="contact_form">
+    <section className="contact_form" id='enquirycontact'>
       <div className="contact_form-heading">
         <h1>Contact us:)</h1>
         <h6>
@@ -58,11 +58,12 @@ const handleSubmit = async (e)=>{
         </h6>
       </div>
 
-      <div className="contact_form-content">
+      <div className="contact_form-content" >
 
 
 
       <form className="contact_form-left"
+     
        onSubmit={handleSubmit}
       style={{ cursor: isSubmitting ? 'wait' : 'auto' }} >
           <div>

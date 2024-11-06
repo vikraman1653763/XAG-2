@@ -12,6 +12,8 @@ import Section8 from './Section8.jsx';
 import Section9 from './Section9.jsx';
 import Section10 from './Section10.jsx';
 import Section11 from './Section11.jsx';
+import Section12 from './Section12.jsx';
+import Section13 from './Section13.jsx';
 const FlightController = () => {
     
 
@@ -23,6 +25,8 @@ const FlightController = () => {
             <Section9/>
             <Section10/>
             <Section11/>
+            <Section12/>
+            <Section13/>
             {/* <Section1/> */}
             {/* <Section2/>
             <Section3/>

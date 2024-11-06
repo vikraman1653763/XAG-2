@@ -374,6 +374,180 @@ backdrop-filter: blur(6px);
   height: 100%;
 }
 
+.fc-sec-12-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 13rem;
+  background-image: url('path/to/your-background.jpg'); /* Set your background image here */
+  background-attachment: fixed; /* Creates a parallax scrolling effect */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fc-sec-12-content {
+  max-width: 800px;
+  color: white;
+}
+
+.fc-sec-12-headline {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.fc-sec-12-subtext {
+  font-size:var(--fs-s);
+  margin-bottom: 40px;
+  color: #d4d4d4;
+}
+.fc-sec-12-subtext span{
+  color: #9BF00B;
+}
+
+.fc-sec-12-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fc-sec-12-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #9BF00B;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.fc-sec-12-button:hover {
+  background-color: rgba(0, 0, 0);
+  color:#9BF00B;
+  transform: scale(1.05); /* Adds a slight zoom effect on hover */
+}
+
+
+.fc-sec-13-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #000000;
+  color: #d4d4d4;
+  text-align: center;
+  background-image:
+radial-gradient(at 50% 53%, hsla(82, 91%, 49%, 0.411) 0px, transparent 50%),
+radial-gradient(at 30% 48%, hsla(82,91%,49%,0.05) 0px, transparent 50%);
+background-attachment: local;
+}
+
+.fc-sec-13-headline {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #9BF00B;
+}
+
+.fc-sec-13-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.fc-sec-13-card {
+  border: 1px solid #444;
+  border-radius: 10px;
+  width: 33%;
+  height: auto;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent;
+}
+
+
+.fc-sec-13-card:hover>.fc-sec-13-description{
+  opacity: 1;
+  line-height: 100%;
+  transition: all .5s ease-in-out;
+}
+
+
+
+.fc-sec-13-card:hover{
+ filter: none;
+ box-shadow: 2px 2px 10px rgb(43, 42, 42);
+ transform: scale(1.02) !important;
+}
+.fc-sec-13-card-title {
+  font-size:var(--fs-m);
+  font-weight: normal;
+  margin-bottom: 1rem;
+  color: #d4d4d4;
+}
+
+.fc-sec-13-comparison {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+ 
+}
+
+.fc-sec-13-xrotor,
+.fc-sec-13-competitor {
+  flex: 1;
+  text-align: center;
+}
+.fc-sec-13-xrotor strong,
+.fc-sec-13-competitor strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #9BF00B;
+  font-weight: normal;
+  border-bottom: 2px solid #d4d4d4;
+  border-radius: 50px;
+}
+.fc-sec-13-xrotor {
+  border-right: 2px solid #d4d4d4;
+}
+
+.fc-sec-13-xrotor p,
+.fc-sec-13-competitor p {
+  font-size: var(--fs-s);
+  color: #d4d4d4;
+}
+
+.fc-sec-13-description {
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  color: #bfbfbf;
+  opacity: 0;
+  line-height: 0%;
+  transition: all .5s ease-in-out;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
   .fc-content{
     width: 99vw;
@@ -532,6 +706,51 @@ backdrop-filter: blur(6px);
   .fc-sec-11-img {
     width: 100%;
     margin-top: 1rem;
+  }
+  .fc-sec-12-container {
+    padding: 1.5rem 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fc-sec-12-content {
+    max-width: 100%;
+  }
+
+  .fc-sec-12-headline {
+    font-size: var(--fs-s);
+    margin-bottom: 15px;
+  }
+
+  .fc-sec-12-subtext {
+    font-size: var(--fs-xs); 
+    margin-bottom: 20px;
+  }
+
+  .fc-sec-12-buttons {
+    flex-direction: row; 
+    gap: 10px;
+    font-size: var(--fs-xs);
+    
+
+  }
+
+  .fc-sec-12-button {
+    padding: .2em .5em;
+    font-size: 0.9rem;
+    width: 30%;
+  }
+  .fc-sec-13-headline{
+    font-size: var(--fs-m);
+  }
+  .fc-sec-13-card {
+      width: 100%;
+  }
+  .fc-sec-13-card-title{
+    font-size: var(--fs-s);
+  }
+  .fc-sec-13-competitor p {
+    font-size: var(--fs-xs);
   }
 }
 

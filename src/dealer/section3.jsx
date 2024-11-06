@@ -40,7 +40,7 @@ function Section3() {
   };
 
   return (
-    <div className="dealer-section3">
+    <div className="dealer-section3" id='dealercontact'>
       <h2 className="dealer-section3-title">Request a Quote</h2>
       <form className="dealer-quote-form" onSubmit={handleSubmit} style={{ cursor: isSubmitting ? 'wait' : 'auto' }}>
         <div className="dealer-form-group">

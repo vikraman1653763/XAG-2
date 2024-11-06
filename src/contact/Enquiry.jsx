@@ -30,7 +30,7 @@ const Enquiry = () => {
   }, []);
 
   return (
-    <section id="enquiry">
+    <section id="enquiry"  >
       <div className="enquiries-heading">
         <h3 className="enquiry-header">FOR <br /><span>enquiries</span></h3>
         <h6>In terms of Sales, Help & service, New Ideas & collaboration and for more

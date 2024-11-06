@@ -27,7 +27,7 @@ function Section11() {
         <p>Designed to deliver unmatched precision and endurance, our Flight Control Module is built to conquer new heights!</p>
         <div className='fc-sec-11-container'>
           {fcData.map((data, index) => (
-            <div key={index} className='fc-sec-11-card' data-aos="fade-up" data-aos-delay={`${index * 50}`}>
+            <div key={index} className='fc-sec-11-card' data-aos="fade-up" data-aos-delay='100'>
               <h3>{data.name}</h3>
               <p>{data.spec}</p>
             </div>
