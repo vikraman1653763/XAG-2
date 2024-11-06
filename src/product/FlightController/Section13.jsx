@@ -33,15 +33,15 @@ const Section13 = () => {
             <h2 className="fc-sec-13-headline">Why Choose Xrotor Tek India?</h2>
             <div className="fc-sec-13-cards">
                 {comparisonData.map((item, index) => (
-                    <div key={index} className="fc-sec-13-card" data-aos="fade-up">
+                    <div key={index} className="fc-sec-13-card" >
                         <h3 className="fc-sec-13-card-title">{item.title}</h3>
                         <div className="fc-sec-13-comparison">
                             <div className="fc-sec-13-xrotor">
-                                <strong>Xrotor Tek India</strong>
+                                <strong data-aos="fade-up">Xrotor Tek India</strong>
                                 <p>{item.xrotor}</p>
                             </div>
                             <div className="fc-sec-13-competitor">
-                                <strong>standard</strong>
+                                <strong data-aos="fade-up">standard</strong>
                                 <p>{item.competitor}</p>
                             </div>
                         </div>
