@@ -23,10 +23,10 @@ const FlightController = () => {
             <Section8/>
             <Section7/>
             <Section9/>
-            <Section10/>
             <Section11/>
-            <Section12/>
+            <Section10/>
             <Section13/>
+            <Section12/>
             {/* <Section1/> */}
             {/* <Section2/>
             <Section3/>

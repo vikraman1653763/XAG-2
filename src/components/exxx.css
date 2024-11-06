@@ -511,11 +511,11 @@ background-attachment: local;
   margin-bottom: 0.5rem;
   color: #9BF00B;
   font-weight: normal;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
   border-radius: 50px;
 }
 .fc-sec-13-xrotor {
-  border-right: 2px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
 }
 
 .fc-sec-13-xrotor p,

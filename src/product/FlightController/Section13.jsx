@@ -37,12 +37,12 @@ const Section13 = () => {
                         <h3 className="fc-sec-13-card-title">{item.title}</h3>
                         <div className="fc-sec-13-comparison">
                             <div className="fc-sec-13-xrotor">
-                                <strong data-aos="fade-up">Xrotor Tek India</strong>
+                                <strong >Xrotor Tek India</strong>
                                 <p>{item.xrotor}</p>
                             </div>
                             <div className="fc-sec-13-competitor">
-                                <strong data-aos="fade-up">standard</strong>
-                                <p>{item.competitor}</p>
+                                <strong >standard</strong>
+                                <p >{item.competitor}</p>
                             </div>
                         </div>
                         <p className="fc-sec-13-description">{item.description}</p>
