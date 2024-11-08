@@ -335,7 +335,7 @@
     }
 
     .contact_form .contact_form-heading h1 {
-        font-size: var(--fs-m);
+        font-size: var(--fs-l) !important;
     }
 
     .contact_form .contact_form-heading h6 {

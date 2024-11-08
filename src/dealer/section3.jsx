@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import {useNavigate}from 'react-router-dom';
+import '../style/formcontact.css';
+
 function Section3() {
  
   const [companyName,setCompanyName]=useState("")
