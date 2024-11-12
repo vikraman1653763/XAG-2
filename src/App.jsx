@@ -6,7 +6,7 @@ import UpButton from './components/upButton.jsx';
 import Home from '/src/components/home.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import './style/app.css';
-import Exx from './components/exx.jsx';
+import Exx from './components/code.jsx';
 
 // Lazy loaded components
 const Footer =lazy(()=> import('./components/Footer'))
@@ -69,7 +69,7 @@ const App = () => {
       </main>
       <Footer />
         </Suspense>
-      <UpButton />
+      {/* <UpButton /> */}
     </Router>
   );
 };

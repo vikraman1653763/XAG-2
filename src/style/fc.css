@@ -47,7 +47,7 @@ position: relative;
   height: .2em;
   border-radius: 2em;
   transition: left .4s linear, width 0.4s linear; 
-  background: lawngreen;
+  background: #9bf00b;
 }
 
 

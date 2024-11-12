@@ -12,6 +12,10 @@ import DroneTabs from './dronetab.jsx';
 import CubeSection from './CubeSection.jsx';
 import Fc from './fCSection.jsx';
 import Section1 from './Section1.jsx';
+import Section2 from './Section2.jsx';
+import './agr16.css';
+import Section3 from './Section3.jsx';
+import Section4 from './Section4.jsx';
 
 const AGR16 = () => {
   useEffect(() => {
@@ -22,12 +26,18 @@ const AGR16 = () => {
   }, []);
 
   return (
-    <div>
+    <div >
     
-      <main> 
+      <main > 
       
         {/* <GifContainer /> */}
       <Section1/>
+      <div className='agr16-body'>
+      <Section2/>
+
+      <Section3/>
+      <Section4/>
+      </div>
         <Description />
         <Specifications />
         <Fc/>
