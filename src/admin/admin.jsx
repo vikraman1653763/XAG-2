@@ -14,14 +14,16 @@ function Admin() {
      
       try{
         const response = await fetch(`${serverUrl}/api/blogs/stats`)
+     
         const data= await response.json()
         const lastUpdate =data.lastUpdate?new Date(data.lastUpdate).toLocaleDateString().replace(/\//g, '-')+ ' ' + new Date(data.lastUpdate).toLocaleTimeString() :"no updates Yet"
         setBlogStats({
           count:data.count,
           lastUpdate:lastUpdate
         })
+     
       }catch(error){
-        console.error("Error fetching in Blog stats")
+        console.error("Error fetching in Blog stats:",error)
       }
     }
 
@@ -36,7 +38,7 @@ function Admin() {
           lastUpdate:lastUpdate
         })
       }catch(error){
-        console.error("Error fetching in Career stats")
+        console.error("Error fetching in Career stats:",error)
       }
     }
 
@@ -49,7 +51,7 @@ function Admin() {
         setTestimonialStats({count:data.count,lastUpdate:lastUpdate})
 
       }catch(error){
-        console.error("Error in fetching Testimonial status")
+        console.error("Error in fetching Testimonial status:",error)
       }
     }
     Promise.all([fetchBlog(),fetchCareer(),fetchTestimonial()]).then(()=>{

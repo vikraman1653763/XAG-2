@@ -29,7 +29,7 @@ function Login() {
     if (response.ok) {
       // Store JWT token in local storage
       localStorage.setItem('token', data.token);
-      console.log("Logged in successfully");
+      // console.log("Logged in successfully");
       setError(null)
       
       navigate('/admin'); 

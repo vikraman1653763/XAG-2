@@ -17,7 +17,7 @@ const BlogDetails = () => {
                     setBlog(data);
                     console.log(data);
                 } else {
-                    setError('Blog not found');
+                    setError('Blogssss not found');
                 }
             } catch (error) {
                 setError("Failed to fetch blog data");
