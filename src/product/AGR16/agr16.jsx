@@ -16,6 +16,7 @@ import Section2 from './Section2.jsx';
 import './agr16.css';
 import Section3 from './Section3.jsx';
 import Section4 from './Section4.jsx';
+import Section5 from './Section5.jsx';
 
 const AGR16 = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const AGR16 = () => {
       <Section3/>
       <Section4/>
       </div>
+      <Section5/>
         <Description />
         <Specifications />
         <Fc/>

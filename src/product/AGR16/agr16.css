@@ -61,7 +61,7 @@
 }
 .agr16-sec-3 h3 span {
     color: rgb(58, 58, 58);
-    background: linear-gradient(to right, rgb(255, 255, 255), #9cf00b);
+    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -119,4 +119,100 @@
     height: 100%;
     object-fit: contain;
     object-position: left center;
+}
+
+.agr16-sec-5 {
+    color: #d4d4d4;
+}
+
+.agr16-sec-5-container {
+    margin-bottom: 20px;
+  height: 500vh;
+  position: relative;
+  padding: 0em 13rem;
+}
+
+.agr16-sec-5-container-sticky {
+    position: sticky;
+    top: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    border-radius: 1em;
+
+}
+.agr16-sec-5-container-sticky h2{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: var(--fs-xxl);
+}
+.agr16-sec-5-container-sticky h2 span{
+    color: #9cf00b;
+    font-weight: 900;
+}
+.agr16-sec-5-scroll-content {
+    display: flex;
+    gap: 32px;
+    width: 300vw;
+ 
+}
+
+.agr16-sec-5-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 1em;
+    transition: all .3s ease-in-out;
+    box-shadow: inset 2em 2em 1em black inset 2em 2em 1em black;
+}
+.agr16-sec-5-card ::before{
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #00000044;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all .3s ease-in-out;
+}
+
+.agr16-sec-5-card:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+}
+.agr16-sec-5-card:hover > h2{
+    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-radius: 0%;
+}
+.agr16-sec-5-card h2 {
+    font-size: var(--fs-xxxl);
+    font-weight: 800;
+    border-radius: 50%;
+    line-height: 100%;
+
+
+}
+.agr16-sec-5-card h3{
+    font-size: var(--fs-m);
+    color: white;
+
+
+}
+.agr16-sec-5-card p{
+    font-size: var(--fs-s);
+    color: white;
+
+
 }

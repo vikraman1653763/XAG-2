@@ -90,7 +90,7 @@
     width: 4em;
     height: 4em;
     margin: 0 auto 15px;
-    background: linear-gradient(220deg, #49c530, #0b6912);
+    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@
     width: 80%;
     /* height: 100%; */
     object-fit: contain;
-    filter: invert(20%);
+    filter: invert(100%);
   }
   
   
