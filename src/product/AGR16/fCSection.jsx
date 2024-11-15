@@ -21,9 +21,7 @@ const Fc = () => {
     <div className="fc-sec-card">
       <div className="fc-sec-card-content">
         <h3>Flight Controller</h3>
-        <p className="fc-intro">
-          Experience the pinnacle of drone technology with our state-of-the-art Flight Controller. Designed for precision, stability, and efficiency, our FC ensures your drone performs optimally in every mission. Whether it's for agricultural spraying, surveying, or mapping, trust our FC to deliver unparalleled performance.
-        </p>
+       
         <ul>
           <li>
             <strong >GNSS</strong> <span><MotionWrapper> Ensures precise positioning and navigation, enhancing the drone's stability and accuracy. </MotionWrapper></span>

@@ -1,8 +1,9 @@
+/* ################################################ section 2 ################################################ */
 .agr16-sec-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 .agr16-sec-2 h2{
     font-size: var(--fs-xxl);
@@ -11,6 +12,9 @@
     width: 70%;
     color: #d4d4d4;
 }
+
+/* ################################################ section 3 ################################################ */
+
 .agr16-sec-3 {
     display: flex;
     flex-direction: column;
@@ -121,6 +125,121 @@
     object-position: left center;
 }
 
+/* ################################################ section 4 ################################################ */
+.agr16-sec-4-cards-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3em 13rem;
+    background-color: #00000000;
+    height: auto;
+    position: relative;
+ 
+    
+  }
+
+  .agr16-body {
+   overflow: hidden;
+ 
+}
+
+  .agr16-sec-4-cards-section::before{
+    z-index: -1;
+    content: '';
+    border-radius: 50%;
+    transform: rotate(120deg);
+    width: 70em;
+    height: 2em;
+    background-color: #9cf00b;
+    position: absolute;
+    filter: blur(4em);
+  }
+  .agr16-sec-4-cards-section::after {
+    z-index: -1;
+    content: '';
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    width: 50em;
+    height: 3em;
+    background-color: #9cf00b;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    filter: blur(4em);
+}
+  .agr16-sec-4-card {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    width: 33%;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    color: white;
+    transition: all .5s ease-in-out;
+    background-color:hsla(0,0%,0%,0);
+    background-image:
+    radial-gradient(at 100% 0%, hsla(0, 0%, 100%, 0.062) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(0, 0%, 100%, 0.171) 0px, transparent 50%);
+  }
+  
+  .agr16-sec-4-card:hover {
+    transform: translateY(-10px);
+    background-color: black;
+
+
+       transition: all .5s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+  }
+  .agr16-sec-4-card:hover >.agr16-sec-4-icon-container{
+    transform:translate(-50%,20%) ;
+    transition: all .5s ease-in-out;
+  }
+  .agr16-sec-4-card-details{
+    margin: 20% 0%;
+  }
+  .agr16-sec-4-card h3{
+    width: 100%;
+    display: block;
+    font-size: var(--fs-m);
+
+  }
+  .agr16-sec-4-card p{
+    width: 100%;
+    font-size: var(--fs-s);
+    color: #d4d4d4;
+
+  }
+  .agr16-sec-4-icon-container {
+    width: 4em;
+    height: 4em;
+    margin: 0 auto 15px;
+    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s ease-in-out;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.agr16-sec-4-icon-container img {
+    width: 80%;
+    /* height: 100%; */
+    object-fit: contain;
+    filter: invert(100%);
+  }
+  
+/* ################################################ section 5 ################################################ */
+
 .agr16-sec-5 {
     color: #d4d4d4;
 }
@@ -144,13 +263,14 @@
     border-radius: 1em;
 
 }
-.agr16-sec-5-container-sticky h2{
+.agr16-sec-5-container-sticky .title{
     color: #ffffff;
-    font-weight: normal;
+ 
     font-size: var(--fs-xxl);
+    margin-bottom: 1em;
 }
-.agr16-sec-5-container-sticky h2 span{
-    color: #9cf00b;
+.agr16-sec-5-container-sticky .title span{
+    color: #9bf00b;
     font-weight: 900;
 }
 .agr16-sec-5-scroll-content {
@@ -207,12 +327,329 @@
 .agr16-sec-5-card h3{
     font-size: var(--fs-m);
     color: white;
-
-
 }
 .agr16-sec-5-card p{
     font-size: var(--fs-s);
     color: white;
+}
+
+/* ################################################ section 6 ################################################ */
 
 
+.agr16-sec-6 {
+    padding: 1em 13rem;
+    height: 250vh;
+  }
+  
+  .agr16-sec-6 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 20%;
+  }
+  
+  .agr16-sec-6-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .agr16-sec-6-text-section {
+    flex: 1;
+  }
+  
+  .agr16-sec-6-section-title {
+    font-size: var(--fs-xxl);
+    margin-bottom: 10px;
+    color: #ffffff;
+    line-height: 100%;
+    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .agr16-sec-6-section-description {
+    font-size: var(--fs-s);
+    margin-bottom: 20px;
+    color: #d4d4d4;
+  }
+  
+  .agr16-sec-6-learn-more-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #9bf00b;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .agr16-sec-6-learn-more-button a{
+    color: black;
+  }
+  
+  .agr16-sec-6-learn-more-button:hover {
+    color: #9bf00b;
+    background-color: black;
+  }
+  .agr16-sec-6-learn-more-button:hover>a {
+    color: #9bf00b;
+   
+  }
+ .agr16-sec-6-image-section {
+  flex: 1;
+  text-align: center;
+  background-color: rgba(110, 110, 110, 0.1);
+  border-radius: 1%;
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+  height: 400px;
+  display: flex;
+  
+
+}
+
+.agr16-sec-6-fc-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+  display: block; 
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+    .agr16-sec-2 {
+        height: auto; 
+        padding: 2em 1em; 
+    }
+
+    .agr16-sec-2 h2 {
+        font-size: var(--fs-l);
+        width: 100%; 
+    }
+
+    .agr16-sec-3 {
+        flex-direction: column;
+        padding: 2rem 1rem; 
+    }
+
+    .agr16-sec-3-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .agr16-sec-3-details {
+        max-width: 100%; 
+        text-align: center; 
+    }
+
+    .agr16-sec-3 h3 {
+        font-size: var(--fs-l); 
+        line-height: 1.2em;
+    }
+
+    .agr16-sec-3-details ul li {
+        font-size: var(--fs-xs); 
+    }
+    .agr16-sec-3-details ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .agr16-sec-3-image-container {
+        width: 100%; 
+        margin-top: 1em; 
+    }
+
+    .agr16-sec-3-image-container img {
+        object-fit: contain;
+        width: 80%; 
+        margin: 0 auto; 
+    }
+
+    .agr16-sec-4-cards-section {
+        flex-direction: column; 
+        padding: 2em 1em; 
+        gap: 1em;
+    }
+
+    .agr16-sec-4-card {
+        width: 90%; 
+        height: auto; 
+        padding: 0em; 
+        margin-bottom: .5em; 
+    }
+
+    .agr16-sec-4-icon-container {
+        width: 3em; 
+        height: 3em;
+        top: -10%; 
+    }
+
+    .agr16-sec-4-card h3 {
+        font-size: var(--fs-s); 
+    }
+
+    .agr16-sec-4-card p {
+        font-size: var(--fs-xs); 
+    }
+    .agr16-sec-5-container {
+        height: auto; 
+        padding: 2em 1em; 
+    }
+
+    .agr16-sec-5-container-sticky {
+        position: relative; 
+        top: auto;
+    }
+    .agr16-sec-5-container-sticky .title {
+        font-size: var(--fs-l);
+        text-align: center;
+        width: 100%;
+    }
+
+    .agr16-sec-5-scroll-content {
+        display: flex;
+        flex-direction: column; 
+        gap: 1em; 
+        width: 100%;
+    }
+
+    .agr16-sec-5-card {
+        width: 100%; 
+        height: auto; 
+        padding: 1em;
+        border-radius: 1em;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+   
+    .agr16-sec-5-card h2 {
+        font-size: var(--fs-s); 
+    }
+
+    .agr16-sec-5-card h3 {
+        font-size: var(--fs-s); 
+    }
+
+    .agr16-sec-5-card p {
+        font-size: var(--fs-xs);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .agr16-sec-2 {
+        height: 65vh; 
+        padding: 2em 1em; 
+    }
+
+    .agr16-sec-2 h2 {
+        font-size: var(--fs-l);
+        width: 85%; 
+    }
+
+    .agr16-sec-3 {
+        padding: 0rem 5rem;
+    }
+
+    .agr16-sec-3-details {
+        max-width: 60%; 
+    }
+
+    .agr16-sec-3-details p {
+        font-size: var(--fs-m); 
+    }
+
+    .agr16-sec-3-image-container img {
+        object-position: center;
+    }
+    .agr16-sec-4-cards-section {
+        padding: 2em 5rem;
+    }
+
+    .agr16-sec-4-card {
+        width: 45%;
+        height: 13em; 
+    }
+
+    .agr16-sec-4-card-details h3 {
+        font-size: var(--fs-l); 
+    }
+
+    .agr16-sec-4-card-details p {
+        font-size: var(--fs-m); 
+    }
+
+    .agr16-sec-5-container {
+        height: auto; 
+        padding: 2em 1em;
+    }
+
+    .agr16-sec-5-container-sticky {
+        position: relative; 
+        top: auto;
+    }
+
+    .agr16-sec-5-scroll-content {
+        display: flex;
+        flex-direction: column; 
+        gap: 2em; 
+        width: 100%; 
+    }
+   
+
+    .agr16-sec-5-card {
+        width: 100%; 
+        height: auto; 
+        padding: 1em; 
+        border-radius: 1em;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .agr16-sec-5-card h2 {
+        font-size: var(--fs-l);
+    }
+
+    .agr16-sec-5-card h3 {
+        font-size: var(--fs-m); 
+    }
+
+    .agr16-sec-5-card p {
+        font-size: var(--fs-s);
+    }
+    .agr16-sec-5-container {
+        padding: 2em 5rem; 
+    }
+
+    .agr16-sec-5-scroll-content {
+        gap: 2em; 
+        width: 200vw;
+    }
+
+    .agr16-sec-5-card {
+        width: 60vw; 
+        height: 45vh;
+    }
+
+    .agr16-sec-5-card h2 {
+        font-size: var(--fs-xxl);
+    }
+
+    .agr16-sec-5-card h3 {
+        font-size: var(--fs-l);
+    }
+
+    .agr16-sec-5-card p {
+        font-size: var(--fs-m);
+    }
 }

@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 function Section2() {
   useEffect(() => {
-    AOS.init({ duration: 1500, once: false ,mirror:false});
+    AOS.init({ duration: 1500, once: false ,mirror:false, disable: 'mobile',});
 }, []);
 
   return (

@@ -74,7 +74,7 @@ const Section1 = () => {
     return (
         <section id="sec-1">
             {isMobile ? (
-                <img src={currentFrame(99)} alt="Final Frame" className="final-frame-mobile" />
+                <img src={currentFrame(60)} alt="Final Frame" className="final-frame-mobile" />
             ) : (
                 <>
                     <div className={`fc-scroll-downs ${!showScroll ? 'hide' : ''}`}>
