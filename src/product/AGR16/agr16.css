@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 1em 13rem;
 }
 .agr16-sec-2 h2{
     font-size: var(--fs-xxl);
@@ -338,7 +339,7 @@
 
 .agr16-sec-6 {
     padding: 1em 13rem;
-    height: 250vh;
+    height: 300vh;
   }
   
   .agr16-sec-6 .container {
@@ -347,7 +348,7 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 20%;
+    top: 25%;
   }
   
   .agr16-sec-6-content {
