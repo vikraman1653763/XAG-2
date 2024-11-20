@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {useNavigate}from 'react-router-dom';
 import '../style/formcontact.css';
+import { serverUrl } from '../constant';
 
 function Section3() {
  
@@ -21,7 +22,7 @@ function Section3() {
 
     e.preventDefault();
     const dealerData={companyName,contactPerson,email,phone,product,orderVolume,comments}
-    const response = await fetch('/api/dealer',{
+    const response = await fetch(`${serverUrl}/api/dealer`,{
       method:'POST',
       body:JSON.stringify(dealerData),
       headers:{

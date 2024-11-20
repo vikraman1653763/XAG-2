@@ -205,28 +205,30 @@ video::-webkit-media-controls {
 .advantages {
   display: flex;
   flex-direction: column;
+  
   margin: 20px 0;
   padding: 20px;
-  background-size: cover;
-  border-radius: 10px;
   background-image: url('/assets/trainingBg.webp');
-
-  background-clip: border-box;
-  -moz-background-clip: text;
+  border-radius: 10px;
+  background-color: #000;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #000;
+  min-height: auto;
+
+  /* Background mirroring */
+  background-repeat: repeat; 
+  background-size:100% 100%;
   background-position: center center;
+  border: 1px solid red;
 }
+
 
 .advantage-points {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 70%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  border: 2px solid yellow;
 }
 
 .advantage-point {
@@ -239,6 +241,7 @@ video::-webkit-media-controls {
   padding: 20px;
   text-align: center;
   color: #ffffff;
+  width: max-content;
 }
 
 .advantage-point h5 {

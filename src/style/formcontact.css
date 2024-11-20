@@ -47,6 +47,7 @@
     .contact_form-left div label {
         color: #E4E4E4;
         font-weight: 400;
+        
     }
     
     .contact_form-left input {
@@ -118,15 +119,20 @@
         .contact_form {
             padding: 24px;
         }
-    
+        .contact_form .contact_form-heading h1{
+            font-size: var(--fs-l);
+        }
         .contact_form .contact_form-heading h3 {
-            font-size: var(--fs-xl);
+            font-size: var(--fs-m);
         }
     
         .contact_form .contact_form-heading h6 {
-            font-size: var(--fs-s);
+            font-size: var(--fs-xs);
+            text-align: center;
         }
-    
+        .contact_form-left div label {
+            font-size: var(--fs-xs);
+        }
         .contact_form-left {
             width: 100%;
             padding: 0px 12px;

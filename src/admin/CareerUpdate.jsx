@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { TiArrowLeftThick } from "react-icons/ti";
 import { LiaSpinnerSolid } from "react-icons/lia";
 import { serverUrl } from '../constant';
+import '../style/admin.css';
+
 function CareerUpdate() {
   const [title, setTitle] = useState('');
   const [jobType, setJobType] = useState('');

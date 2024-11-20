@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useNavigate}from 'react-router-dom';
 import '../style/formcontact.css';
+import { serverUrl } from '../constant';
 
 const SectionForm = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const handleSubmit = async (e)=>{
   setIsSubmitting(true);
   const enquiryData={companyName,email,phoneNumber,message}
 
-  const response = await fetch('/api/enquiry', { 
+  const response = await fetch(`${serverUrl}/api/enquiry`, { 
     method: 'POST',
     body: JSON.stringify(enquiryData),
     headers: {

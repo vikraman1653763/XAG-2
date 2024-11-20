@@ -1,65 +1,38 @@
 // Advantages.jsx
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-
-const zoomVariants = {
-  hidden: { scale: 0 },
-  visible: {
-    scale: 1,
-    transition: {
-      duration: 1.5,
-      ease: "easeInOut",
-    },
-  },
-};
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Advantages = () => {
-  const [ref1, inView1] = useInView({ triggerOnce: false, threshold: 0.1 });
-  const [ref2, inView2] = useInView({ triggerOnce: false, threshold: 0.1 });
-  const [ref3, inView3] = useInView({ triggerOnce: false, threshold: 0.1 });
-  const [ref4, inView4] = useInView({ triggerOnce: false, threshold: 0.1 });
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: true, 
+      offset: 100,
+    });
+  }, []);
+
+  const agr16Data = [
+    { title: 'High Precision', detail: 'AGR16 drones offer unparalleled precision in spraying and seeding.' },
+    { title: 'Cost-Effective', detail: 'Reduce operational costs with efficient and effective technology.' },
+    { title: 'Sustainable', detail: 'Promote sustainable farming practices with minimal environmental impact.' },
+    { title: 'User-Friendly', detail: 'Easy to operate with intuitive controls and reliable performance.' },
+    { title: 'Enhanced Safety', detail: 'Advanced safety features like geo-fencing and failsafe mechanisms ensure secure operations.' },
+    { title: 'Versatility', detail: 'Capable of handling multiple tasks such as spraying, seeding, and mapping with ease.' },
+  ];
 
   return (
-    <section className='advantages'>
-      <h4 className='agr16-type'><span>Advantages</span> of AGR16 Drones</h4>
+    <section className="advantages">
+      <h4 className="agr16-type">
+        <span>Advantages</span> of AGR16 Drones
+      </h4>
       <div className="advantage-points">
-        <motion.div 
-          className="advantage-point" 
-          animate={inView1 ? 'visible' : 'hidden'} 
-          variants={zoomVariants} 
-          ref={ref1}
-        >
-          <h5>High Precision</h5>
-          <p>AGR16 drones offer unparalleled precision in spraying and seeding.</p>
-        </motion.div>
-        <motion.div 
-          className="advantage-point" 
-          animate={inView2 ? 'visible' : 'hidden'} 
-          variants={zoomVariants} 
-          ref={ref2}
-        >
-          <h5>Cost-Effective</h5>
-          <p>Reduce operational costs with efficient and effective technology.</p>
-        </motion.div>
-        <motion.div 
-          className="advantage-point" 
-          animate={inView3 ? 'visible' : 'hidden'} 
-          variants={zoomVariants} 
-          ref={ref3}
-        >
-          <h5>Sustainable</h5>
-          <p>Promote sustainable farming practices with minimal environmental impact.</p>
-        </motion.div>
-        <motion.div 
-          className="advantage-point" 
-          animate={inView4 ? 'visible' : 'hidden'} 
-          variants={zoomVariants} 
-          ref={ref4}
-        >
-          <h5>User-Friendly</h5>
-          <p>Easy to operate with intuitive controls and reliable performance.</p>
-        </motion.div>
+        {agr16Data.map((data, index) => (
+          <div className="advantage-point" data-aos="zoom-in" key={index}>
+            <h5>{data.title}</h5>
+            <p>{data.detail}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

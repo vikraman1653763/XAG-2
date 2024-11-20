@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import '../style/admin.css';
+
 import { Link } from 'react-router-dom';
 import { TiArrowLeftThick } from "react-icons/ti";
 import { useNavigate } from 'react-router-dom';

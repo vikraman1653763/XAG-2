@@ -482,6 +482,7 @@
   .course-day-details {
       flex-direction: column;
       padding: 0.5em;
+      align-items: center;
   }
 
   .course-day-details-box {

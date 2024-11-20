@@ -42,9 +42,9 @@ const AGR16 = () => {
       </div>
       <Section5/>
       <Section6/>
-        <Description />
-        <Specifications />
-        <Fc/>
+        {/* <Description /> */}
+        {/* <Specifications /> */}
+        {/* <Fc/> */}
         <CubeSection/>
         <DroneTypes />
       <DroneTabs />

@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import { useNavigate } from "react-router-dom";
 import { LiaSpinnerSolid } from "react-icons/lia";
 import { TiArrowLeftThick } from "react-icons/ti";
+import '../style/admin.css';
 
 import { serverUrl } from '../constant';
 function TestimonialUpdate(){

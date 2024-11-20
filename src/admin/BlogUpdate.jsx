@@ -1,7 +1,7 @@
 import React, { useState,useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { TiArrowLeftThick } from "react-icons/ti";
-import { LiaSpinnerSolid } from "react-icons/lia";
+import '../style/admin.css';
 import { serverUrl } from '../constant';
 function BlogUpdate() {
   const [title, setTitle] = useState('');
