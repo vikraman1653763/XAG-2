@@ -18,6 +18,8 @@ import Section3 from './Section3.jsx';
 import Section4 from './Section4.jsx';
 import Section5 from './Section5.jsx';
 import Section6 from './Section6.jsx';
+import Section7 from './Section7.jsx';
+import Section8 from './Section8.jsx';
 
 const AGR16 = () => {
   useEffect(() => {
@@ -42,13 +44,15 @@ const AGR16 = () => {
       </div>
       <Section5/>
       <Section6/>
+      <Section7/>
+      <Section8/>
         {/* <Description /> */}
         {/* <Specifications /> */}
         {/* <Fc/> */}
         <CubeSection/>
         <DroneTypes />
       <DroneTabs />
-        <Advantages />
+        {/* <Advantages /> */}
       </main>
  
     </div>

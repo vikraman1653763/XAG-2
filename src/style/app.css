@@ -1,11 +1,3 @@
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 @font-face {
     font-family: 'Poppins';
     src: url('/assets/Poppins-Light.ttf') format('truetype');
@@ -47,6 +39,12 @@
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 :root {
     --fs-xxs: .5rem; 
     --fs-xs: .8rem; 

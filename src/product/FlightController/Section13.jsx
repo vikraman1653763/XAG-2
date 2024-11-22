@@ -5,7 +5,7 @@ const Section13 = () => {
         {
             title: "IMU Sensor",
             xrotor: "Industrial-grade",
-            competitor: "Standard sensors",
+            competitor: "On-Board sensors",
             description: "Xrotor Tek India offers industrial-grade IMU sensors for enhanced stability and accuracy."
         },
         {
@@ -21,11 +21,12 @@ const Section13 = () => {
             description: "Xrotor Tek India's systems can store up to 50 logs, offering more comprehensive data tracking."
         },
         {
-            title: "Multi-Functionality",
-            xrotor: "Dual flowmeters and level meters support",
-            competitor: "Single meter support",
-            description: "Enhanced multi-functionality supports dual flowmeters and level meters for better monitoring."
+            title: "Live Cloud Data",
+            xrotor: "Supports live cloud data",
+            competitor: "Does not support live cloud data",
+            description: "Xagrotor enables real-time monitoring and data access, unlike others lacking this feature."
         }
+        
     ];
 
     return (

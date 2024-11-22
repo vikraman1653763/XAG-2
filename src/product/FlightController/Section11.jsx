@@ -8,8 +8,8 @@ function Section11() {
     { name: 'Weight', spec: 'Lightweight construction with 65g for FMU and 80g for PMU, designed for easy maneuverability.' },
     { name: 'Power Supply', spec: 'Flexible power input, compatible with a wide range from 20V to 100V (4S to 20S).' },
     { name: 'Work Temperature', spec: 'Built to withstand extreme temperatures, operating reliably from -25°C to 60°C.' },
-    { name: 'Battery Life', spec: 'Up to 2 hours of continuous operation, ensuring long-lasting performance on every flight.' },
-    { name: 'Max Altitude', spec: 'Capable of reaching heights up to 5000 meters, perfect for high-altitude operations.' }
+    { name: 'GNSS Accuracy', spec: 'Achieves precise positioning with an accuracy of 2.5 meters, ideal for navigation and mapping tasks.' },
+    { name: 'Max Altitude', spec: 'Capable of reaching heights up to 2500 meters, perfect for high-altitude operations.' }
   ];
 
   useEffect(() => {

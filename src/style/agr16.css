@@ -227,12 +227,15 @@ video::-webkit-media-controls {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
   border: 2px solid yellow;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  padding:  1em 13rem;
 }
 
 .advantage-point {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.046);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -241,7 +244,8 @@ video::-webkit-media-controls {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  width: max-content;
+  width: 100%;
+ 
 }
 
 .advantage-point h5 {
