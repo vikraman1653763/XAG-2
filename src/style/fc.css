@@ -228,11 +228,13 @@ height: max-content;
 }
 .fc-video-index{
   left: 1%;
-  top: 50%;
+  top: 70%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content:flex-start;
+  align-items: flex-start;
+
   position: absolute;
   z-index: 2;
 
@@ -262,13 +264,23 @@ height: max-content;
   width: 99vw;
   object-fit: contain;
   object-position: top;
+  position: relative;
   
 }
 .fc-video-canvas img,.fc-video-canvas video{
   object-fit: contain;
   width: 100%;
 }
-
+.fc-video-canvas p{
+  color: #9BF00B;
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  width: 99vw;
+  font-size: var(--fs-s);
+  font-weight: 500;
+  
+}
 .fc-sec-11{
   display: flex;
   justify-content: center;
