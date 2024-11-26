@@ -5,7 +5,7 @@ const media = [
     { src: '/assets/liveCloud.webm', name: 'Live Cloud Data Log',desc:'View and store flight data directly on the cloud', type: 'video' },
     { src: '/assets/realtime.webm', name: 'Real-Time Monitoring',desc:'Track every aspect of your drone’s performance ', type: 'video' },
     { src: '/assets/voicealert.webm', name: 'Voice Broadcast',desc:'Audio alerts for key flight conditions', type: 'video' },
-    { src: '/assets/custompara.webm', name: 'Support Regional Language',desc:'APK can be customized to meet specific operational needs, supporting regional languages', type: 'video' },
+    { src: '/assets/custompara.webm', name: 'Custom Parameter',desc:'APK can be customized to meet specific operational needs, supporting regional languages', type: 'video' },
     { src: '/assets/safetyprotocol.webm', name: 'Safety Protocols',desc:'Integrated alerts and safety procedures to ensure safe operations', type: 'video' }
    
 ];
