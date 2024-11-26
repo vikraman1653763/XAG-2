@@ -53,8 +53,9 @@ function Section10() {
                         alt={currentMedia.name}
                     />
                 )}
+                <h3>{media[currentIndex].name}</h3>
                 <p>{media[currentIndex].desc}</p>
-            </div>
+                </div>
         </section>
     );
 }
