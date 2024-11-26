@@ -14,7 +14,7 @@ function Section3() {
         </ul>
       </div>
       <div className='agr16-sec-3-image-container'>
-        <img src='/assets/drone.webp'/>
+        <img src='/assets/agr16TopDown.webp'/>
       </div>
       </section>
     </div>

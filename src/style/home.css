@@ -1112,7 +1112,6 @@ background: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 7rem 13rem;
 
     width: 100%;
     
@@ -1128,7 +1127,6 @@ background: none;
     padding: 1rem;
     border-radius: 20px;
 }
-
 .showcase-set .image img {
     max-width: 20vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
