@@ -13,20 +13,19 @@ const Section9 = () => {
   ];
 
   const captions = [
-    "4 motors",
-    "cameras",
-    'pumps',
-    "obstacle",
-    "terrain sensors"
+    "4 motors for stable flight",
+    "cameras for aerial imaging",
+    'controls pumps for precise spraying',
+    "ensures safety with obstacle",
+    "terrain sensors for smooth operations"
   ];
 
   const connectingSentences = [
     'Xrotor Tek India connects seamlessly to',
-    "for stable flight, integrates",
-    "for aerial imaging, controls",
-    "or precise spraying, and ensures safety with ",
+    ", integrates",
+    ", ",
+    ", and ",
     "and",
-    "for smooth operations"
   ];
 
   useEffect(() => {
@@ -84,9 +83,10 @@ const Section9 = () => {
               >
                 {caption}
               </span>
+
             </React.Fragment>
           ))}
-          {` for unmatched drone operations.`}
+        
         </p>
       </div>
       <div className="agr16-sec-9-video-container">

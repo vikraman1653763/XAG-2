@@ -618,17 +618,17 @@
   .agr16-sec-9-paragraph {
     margin-bottom: 20px;
     font-size: var(--fs-s);
-    line-height: 1.5;
+    line-height: 100%;
     position: sticky;
     top:50%;
-    height: 5em;
+    height: 11em;
     display: inline;
     width: 50%;
+    font-weight: 500;
     text-transform: lowercase;
   }
    .agr16-sec-9-paragraph span{
     font-size: var(--fs-s);
-    line-height: 1.5;
     color: #d4d4d4;
     text-transform: lowercase;
    } 
@@ -637,11 +637,12 @@
     display: inline;
     margin: 5px 0;
     transition: color 0.3s ease, font-weight 0.3s ease;
-    color:red;
-  }
-  
-  .agr16-sec-9-highlight {
+    
+}
+
+.agr16-sec-9-highlight {
     color: #9bf00b !important; 
+    font-weight: 700;
     
   }
   
