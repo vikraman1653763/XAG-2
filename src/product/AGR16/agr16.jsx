@@ -46,14 +46,14 @@ const AGR16 = () => {
       <Section5/>
       <Section6/>
       <Section7/>
-      <Section8/>
       <Section9/>
+        <DroneTypes />
+      <DroneTabs />
+      <Section8/>
         {/* <Description /> */}
         {/* <Specifications /> */}
         {/* <Fc/> */}
         {/* <CubeSection/> */}
-        <DroneTypes />
-      <DroneTabs />
         {/* <Advantages /> */}
       </main>
  

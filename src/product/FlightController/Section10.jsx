@@ -22,7 +22,7 @@ function Section10() {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % media.length);
-        }, 6000); // Change the media every 10 seconds
+        }, 8000); // Change the media every 10 seconds
 
         return () => clearInterval(intervalId); // Cleanup interval on unmount
     }, []);

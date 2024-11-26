@@ -462,6 +462,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
+    margin-left: 5em;
 }
 .agr16-sec-7-index{
     font-size: var(--fs-s);
@@ -502,7 +503,7 @@
     filter: blur(5em);
 }
 .agr16-sec-7-detail{
-    text-align: center;
+    text-align: left;
     font-size: var(--fs-s);
     color: #ffffff;
     line-height: 200%;
