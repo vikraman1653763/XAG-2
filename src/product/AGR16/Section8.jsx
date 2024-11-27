@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 function Section8() {
     return (
         <div className="agr16-sec-8">
-
+            <div className="agr16-sec-8-svg">
+                <img src='/assets/agr16.svg'/>
+            </div>
             <h2 className="agr16-sec-8-title">Ready to Revolutionize Your Farming?</h2>
             <div className="agr16-sec-8-container">
             <div className='agr16-sec-8-textbox'>

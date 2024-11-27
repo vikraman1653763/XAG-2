@@ -18,13 +18,12 @@ function Section10() {
         setCurrentIndex(index);
     };
 
-    // Effect for automatic media change every 10 seconds
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % media.length);
-        }, 8000); // Change the media every 10 seconds
+        }, 7000); 
 
-        return () => clearInterval(intervalId); // Cleanup interval on unmount
+        return () => clearInterval(intervalId); 
     }, []);
 
     const currentMedia = media[currentIndex];
