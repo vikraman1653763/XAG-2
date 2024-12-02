@@ -164,8 +164,8 @@ const handleSubmit = async (e)=>{
               <img src="/assets/Pin.webp" alt="" />
             </div>
             <h4>Factory Address</h4>
-            <p>Xagrotor tek private limited, Vanur Taluk Office, AR Nivas, Navayuga Nagar, Post, Auroville, Pattanur, Tamil Nadu 605101</p>
-            <a href="https://www.google.com/maps?cid=17323452363467487557" target="_blank" rel="noopener noreferrer">Get Directions</a>
+            <p>Xagrotor tek private limited,No.7/5, M.G.R Road, Nedunchalai, Nagalkeni, Chennai-600044</p>
+            <a href="https://maps.app.goo.gl/rHaEUC2cBAiStfuc8" target="_blank" rel="noopener noreferrer">Get Directions</a>
           </div>
         </div>
       </div>

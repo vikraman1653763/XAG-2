@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const media = [
   {
     title: 'Detachable Tank',
-    video: '/assets/camera.webm',
+    video: '/assets/16L.webm',
     content: (
         <p>
         The AGR 16 introduces an innovative detachable tank, making maintenance and refilling quick and easy. This feature reduces downtime and enhances flexibility, adapting seamlessly to various farming requirements.
@@ -12,7 +12,7 @@ const media = [
   },
   {
     title: 'Superior Capacity',
-    video: '/assets/sensor1.webm',
+    video: '/assets/Tankvid.webm',
     content: (
         <p>
         The AGR 16's 16-liter tank reduces refill frequency, enabling extended operations with fewer interruptions. Its large capacity ensures high efficiency for large-scale farming tasks.

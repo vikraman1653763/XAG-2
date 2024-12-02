@@ -70,14 +70,13 @@ function Section5() {
 
   return (
     <section className="agr16-sec-5">
-      <div className="agr16-sec-5-container" ref={targetRef}>
-        <div className="agr16-sec-5-container-sticky">
-          <h2 className="title">
-            Why AGR-16 <span>?</span>
-          </h2>
-
-          {isMobile ? (
-            // Vertical layout for mobile
+      {isMobile ? (
+        <div className="agr16-sec-5-container">
+          <div className="agr16-sec-5-container-sticky">
+            <h2 className="title">
+              Why AGR-16 <span>?</span>
+            </h2>
+            {/* Vertical layout for mobile */}
             <div className="agr16-sec-5-scroll-content">
               {features.map((feature, index) => (
                 <div
@@ -93,8 +92,15 @@ function Section5() {
                 </div>
               ))}
             </div>
-          ) : (
-            // Horizontal scroll layout for larger screens
+          </div>
+        </div>
+      ) : (
+        <div className="agr16-sec-5-container" ref={targetRef}>
+          <div className="agr16-sec-5-container-sticky">
+            <h2 className="title">
+              Why AGR-16 <span>?</span>
+            </h2>
+            {/* Horizontal scroll layout for larger screens */}
             <motion.div
               className="agr16-sec-5-scroll-content"
               style={{ x }}
@@ -113,9 +119,9 @@ function Section5() {
                 </div>
               ))}
             </motion.div>
-          )}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }

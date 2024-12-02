@@ -667,19 +667,17 @@
   }
   
   .agr-16-sec-10-video {
-    flex: 1;
-    
-    border-radius: 1em ;
-    transition: opacity 0.5s ease, z-index 0.5s ease;
+    width: 35vw;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .agr-16-sec-10-video video {
-    width: 50%;
-    border-radius: 8px;
-
-    object-fit: contain;
+    width: 100%;
+    border-radius: 1em ;
+    transition: opacity 0.5s ease, z-index 0.5s ease;
+    display: flex;
   }
   
   .agr-16-sec-10-content {
@@ -713,8 +711,8 @@
   }
   
   .agr-16-sec-10-description {
-    margin-top: 1rem;
-    width: 70%;
+    margin: 1rem ;
+    width: 100%;
   }
   
   .agr-16-sec-10-description h3 {
@@ -811,48 +809,60 @@
         font-size: var(--fs-xs); 
     }
     .agr16-sec-5-container {
-        height: auto; 
-        padding: 2em 1em; 
-    }
-
-    .agr16-sec-5-container-sticky {
-        position: relative; 
+        height: 100%;
+        width: 99vw; /* Adjust height for mobile */
+        padding:0em;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .agr16-sec-5-container-sticky {
+        position: relative;
         top: auto;
+        border: 1px solid blue;
+        overflow: visible;
     }
+    
     .agr16-sec-5-container-sticky .title {
-        font-size: var(--fs-l);
+        font-size: var(--fs-l); /* Smaller font size */
         text-align: center;
         width: 100%;
     }
-
+    
     .agr16-sec-5-scroll-content {
         display: flex;
-        flex-direction: column; 
-        gap: 1em; 
+        flex-direction: column;
+        gap: 1em;
         width: 100%;
+        border: 1px solid yellow;
+        align-items: center;
+        padding: 0em;
+        margin: 0%;
     }
-
-    .agr16-sec-5-card {
-        width: 100%; 
+    
+      .agr16-sec-5-card {
+        width: 70%; 
         height: auto; 
-        padding: 1em;
         border-radius: 1em;
         background-size: cover;
         background-position: center;
         text-align: center;
-    }
-   
-    .agr16-sec-5-card h2 {
-        font-size: var(--fs-s); 
-    }
-
-    .agr16-sec-5-card h3 {
-        font-size: var(--fs-s); 
-    }
-
-    .agr16-sec-5-card p {
+      }
+    
+      .agr16-sec-5-card h2 {
+        font-size: var(--fs-m); 
+      }
+    
+      .agr16-sec-5-card h3 {
+        font-size: var(--fs-s);
+      }
+    
+      .agr16-sec-5-card p {
         font-size: var(--fs-xs);
-    }
+      }
+    
+
+
     .agr-16-sec-10-container {
         flex-direction: column; /* Stack video and content vertically */
         padding: 1rem;
@@ -882,7 +892,7 @@
       }
     
       .agr-16-sec-10-index-item {
-        font-size: 0.8rem; /* Reduce font size for buttons */
+        font-size: 0.8rem;
         padding: 0.4rem 0.6rem;
       }
     
@@ -891,7 +901,7 @@
       }
     
       .agr-16-sec-10-description h3 {
-        font-size: 1.2rem; /* Reduce font size for the title */
+        font-size: 1.2rem;
         margin-bottom: 0.5rem;
       }
     
