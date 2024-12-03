@@ -627,14 +627,15 @@
   .agr16-sec-9-paragraph {
     margin-bottom: 20px;
     font-size: var(--fs-s);
-    line-height: 100%;
     position: sticky;
     top:50%;
-    height: 11em;
+    height: 15em;
     display: inline;
     width: 50%;
     font-weight: 500;
     text-transform: lowercase;
+    text-align: left;
+    padding-right: 1em;
   }
    .agr16-sec-9-paragraph span{
     font-size: var(--fs-s);
@@ -700,7 +701,7 @@
     padding: 1em;
     cursor: pointer;
     transition: color 0.3s ease;
-    font-size: var(--fs-s);
+    font-size: var(--fs-m);
   }
   
   .agr-16-sec-10-index-item:hover,
@@ -723,8 +724,7 @@
   
   .agr-16-sec-10-description p {
     font-size: var(--fs-s);
-    text-align: justify;
-
+    text-align: left;
   }
   
   .agr16-sec-11 {
@@ -738,14 +738,16 @@
   .agr16-sec-11-index {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 2em;
     font-weight: normal;
     text-transform: capitalize;
     font-size: var(--fs-m);
     color: #d4d4d4;
+
   }
   .agr16-sec-11-index span{
     color:  #d4d4d4;
+    text-transform: capitalize;
   }
   .agr16-sec-11-content {
     display: flex;
@@ -771,7 +773,7 @@
     padding-right: 1em;
     font-size: var(--fs-s);
     text-align: justify;
-    line-height: 200%;
+
 
   }
   .agr16-sec-11-image-container{

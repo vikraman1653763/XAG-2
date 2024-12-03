@@ -47,8 +47,8 @@ const AGR16 = () => {
       <Section4/>
       </div>
       <Section5/>
-      <Section6/>
       <Section7/>
+      <Section6/>
       <Section9/>
       <Section10/>
       <Section11/>
