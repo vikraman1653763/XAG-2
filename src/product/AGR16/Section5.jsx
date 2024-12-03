@@ -23,50 +23,48 @@ function Section5() {
       title: "Precision Spraying",
       description:
         "Optimized for even distribution of fertilizers and pesticides, ensuring healthier crops.",
-      image: "/assets/dealer1.webp",
+      image: "/assets/agr16-spry.webp",
     },
     {
       title: "Smart Monitoring",
       description:
         "Equipped with advanced sensors for real-time field data collection.",
-      image: "/assets/dealer2.webp",
+      image: "/assets/agr16-mon.webp",
     },
     {
       title: "Easy Operation",
       description:
         "User-friendly controls with autonomous and manual flight modes.",
-      image: "/assets/dealer3.webp",
+      image: "/assets/agr16-rem.webp",
     },
     {
       title: "Durable Design",
       description:
         "Built to withstand tough weather conditions with enhanced wind resistance.",
-      image: "/assets/dealer4.webp",
+      image: "/assets/agr16-shield.webp",
     },
     {
       title: "Cost-Effective",
       description: "Reduces labor costs and minimizes resource wastage.",
-      image: "/assets/dealer5.webp",
+      image: "/assets/agr16-cost.webp",
     },
     {
       title: "Geo-Fencing",
       description:
         "Stay compliant with geo-fencing technology for restricted areas.",
-      image: "/assets/dealer6.webp",
+      image: "/assets/agr16-fen.webp",
     },
     {
       title: "Failsafe Mechanisms",
       description:
         "Return-to-Launch (RTL) and low battery emergency landing features for safe operations.",
-      image: "/assets/dealer4.webp",
+      image: "/assets/agr16-bat.webp",
     },
   ];
 
   const targetRef = useRef(null);
-
-  // Framer Motion's scroll and transform hooks
   const { scrollYProgress } = useScroll({ target: targetRef });
-  const x = useTransform(scrollYProgress, [0, 1], ["5%", "-75%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["5%", "-77%"]);
 
   return (
     <section className="agr16-sec-5">

@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 const Section9 = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const sectionRef = useRef(null);
+  const isMobile = window.innerWidth <= 768;
 
   const videos = [
     '/assets/fcFitting.webm',
@@ -27,7 +28,37 @@ const Section9 = () => {
     ", and ",
     "and",
   ];
-
+  if (isMobile) {
+    // Render a simplified version for mobile
+    return (
+      <div className="agr16-sec-9-container">
+        <div className="agr16-sec-9-paragraph">
+          <p>
+            {captions.map((caption, index) => (
+              <React.Fragment key={index}>
+                {<span>{connectingSentences[index]}</span>}
+                <span className="agr16-sec-9-caption">{caption}</span>
+              </React.Fragment>
+            ))}
+          </p>
+        </div>
+        <div className="agr16-sec-9-video-container">
+          {videos.map((videoSrc, index) => (
+            <video
+              key={index}
+              src={videoSrc}
+              className="agr16-sec-9-video"
+              loop
+              muted
+              playsInline
+              controls // Add controls for user interaction
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+  
   useEffect(() => {
     const handleScroll = () => {
       const section = sectionRef.current;

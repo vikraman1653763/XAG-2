@@ -102,6 +102,7 @@ main{
 @media( max-width: 767px){
 main{
     margin-top: 3.5em;
+    overflow-x: hidden;
 }
 }
 
