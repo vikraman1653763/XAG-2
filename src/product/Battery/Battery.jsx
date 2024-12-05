@@ -5,7 +5,9 @@ import data from '../../Batteries.json';
 import { Link } from 'react-router-dom';
 import BatteryBanner from"./BatteryBanner";
 import BatterySpec from "./BatterySpec"
+import Section1 from "./Section1.jsx"
 import BatteryIntro from './BatteryIntro';
+import Section0 from './Section1';
 
 const Battery = () => {
     const [batteries, setBatteries] = useState([]);
@@ -32,6 +34,7 @@ const Battery = () => {
 
     return (
         <>
+        <Section1/>
         <BatteryIntro/>
         <BatterySpec/>
         <BatteryBanner/>
