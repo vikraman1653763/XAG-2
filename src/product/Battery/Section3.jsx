@@ -8,16 +8,27 @@ const Section3 = () => {
         <p className="bat-sec3-description">
           The X Power Plus battery is engineered to set new standards in drone performance. With unmatched reliability, extended endurance, and seamless compatibility with AGR16 and AGR10 models, it is the ultimate solution for modern agricultural challenges.
         </p>
-            </div>
-        <div className="bat-sec3-video-wrapper">
-          <video
-            className="bat-sec3-video"
-            src="your-video-src.mp4"
-            controls
-            poster="your-video-poster.jpg"
-          >
-            Your browser does not support the video tag.
-          </video>
+        <ul className="bat-sec3-points">
+          <li className="bat-sec3-point">
+            <strong>Reliability:</strong> Proven under various conditions.
+          </li>
+          <li className="bat-sec3-point">
+            <strong>Endurance:</strong> Extended flight times for agri-drones.
+          </li>
+          <li className="bat-sec3-point">
+            <strong>Compatibility:</strong> Optimized for AGR16 and AGR10 models.
+          </li>
+        </ul>
+      </div>
+      <div className="bat-sec3-video-wrapper">
+        <video
+          className="bat-sec3-video"
+          src="your-video-src.mp4"
+          controls
+          poster="your-video-poster.jpg"
+        >
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
