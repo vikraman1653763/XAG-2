@@ -7,8 +7,9 @@ import BatteryBanner from"./BatteryBanner";
 import BatterySpec from "./BatterySpec"
 import Section1 from "./Section1.jsx"
 import BatteryIntro from './BatteryIntro';
-import Section0 from './Section1';
-
+import Section2 from './Section2';
+import './battery.css'
+import Section3 from './Section3.jsx';
 const Battery = () => {
     const [batteries, setBatteries] = useState([]);
 
@@ -35,6 +36,8 @@ const Battery = () => {
     return (
         <>
         <Section1/>
+        <Section2/>
+        <Section3/>
         <BatteryIntro/>
         <BatterySpec/>
         <BatteryBanner/>

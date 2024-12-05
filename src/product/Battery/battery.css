@@ -1,0 +1,64 @@
+.bat-sec-2{
+    width: 99vw;
+    height: 70vh;
+    padding: 1em 13rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.bat-sec-2 h2{
+    text-align: center;
+    color: #d4d4d4;
+    font-size: var(--fs-xl);
+    padding: auto;
+}
+
+.bat-sec3-container {
+    padding: 1em 13rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    border: 2px solid  yellow;
+}
+  
+  .bat-sec3-content {
+    max-width: 50%;
+    flex: 2;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid red;
+  }
+  
+  .bat-sec3-title {
+    font-size: var(--fs-xl);
+    font-weight: bold;
+    color: #9BF00B;
+    margin-bottom: 15px;
+  }
+  
+  .bat-sec3-description {
+    font-size: var(--fs-s);
+    color: #d4d4d4;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .bat-sec3-video-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 2px solid green;
+
+  }
+  
+  .bat-sec3-video {
+    max-width: 100%;
+    border-radius: 10px;
+    outline: none;
+  }
+  
