@@ -2,15 +2,12 @@ import React from "react";
 
 const Section5 = () => {
   const specifications = [
-    { title: "Capacity", detail: "[ Wh]" },
-    { title: "Voltage", detail: "[  V]" },
-    { title: "Weight", detail: "[ kg]" },
-    { title: "Dimensions", detail: "[Dimensions Here]" },
-    { title: "Charging Time", detail: "Fast charge in 1 hour" },
-    {
-      title: "Battery Management System",
-      detail: "Overcharge, over-discharge, and short-circuit protection",
-    },
+    { title: "Charge voltage", detail: "50.4V" },
+    { title: "Discharge voltage", detail: "36V" },
+    { title: "36V", detail: "22000mAh" },
+    { title: "Operating temperature", detail: "10℃~40℃ & - 10℃~40℃" },
+    { title: "weight", detail: "4800 g" },
+    { title: "Humidity",detail: "65±20%RH"},
   ];
 
   return (

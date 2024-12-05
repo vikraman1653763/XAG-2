@@ -46,7 +46,7 @@ const Section0 = () => {
                 const scrollTop = html.scrollTop;
                 const maxScrollTop = html.scrollHeight - window.innerHeight;
                 const scrollFraction = scrollTop / maxScrollTop;
-                const frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount * 5));
+                const frameIndex = Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount * 8));
                 if (scrollTop > 0) setShowScroll(false);
                 requestAnimationFrame(() => {
                     if (images.current[frameIndex + 1]) {

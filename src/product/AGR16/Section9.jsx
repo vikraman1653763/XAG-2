@@ -15,9 +15,9 @@ const Section9 = () => {
 
   const captions = [
     "4 motors for stable flight",
-    "cameras for aerial imaging",
+    "cameras for aerial live monitoring",
     'controls pumps for precise spraying',
-    "ensures safety with obstacle",
+    "ensures safety with obstacle sensors",
     "terrain sensors for smooth operations"
   ];
 

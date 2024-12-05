@@ -313,7 +313,102 @@
     margin-left: 5px;
   }
   
-
+/* Section7 Styles */
+.bat-sec-9 {
+    height: 100%;
+    color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    padding: 1em 13rem;
+  }
+  
+  .bat-sec-9 h2 {
+    color: #9bf00b;
+    font-size: var(--fs-xxl);
+    background: linear-gradient(to top, rgb(0, 116, 20), #9bf00b, #9bf00b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bat-sec-9 h2 span {
+    color: #d4d4d4;
+    background: linear-gradient(to top, rgb(38, 38, 38), #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bat-sec-9-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .bat-sec-9-index-container {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 5em;
+  }
+  
+  .bat-sec-9-index {
+    display: flex;
+    align-items: center;
+    font-size: var(--fs-s);
+    color: #ffffff;
+    font-weight: 400;
+  }
+  
+  .bat-sec-9-index svg {
+    color: #9bf00b;
+  }
+  
+  .bat-sec-9-index p {
+    margin-left: 0.5em;
+  }
+  
+  .agrActive p {
+    color: #9bf00b;
+  }
+  
+  .agrActive svg {
+    color: white;
+  }
+  
+  .bat-sec-9-detail-container {
+    height: 50vh;
+    flex: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    padding: 2em;
+  }
+  
+  .bat-sec-9-detail-container::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    height: 8rem;
+    width: 40rem;
+    background-color: #9cf00b63;
+    z-index: -1;
+    filter: blur(5em);
+  }
+  
+  .bat-sec-9-detail {
+    text-align: left;
+    font-size: var(--fs-s);
+    color: #ffffff;
+    line-height: 200%;
+    word-spacing: 3px;
+  }
+  
+  
+  
 
   /* Media queries for Section11 */
   @media screen and (max-width: 768px) {
@@ -376,6 +471,58 @@
     .bat-sec-6-image:hover {
       opacity: 1;
     }
+
+    .bat-sec-9 {
+        padding: 2em 0em;
+        flex-direction: column;
+        align-items: center;
+        width: 99vw;
+      }
+    
+      .bat-sec-9-detail-container::before {
+        display: none;
+      }
+    
+      .bat-sec-9 h2 {
+        font-size: var(--fs-l);
+        text-align: center;
+        margin-bottom: 1em;
+      }
+    
+      .bat-sec-9-container {
+        flex-direction: column;
+        gap: 20px;
+      }
+    
+      .bat-sec-9-index-container {
+        margin: 0;
+        align-items: start;
+        gap: 10px;
+        transform: translateX(50%);
+        width: max-content;
+      }
+    
+      .bat-sec-9-index {
+        font-size: var(--fs-xs);
+        gap: 5px;
+        text-align: left;
+        width: max-content;
+      }
+    
+      .bat-sec-9-index svg {
+        font-size: var(--fs-s);
+      }
+    
+      .bat-sec-9-detail-container {
+        height: auto;
+        padding: 1em;
+      }
+    
+      .bat-sec-9-detail {
+        font-size: var(--fs-xs);
+        text-align: center;
+        line-height: 1.5;
+      }
   }
   
   @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -435,4 +582,48 @@
       max-width: 400px;
       border-radius: 10px;
     }
+    /* Tablet View Adjustments for Section7 */
+    .agr16-sec-7 {
+      padding: 3em 2rem; /* Moderate padding for tablet screens */
+      flex-direction: row; /* Keep the layout horizontal */
+      align-items: flex-start;
+    }
+  
+    .agr16-sec-7 h2 {
+      font-size: var(--fs-xl); /* Slightly smaller title font size for tablets */
+      text-align: left; /* Align the title to the left */
+    }
+  
+    .agr16-sec-7-container {
+      flex-direction: row; /* Keep index and detail side by side */
+      gap: 30px; /* Add spacing between the sections */
+    }
+  
+    .agr16-sec-7-index-container {
+      margin: 0;
+      align-items: flex-start; /* Align index items to the top */
+      gap: 15px; /* Add spacing between index items */
+    }
+  
+    .agr16-sec-7-index {
+      font-size: var(--fs-s); /* Slightly larger font size for better readability */
+      gap: 10px;
+    }
+  
+    .agr16-sec-7-index svg {
+      font-size: var(--fs-m); /* Adjust size of icons */
+    }
+  
+    .agr16-sec-7-detail-container {
+      height: auto; /* Allow the content to determine the height */
+      padding: 2em; /* Moderate padding for content */
+    }
+  
+    .agr16-sec-7-detail {
+      font-size: var(--fs-s); /* Adjust font size for details */
+      text-align: justify; /* Align text to justify */
+      line-height: 1.75; /* Maintain proper line height */
+    }
+  
+  
   }
