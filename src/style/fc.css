@@ -568,7 +568,7 @@ background-attachment: local;
   padding-right: 1em;
 }
  .agr16-sec-9-paragraph span{
-  font-size: var(--fs-s);
+  font-size: var(--fs-m);
   color: #d4d4d4;
   text-transform: lowercase;
   line-height: 150%;
@@ -608,7 +608,7 @@ background-attachment: local;
   border-radius: 1em;
   padding:  3em;
   vertical-align: middle;
-  font-size: var(--fs-s);
+  font-size: var(--fs-m);
 }
 
 .fc-sec-14 h3 strong{
