@@ -42,6 +42,7 @@ const Section1 = () => {
                 drawImage(imgRef.current);
             };
 
+            
             window.addEventListener('scroll', () => {
                 const scrollTop = html.scrollTop;
                 const maxScrollTop = html.scrollHeight - window.innerHeight;

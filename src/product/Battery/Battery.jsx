@@ -4,9 +4,7 @@ import '../../style/Battery.css';
 import data from '../../Batteries.json';
 import { Link } from 'react-router-dom';
 import BatteryBanner from"./BatteryBanner";
-import BatterySpec from "./BatterySpec"
 import Section1 from "./Section1.jsx"
-import BatteryIntro from './BatteryIntro';
 import Section2 from './Section2';
 import './battery.css'
 import Section3 from './Section3.jsx';
