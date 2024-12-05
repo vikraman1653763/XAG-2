@@ -608,6 +608,7 @@ background-attachment: local;
   border-radius: 1em;
   padding:  3em;
   vertical-align: middle;
+  font-size: var(--fs-s);
 }
 
 .fc-sec-14 h3 strong{
