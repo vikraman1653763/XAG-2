@@ -24,41 +24,53 @@ function Section5() {
       description:
         "Optimized for even distribution of fertilizers and pesticides, ensuring healthier crops.",
       image: "/assets/agr16-spry.webp",
+      bg:'/assets/agr16-11.webp'
     },
     {
       title: "Smart Monitoring",
       description:
         "Equipped with advanced sensors for real-time field data collection.",
       image: "/assets/agr16-mon.webp",
+      bg:'/assets/agr16-12.webp'
+
     },
     {
       title: "Easy Operation",
       description:
         "User-friendly controls with autonomous and manual flight modes.",
       image: "/assets/agr16-rem.webp",
+      bg:'/assets/agr16-13.webp'
     },
     {
       title: "Durable Design",
       description:
         "Built to withstand tough weather conditions with enhanced wind resistance.",
       image: "/assets/agr16-shield.webp",
+      bg:'/assets/agr16-14.webp'
+
     },
     {
       title: "Cost-Effective",
       description: "Reduces labor costs and minimizes resource wastage.",
       image: "/assets/agr16-cost.webp",
+      bg:'/assets/agr16-15.webp'
+
     },
     {
       title: "Geo-Fencing",
       description:
         "Stay compliant with geo-fencing technology for restricted areas.",
       image: "/assets/agr16-fen.webp",
+      bg:'/assets/agr16-16.webp'
+
     },
     {
       title: "Failsafe Mechanisms",
       description:
         "Return-to-Launch (RTL) and low battery emergency landing features for safe operations.",
       image: "/assets/agr16-bat.webp",
+      bg:'/assets/agr16-17.webp'
+
     },
   ];
 
@@ -114,6 +126,7 @@ function Section5() {
                   <h2>0{index + 1}</h2>
                   <h3>{feature.title}</h3>
                   <p>{feature.description}</p>
+                  <img src={feature.bg}/>
                 </div>
               ))}
             </motion.div>
