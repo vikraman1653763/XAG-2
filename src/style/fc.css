@@ -563,17 +563,19 @@ background-attachment: local;
   display: inline;
   width: 50%;
   font-weight: 500;
-  text-transform: lowercase;
   text-align: left;
   padding-right: 1em;
 }
  .agr16-sec-9-paragraph span{
-  font-size: var(--fs-m);
+  font-size: var(--fs-s);
   color: #d4d4d4;
   text-transform: lowercase;
   line-height: 150%;
+  font-weight: 400;
  } 
-
+ .agr16-sec-9-paragraph span:nth-child(1){
+  text-transform:initial;
+}
 .agr16-sec-9-caption {
   display: inline;
   margin: 5px 0;
@@ -608,7 +610,9 @@ background-attachment: local;
   border-radius: 1em;
   padding:  3em;
   vertical-align: middle;
-  font-size: var(--fs-m);
+  font-size: var(--fs-s);
+  line-height: 150%;
+
 }
 
 .fc-sec-14 h3 strong{

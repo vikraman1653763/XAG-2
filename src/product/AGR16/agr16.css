@@ -665,6 +665,8 @@
     font-size: var(--fs-s);
     color: #d4d4d4;
     line-height: 150%;
+    font-weight: 400;
+
   } 
   .agr16-sec-9-paragraph span:nth-child(1){
     text-transform:initial;
