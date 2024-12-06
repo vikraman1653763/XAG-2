@@ -23,9 +23,10 @@ const Section3 = () => {
       <div className="bat-sec3-video-wrapper">
         <video
           className="bat-sec3-video"
-          src="your-video-src.mp4"
-          controls
-          poster="your-video-poster.jpg"
+          src="/assets/batReveal.webm"
+          loop
+          autoPlay
+          muted
         >
           Your browser does not support the video tag.
         </video>
