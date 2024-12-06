@@ -14,6 +14,8 @@ import Section6 from './Section6.jsx';
 import Section7 from './Section7.jsx';
 import Section8 from './Section8.jsx';
 import Section9 from './Section9.jsx';
+import Section10 from './Section10.jsx';
+import Section11 from './Section11.jsx';
 const Battery = () => {
     const [batteries, setBatteries] = useState([]);
 
@@ -48,6 +50,8 @@ const Battery = () => {
         <Section7/>
         <Section8/>
         <Section9/>
+        <Section10/>
+        <Section11/>
         <BatteryBanner/>
         <div id="battery-container">
             {data.map((battery,index) => (

@@ -302,9 +302,9 @@
     align-items: center;
     gap: 10px;
     text-align: left;
-    border: 2px solid gray;
+    border: 1px solid #9bf00b;
     border-radius: 5px;
-    background-color: #ffffff1e;
+    background-color: #ffffff0a;
   }
   
   .bat-sec-7-icon {
@@ -408,7 +408,205 @@
   }
   
   
+  .bat-sec-10-container {
+    padding: 1em 13rem;
+    text-align: center;
+    border-radius: 10px;
+  }
   
+  .bat-sec-10-title {
+    font-size: var(--fs-xxl);
+    font-weight: bold;
+    color: #9BF00B;
+    margin-bottom: 20px;
+  }
+  
+  .bat-sec-10-cards {
+    display: flex;
+    flex-direction: row; /* Arrange cards in a row */
+    flex-wrap: nowrap; /* Prevent wrapping to new rows */
+    justify-content: space-between; /* Add space between cards */
+    gap: 20px; /* Maintain consistent spacing */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+  }
+  
+  .bat-sec-10-card {
+    flex: 0 0 45%; /* Each card takes 45% of the container width */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid orchid;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(21, 21, 21, 0.253);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: .5em;
+  }
+  
+  
+  .bat-sec-10-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bat-sec-10-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bat-sec-10-drone {
+    font-size: var(--fs-l);
+    font-weight: bold;
+    color: #9BF00B;
+    margin-bottom: 10px;
+  }
+  
+  .bat-sec-10-description {
+    font-size: var(--fs-s);
+    color: #d4d4d4;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+
+  /* Section12 Styles */
+.bat-sec-11-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 13rem;
+  background-attachment: fixed; /* Creates a parallax scrolling effect */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 80vh;
+}
+
+.bat-sec-11-content {
+  max-width: 800px;
+  color: white;
+  position: relative;
+}
+.bat-sec-11-content-img{
+  position: absolute;
+  top: -10%;
+  left: 25%;
+  width: 50%;
+  filter: invert(1);
+  opacity: .2;
+  z-index: -2;
+  object-fit: contain;
+}
+.bat-sec-11-headline {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bat-sec-11-subtext {
+  font-size: var(--fs-s);
+  margin-bottom: 40px;
+  color: #d4d4d4;
+}
+
+.bat-sec-11-subtext span {
+  color: #9BF00B;
+}
+
+.bat-sec-11-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bat-sec-11-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #9BF00B;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.bat-sec-11-button:hover {
+  background-color: rgba(0, 0, 0);
+  color: #9BF00B;
+  transform: scale(1.05); /* Adds a slight zoom effect on hover */
+}
+
+/* Mobile View for Section12 */
+@media screen and (max-width: 767px) {
+  .bat-sec-11-container {
+    padding: 1.5rem 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bat-sec-11-content {
+    max-width: 100%;
+  }
+
+  .bat-sec-11-headline {
+    font-size: var(--fs-m);
+    margin-bottom: 15px;
+  }
+
+  .bat-sec-11-subtext {
+    font-size: var(--fs-xs);
+    margin-bottom: 20px;
+  }
+
+  .bat-sec-11-buttons {
+    flex-direction: row;
+    gap: 10px;
+    font-size: var(--fs-xs);
+  }
+
+  .bat-sec-11-button {
+    padding: 0.2em 0.5em;
+    font-size: 0.9rem;
+    width: 30%;
+  }
+}
+
+/* Tablet View for Section12 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bat-sec-11-container {
+    padding: 2em;
+  }
+
+  .bat-sec-11-content {
+    max-width: 90%;
+  }
+
+  .bat-sec-11-headline {
+    font-size: var(--fs-l);
+    margin-bottom: 20px;
+  }
+
+  .bat-sec-11-subtext {
+    font-size: var(--fs-s);
+    margin-bottom: 30px;
+  }
+
+  .bat-sec-11-buttons {
+    gap: 15px;
+  }
+
+  .bat-sec-11-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
 
   /* Media queries for Section11 */
   @media screen and (max-width: 768px) {
