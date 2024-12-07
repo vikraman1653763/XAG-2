@@ -23,6 +23,17 @@ const Section4 = () => {
           <img src={check}/><strong>Overcharge Protection:</strong> Extends lifespan and ensures safety.
           </li>
         </ul>
+        <div className="bat-sec3-video-wrapper">
+        <video
+          className="bat-sec3-video"
+          src="/assets/battery2.webm"
+          loop
+          autoPlay
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
       </div>
     </div>
   );

@@ -279,25 +279,31 @@
     align-items: center;
     justify-content:space-between;
   }
-  .bat-sec-7-image-container{
+  
+  .bat-sec-7-video-wrapper {
+    display: flex;
     flex: 2;
-
+    justify-content: center;
+    height: 100%;
+    width: 50%;
   }
-  .bat-sec-7-image-container img{
-    width: 100%;
+  
+  .bat-sec-7-video {
+    max-width: 100%;
+    border-radius: 10px;
+    outline: none;
   }
   .bat-sec-7-features {
     list-style: none;
-    padding: 0em 1em;
+    padding: 1em .5em;
     flex: 1;
-    
     width: 100%;
   }
   
   .bat-sec-7-feature {
     font-size: var(--fs-s);
     color: #d4d4d4;
-    margin: 10px 0;
+    margin: 1em;
     display: flex;
     align-items: center;
     gap: 10px;

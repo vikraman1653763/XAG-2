@@ -15,9 +15,18 @@ const Section7 = () => {
         <h2 className="bat-sec-7-title">Key Features</h2>
         <div className="bat-sec-7-context-container">
 
-        <div className="bat-sec-7-image-container">
-            <img src={sampImg}/>
-        </div>
+        
+        <div className="bat-sec-7-video-wrapper">
+        <video
+          className="bat-sec-7-video"
+          src="/assets/battery3.webm"
+          loop
+          autoPlay
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
         <ul className="bat-sec-7-features">
           {features.map((feature, index) => (
               <li key={index} className="bat-sec-7-feature">

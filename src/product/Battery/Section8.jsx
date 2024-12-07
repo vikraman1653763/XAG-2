@@ -23,9 +23,17 @@ const Section8 = () => {
             </li>
           ))}
         </ul>
-        <div className="bat-sec-7-image-container">
-            <img src={sampImg}/>
-        </div>
+        <div className="bat-sec-7-video-wrapper">
+        <video
+          className="bat-sec-7-video"
+          src="/assets/battery4.webm"
+          loop
+          autoPlay
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
     
           </div>
     </div>
