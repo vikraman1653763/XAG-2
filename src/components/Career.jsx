@@ -7,8 +7,62 @@ import AOS from 'aos';
 import bag from "/assets/bag.svg";
 import { Link, useParams } from "react-router-dom";
 import { serverUrl } from '../constant';
+import CareerForm from '../career/CareerForm.jsx';
 
 const Career = () => {
+    // const [items] = useState([
+    //     {
+    //         "id": 1,
+    //         "title": "Software Engineer",
+    //         "description": "Responsible for developing and maintaining web applications.",
+    //         "location": "Chennai",
+    //         "jobType": "Full-Time",
+    //         "experience": "2-4 years",
+    //         "requirements": "Proficiency in JavaScript, React, and Node.js. Strong problem-solving skills.",
+    //         "linkedin": "https://www.linkedin.com/jobs/software-engineer"
+    //     },
+    //     {
+    //         "id": 2,
+    //         "title": "UI/UX Designer",
+    //         "description": "Create engaging user interfaces and improve user experience.",
+    //         "location": "Puducherry",
+    //         "jobType": "Part-Time",
+    //         "experience": "1-2 years",
+    //         "requirements": "Experience in design tools like Figma and Adobe XD. Understanding of responsive design principles.",
+    //         "linkedin": "https://www.linkedin.com/jobs/ui-ux-designer"
+    //     },
+    //     {
+    //         "id": 3,
+    //         "title": "Project Manager",
+    //         "description": "Lead project teams and ensure timely delivery of projects.",
+    //         "location": "Remote",
+    //         "jobType": "Full-Time",
+    //         "experience": "5+ years",
+    //         "requirements": "Experience in Agile methodologies. Strong communication and organizational skills.",
+    //         "linkedin": "https://www.linkedin.com/jobs/project-manager"
+    //     },
+    //     {
+    //         "id": 4,
+    //         "title": "Digital Marketing Specialist",
+    //         "description": "Develop and implement digital marketing strategies.",
+    //         "location": "Chennai",
+    //         "jobType": "Contract",
+    //         "experience": "3-5 years",
+    //         "requirements": "Experience in SEO, SEM, and social media marketing. Knowledge of analytics tools.",
+    //         "linkedin": "https://www.linkedin.com/jobs/digital-marketing-specialist"
+    //     },
+    //     {
+    //         "id": 5,
+    //         "title": "Intern - Data Analyst",
+    //         "description": "Assist in analyzing and interpreting data trends.",
+    //         "location": "Puducherry",
+    //         "jobType": "Internship",
+    //         "experience": "0-1 years",
+    //         "requirements": "Basic knowledge of SQL and Excel. Strong analytical skills.",
+    //         "linkedin": "https://www.linkedin.com/jobs/data-analyst-intern"
+    //     }
+    // ]);
+
     const { id } = useParams(); 
 
     const[items,setItems]=useState([])
@@ -72,6 +126,9 @@ const Career = () => {
         };
         fetchCareer();
     }, [id]); 
+
+   
+      
     return (
         <>
             <CareerBanner />
@@ -102,9 +159,10 @@ const Career = () => {
                                     {job.requirements}
                                 </p>
                                 <div className='applydiv'> 
-                                    <button type='button' className="apply-button"><Link to={job.linkedin}>Apply Now</Link></button>
+                                    <Link to={`/career/${job.id}`} key={index}  type='button' className="apply-button">Apply Now</Link>
                                 </div>
                             </div>
+                                
                         ))
                     ) : (
             <div className="no-Jobs">

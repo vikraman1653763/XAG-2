@@ -19,7 +19,7 @@ const Section10 = () => {
   return (
     <div className="bat-sec-10-container">
       <h2 className="bat-sec-10-title">
-        X Power Plus for AGR16 and AGR10
+        X Power Plus for <span>AGR16 </span>and <span>AGR10</span>
       </h2>
       <div className="bat-sec-10-cards">
         {useCases.map((useCase, index) => (

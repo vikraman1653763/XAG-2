@@ -4,26 +4,26 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Section6 = () => {
   const agr16Sections = [
     {
-      title: "Molicel-Based Batteries",
-      details:
-        "Deliver high power density with excellent durability and safety, ideal for heavy-duty agricultural drones requiring maximum thrust and performance",
-      image: "/assets/TANK_SPRAYER.webp",
-      alt: "AGR16 Sprayer",
-      indexName: "Molicel",
-    },
-    {
       title: "Lithium-Ion Batteries",
       details:
         "Cost-effective with balanced performance, offering extended flight durations for moderate operational demands like mapping and light spraying",
-      image: "/assets/TANK_SPREADER.webp",
+      image: "/assets/battery002.webp",
       alt: "AGR16 Spreader",
       indexName: "Li-ion",
+    },
+    {
+      title: "Molicel-Based Batteries",
+      details:
+        "Deliver high power density with excellent durability and safety, ideal for heavy-duty agricultural drones requiring maximum thrust and performance",
+      image: "/assets/battery001.webp",
+      alt: "AGR16 Sprayer",
+      indexName: "Molicel",
     },
     {
       title: "Lithium Polymer Batteries",
       details:
         "Lightweight and customizable, designed for high-demand tasks like heavy spraying, ensuring superior performance under high discharge rates",
-      image: "/assets/TANK_SPREADER.webp",
+      image: "/assets/battery003.webp",
       alt: "AGR16 Spreader",
       indexName: "Li-Po",
     },

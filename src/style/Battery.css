@@ -32,15 +32,16 @@
 
 .battery-card {
     background-color: #000000;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 0 4px 8px #00000033;
     overflow: hidden;
     width: calc(33% - 200px); 
-    text-align: start;
+    text-align: center;
     border: 1px solid rgb(71, 71, 71);
     transition: opacity 1s, transform 1s ease; /* Smooth transition */
-    height: auto;
+    height: 100%;
     position: relative;
+    /* border: 2px solid yellow; */
 }
 
 .battery-card:hover {
@@ -50,7 +51,7 @@
 
 .battery-image img {
     width: 100%;
-    height: 200px;
+    height: 15em;
     object-fit: scale-down;
     transition: all 0.3s ease;
     background-color: rgb(185, 186, 187);
@@ -58,24 +59,22 @@
 }
 
     .battery-info {
-        display: grid;
-        grid-template-columns: repeat(10, 10%);
-        grid-template-rows: repeat(3, 33%);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 
 .battery-title {
-    font-size:2em;
+    font-size:var(--fs-m);
     color: #9BF00B;
-    font-weight: 800;
-    grid-area: 1/1/2/10;
-    padding-left: 2rem;
+    font-weight: 600;
+    
 }
 
 .battery-model {
     color: #ffffff;
     padding-left: 2rem;
     font-size: 1.2rem;
-    grid-area: 3/1/4/7;
 }
 
 
@@ -83,28 +82,22 @@
 .battery-card-footer{
 
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
     justify-content: space-between;
-    opacity: 0;
+    align-items: center;
+    opacity: 1;
     transition: all 0.3s ease;
-    transform: translateY(30px);
-    grid-area: 1/8/2/10;
-    height: 7rem;
     position: relative;
-
 }
 
 .battery-card:hover .battery-card-footer{
     opacity: 1;
-    transform: translateY(0px);
 }
 .battery-price {
-    font-size: 1.3em;
+    font-size:var(--fs-s);
     font-weight: 700;
     color: #ffffff;
-    margin: .5em 0;
-    position: absolute;
-    top: 0%;
+    margin: 0em 1em;
 }
 
 .add-to-cart {
@@ -112,15 +105,14 @@
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 6px 10px;
+    padding: .5em;
     cursor: pointer;
-    font-size: 1em;
+    font-size: var(--fs-s);
     border: 2px solid #9BF00B ;
     text-decoration: none;
-    font-weight: 700;
     text-align:center;
-    position: absolute;
-    margin-top: 5.2rem;
+    margin: 0em 1em 1em 0em;
+    
 }
 
 .add-to-cart:hover {
@@ -131,72 +123,8 @@
     transform: scale(0.95) rotateZ(1.7deg);
   }
 
-  .intro-container{
-    margin-top: 64px;
-    height:900px;
-    width: 100%;
-    position:relative;
-    overflow: hidden;
-    margin-bottom:5rem;
-    
 
-}
-
-.intro-container .sky{
-    position: absolute;
-    bottom: 0;
-    height: max-content;
-}
-
-
-.intro-container .field{
-    position: absolute;
-    z-index: 3;
-    bottom: 0;
-}
-.intro-container .batteries{
-    position: absolute;
-    transform: scale(0.9) ; 
-    z-index: 1;
-    top: 10%; 
-    left: -35%;
-}
-.intro-container .text {
-    position: absolute;
-    height: 1%;
-    text-align: center;
-    width:auto;
-    top:0;
-    font-weight: 700;
-    line-height: 600%;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #00000000;
-}
-
-.intro-container .text h2{
-    font-size: 6em;
-    color: rgb(0, 0, 0);
-    z-index: 10;
-    position: block;
-}
-.intro-container .text h3{
-    color: #bea930;
-    font-size: 4.5em;
-    z-index: 6;
-    width: auto;
-    
-}
-
-.intro-container .text h3 img{
-   
-    position: absolute;
-    transform: scale(1.2);
-    top: 5%;
-    width: 1em;
-    left: 14%;
-    filter: invert(60%) sepia(90%) saturate(348%) hue-rotate(14deg) brightness(93%) contrast(86%);
-    
-}
+  
 
 
 

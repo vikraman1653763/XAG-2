@@ -20,6 +20,18 @@ const FilterSection = ({ selectedType, handleTypeChange, selectedLocation, handl
                 </div>
                 <div className="checkbox-wrapper">
                     <input
+                        id="_checkbox-internship"
+                        type="checkbox"
+                        checked={selectedType.includes('Internship')}
+                        onChange={() => handleTypeChange('Internship')}
+                    />
+                    <label htmlFor="_checkbox-internship">
+                        <div className="tick_mark"></div>
+                    </label>
+                        <span>Internship</span>
+                </div>
+                <div className="checkbox-wrapper">
+                    <input
                         id="_checkbox-parttime"
                         type="checkbox"
                         checked={selectedType.includes('Part-time')}

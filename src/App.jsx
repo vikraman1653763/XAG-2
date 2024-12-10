@@ -7,18 +7,19 @@ import Home from '/src/components/home.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import './style/app.css';
 import Exx from './components/code.jsx';
+import CareerForm from './career/CareerForm.jsx';
 
 // Lazy loaded components
 const Footer =lazy(()=> import('./components/Footer'))
-const About = lazy(() => import('/src/components/about.jsx'));
-const Contact = lazy(() => import('/src/components/contact.jsx'));
+const About = lazy(() => import('./components/about.jsx'));
+const Contact = lazy(() => import('./components/contact.jsx'));
 const AGR16 = lazy(() => import('./product/AGR16/agr16.jsx'));
 const AGR10 = lazy(() => import('./product/AGR10/agr10.jsx'));
 const Battery = lazy(() => import('./product/Battery/Battery.jsx'));
 const BatteryDetails = lazy(() => import('./product/Battery/BatteryDetails'));
 const FlightController = lazy(() => import('./product/FlightController/FlightController.jsx'));
-const Training = lazy(() => import('/src/components/Training.jsx'));
-const Blog = lazy(() => import('/src/components/Blogs.jsx'));
+const Training = lazy(() => import('./components/Training.jsx'));
+const Blog = lazy(() => import('./components/Blogs.jsx'));
 const BlogDetails = lazy(() => import('./blog/BlogDetails'));
 const Career = lazy(() => import('./components/Career.jsx'));
 const Dealer = lazy(() => import('./components/Dealer.jsx'));
@@ -53,6 +54,8 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path='/blog/:id' element={<BlogDetails />} />
             <Route path="/career" element={<Career />} />
+            <Route path='/career/:id' element={<CareerForm />} />
+
             <Route path="/dealer" element={<Dealer />} />
             <Route path='/login' element={<Login />} />
             <Route path='/success' element={<FormSuccess />} />

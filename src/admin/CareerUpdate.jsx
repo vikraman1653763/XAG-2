@@ -11,7 +11,6 @@ function CareerUpdate() {
   const [location, setLocation] = useState('');
   const [experience, setExperience] = useState('');
   const [requirements, setRequirements] = useState('');
-  const [linkedin, setLinkedin] = useState('');
   const [error, setError] = useState(null);
   const [msg, setMsg] = useState(null);
   const navigate = useNavigate();
@@ -44,7 +43,6 @@ function CareerUpdate() {
       location,
       experience,
       requirements,
-      linkedin,
       date: formattedDate,
     };
     const token = localStorage.getItem('token');
@@ -80,7 +78,6 @@ if(response.ok){
   setLocation('');
   setExperience('');
   setRequirements('');
-  setLinkedin('');
 }else{
   console.error("error response:",data)
   setError(data.error)
@@ -260,19 +257,6 @@ if(response.ok){
             required
           />
         </label>
-
-        <label htmlFor="linkedin">
-          <span>LinkedIn Profile URL:</span>
-          <input
-            type="url"
-            name="linkedin"
-            id="linkedin"
-            value={linkedin}
-            onChange={(e) => setLinkedin(e.target.value)}
-            placeholder="https://www.linkedin.com/in/your-profile"
-          />
-        </label>
-
         <div className="submit-button-container">
           <input className="admin-submit" type="submit" value="Submit" />
       

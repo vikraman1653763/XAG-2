@@ -1,5 +1,7 @@
-import React from "react";
-import sampImg from'/assets/agr16-15.webp';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const Section7 = () => {
   const features = [
     "Ensuring optimal performance",
@@ -9,6 +11,12 @@ const Section7 = () => {
     "Safe and reliable operation",
     "Smart charging capabilities",
   ];
+  useEffect(() => {
+    AOS.init({
+        duration: 900,
+        mirror: false,
+    });
+  }, []);
 
   return (
     <div className="bat-sec-7-container">
@@ -29,7 +37,7 @@ const Section7 = () => {
       </div>
         <ul className="bat-sec-7-features">
           {features.map((feature, index) => (
-              <li key={index} className="bat-sec-7-feature">
+              <li key={index} className="bat-sec-7-feature" data-aos='fade-up'>
               <span className="bat-sec-7-icon">✔</span>
               {feature}
             </li>

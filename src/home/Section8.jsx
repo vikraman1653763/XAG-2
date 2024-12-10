@@ -20,7 +20,7 @@ const Section9 = () => {
                         GET A QUOTE</Link>
                 </div>
                 <div className="right">
-                    <img data-aos="fade-left" src="/assets/drone.webp" alt="drone" />
+                    <img data-aos="fade-up" src="/assets/AGR16_TD_MB.webp" alt="drone" />
                 </div>
             </div>
         </section>
