@@ -23,7 +23,7 @@ const { id } = useParams();
         const response = await fetch(`${serverUrl}/api/careers`);
         if (response.ok) {
           const data = await response.json();
-          const selectedJob = data.find((job) => job.id.toString() === id); // Match job ID with URL ID
+          const selectedJob = data.find((job) => job.id.toString() === id); 
           if (selectedJob) {
             setFormData((prevData) => ({ ...prevData, job: selectedJob.title }));
           } else {

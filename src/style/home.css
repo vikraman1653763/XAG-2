@@ -1183,13 +1183,14 @@ background: none;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 16px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #sec-8 .content_sec .left {
     width: 50%;
     display: flex;
     flex-flow: column nowrap;
+    overflow: hidden;
     gap: 10px;
 }
 
@@ -1234,10 +1235,14 @@ background: none;
 
 #sec-8 .content_sec .right {
     width: 50%;
+    overflow: hidden;
+
 }
 
 #sec-8 .content_sec .right img {
     width: 100%;
+   
+
 }
 
 /* Mobile Version Styles */

@@ -3,12 +3,13 @@ import '../style/admin.css';
 import { AiFillPlusCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { serverUrl } from '../constant';
+import useTokenValidation from '../components/TokenValid';
 function Admin() {
   const [blogStats,setBlogStats]=useState({count:0,lastUpdate:""})
   const [careerStats,setCareerStats]=useState({count:0,lastUpdate:""})
   const[testimonialStats,setTestimonialStats] = useState({count:0,lastUpdate:""})
   const[loading,setLoading]=useState(true)
-
+  useTokenValidation();
   useEffect(()=>{
     const fetchBlog = async()=>{
      

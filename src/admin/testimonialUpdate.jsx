@@ -3,24 +3,26 @@ import { useNavigate } from "react-router-dom";
 import { LiaSpinnerSolid } from "react-icons/lia";
 import { TiArrowLeftThick } from "react-icons/ti";
 import '../style/admin.css';
+import useTokenValidation from '../components/TokenValid';
 
 import { serverUrl } from '../constant';
 function TestimonialUpdate(){
 
-     
-    const [name,setName]=useState("");
-    const[feedback,setFeedback]=useState('');
-    const[error,setError]=useState(null);
-    const[message,setMessage]=useState(null);
-    const[isSubmitting,setIsSubmitting]=useState(false);
-    const navigate= useNavigate();
+  
+  const [name,setName]=useState("");
+  const[feedback,setFeedback]=useState('');
+  const[error,setError]=useState(null);
+  const[message,setMessage]=useState(null);
+  const[isSubmitting,setIsSubmitting]=useState(false);
+  const navigate= useNavigate();
+  
+  useTokenValidation();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
     
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setIsSubmitting(true);
-    
-        const currentDate = new Date();
-        const utcOffset = currentDate.getTimezoneOffset() * 60000; 
+    const currentDate = new Date();
+    const utcOffset = currentDate.getTimezoneOffset() * 60000; 
         const istDate = new Date(currentDate.getTime() + utcOffset + (5.5 * 3600000)); 
         const formattedDate = istDate.getFullYear() + '-' +
                               String(istDate.getMonth() + 1).padStart(2, '0') + '-' +

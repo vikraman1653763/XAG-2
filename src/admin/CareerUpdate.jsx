@@ -4,6 +4,7 @@ import { TiArrowLeftThick } from "react-icons/ti";
 import { LiaSpinnerSolid } from "react-icons/lia";
 import { serverUrl } from '../constant';
 import '../style/admin.css';
+import useTokenValidation from '../components/TokenValid';
 
 function CareerUpdate() {
   const [title, setTitle] = useState('');
@@ -16,14 +17,15 @@ function CareerUpdate() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  
+  useTokenValidation();
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     setLoading(true);
     const currentDate = new Date();
-
+    
     // Convert to IST (Indian Standard Time)
     const utcOffset = currentDate.getTimezoneOffset() * 60000; // Offset in milliseconds
     const istDate = new Date(currentDate.getTime() + utcOffset + (5.5 * 3600000)); // Adjust for IST

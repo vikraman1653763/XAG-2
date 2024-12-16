@@ -6,11 +6,14 @@ import { TiArrowLeftThick } from "react-icons/ti";
 import { useNavigate } from 'react-router-dom';
 import { FaTrashAlt, FaPlus } from 'react-icons/fa';
 import { serverUrl } from '../constant';
+import useTokenValidation from '../components/TokenValid';
+
 function AdminList({ title, endpoint, addPath,classes }) {
   const [items, setItems] = useState([]);
 const [error, setError] = useState(null);
 const [message,setMessage]=useState(null);
 const navigate = useNavigate();
+useTokenValidation();
 
   useEffect(() => {
     const fetchItems = async () => {

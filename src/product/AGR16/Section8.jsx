@@ -19,12 +19,11 @@ function Section8() {
 
             <div className="agr16-sec-8-buttons">
                 <Link to="/contact" className="agr16-sec-8-btn contact-us-btn">Contact Us</Link>
-                <Link to="/brochure" className="agr16-sec-8-btn brochure-btn">Download Brochure</Link>
-                <Link to="/get-quote" className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
+                <Link to="#" className="agr16-sec-8-btn brochure-btn">Download Brochure</Link>
+                <Link to="#" className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
             </div>
             </div>
         </div>
     );
 }
-
 export default Section8;

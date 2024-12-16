@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { TiArrowLeftThick } from "react-icons/ti";
 import '../style/admin.css';
 import { serverUrl } from '../constant';
+import useTokenValidation from '../components/TokenValid';
+
 function BlogUpdate() {
   const [title, setTitle] = useState('');
   const [smallDesc, setSmallDesc] = useState('');
@@ -12,9 +14,10 @@ function BlogUpdate() {
   const [msg, setMsg] = useState(null);
   const fileInputRef = useRef(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  
   const navigate = useNavigate();
-
+  useTokenValidation();
+  
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     setImage(file);
