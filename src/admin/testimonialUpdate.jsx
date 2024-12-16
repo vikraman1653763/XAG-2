@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { LiaSpinnerSolid } from "react-icons/lia";
 import { TiArrowLeftThick } from "react-icons/ti";
 import '../style/admin.css';
-import useTokenValidation from '../components/TokenValid';
 
 import { serverUrl } from '../constant';
 function TestimonialUpdate(){
@@ -16,7 +15,6 @@ function TestimonialUpdate(){
   const[isSubmitting,setIsSubmitting]=useState(false);
   const navigate= useNavigate();
   
-  useTokenValidation();
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);

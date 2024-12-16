@@ -1,7 +1,6 @@
-// components/ProtectedRoute.js
 import React ,{useEffect}from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
-import { isAuthenticated } from '../auth.js'; // Import authentication utility
+import { isAuthenticated } from '../auth.js';
 
 const ProtectedRoute = ({ element: Component }) => {
   const navigate = useNavigate()
@@ -12,5 +11,4 @@ const ProtectedRoute = ({ element: Component }) => {
     } })
   return isAuthenticated() ? <Component /> : <Navigate to="/Login" />;
 };
-
 export default ProtectedRoute;

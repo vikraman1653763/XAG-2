@@ -29,15 +29,15 @@ function Login() {
     if (response.ok) {
       // Store JWT token in local storage
       localStorage.setItem('token', data.token);
-      // console.log("Logged in successfully");
+      console.log("Logged in successfully");
+      navigate('/admin'); 
       setError(null)
       
-      navigate('/admin'); 
 
     } else {
       console.log("Invalid username or password");
       setError(data.error)
-      
+      console.log(data.error)
     }
   };
 

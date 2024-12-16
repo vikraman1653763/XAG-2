@@ -3,13 +3,12 @@ import '../style/admin.css';
 import { AiFillPlusCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { serverUrl } from '../constant';
-import useTokenValidation from '../components/TokenValid';
 function Admin() {
   const [blogStats,setBlogStats]=useState({count:0,lastUpdate:""})
   const [careerStats,setCareerStats]=useState({count:0,lastUpdate:""})
   const[testimonialStats,setTestimonialStats] = useState({count:0,lastUpdate:""})
   const[loading,setLoading]=useState(true)
-  useTokenValidation();
+
   useEffect(()=>{
     const fetchBlog = async()=>{
      
@@ -76,24 +75,28 @@ function Admin() {
 
       
       <section className='admin-box'>
-        <h3 className='ad-2 admin-box-title'>Blogs</h3>
-        <h4 className='admin-box-date'> last update :{blogStats.lastUpdate}</h4>
-        <h4 className='admin-box-count'>Total count: {blogStats.count}</h4>
-        <Link to={`/admin/blogs`} className='ad-2 admin-box-enter' ><AiFillPlusCircle /></Link>      
+       <div className='admin-title-container'>
+         <h3 className='ad-2 admin-box-title'>Blogs</h3>
+        <Link to='/admin/blogs' className='ad-2 admin-box-enter' ><AiFillPlusCircle /></Link>      
+        </div>
+        <h4 className='admin-box-date'> last update :<p>{blogStats.lastUpdate}</p></h4>
+        <h4 className='admin-box-count'>Total count: <p>{blogStats.count}</p></h4>
         </section>
         <section className='admin-box'>
-        <h3 className='ad-3 admin-box-title'>Career</h3>
-        <h4 className='admin-box-date'> last update : {careerStats.lastUpdate}</h4>
-        <h4 className='admin-box-count'>Total count: {careerStats.count}</h4>
-        <Link to={`/admin/careers`} className='ad-3 admin-box-enter' >
-        <AiFillPlusCircle /></Link>      
+      <div className='admin-title-container'>
+          <h3 className='ad-3 admin-box-title'>Career</h3>
+        <Link to='/admin/careers' className='ad-3 admin-box-enter' ><AiFillPlusCircle /></Link>      
+        </div>
+        <h4 className='admin-box-date'> last update : <p>{careerStats.lastUpdate}</p></h4>
+        <h4 className='admin-box-count'>Total count: <p>{careerStats.count}</p></h4>
         </section>
         <section className='admin-box'>
-        <h3 className='ad-3 admin-box-title'>Testimonial</h3>
-        <h4 className='admin-box-date'> last update : {testimonialStats.lastUpdate}</h4>
-        <h4 className='admin-box-count'>Total count: {testimonialStats.count}</h4>
-        <Link to={`/admin/testimonial`} className='ad-3 admin-box-enter' >
-        <AiFillPlusCircle /></Link>      
+        <div className='admin-title-container'>
+          <h3 className='ad-3 admin-box-title'>Testimonial</h3>
+        <Link to='/admin/testimonial' className='ad-3 admin-box-enter' ><AiFillPlusCircle /></Link>      
+          </div>
+        <h4 className='admin-box-date'> last update : <p>{testimonialStats.lastUpdate}</p></h4>
+        <h4 className='admin-box-count'>Total count: <p>{testimonialStats.count}</p></h4>
         </section>
       </div>
     </div>

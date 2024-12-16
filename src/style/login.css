@@ -48,7 +48,6 @@
     color: #949494;
   } 
   
- /* === removing default button style ===*/
 .login-button {
   margin: 0;
   height: auto;
@@ -56,6 +55,11 @@
   padding: 0;
   border: none;
   cursor: pointer;
+}
+.alert-danger{
+  color: red;
+  text-align: center;
+  font-size: var(--fs-s);
 }
 
 /* button styling */

@@ -177,11 +177,8 @@ const Navbar = () => {
         <li><Link to="/contact" onClick={toggleMenu}> CONTACT</Link></li>
         <li className='login-btn' onClick={toggleMenu}><Link to="/">Buy Now</Link></li>
       </ul>
-
-
     </nav>
   );
 };
-
 export default Navbar;
 
