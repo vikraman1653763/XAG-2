@@ -330,9 +330,7 @@ margin: 1em;
     border-radius: .5em;
     font-size: var(--fs-s);
     transition: background-color 0.3s ease;
-    background-color: black;
-
-    
+    background-color: black; 
 }
 
 .add-button:hover {
@@ -348,8 +346,6 @@ margin: 1em;
     border-radius: 1em;
     overflow: hidden; 
   }
-  
-
 .admin-list-table th,
 .admin-list-table td {
     padding: 12px;
@@ -367,7 +363,7 @@ margin: 1em;
 }
 .admin-list-table th:last-child,
 .admin-list-table td:last-child {
-    width: 1%; 
+    width: 1%;
     text-align: center; 
 }
 
@@ -401,7 +397,6 @@ margin: 1em;
     top: 50%;
     left: 45%;
     transform:scale(1.3);
-  
     z-index: 2;
   }
   
@@ -455,11 +450,8 @@ margin: 1em;
     .submit-button-container{
         margin: .5em 0em;
     }
-    }
+}
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-    body{
-        border: 1px solid red;
-    }
     .admin-box-title{
         font-size: var(--fs-m);
     }

@@ -11,12 +11,10 @@ function Section7() {
   const boxRefs = useRef({});
   const observer = useRef(null);
   const visibilityTimer = useRef({});
-
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-  
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -29,9 +27,7 @@ function Section7() {
         entries.forEach(entry => {
           const { target, isIntersecting } = entry;
           const tab = target.dataset.tab;
-
           clearTimeout(visibilityTimer.current[tab]);
-
           if (isIntersecting) {
             visibilityTimer.current[tab] = setTimeout(() => {
               setActive(tab);

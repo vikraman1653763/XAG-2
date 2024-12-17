@@ -51,7 +51,6 @@ const Section9 = () => {
               loop
               muted
               playsInline
-              controls // Add controls for user interaction
             />
           ))}
         </div>

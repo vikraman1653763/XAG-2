@@ -1097,50 +1097,11 @@ background: none;
     color: #9BF00B;
 }
 
-.showcase-container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    max-width: 99vw;
-    overflow: hidden;
-}
 
-.showcase-set {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 
-    width: 100%;
-    
-}
 
-.showcase-set .image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    min-height: 20px;
-    padding: 1rem;
-    border-radius: 20px;
-}
-.showcase-set .image img {
-    max-width: 20vw;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    min-height: auto;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 1rem;
-}
 
-.showcase-set .image span {
-    font-weight: 400;
-    font-size: var(--fs-s);
-    font-variant-numeric: slashed-zero;
-    color: #d4d4d4;
-}
+
 
 /* SECTION-8 */
 #sec-8 {
@@ -1244,6 +1205,94 @@ background: none;
    
 
 }
+.cert-certificates-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1em 13rem;
+    height: auto;
+  }
+  
+  .cert-certificate-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+  
+  .cert-certificate-images {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em;
+  }
+  
+  .cert-certificate-images img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cert-certificate-details {
+    flex: 1;
+  }
+  
+  .cert-certificate-details h2 {
+    margin: 0 0 10px;
+    font-size: var(--fs-xxl);
+    color: #9BF00B;
+  }
+  .cert-certificate-details h2 span{
+    color: white;
+  }
+  
+  .cert-certificate-details p {
+    margin: 0;
+    font-size: 1em;
+    color: #d4d4d4;
+  }
+  
+ 
+  
+  /* Small Screens: Mobile */
+  @media screen and (max-width: 768px) {
+    .cert-certificates-container {
+      padding: 10px;
+    }
+  
+    .cert-certificate-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .cert-certificate-images {
+      flex-wrap: wrap;
+      justify-content: center;
+      /* flex-direction: column; */
+    }
+  
+    .cert-certificate-images img {
+      width: 40%;
+    }
+  
+    .cert-certificate-details h2 {
+      font-size: var(--fs-l);
+    }
+  
+    .cert-certificate-details p {
+      font-size: var(--fs-xs);
+    }
+  }
+  
 
 /* Mobile Version Styles */
 @media only screen and (max-width: 767px) {
@@ -1622,23 +1671,7 @@ background: none;
         padding: 20px;
     }
     
-    #sec-7 h3 {
-        font-size: var(--fs-l);
-    }
    
-    .showcase-set{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding: 1em 2em;
-    }
-    .showcase-set .image {
-        padding: 0;
-    }
-    
-    .showcase-set .image img {
-        max-width: 80%;
-    }
     #sec-8{
         height: 10%;
         padding: 2em;
@@ -1669,9 +1702,7 @@ background: none;
     #sec-8 .content_sec .right img {
         width: 100%;
     }
-    .showcase-set .image span {
-        font-size: var(--fs-s);
-    }
+   
 
 }
 
@@ -1988,7 +2019,8 @@ background: none;
         /* margin-top: 10%; */
     }
     .textimonial{
-        padding: 3rem 7rem;
+        padding: 3rem 1rem;
+        margin: 1em;
     }
     .comments p {
         font-size: var(--fs-s);
@@ -2018,21 +2050,36 @@ background: none;
         font-size: var(--fs-xl);
         
     }
-    #sec-7 {
-        padding: 1.25rem;
-    }
 
-    #sec-7 h3 {
-        font-size: var(--fs-xl);
-    }
-
-    .showcase-set .image {
-        padding: 0.625rem;
-    }
-
-    .showcase-set .image img {
-        max-width: 20vw;
-    }
+    .cert-certificates-container {
+        gap: 15px;
+      }
+    
+      .cert-certificate-item {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .cert-certificate-images {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 50vh;
+        width: 100%;
+      }
+    
+      .cert-certificate-images img {
+        max-width: 100%;
+      }
+    
+      .cert-certificate-details h2 {
+        font-size:var(--fs-l);
+        text-align: center;
+      }
+    
+      .cert-certificate-details p {
+        font-size: var(--fs-s);
+        text-align: center;
+      }
 
     #sec-8 .content_sec {
         flex-direction: column;

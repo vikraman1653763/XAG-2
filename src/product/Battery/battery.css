@@ -597,7 +597,7 @@
   }
 
   .bat-sec3-description {
-    font-size: var(--fs-xs); /* Reduce font size */
+    font-size: var(--fs-s); /* Reduce font size */
     line-height: 1.5; /* Ensure good readability */
     margin-bottom: 15px;
   }
@@ -608,7 +608,7 @@
   }
 
   .bat-sec3-point {
-    font-size: var(--fs-xs); /* Smaller text for mobile */
+    font-size: var(--fs-s); /* Smaller text for mobile */
     margin-bottom: 8px;
   }
 
@@ -637,7 +637,7 @@
   }
 
   .bat-sec-4-description {
-    font-size: var(--fs-xs); /* Reduce font size for description */
+    font-size: var(--fs-s); /* Reduce font size for description */
     line-height: 1.5;
     margin-bottom: 15px;
   }
@@ -651,7 +651,7 @@
   white-space: nowrap;
   }
   .bat-sec-4-test {
-    font-size: var(--fs-xs); 
+    font-size: var(--fs-s); 
     text-align: left;
     display: inline-block;
 
@@ -707,7 +707,7 @@
   }
 
   .bat-sec-5-card-detail {
-    font-size: var(--fs-xs); /* Reduce detail font size */
+    font-size: var(--fs-s); /* Reduce detail font size */
     line-height: 1.5; /* Enhance readability */
   }
   .bat-sec-6 {
@@ -729,7 +729,7 @@
   }
 
   .bat-sec-6-index-item {
-    font-size: var(--fs-xs);
+    font-size: var(--fs-s);
     color: #d4d4d4;
     padding: 0.5em 1em;
     border-bottom: 2px solid transparent;
@@ -757,7 +757,7 @@
   }
 
   .bat-sec-6-details {
-    font-size: var(--fs-xs);
+    font-size: var(--fs-s);
     color: #d4d4d4;
     line-height: 1.5;
     text-align: justify;
@@ -809,12 +809,12 @@
   }
 
   .bat-sec-7-feature {
-    font-size: var(--fs-xs);
+    font-size: var(--fs-s);
     gap: 0.5em;
     margin: 0.5em 0;
     background-color: transparent;
-    border: none;
     border-radius: 5px;
+    border: 1px solid #ccc;
   }
 
   .bat-sec-7-icon {
@@ -870,7 +870,7 @@
     }
   
     .bat-sec-9-detail {
-      font-size: var(--fs-xs);
+      font-size: var(--fs-s);
       text-align: center;
       line-height: 1.5;
     }
@@ -887,11 +887,12 @@
     .bat-sec-10-cards {
       flex-direction: column;
       gap: 1rem; /* Add spacing between cards */
+      align-items: center;
     }
   
     .bat-sec-10-card {
       flex: 1;
-      max-width: 100%; /* Full width for cards */
+      max-width: 90%; /* Full width for cards */
       border: 1px solid #ccc;
       padding: 1rem;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -906,7 +907,7 @@
     }
   
     .bat-sec-10-description {
-      font-size: var(--fs-xs);
+      font-size: var(--fs-s);
       text-align: justify;
       line-height: 1.5;
     }
@@ -926,14 +927,14 @@
     }
   
     .bat-sec-11-subtext {
-      font-size: var(--fs-xs);
+      font-size: var(--fs-s);
       margin-bottom: 20px;
     }
   
     .bat-sec-11-buttons {
       flex-direction: row;
       gap: 10px;
-      font-size: var(--fs-xs);
+      font-size: var(--fs-s);
     }
   
     .bat-sec-11-button {
@@ -977,6 +978,7 @@
     font-size: var(--fs-s); /* Moderate size for tablet screens */
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .bat-sec3-points {
@@ -992,6 +994,7 @@
   .bat-sec3-video-wrapper {
     width: 100%; /* Full-width video on tablet */
     margin-top: 20px;
+    
   }
 
   .bat-sec3-video {
@@ -1017,6 +1020,7 @@
     font-size: var(--fs-s); /* Moderate size for description text */
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .bat-sec-4-tests {
@@ -1035,11 +1039,7 @@
     margin-right: 0.7em;
   }
 
-  .bat-sec3-video-wrapper {
-    margin-top: 20px;
-    width: 100%;
-  }
-
+ 
   .bat-sec3-video {
     max-width: 90%; /* Provide padding around the video */
     border-radius: 10px;
@@ -1074,7 +1074,7 @@
   }
 
   .bat-sec-5-card-title {
-    font-size: var(--fs-l); /* Adjust title font size */
+    font-size: var(--fs-m); /* Adjust title font size */
     margin-bottom: 8px;
   }
 
@@ -1205,48 +1205,49 @@
     max-width: 400px;
     border-radius: 10px;
   }
+
   /* Tablet View Adjustments for Section7 */
-  .agr16-sec-7 {
-    padding: 3em 2rem; /* Moderate padding for tablet screens */
-    flex-direction: row; /* Keep the layout horizontal */
+  /* .agr16-sec-7 {
+    padding: 3em 2rem; 
+    flex-direction: row; 
     align-items: flex-start;
   }
 
   .agr16-sec-7 h2 {
-    font-size: var(--fs-xl); /* Slightly smaller title font size for tablets */
-    text-align: left; /* Align the title to the left */
+    font-size: var(--fs-xl); 
+    text-align: left; 
   }
 
   .agr16-sec-7-container {
-    flex-direction: row; /* Keep index and detail side by side */
-    gap: 30px; /* Add spacing between the sections */
+    flex-direction: row; 
+    gap: 30px; 
   }
 
   .agr16-sec-7-index-container {
     margin: 0;
-    align-items: flex-start; /* Align index items to the top */
-    gap: 15px; /* Add spacing between index items */
+    align-items: flex-start; 
+    gap: 15px; 
   }
 
   .agr16-sec-7-index {
-    font-size: var(--fs-s); /* Slightly larger font size for better readability */
+    font-size: var(--fs-s);
     gap: 10px;
   }
 
   .agr16-sec-7-index svg {
-    font-size: var(--fs-m); /* Adjust size of icons */
+    font-size: var(--fs-m); 
   }
 
   .agr16-sec-7-detail-container {
-    height: auto; /* Allow the content to determine the height */
-    padding: 2em; /* Moderate padding for content */
+    height: auto; 
+    padding: 2em; 
   }
 
   .agr16-sec-7-detail {
-    font-size: var(--fs-s); /* Adjust font size for details */
-    text-align: justify; /* Align text to justify */
-    line-height: 1.75; /* Maintain proper line height */
-  }
+    font-size: var(--fs-s); 
+    text-align: justify;
+    line-height: 1.75; 
+  } */
   .bat-sec-7-container {
     padding: 2em;
   }
@@ -1264,7 +1265,7 @@
 
   .bat-sec-7-video-wrapper {
     flex: 1;
-    max-width: 50%;
+    width: 60%;
   }
 
   .bat-sec-7-video {
@@ -1275,6 +1276,7 @@
 
   .bat-sec-7-features {
     flex: 1;
+    width: 30%;
     list-style: none;
     padding: 0;
   }
@@ -1282,10 +1284,54 @@
   .bat-sec-7-feature {
     font-size: var(--fs-s);
     gap: 1em;
-    padding: 1em;
+    padding: .2em;
     background-color: #ffffff0a;
     border: 1px solid #ddd;
     border-radius: 5px;
+    margin: .5em;
+  }
+
+  .bat-sec-9 {
+    padding: 2rem; /* Adjust padding for medium screens */
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .bat-sec-9 h2 {
+    font-size: var(--fs-xl);
+    text-align: left; /* Align title to the left */
+  }
+  
+  .bat-sec-9-container {
+    flex-direction: row;
+    gap: 30px; /* Add space between the index and details sections */
+  }
+  
+  .bat-sec-9-index-container {
+    margin: 0;
+    align-items: flex-start; /* Align items to the top */
+    gap: 15px; /* Add spacing between index items */
+  }
+  
+  .bat-sec-9-index {
+    font-size: var(--fs-s); /* Slightly larger font for tablets */
+    gap: 10px;
+  }
+  
+  .bat-sec-9-index svg {
+    font-size: var(--fs-m);
+  }
+  
+  .bat9-sec-9-detail-container {
+    height: auto;
+    padding: 2em;
+  }
+  
+  .bat-sec-9-detail {
+    font-size: var(--fs-s);
+    text-align: justify;
+    line-height: 120%;
+    font-weight: 300 ;
   }
   .bat-sec-10-container {
     padding: 2rem;

@@ -30,7 +30,7 @@ const AGR16 = () => {
   return (
     <div >
     
-      <main > 
+      
       
       <Section1/>
       <div className='agr16-body'>
@@ -47,7 +47,7 @@ const AGR16 = () => {
       <Section11/>
       <Section12/>
       <Section8/>
-      </main>
+      
  
     </div>
   );

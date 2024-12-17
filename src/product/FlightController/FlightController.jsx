@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../style/FlightController.css';
 import Section0 from './Section0.jsx';
 import Section7 from './Section7.jsx';
 import Section8 from './Section8.jsx';

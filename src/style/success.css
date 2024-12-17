@@ -1,47 +1,61 @@
 .dealer-form-success {
     padding: 2rem;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 8px;
     width: 99vw;
     height: 100vh;
     margin: 0 auto;
-    text-align: center;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    text-align: center;    
   }
   .success-tick{
     margin-left: 2rem;
     width: 30em;
     height: 30em;
-
+  }
+  .success-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .success-thank1 {
-    font-size: 2rem;
-    color: #5beea4; 
+    font-size: var(--fs-l);
+    color: #9BF00B; 
     margin-bottom: 1.5rem;
   }
   
   .success-thank2 {
-    color: aliceblue;
-    font-size: 1.2rem;
+    color: white;
+    font-size: var(--fs-s);
+    font-weight: 500;
     margin-bottom: 2rem;
   }
   
   .dealer-back-button {
     background-color: #9BF00B;
     color: #000000;
-    padding: 0.55rem 1rem;
     border: none;
-    border-radius: 4px;
+    width: min-content;
+    border-radius:5px;
     font-size: 1rem;
     cursor: pointer;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .2em;
+  }
+  .dealer-back-button svg{
+    width: 1.5em;
+    height: 1.5em;
   }
   
   .dealer-back-button:hover {
-    background-color: #5beea4;
+    background-color: #000000;
+    border: 1px solid #9BF00B;
+    color: #9BF00B;
   }
   

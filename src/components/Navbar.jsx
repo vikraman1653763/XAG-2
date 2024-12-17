@@ -158,7 +158,7 @@ const Navbar = () => {
             ref={submenuRef}
           >
             <motion.li variants={itemVariants} >
-                <Link to="/agr16" onClick={toggleMenu}>AGRI Drone</Link>
+                <Link to="/agr16" onClick={toggleMenu}>AGR&nbsp;16</Link>
             </motion.li>
             <motion.li variants={itemVariants} >
               <Link to="/flight-controller" onClick={toggleMenu}>Flight&nbsp;Controller&nbsp;</Link>

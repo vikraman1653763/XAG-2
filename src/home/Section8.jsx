@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-const Section9 = () => {
+const Section8 = () => {
     useEffect(() => {
         AOS.init({
           duration: 500,
@@ -27,4 +27,4 @@ const Section9 = () => {
     );
 };
 
-export default Section9;
+export default Section8;

@@ -899,11 +899,11 @@ background-attachment: local;
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .fc-tab-container {
-    padding: 0 2rem;
+    padding: 2rem;
   }
   
   .fc-index {
-    width: 80%;
+    width: 60%;
   }
 
   .fc-index button {
@@ -914,52 +914,83 @@ background-attachment: local;
   .fc-content {
     width: 100vw;
   }
-
+  .fc-box-details{
+    width: 60vw;
+  }
+  
   .fc-box {
+    justify-content: end;
     flex-direction: row;
     height: auto;
     padding: 2em;
     background-attachment: scroll;
   }
 
-  .fc-box-details {
-    width: 100%;
-    padding: 2em;
-    margin: 0;
+  .fc-pmu{
+  justify-content: start;
   }
-
+  .fc-sec-8{
+    height: 50vh;
+    padding: 2em;
+  }
   .fc-sec-8 h2 {
-    font-size: 2em;
+    font-size: var(--fs-xl);
     width: 80%;
   }
+
 
   .fc-sec-9-card-container {
     margin-bottom: 40%;
   }
 
   .fc-sec-9-card {
-    width: 70%;
+    width: 70% !important;
     margin-top: 1.5rem;
     padding: 1.5em;
   }
 
+  .fc-sec-9-card-details{
+     height: 2em;
+  }
   .fc-section-10 {
     padding: 2em;
   }
 
   .fc-video-index {
-    top: 80%;
+    top: 50%;
     transform: translateY(0);
     flex-direction: column;
   }
+.fc-video-canvas :where(h3,p){
+  display: none;
+}
 
+.agr16-sec-9-container {
+  flex-direction: row; /* Stack layout for tablets */
+  height: 700vh; /* Adjust container height */
+  padding: 3em 2em; /* Moderate padding for tablets */
+}
+
+.agr16-sec-9-paragraph {
+  font-size: var(--fs-s); 
+  top: 40%;
+}
+.agr16-sec-9-paragraph span{
+  text-transform: lowercase !important;
+}
+.agr16-sec-9-video {
+ top:30%;
+}
   .fc-sec-11 {
-    padding: 4rem 2rem;
+    padding: 2rem;
+    flex-direction: column;
   }
 
   .fc-sec-11-detail {
     flex-direction: column;
     text-align: center;
+    width: 50vw;
+    
   }
 
   .fc-sec-11-container {
@@ -970,10 +1001,12 @@ background-attachment: local;
   .fc-sec-11-card {
     width: 100%;
     height: auto;
+    padding: 1em;
+    gap: .5em;
   }
 
   .fc-sec-11-img {
-    width: 100%;
+    width: 50%;
     margin-top: 2rem;
   }
 }
