@@ -1,9 +1,14 @@
 
 .admin-container {
-    border: 1px solid #636363;
     background-color: #d8d6d6;
     color: aliceblue;
     background-image: url('/assets/adminbg.webp');
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: repeat;
 }
 
 .admin-title {
@@ -18,12 +23,11 @@
 
 .change-box {
     width: 95%;
-    height: 50vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    margin: 10rem 1rem;
+
 }
 
 .admin-box {
@@ -413,14 +417,26 @@ margin: 1em;
   }
   
   @media screen and (max-width: 768px) {
+    .admin-container{
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        background-clip: content-box;
+    }
+    .admin-title{
+        font-size: var(--fs-l);
+    }
     .change-box{
         flex-direction: column;
     }
     .admin-box{
         width: 100%;
+        justify-content: center;
+        height: auto;
+        padding: auto;
     }
     .admin-box-title{
-        font-size: var(--fs-l);
+        font-size: var(--fs-m);
     }
     .admin-box-count,  .admin-box-date{
         font-size: var(--fs-s);
@@ -435,7 +451,6 @@ margin: 1em;
         font-weight: 500;
     }
     .admin-list-container  h2{
-        border: 1px solid red;
         width: 100%;
         font-size: var(--fs-l);
     }
@@ -443,7 +458,6 @@ margin: 1em;
         margin-bottom: 0%;
     }
     .admin-list-table :where(th,td){
-        border: 1px solid red;
         font-size: var(--fs-s) !important;
         font-weight: 500 !important;
     }

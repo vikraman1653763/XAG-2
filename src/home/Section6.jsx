@@ -50,7 +50,7 @@ useEffect(()=>{
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % textimonials.length);
-        }, 3000);
+        }, 8000);
 
         setTimer(interval);
 
@@ -62,7 +62,7 @@ useEffect(()=>{
         setCurrentSlide(index);
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % textimonials.length);
-        }, 3000);
+        }, 8000);
         setTimer(interval);
     };
 

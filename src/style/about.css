@@ -802,8 +802,8 @@
 
     .About .aboutpage-contents p {
         font-size: var(--fs-xs);
-        font-weight: 500; /* 16px */
-        text-align: justify;
+        font-weight: 500; 
+        text-align: start;
         width: 100%;
     }
 
@@ -865,7 +865,7 @@
     }
 
     .vision .content .aboutcard h3 {
-        font-size: var(--fs-s)
+        font-size: var(--fs-m)
     }
 
     .vision .content .aboutcard p {

@@ -108,7 +108,6 @@
 
 .bat-sec-4-test {
     font-size: var(--fs-s);
-    /* border: 1px solid red; */
     color: #d4d4d4;
     margin-bottom: 1em;
     display: flex;
@@ -497,7 +496,7 @@
   align-items: center;
   text-align: center;
   padding: 2rem 13rem;
-  background-attachment: fixed; /* Creates a parallax scrolling effect */
+  background-attachment: fixed; 
   background-size: cover;
   background-position: center;
   position: relative;
@@ -597,7 +596,7 @@
   }
 
   .bat-sec3-description {
-    font-size: var(--fs-s); /* Reduce font size */
+    font-size: var(--fs-s); /*   font size */
     line-height: 1.5; /* Ensure good readability */
     margin-bottom: 15px;
   }
@@ -608,7 +607,7 @@
   }
 
   .bat-sec3-point {
-    font-size: var(--fs-s); /* Smaller text for mobile */
+    font-size: var(--fs-xs); /* Smaller text for mobile */
     margin-bottom: 8px;
   }
 
@@ -637,28 +636,28 @@
   }
 
   .bat-sec-4-description {
-    font-size: var(--fs-s); /* Reduce font size for description */
+    font-size: var(--fs-s); /*   font size for description */
     line-height: 1.5;
     margin-bottom: 15px;
   }
 
   .bat-sec-4-tests {
-    text-align: center; /* Center-align the list */
+    text-align: left;
   }
   .bat-sec-4-test strong{
-  
+    
     display: inline-block;
   white-space: nowrap;
   }
   .bat-sec-4-test {
-    font-size: var(--fs-s); 
+    font-size: var(--fs-xs); 
     text-align: left;
     display: inline-block;
 
   }
 
   .bat-sec-4-test img {
-    width: 1rem; /* Reduce image size for smaller screens */
+    width: 1rem; /*   image size for smaller screens */
     margin-right: 0.5em;
   }
 
@@ -669,10 +668,10 @@
 
   .bat-sec3-video {
     max-width: 100%;
-    border-radius: 5px; /* Slightly reduce border radius */
+    border-radius: 5px; /* Slightly   border radius */
   }
   .bat-sec-5-container {
-    padding: 1em; /* Reduce padding for smaller screens */
+    padding: 1em; /*   padding for smaller screens */
     text-align: center; /* Center-align content */
   }
 
@@ -683,7 +682,7 @@
 
   .bat-sec-5-title {
     font-size: var(--fs-l); /* Adjust font size */
-    margin-bottom: 15px; /* Reduce margin for tighter layout */
+    margin-bottom: 15px; /*   margin for tighter layout */
   }
 
   .bat-sec-5-cards {
@@ -694,7 +693,7 @@
 
   .bat-sec-5-card {
     flex: 1; /* Each card takes full width */
-    padding: 1em; /* Reduce padding */
+    padding: 1em; /*   padding */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -707,7 +706,7 @@
   }
 
   .bat-sec-5-card-detail {
-    font-size: var(--fs-s); /* Reduce detail font size */
+    font-size: var(--fs-s); /*   detail font size */
     line-height: 1.5; /* Enhance readability */
   }
   .bat-sec-6 {
@@ -870,7 +869,7 @@
     }
   
     .bat-sec-9-detail {
-      font-size: var(--fs-s);
+      font-size: var(--fs-xs);
       text-align: center;
       line-height: 1.5;
     }
@@ -907,8 +906,8 @@
     }
   
     .bat-sec-10-description {
-      font-size: var(--fs-s);
-      text-align: justify;
+      font-size: var(--fs-xs);
+      text-align: left;
       line-height: 1.5;
     }
     .bat-sec-11-container {
@@ -965,7 +964,7 @@
   }
 
   .bat-sec3-content {
-    max-width: 80%; /* Reduce width for better focus */
+    max-width: 80%; /*   width for better focus */
     text-align: center;
   }
 
@@ -1050,7 +1049,7 @@
   }
 
   .bat-sec-5-content {
-    max-width: 90%; /* Reduce content width slightly */
+    max-width: 90%; /*   content width slightly */
     text-align: center;
   }
 

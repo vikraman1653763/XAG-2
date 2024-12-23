@@ -3,13 +3,14 @@ import React from "react";
 const Section5 = () => {
   const specifications = [
     { title: "Charge voltage", detail: "50.4V" },
-    { title: "Discharge voltage", detail: "36V" },
-    { title: "36V", detail: "22000mAh" },
-    { title: "Operating temperature", detail: "10℃~40℃ & - 10℃~40℃" },
+    {title:"Rated Voltage",detail:"21.6V-53.9V"},
+    {title:'Wattage',detail:'432Wh-1509Wh'},
     { title: "weight", detail: "4800 g" },
     { title: "Humidity",detail: "65±20%RH"},
+    { title: "Capacity", detail: "16Ah-32000mAh" },
+    { title: "Discharge voltage", detail: "36V" },
+    { title: "Operating temperature", detail: "10℃~40℃ & - 10℃~40℃" },
   ];
-
   return (
     <div className="bat-sec-5-container">
       <div className="bat-sec-5-content">

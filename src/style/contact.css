@@ -123,7 +123,6 @@
 
 .enquiry-adv-card .content-div p {
     color: #d4d4d4;
-    font-family: "Segoe UI";
     font-size: var(--fs-s);
     font-style: normal;
     font-weight: 600;
@@ -132,7 +131,6 @@
 
 .enquiry-adv-card .content-div h4 {
     color: #A1ED20;
-    font-family: "Segoe UI";
     font-size: var(--fs-l);
     font-style: normal;
     font-weight: 600;
@@ -269,15 +267,18 @@
     .enquiries-heading h6 {
         font-size: var(--fs-xs);
     }
-
+.enquiry-adv-card-bg{
+    border-radius: 1em;
+}
     .enquiry-adv-card {
         height: auto;
-        border-radius: 24px;
+        border-radius: none;
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.278);
         display: flex;
         flex-flow: column wrap;
         gap: 5px;
+
     }
 
     .enquiry-adv-card-bg:nth-child(2) .enquiry-adv-card-content .enquiry-image_background,
@@ -297,17 +298,17 @@
 
     .enquiry-adv-card .content-div p {
         color: #E3DFDF;
-        font-family: "Segoe UI";
         font-size: var(--fs-xs);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
         text-align: start;
+        margin: .2em;
     }
 
     .enquiry-adv-card .content-div h4 {
         color: #A1ED20;
-        font-family: "Segoe UI";
+         
         font-size: var(--fs-m);
         font-style: normal;
         font-weight: 600;
@@ -461,7 +462,7 @@
 
     .enquiry-adv-card .content-div p {
         color: #E3DFDF;
-        font-family: "Segoe UI";
+         
         font-size: var(--fs-s);
         font-style: normal;
         font-weight: 400;
@@ -471,7 +472,7 @@
 
     .enquiry-adv-card .content-div h4 {
         color: #A1ED20;
-        font-family: "Segoe UI";
+         
         font-size: var(--fs-l);
         font-style: normal;
         font-weight: 600;

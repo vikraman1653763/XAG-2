@@ -569,7 +569,6 @@
     justify-content: center;
     gap: 15px;
     align-items: center;
-
 }
 .agr16-sec-8-title {
     font-size: var(--fs-xxl);
@@ -853,7 +852,9 @@
         height: auto; 
         padding: 2em 1em; 
     }
-
+    .agr16-sec-2 ::before{
+      display: none;
+    }
     .agr16-sec-2 h2 {
         font-size: var(--fs-l);
         width: 100%; 
@@ -900,9 +901,10 @@
     }
 
     .agr16-sec-4-cards-section {
-        flex-direction: column; 
+        flex-direction: row; 
         padding: 2em 1em; 
         gap: 1em;
+        height: auto;
     }
 
     .agr16-sec-4-card {
@@ -956,13 +958,15 @@
     }
     
       .agr16-sec-5-card {
-        width: 70%; 
+        width: 80%; 
         height: auto; 
+        padding: .5em;
         border-radius: 1em;
         background-size: cover;
         text-align: center;
         background-size: 20%;
         position: relative;
+        border: 1px solid #eee;
       }
     
       .agr16-sec-5-card h2 {
@@ -1025,7 +1029,7 @@
   object-fit: cover; /* Ensure images fit nicely */
 }
 .agr16-sec-7 {
-  padding: 2em 0em; /* Reduced padding for smaller screens */
+  padding: 2em 0em; /*  d padding for smaller screens */
   flex-direction: column;
   align-items: center;
   width: 99vw;
@@ -1057,7 +1061,7 @@ display: none;
   flex-direction: row;
   /* align-items: center;
   justify-content: center; */
-  font-size: var(--fs-xs); /* Reduce size for compact layout */
+  font-size: var(--fs-xs); /*   size for compact layout */
   gap: 5px;
   text-align: left;
   width: max-content;
@@ -1078,7 +1082,7 @@ display: none;
   line-height: 1.5;
 }
 .agr16-sec-8 {
-  padding: 2em 1em; /* Reduce padding for smaller screens */
+  padding: 2em 1em; /*   padding for smaller screens */
   height: auto; /* Adjust height for content fit */
   display: flex;
   flex-direction: column;
@@ -1107,7 +1111,7 @@ display: none;
 }
 
 .agr16-sec-8-description {
-  font-size: var(--fs-xs); /* Reduce font size */
+  font-size: var(--fs-xs); /*   font size */
   line-height: 1.5; /* Adjust line height */
   text-align: justify;
 }
@@ -1129,14 +1133,14 @@ display: none;
 .agr16-sec-9-container {
   flex-direction: column; /* Stack videos and text */
   height: auto; /* Adjust height for mobile */
-  padding: 2em 1em; /* Reduce padding */
+  padding: 2em 1em; /*   padding */
   align-items: center;
 }
 
 .agr16-sec-9-paragraph  {
   font-size: var(--fs-xs); /* Smaller font size */
   line-height: 1.5; /* Adjust line spacing */
-  width: 100%; /* Reduce width */
+  width: 100%; /*   width */
   position: relative; /* Remove sticky behavior */
   top: auto;
   
@@ -1155,7 +1159,7 @@ font-size: var(--fs-xs);
 .agr16-sec-9-video {
   width: 100%; /* Make video responsive */
   height: auto;
-  border-radius: 8px; /* Reduce border radius */
+  border-radius: 8px; /*   border radius */
   top: auto; /* Remove sticky positioning */
   position: relative;
   margin-bottom: 1em; /* Add spacing between videos */
@@ -1399,7 +1403,7 @@ font-size: var(--fs-xs);
    
     /* Tablet view for Section6 */
 .agr16-sec-6 {
-  padding: 3em 2rem; /* Reduced padding for tablets */
+  padding: 3em 2rem; /*  d padding for tablets */
   height: auto;
 }
 
@@ -1499,7 +1503,7 @@ font-size: var(--fs-xs);
 
 .agr16-sec-8-svg {
   display: block; /* Display background SVG */
-  opacity: 0.1; /* Reduce SVG opacity for subtlety */
+  opacity: 0.1; /*   SVG opacity for subtlety */
   width: 80%; /* Adjust size */
   margin: 0 auto; /* Center the SVG */
 }

@@ -46,10 +46,11 @@ function Section7() {
         <div className='agr16-sec-7-container'>
             <div className='agr16-sec-7-index-container'>
                 {agr16Adv.map((adv,i)=>(
-                    <AnimatePresence  mode="wait">
+                    <AnimatePresence key={i} mode="wait">
 
                     <div className={`agr16-sec-7-index ${index===i?'agrActive':''}`} 
                     key={i} 
+
                      onClick={()=>setIndex(i)}
                 
                     >

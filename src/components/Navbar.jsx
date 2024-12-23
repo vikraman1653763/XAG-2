@@ -161,6 +161,9 @@ const Navbar = () => {
                 <Link to="/agr16" onClick={toggleMenu}>AGR&nbsp;16</Link>
             </motion.li>
             <motion.li variants={itemVariants} >
+                <Link to="/agr10" onClick={toggleMenu}>AGR&nbsp;10</Link>
+            </motion.li>
+            <motion.li variants={itemVariants} >
               <Link to="/flight-controller" onClick={toggleMenu}>Flight&nbsp;Controller&nbsp;</Link>
             </motion.li>
             <motion.li variants={itemVariants}>
@@ -175,7 +178,7 @@ const Navbar = () => {
         <li><Link to="/blog" onClick={toggleMenu}>BLOGS</Link></li>
         <li><Link to="/career" onClick={toggleMenu}>CAREER</Link></li>
         <li><Link to="/contact" onClick={toggleMenu}> CONTACT</Link></li>
-        <li className='login-btn' onClick={toggleMenu}><Link to="/">Buy Now</Link></li>
+        <Link to="/" className='login-btn' onClick={toggleMenu}>Buy Now</Link>
       </ul>
     </nav>
   );

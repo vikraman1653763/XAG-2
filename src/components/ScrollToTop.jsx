@@ -5,7 +5,7 @@ const ScrollToTop = () => {
     const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        if (!hash) {  // Only scroll to top if there's no hash
+        if (!hash) { 
             window.scrollTo({
                 top: 0,
                 behavior: "instant",

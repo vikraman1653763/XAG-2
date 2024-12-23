@@ -48,10 +48,10 @@ nav ul li a:hover, nav ul span:hover{
 
 .login-btn {
     background-color: #9BF00B;
-    padding: 0;
+    padding: .5em 1em;
     border-radius: 0.5em;
     font-size: var(--fs-s);
-    font-weight: 700;
+    font-weight: 500;
     white-space: nowrap;
     margin-bottom: 0.4em;
     height: 2.4em;
@@ -59,11 +59,13 @@ nav ul li a:hover, nav ul span:hover{
     display: flex;
     align-items: center;
     border: 2px solid #000000;
+    color: #000000;
 }
 
 .login-btn:hover {
     background-color: #9cf00b00;
     border: 2px solid #9BF00B;
+    color: #9BF00B;
 }
 
 .login-btn a {
@@ -184,16 +186,18 @@ nav ul li a:hover, nav ul span:hover{
 
     .login-btn {
         background-color: black;
-        font-size: 0.5rem;
-        padding: 2em 2em 2em 0em;
+        color: #9BF00B;
+        font-size: var(--fs-s);
         margin-right: 0rem;
-        
-        text-align: end;
+        text-align: center;
+        width: 50%;
+        text-transform: uppercase;
     }
-.login-btn a{
-    color: white;
-
-}
+    .login-btn:hover{
+border: none;
+        color: white;
+    }
+   
     .menu {
         font-size: var(--fs-s);
         font-weight: 500;

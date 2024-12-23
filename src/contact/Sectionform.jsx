@@ -144,13 +144,13 @@ const handleSubmit = async (e)=>{
             <a href="mailto:info@xagrotortek.in">info@xagrotortek.in</a>
             <a href="mailto:hr@xagrotortek.in">hr@xagrotortek.in</a>
           </div>
-          <div className="moblie-right" >
+          {/* <div className="moblie-right" >
             <div className="contact_form-right_img-div">
               <img src="/assets/Phone.webp" alt="" />
             </div>
             <h4>Mobile</h4>
             <p>+919381028379</p>
-          </div>
+          </div> */}
           <div className="location-right" >
             <div className="contact_form-right_img-div">
               <img src="/assets/Pin.webp" alt="" />

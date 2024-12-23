@@ -16,8 +16,6 @@
     z-index: 0;
     top:90%;
     object-fit: cover;
-    /* border: 1px solid red; */
-    /* display: none; */
   }
   
 
@@ -962,7 +960,6 @@ background: none;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 #sec-6 h3 {
@@ -982,8 +979,7 @@ background: none;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* padding: 7rem 13rem; */
-    margin: 1em 13rem;
+    width: 70%;
 }
 
 .textimonial-container {

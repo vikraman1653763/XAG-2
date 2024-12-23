@@ -39,16 +39,14 @@ function Section9() {
   return (
     <div className='bat-sec-9' >
         <h2 className="bat-sec-9-agr16-type">
-            <span>Advantages of</span>  X Power Plus</h2>
+            <span>Advantages of</span> X Power Plus</h2>
         <div className='bat-sec-9-container'>
             <div className='bat-sec-9-index-container'>
                 {batAdv.map((adv,i)=>(
-                    <AnimatePresence  mode="wait">
-
+                    <AnimatePresence key={i} mode="wait">
                     <div className={`bat-sec-9-index ${index===i?'agrActive':''}`} 
                     key={i} 
                      onClick={()=>setIndex(i)}
-                
                     >
                        <FaRegDotCircle />
                        <p>{adv.title}</p>

@@ -50,6 +50,7 @@ const Section9 = () => {
               className="agr16-sec-9-video"
               loop
               muted
+              autoPlay
               playsInline
             />
           ))}

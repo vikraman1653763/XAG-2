@@ -65,8 +65,6 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type:y mandatory;
     scroll-snap-align: start;
-    
-      
 }
 
 body {
@@ -187,7 +185,7 @@ main{
 @media screen and (max-width: 767px) {
     main{
         margin-top: 3.5em;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .banner{
@@ -216,7 +214,6 @@ main{
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         main{
             margin-top: 3.5em;   
-            border: 3px solid red;
         }
     
         .banner {
