@@ -160,7 +160,6 @@ const Navbar = () => {
             <motion.li variants={itemVariants} >
                 <Link to="/agr16" onClick={toggleMenu}>AGR&nbsp;16</Link>
             </motion.li>
-          
             <motion.li variants={itemVariants} >
               <Link to="/flight-controller" onClick={toggleMenu}>Flight&nbsp;Controller&nbsp;</Link>
             </motion.li>
@@ -168,6 +167,7 @@ const Navbar = () => {
               <Link to="/Batteries" onClick={toggleMenu}>Batteries</Link>
             </motion.li>
           </motion.ul>
+          
         </li>
         <motion.li variants={itemVariants}>
         <Link to="/dealer" onClick={toggleMenu}>DEALER&nbsp;PORTAL</Link></motion.li>
