@@ -11,6 +11,7 @@ export function increaseNumberAnimation(elementId, endNumber, totalDuration = 20
 
   const speed = totalDuration / endNumber;
   incNbrRec(0, endNumber, element, speed);
+}
 
 function incNbrRec(currentNumber, endNumber, element, speed) {
   if (currentNumber <= endNumber) {
