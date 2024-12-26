@@ -32,13 +32,18 @@ background-clip: text;
     font-size: var(--fs-l);
     font-weight:300;
 }
-.not1 button{
-    color: rgb(119, 119, 119);
+
+.not1 a{
     background-color: #000000;
     border-radius: .4em;
-    padding: 1em;
+    padding: .3em .5em;
+    border: 1px solid #9BF00B;
     font-size: var(--fs-s);
-
+    color: #9BF00B;
+}
+.not1 a:hover{
+    color: #000000;
+    background-color: #9BF00B;
 }
 .not2{
     width: 100%;

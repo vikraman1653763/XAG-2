@@ -1,0 +1,25 @@
+.agr-sec-10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1em 13rem;
+  }
+  
+  .agr-sec-10 ::before{
+  content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    background-color: #9cf00bb6;
+    z-index: -1;
+    filter: blur(3em);
+  }
+  .agr-sec-10 h2{
+    font-size: var(--fs-xxl);
+    text-align: center;
+    text-transform: uppercase;
+    width: 70%;
+    color: #d4d4d4;
+  }
