@@ -17,7 +17,6 @@ const Section0 = () => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
         };
-        
         window.addEventListener('resize', handleResize);
 
         if (!isMobile) {
