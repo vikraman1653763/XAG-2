@@ -39,7 +39,7 @@ const App = () => {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar />
+      <Navbar1 />
         <Suspense fallback={<div>Loading...</div>}>
       <main>
           <Routes>

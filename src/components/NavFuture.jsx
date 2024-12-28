@@ -43,7 +43,7 @@ const Navbar = () => {
     {
       type: 'Accessories',
       models: [
-        { name: 'Flight Controller', link: '/flightcontroller' },
+        { name: 'Flight Controller', link: '/flight-controller' },
         { name: 'Batteries', link: '/batteries' },
       ],
     },
@@ -119,6 +119,5 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
 
