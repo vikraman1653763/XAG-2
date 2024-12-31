@@ -1,6 +1,10 @@
-import React from "react";
-
+import React ,{useEffect}from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Section3 = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="bat-sec3-container">
       <div className="bat-sec3-content">
@@ -22,6 +26,7 @@ const Section3 = () => {
       </div>
       <div className="bat-sec3-video-wrapper">
         <video
+        data-aos="fade-up"
           className="bat-sec3-video"
           src="/assets/batReveal.webm"
           loop

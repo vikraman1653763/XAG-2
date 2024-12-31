@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { useNavigate, useLocation } from 'react-router-dom';
 import logo from '/assets/logoxx.svg';
 const Section11 = () => {
+
+    
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -22,6 +27,9 @@ const Section11 = () => {
     const handleGetQuoteClick = () => {
         navigate('/dealer#dealercontact');
     };
+ useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
 
     return (
         <div className="bat-sec-11-container">
@@ -32,9 +40,9 @@ const Section11 = () => {
                     Discover how <span>X Power Plus</span> can extend flight time, enhance performance, and provide unmatched reliability for your agri-drones.
                 </p>
                 <div className="bat-sec-11-buttons">
-                    <button className="bat-sec-11-button" onClick={handleContactUsClick}>Contact Us</button>
-                    <button className="bat-sec-11-button" onClick={handleGetQuoteClick}>Get a Quote</button>
-                    <button className="bat-sec-11-button">Download Brochure</button>
+                    <button className="bat-sec-11-button" onClick={handleContactUsClick} data-aos="fade-up" data-aos-offset='100'>Contact Us</button>
+                    <button className="bat-sec-11-button" onClick={handleGetQuoteClick} data-aos="fade-up" data-aos-offset="200">Get a Quote</button>
+                    <button className="bat-sec-11-button" data-aos="fade-up" data-aos-offset='300'>Download Brochure</button>
                 </div>
             </div>
         </div>
