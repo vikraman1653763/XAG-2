@@ -1,5 +1,6 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const cardData = [
   { 
@@ -35,10 +36,15 @@ const cardData = [
 ];
 
 function CardsSection() {
+
+   useEffect(() => {
+      AOS.init({ duration: 800 }); 
+    }, []);
+  
   return (
     <section className="agr16-sec-4-cards-section">
       {cardData.map((card, index) => (
-        <div className="agr16-sec-4-card" key={index}>
+        <div className="agr16-sec-4-card" key={index} data-aos="fade-up" data-aos-offset={index*50}>
           <div className="agr16-sec-4-icon-container">
             <img src={card.icon} alt={`${card.title} Icon`} />
           </div>

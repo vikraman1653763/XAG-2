@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const Section12 = () => {
@@ -22,7 +24,9 @@ const Section12 = () => {
     const handleGetQuoteClick = () => {
         navigate('/dealer#dealercontact');
     };
-
+useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
     return (
         <div className="fc-sec-12-container">
             <div className="fc-sec-12-content">
@@ -31,9 +35,9 @@ const Section12 = () => {
                     Get in touch to learn more about how <span>Xrotor Tek India</span> can boost your drone’s performance.
                 </p>
                 <div className="fc-sec-12-buttons">
-                    <button className="fc-sec-12-button" onClick={handleContactUsClick}>Contact Us</button>
-                    <button className="fc-sec-12-button" onClick={handleGetQuoteClick}>Get a Quote</button>
-                    <button className="fc-sec-12-button">Download Brochure</button>
+                    <button className="fc-sec-12-button"  data-aos="fade-up" data-aos-offset='100' onClick={handleContactUsClick}>Contact Us</button>
+                    <button className="fc-sec-12-button"   data-aos="fade-up" data-aos-offset='200' onClick={handleGetQuoteClick}>Get a Quote</button>
+                    <button className="fc-sec-12-button"  data-aos="fade-up" data-aos-offset='300'>Download Brochure</button>
                 </div>
             </div>
         </div>

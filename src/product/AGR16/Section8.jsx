@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
 function Section8() {
+
+     useEffect(() => {
+        AOS.init({ duration: 1000 }); 
+      }, []);
+
     return (
         <div className="agr16-sec-8">
             <div className="agr16-sec-8-svg">
@@ -18,9 +25,9 @@ function Section8() {
             </div>
 
             <div className="agr16-sec-8-buttons">
-                <Link to="/contact" className="agr16-sec-8-btn contact-us-btn">Contact Us</Link>
-                <Link to="#" className="agr16-sec-8-btn brochure-btn">Download Brochure</Link>
-                <Link to="#" className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
+                <Link to="/contact" data-aos="fade-up" data-aos-offset='100' className="agr16-sec-8-btn contact-us-btn">Contact Us</Link>
+                <Link to="#" data-aos="fade-up" data-aos-offset='200' className="agr16-sec-8-btn brochure-btn">Download Brochure</Link>
+                <Link to="#" data-aos="fade-up" data-aos-offset='300' className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
             </div>
             </div>
         </div>
