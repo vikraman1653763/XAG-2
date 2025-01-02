@@ -1,23 +1,20 @@
-import React ,{useEffect, useState}from "react";
+import React from 'react';
+import { ThreeCircles } from 'react-loader-spinner';
+import '../style/Loader.css';
 
-const Loader = () => {
-    
-    const [text,setText]=useState('');
-    const [showImg,setShowImg]=useState(true);
-    useEffect(()=>{
-        setTimeout(()=>{
-            setShowImg(false);
-            setText("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
-        },3000)
-
-    },[])
-    return (
-        <>
-            <div>
-                {showImg?('loading'):('not loading')}
-            </div>
-        </>
-    );
-}
+const Loader = () => (
+  <div className="loader-container">
+   <ThreeCircles
+  visible={true}
+  height="100"
+  width="100"
+  color="#9BF00B"
+  ariaLabel="three-circles-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
+  />
+    <p>Loading...</p>
+  </div>
+);
 
 export default Loader;

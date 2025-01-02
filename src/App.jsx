@@ -1,27 +1,25 @@
-import React, { lazy, Suspense} from 'react'; 
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-// import Navbar1 from './components/NavFuture.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import UpButton from './components/upButton.jsx';
 import Home from '/src/components/home.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
+import Loader from './components/Loader.jsx';
 import './style/app.css';
-import Exx from './components/code.jsx';
-import CareerForm from './career/CareerForm.jsx';
 
 // Lazy loaded components
-const Footer =lazy(()=> import('./components/Footer'))
+const Footer = lazy(() => import('./components/Footer'));
 const About = lazy(() => import('./components/about.jsx'));
 const Contact = lazy(() => import('./components/contact.jsx'));
 const AGR16 = lazy(() => import('./product/AGR16/agr16.jsx'));
 const AGR10 = lazy(() => import('./product/AGR10/agr10.jsx'));
 const Battery = lazy(() => import('./product/Battery/Battery.jsx'));
-const BatteryDetails = lazy(() => import('./product/Battery/BatteryDetails'));
+const BatteryDetails = lazy(() => import('./product/Battery/BatteryDetails.jsx'));
 const FlightController = lazy(() => import('./product/FlightController/FlightController.jsx'));
 const Training = lazy(() => import('./components/Training.jsx'));
 const Blog = lazy(() => import('./components/Blogs.jsx'));
-const BlogDetails = lazy(() => import('./blog/BlogDetails'));
+const BlogDetails = lazy(() => import('./blog/BlogDetails.jsx'));
 const Career = lazy(() => import('./components/Career.jsx'));
 const Dealer = lazy(() => import('./components/Dealer.jsx'));
 const Login = lazy(() => import('./components/Login.jsx'));
@@ -40,38 +38,36 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Navbar />
-        <Suspense fallback={<div>Loading...</div>}>
-      <main>
+      <Suspense fallback={<Loader />}>
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/agr16" element={<AGR16 />} />
             <Route path="/agr10" element={<AGR10 />} />
-            <Route path="/Batteries" element={<Battery />} />
+            <Route path="/batteries" element={<Battery />} />
             <Route path="/battery/:ID" element={<BatteryDetails />} />
             <Route path="/flight-controller" element={<FlightController />} />
             <Route path="/training" element={<Training />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path='/blog/:id' element={<BlogDetails />} />
+            <Route path="/blog/:id" element={<BlogDetails />} />
             <Route path="/career" element={<Career />} />
-            <Route path='/career/:id' element={<CareerForm />} />
             <Route path="/dealer" element={<Dealer />} />
-            <Route path='/login' element={<Login />} />
-            <Route path='/success' element={<FormSuccess />} />
-            <Route path='/admin' element={<ProtectedRoute element={Admin} />} />
-            <Route path='/admin/blogs' element={<ProtectedRoute element={BlogList} />} />
-            <Route path='/admin/careers' element={<ProtectedRoute element={CareerList} />} />
-            <Route path='/admin/testimonial' element={<ProtectedRoute element={TestimonialList} />} />
-            <Route path='/admin/blogs/new' element={<ProtectedRoute element={BlogUpdate} />} />
-            <Route path='/admin/careers/new' element={<ProtectedRoute element={CareerUpdate} />} />
-            <Route path='/admin/testimonials/new' element={<ProtectedRoute element={TestimonialUpdate} />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/success" element={<FormSuccess />} />
+            <Route path="/admin" element={<ProtectedRoute element={<Admin />} />} />
+            <Route path="/admin/blogs" element={<ProtectedRoute element={<BlogList />} />} />
+            <Route path="/admin/careers" element={<ProtectedRoute element={<CareerList />} />} />
+            <Route path="/admin/testimonial" element={<ProtectedRoute element={<TestimonialList />} />} />
+            <Route path="/admin/blogs/new" element={<ProtectedRoute element={<BlogUpdate />} />} />
+            <Route path="/admin/careers/new" element={<ProtectedRoute element={<CareerUpdate />} />} />
+            <Route path="/admin/testimonials/new" element={<ProtectedRoute element={<TestimonialUpdate />} />} />
             <Route path="*" element={<NotFound />} />
-            <Route path='ex' element={<Exx/>}/>
           </Routes>
-      </main>
-      <Footer />
-        </Suspense>
+        </main>
+        <Footer />
+      </Suspense>
       <UpButton />
     </Router>
   );
