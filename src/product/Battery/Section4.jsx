@@ -1,11 +1,14 @@
 import React, { useEffect } from 'react';
-import check from '/assets/check.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import check from '/assets/check.svg';
 const Section4 = () => {
+  
   useEffect(() => {
     AOS.init({ duration: 1000 }); 
   }, []);
+
   return (
     <div className="bat-sec-4-container">
       <div className="bat-sec-4-content">

@@ -12,7 +12,7 @@ nav {
     z-index: 10;
     height: auto;
 }
-/* nav{
+nav{
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
@@ -24,8 +24,8 @@ nav {
     top: 0;
     z-index: 10;
     height: auto;
-} */
-.navbar{
+}
+/* .navbar{
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
@@ -35,7 +35,8 @@ nav {
     padding: 0 48px;
     z-index: 9;
     height: auto;
-}
+} */
+
 .logooimg {
     width: clamp(3rem, 5rem, 5.5rem);
     height: 2.5rem;
@@ -119,7 +120,7 @@ nav ul li a:hover, nav ul span:hover{
     text-transform: uppercase;
     border-radius: 5px;
     gap: 4px;
-    right: 70%;    
+    right: 75%;    
 }
 .menu li:hover,
 .submenu a:hover {

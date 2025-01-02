@@ -33,7 +33,8 @@ const Section4 = () => {
                             </div>
                             <div className="content-div">
                                 <h4>Innovative Technology</h4>
-                                <p>Xagrotor Tek specializes in advanced agricultural drone technology, providing state-of-the-art solutions to enhance farming efficiency and productivity.</p>
+                                <p>We specialize in cutting-edge agricultural drone solutions designed to enhance farming operations, boost productivity, and simplify complex tasks
+                                    </p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +53,7 @@ const Section4 = () => {
                             </div>
                             <div className="content-div">
                                 <h4>Customer Support</h4>
-                                <p>We offer exceptional customer support to help farmers make the most of our technology, from initial setup to ongoing maintenance.</p>
+                                <p>Our dedicated team provides unmatched customer support, helping you with setup, training, and troubleshooting for a seamless experience</p>
                             </div>
                         </div>
                     </div>
@@ -75,7 +76,7 @@ const Section4 = () => {
                             </div>
                             <div className="content-div">
                                 <h4>Expertise in Agriculture</h4>
-                                <p>Our team comprises experts with deep knowledge and experience in both agriculture and technology, ensuring our products are tailored to meet farmers' needs.</p>
+                                <p>With a deep understanding of agriculture and technology, we ensure our drones and services are tailored to meet farmers unique challenges and goals</p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +95,7 @@ const Section4 = () => {
                             </div>
                             <div className="content-div">
                                 <h4>Cost-Effective Solutions</h4>
-                                <p>Our technology helps farmers reduce operational costs by optimizing resource use and improving crop management</p>
+                                <p>Our solutions are designed to optimize resources, reduce operational costs, and deliver long-term savings without compromising on performance</p>
                             </div>
                         </div>
                     </div>

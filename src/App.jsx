@@ -1,7 +1,7 @@
 import React, { lazy, Suspense} from 'react'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Navbar1 from './components/NavFuture.jsx';
+// import Navbar1 from './components/NavFuture.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import UpButton from './components/upButton.jsx';
 import Home from '/src/components/home.jsx';
@@ -39,7 +39,7 @@ const App = () => {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar1 />
+      <Navbar />
         <Suspense fallback={<div>Loading...</div>}>
       <main>
           <Routes>

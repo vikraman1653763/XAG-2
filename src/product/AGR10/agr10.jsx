@@ -1,18 +1,15 @@
 // AGR10.jsx
 import React, { useEffect, useRef } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './agr10.css';
-const AGR16 = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      mirror: true,
-    });
-  }, []);
+import Section2 from './Section2';
+import Section3 from './Section3';
+const agr10 = () => {
+  
   return (
     <div>
+      <Section2/>
+      <Section3/>
     </div>
   );
 };
-export default AGR16;
+export default agr10;
