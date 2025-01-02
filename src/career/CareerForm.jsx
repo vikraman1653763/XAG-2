@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { serverUrl } from "../constant";
-import "../style/career.css";
+import "../style/Career.css";
 
 const CareerForm = () => {
 const { id } = useParams();
