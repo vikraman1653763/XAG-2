@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import UpButton from './components/upButton.jsx';
-import Home from '/src/components/home.jsx';
+import Home from './components/home.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
-import Loader from './components/Loader.jsx';
+import Loader from '../components/loader.jsx';
 import './style/app.css';
 
 // Lazy loaded components
