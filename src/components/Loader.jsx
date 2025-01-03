@@ -13,7 +13,6 @@ const Loader = () => (
   wrapperStyle={{}}
   wrapperClass=""
   />
-    <p>Loading...</p>
   </div>
 );
 
