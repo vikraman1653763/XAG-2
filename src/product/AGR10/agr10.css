@@ -261,12 +261,17 @@
 .agr10-sec-6 p{
   font-size: var(--fs-s);
 }
+.agr10-sec-6-btn-container {
+  display: flex;
+  gap: .5em;
+}
 
 .agr10-sec-6-btn-container button{
   font-size: var(--fs-s);
   padding: .5em;
   color: #000000;
-  border: 1px solid #000000;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.432);
   background-color: #9cf00b;
   border-radius: .5em;
 }
