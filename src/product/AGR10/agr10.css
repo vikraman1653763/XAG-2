@@ -16,7 +16,6 @@
   .agr10-sec-2-title{
     color: #9cf00b;
     font-weight:500;
-    font-style: italic;
   }
   .agr10-sec-2-card:nth-child(odd) {
     flex-direction: row; 
@@ -27,11 +26,11 @@
     flex-direction: row-reverse; 
   }
   .agr10-sec-2-card:first-child>.agr10-sec-2-wrapper{
-    border-radius: 10em 10em 0% 10em !important;
+    border-radius: 3em 3em 0% 3em !important;
     transform: translateY(2px);
   }
   .agr10-sec-2-card:last-child>.agr10-sec-2-wrapper{
-    border-radius: 10em 0% 10em 10em !important;
+    border-radius:  0% 3em 3em 3em !important;
     transform: translateY(-2px);
   }
   .agr10-sec-2-card:nth-child(3)>.agr10-sec-2-wrapper{
@@ -39,21 +38,20 @@
   }
   .agr10-sec-2-card:nth-child(even)>.agr10-sec-2-wrapper{
     flex-direction: row-reverse; 
-    border: 2px solid #9cf00b;
-    border-radius: 0% 10em 10em 0%;
+    border-radius: 0% 3em 3em 0%;
     
   }  
   .agr10-sec-2-card:nth-child(odd)>.agr10-sec-2-wrapper{
     flex-direction: row; 
-    border: 2px solid #9cf00b;
-    border-radius: 10em 0% 0% 10em;
+    border-radius: 3em 0% 0% 3em;
   }
   .agr10-sec-2-wrapper{
     display: flex;
     width: 60%;
     justify-content: space-evenly;
-    padding:  .10em;
+    padding:  .3em;
     text-align: center;
+    border: 2px solid #d4d4d4;
   }
   .agr10-sec-2-icon {
     width: 50%;
@@ -70,74 +68,205 @@
   
   .agr10-sec-2-content {
     width: 100%;
-    padding: 1em;
+    padding: .3em;
+    margin: .3em;
   }
   
   .agr10-sec-2-title {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-m);
   }
   
-  .agr10-sec-10-desc {
-    font-size: var(--fs-s);
-    line-height: 1.5;
-  }
-  
-  .agr10-sec-3 {
+/* ##################section 3###################  */
+
+.agr10-sec-3{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
-    padding: 40px 20px;
-  }
-  
-  .agr10-sec-3-card {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(141, 141, 141, 0.774);
-    width: 500px;
-    height: 200px;
+    align-items: center;
+    height: 100vh;
+    padding: 1em 13rem;
+    position: relative;
+}
+
+
+.agr10-sec-3 h2{
+    font-size: var(--fs-xxl);
     text-align: center;
-    padding: 20px;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 10px;
-    background-color: #428b4eb0;
-    box-shadow: 5px 5px 5px #9cf00b;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
-  }
-  .agr10-sec-3-card:hover{
-clip-path: none;
-transition: all 1s ease-out;
-  }
-  
-  .agr10-sec-3-card:hover {
-    transform: translateY(-10px);
-  }
-  .agr10-sec-3-card::before {
-    content: '';
-    top: 20%;
-    left: 20%;
-    width: 60%;
-    height: 60%;
-    background-color: #e74c3c;
-    border-radius: 50%;
-  }
-  .agr10-sec-3-content {
-    margin-bottom: 20px;
-  }
-  .agr10-sec-3-title {
-    font-size: var(--fs-l);
-    font-weight: bold;
+    text-transform: uppercase;
+    width: 70%;
     color: #d4d4d4;
-    margin-bottom: 10px;
-  }
-  
-  .agr10-sec-3-desc {
-    font-size: var(--fs-s);
+}
+
+.agr10-sec-3-design{
+  position: absolute;
+ 
+    height: auto;
     color: #d4d4d4;
-    line-height: 1.5;
+}
+.agr10-sec-3-design svg{
+  width: 2.2em;
+  height: 2.2em;
+  animation:  rotate 5s linear infinite;
+  color: #9cf00b;
+}
+.agr10-sec-3-design .agr10-sec-3-gear-2{
+  animation:  rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg) ;
   }
-  
-  .agr10-sec-3-icon {
-    font-size: var(--fs-xl);
+  to{
+    transform:  rotate(360deg);
+  }
+}
+
+/* ############section4 ##############  */
+.agr10-sec-4{
+  margin: 3em 0em;
+  padding: 1em 13rem;
+  color: #d4d4d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.agr10-sec-4-content{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.agr10-sec-4-content li{
+  font-size: var(--fs-xs);
+  margin: .3em 0em;
+}
+.agr10-sec-4-content li svg{
+  color: #9cf00b;
+  animation: coll 3s linear infinite;
+}
+@keyframes coll{
+  0%{
     color: #9cf00b;
   }
+  50%{
+    color: #000000;
+  }
+  100%{
+    color: #9cf00b;
+  }
+}
+
+.agr10-sec-4-content h2{
+  font-size: var(--fs-xl);
+  color: #9cf00b;
+  background: linear-gradient(to top, rgb(0, 116, 20), #9bf00b, #9bf00b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.agr10-sec-4-content p{
+  font-size: var(--fs-s);
+}
+.agr10-sec-4-video{
+  width: 40%;
+  height: 50%;
+
+  text-align: center;
+}
+.agr10-sec-4-video video{
+  width: 100%;
+  object-fit: contain;
+    border-radius: 10px;
+  object-position: center;
+}
+.agr10-sec-5 {
+  display: flex;
+  color: #d4d4d4;
+  position: relative;
+  height: 300vh;
+  padding: 1em 13rem;
+  justify-content: center;
+}
+
+
+.agr10-sec-5-aside {
+  position: sticky;
+  top: 30%;
+  margin-right: 20px;
+  height: min-content;
+}
+
+.agr10-sec-5-aside-title {
+  writing-mode: vertical-rl; 
+  /* text-orientation: upright; */
+  font-size: var(--fs-xl);
+  transform: rotate(180deg);
+  background-color: #9cf00b;
+  color: black;
+  text-transform: uppercase;
+  border-radius: .5em;
+  padding: 1em 0em;
+
+}
+.agr10-sec-5-cards{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.agr10-sec-5-card{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  width: auto;
+}
+.agr10-sec-5-image{
+  width: 10em;
+  border: 1px solid #ffffff6b;
+  text-align: center;
+  border-radius: 1em;
   
+}
+.agr10-sec-5-image svg{
+  width: 80%;
+  height: 100%;
+  color: #9cf00b;
+}
+.agr10-sec-5-content{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.agr10-sec-5-content h4{
+  font-size: var(--fs-l);
+  margin-right: .5em;
+}
+.agr10-sec-5-content p{
+  font-size: var(--fs-s);
+}
+
+/* ####################section6 ######################## */
+
+.agr10-sec-6{
+  height: 50vh;
+  color: #d4d4d4;
+  background-image: url('/assets/demo3.webp');
+  background-size:cover;
+  padding: 1em 13rem;
+  background-position: 100% 60%;
+}
+.agr10-sec-6 h3{
+  font-size: var(--fs-xl);
+}
+.agr10-sec-6 p{
+  font-size: var(--fs-s);
+}
+
+.agr10-sec-6-btn-container button{
+  font-size: var(--fs-s);
+  padding: .5em;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: #9cf00b;
+  border-radius: .5em;
+}

@@ -1,42 +1,63 @@
-import React from 'react';
+import React ,{useEffect}from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import { GiDeliveryDrone } from "react-icons/gi";
 import { PiDroneFill } from "react-icons/pi";
 import { MdBiotech } from "react-icons/md";
 import { GiWingedEmblem } from "react-icons/gi";
 
+import { MdOutlineChangeCircle } from "react-icons/md";
+import { TbDeviceHeartMonitorFilled } from "react-icons/tb";
+import { RxLapTimer } from "react-icons/rx";
+import { TbFenceOff } from "react-icons/tb";
+import { GiFeather } from "react-icons/gi";
+import { MdOutlineSettingsSuggest } from "react-icons/md";
+
+
 const features = [
   { 
-    icon: <GiDeliveryDrone />,
-    title: 'Test 1',
-    desc: 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.'
+    icon: <MdOutlineChangeCircle />,
+    title: 'Multi-Functional Payloads',
+    desc: 'Switch effortlessly between sprayers and spreaders.'
   },
   { 
-    icon: <PiDroneFill />,
-    title: 'Test 2',
-    desc: 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.'
+    icon: <TbDeviceHeartMonitorFilled />,
+    title: 'Advanced Safety Mechanisms',
+    desc: 'Includes battery monitoring and Return-to-Launch (RTL).'
   },
   { 
-    icon: <MdBiotech />,
-    title: 'Test 3',
-    desc: 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.'
+    icon: <RxLapTimer />,
+    title: 'Quick Deployment',
+    desc: 'Ready to operate in under 5 minutes, saving critical operational time'
   },
   { 
-    icon: <GiDeliveryDrone />,
-    title: 'Test 4',
-    desc: 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.'
+    icon: <TbFenceOff />,
+    title: 'Geo-Fencing Capability',
+    desc: 'Ensures safe and controlled operation within predefined boundaries'
   },
   { 
-    icon: <GiWingedEmblem />,
-    title: 'Test 5',
-    desc: 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.'
+    icon: <GiFeather />,
+    title: 'Compact and Lightweight Design',
+    desc: 'Designed for portability and ease of deployment in varied terrains.'
+  },
+   { 
+    icon: <MdOutlineSettingsSuggest />,
+    title: 'Customizable Settings',
+    desc: 'Tailor settings to specific crop or field needs for optimal performance'
   },
 ];
 
 function Section2() {
+
+
+   useEffect(() => {
+      AOS.init({ duration: 500, disable: 'mobile',});
+  }, []);
+
   return (
     <div className='agr10-sec-2'>
       {features.map((feature, index) => (
-        <div key={index} className='agr10-sec-2-card'>
+        <div key={index} className='agr10-sec-2-card' data-aos={`${index % 2 ===0?'fade-left':'fade-right'}`}>
             <div className=' agr10-sec-2-wrapper'>
           <div className='agr10-sec-2-content'>
             <h2 className='agr10-sec-2-title'>{feature.title}</h2>
