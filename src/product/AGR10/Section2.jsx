@@ -1,11 +1,6 @@
 import React ,{useEffect}from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import { GiDeliveryDrone } from "react-icons/gi";
-import { PiDroneFill } from "react-icons/pi";
-import { MdBiotech } from "react-icons/md";
-import { GiWingedEmblem } from "react-icons/gi";
-
 import { MdOutlineChangeCircle } from "react-icons/md";
 import { TbDeviceHeartMonitorFilled } from "react-icons/tb";
 import { RxLapTimer } from "react-icons/rx";

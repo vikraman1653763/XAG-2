@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Section6() {
   return (
     <div className='agr10-sec-6'>
@@ -13,5 +12,5 @@ function Section6() {
     </div>
   )
 }
-
 export default Section6
+
