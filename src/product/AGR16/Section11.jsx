@@ -22,7 +22,6 @@ const Section11 = () => {
       indexName: "Spreader",
     },
   ];
-
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 

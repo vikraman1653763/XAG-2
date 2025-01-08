@@ -8,9 +8,11 @@ import Section5 from './Section5';
 import Section6 from './Section6';
 import Section7 from './Section7';
 import Section8 from './Section8';
+import Section1 from '../AGR16/Section1';
 const agr10 = () => {
   return (
     <div>
+      <Section1/>
       <Section3/>
       <Section2/>
       <Section4/>
