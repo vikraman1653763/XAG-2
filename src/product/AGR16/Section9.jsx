@@ -29,7 +29,6 @@ const Section9 = () => {
     "and",
   ];
   if (isMobile) {
-    // Render a simplified version for mobile
     return (
       <div className="agr16-sec-9-container">
         <div className="agr16-sec-9-paragraph">
@@ -67,11 +66,9 @@ const Section9 = () => {
       const sectionTop = section.getBoundingClientRect().top;
       const sectionHeight = section.offsetHeight;
 
-      // Calculate visible height and scroll percentage
       const visibleHeight = Math.min(window.innerHeight, sectionHeight);
       const scrollPercentage = ((visibleHeight - sectionTop) / sectionHeight) * 100;
 
-      // Determine the active video index based on scroll percentage
       const videoIndex = Math.max(
         0,
         Math.min(videos.length - 1, Math.floor(scrollPercentage / (100 / videos.length)))
@@ -92,10 +89,10 @@ const Section9 = () => {
 
     videoElements.forEach((video, index) => {
       if (index === currentVideoIndex) {
-        video.play(); // Play the current video
+        video.play();
       } else {
-        video.pause(); // Pause other videos
-        video.currentTime = 0; // Reset their playback position
+        video.pause();
+        video.currentTime = 0;
       }
     });
   }, [currentVideoIndex]);

@@ -27,7 +27,7 @@ const Section11 = () => {
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
-    handleResize(); // Initial check
+    handleResize(); 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -65,7 +65,6 @@ const Section11 = () => {
     );
   }
 
-  // Full layout with animations for larger screens
   return (
     <div className="agr16-sec-11">
       <div className="agr16-sec-11-index">

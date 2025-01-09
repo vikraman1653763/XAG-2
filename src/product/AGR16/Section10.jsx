@@ -19,7 +19,6 @@ const media = [
       </p>
     ),
   },
-  // Add more items as needed
 ];
 
 function Section10() {
@@ -28,12 +27,11 @@ function Section10() {
 
   return (
     <section className="agr-16-sec-10-container">
-      {/* Left: Video Section */}
       <div className="agr-16-sec-10-video">
         <video src={currentMedia.video} autoPlay loop muted />
       </div>
 
-      {/* Right: Content Section */}
+    
       <div className="agr-16-sec-10-content">
         <div className="agr-16-sec-10-index">
           {media.map((item, index) => (
