@@ -25,7 +25,6 @@ const Section11 = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Detect screen size
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     handleResize(); // Initial check
@@ -40,7 +39,6 @@ const Section11 = () => {
   };
 
   if (isMobile) {
-    // Simplified layout for mobile
     return (
       <div className="agr16-sec-11">
         <div className="agr16-sec-11-index">
