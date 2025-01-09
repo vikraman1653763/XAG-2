@@ -12,9 +12,9 @@ const DroneTabs = () => {
     const intervalId = setInterval(() => {
       currentIndex = (currentIndex + 1) % tabs.length;
       setActiveTab(tabs[currentIndex]);
-    }, 5000); // Change tab every 5 seconds
+    }, 5000); 
 
-    return () => clearInterval(intervalId); // Cleanup on component unmount
+    return () => clearInterval(intervalId); 
   }, [activeTab]);
 
   const renderContent = () => {
