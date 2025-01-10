@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const data = [
   {
     title: "Hexa Drone Configuration",
@@ -24,12 +23,10 @@ const data = [
       "Reduces input waste and enables detailed, accurate operations for enhanced productivity",
   },
 ];
-
 const Section9 = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-
   return (
     <section className="agr10-sec-9">
       <h2 className="agr10-sec-9-title" data-aos="fade-up" data-aos-duration="500">
