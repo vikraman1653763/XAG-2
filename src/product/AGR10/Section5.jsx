@@ -10,7 +10,6 @@ import { BiSolidPlaneTakeOff } from "react-icons/bi";
 import { IoLogoGameControllerA } from "react-icons/io";
 import { FaCode } from "react-icons/fa6";
 import { TbDimensions } from "react-icons/tb";
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
