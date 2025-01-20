@@ -2,12 +2,9 @@
 import React, { useEffect, useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import '../../style/agr16.css';
-
-
+import './agr16.css';
 import Section1 from './Section1.jsx';
 import Section2 from './Section2.jsx';
-import './agr16.css';
 import Section3 from './Section3.jsx';
 import Section4 from './Section4.jsx';
 import Section5 from './Section5.jsx';
