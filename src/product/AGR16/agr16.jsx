@@ -27,12 +27,9 @@ const AGR16 = () => {
   return (
     <div >
     
-      
-      
       <Section1/>
       <div className='agr16-body'>
       <Section2/>
-
       <Section3/>
       <Section4/>
       </div>
@@ -44,8 +41,6 @@ const AGR16 = () => {
       <Section11/>
       <Section12/>
       <Section8/>
-      
- 
     </div>
   );
 };
