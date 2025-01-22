@@ -18,6 +18,7 @@ const Section1 = () => {
             setIsMobile(window.innerWidth <= 768);
         };
         
+        
         window.addEventListener('resize', handleResize);
 
         if (!isMobile) {

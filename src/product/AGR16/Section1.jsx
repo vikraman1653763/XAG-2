@@ -12,7 +12,7 @@ const Section1 = () => {
     const frameCount = 60;
     const images = useRef([]);
     const currentFrame = index => (
-`/Imagesequence/${index.toString().padStart(1, '0')}.webp`
+`/Imagesequence/${index.toString().padStart(4, '0')}.webp`
     );
 
     useEffect(() => {

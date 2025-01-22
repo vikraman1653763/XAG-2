@@ -9,6 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
+
 }
 .fc-index-container{
   background-color: #6e5c5c00;
@@ -62,13 +63,14 @@ position: relative;
   display: flex;
   flex-direction: column;
   /* padding: 1rem 13rem; */
-  justify-content: flex-start; /* Changed to align content to the start */
+  justify-content: flex-start; 
+  scroll-snap-type:y mandatory;
 }
 .fc-box {
   display: flex;
   height: 100vh;
   
-  scroll-snap-align: start; 
+  scroll-snap-align: end !important; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

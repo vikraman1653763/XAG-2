@@ -6,6 +6,7 @@
     font-display: swap;
 }
 
+
 @font-face {
     font-family: 'Poppins';
     src: url('/assets/Poppins-Regular.ttf') format('truetype');
@@ -63,8 +64,6 @@ html {
     scrollbar-width: thin;
     scrollbar-color: #7FB00B #0C0C0C;
     scroll-behavior: smooth;
-    scroll-snap-type:y mandatory;
-    scroll-snap-align: start;
 }
 
 body {
