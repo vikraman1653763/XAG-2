@@ -1,48 +1,50 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MdOutlineSecurity } from "react-icons/md";
-import { FaHandsHelping } from "react-icons/fa";
-import { GiBinoculars } from "react-icons/gi";
-import { FaEnvira } from "react-icons/fa";
-import { GiPlantRoots } from "react-icons/gi";
+import { FaCube, FaCamera, FaClock, FaMapMarkerAlt, FaThermometerHalf, FaBalanceScale } from "react-icons/fa";
 
-function Section5() {
+function Section6() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const data = [
     {
-      title: "Surveillance and Security",
-      description: "Monitor large areas like industrial sites, borders, and restricted zones with precision. The 30x optical zoom camera and thermal sensor ensure clear imaging in both day and night conditions",
-      icon: <MdOutlineSecurity />,
+      title: "Durable Carbon Fiber Frame",
+      description: "Lightweight yet strong carbon fiber construction ensures durability and high performance even in challenging environments.",
+      icon: <FaCube />,
       image: "/assets/agr16-12.webp",
     },
     {
-      title: "Search and Rescue",
-      description: "Assist in locating missing persons and evaluating disaster-hit areas. The drone’s endurance and thermal imaging capabilities make it a vital tool for rescue missions.",
-      icon: <FaHandsHelping  />,
+      title: "Advanced Camera System",
+      description: "Equipped with a 30x optical zoom and thermal sensor, providing high-precision imaging for surveillance, inspection, and monitoring tasks.",
+      icon: <FaCamera />,
       image: "/assets/agr16-13.webp",
     },
     {
-      title: "Infrastructure Inspection",
-      description: "Inspect critical infrastructure such as power lines, pipelines, and wind turbines. The stable 3-axis gimbal and high-resolution imaging provide detailed visual data for accurate assessments",
-      icon: <GiBinoculars/>,
+      title: "Long Endurance",
+      description: "Capable of 75 minutes of flight time with a 1kg payload, allowing extended operations without frequent interruptions.",
+      icon: <FaClock />,
       image: "/assets/agr16-15.webp",
     },
     {
-      title: "Environmental Monitoring",
-      description: "Track environmental changes, monitor wildlife, or assess land use with advanced sensors. The drone’s range and imaging features allow for efficient data collection over vast areas",
-      icon: <FaEnvira />,
+      title: "High Operating Range",
+      description: "Covers up to 18 km in range, making it ideal for large-area surveillance and inspection.",
+      icon: <FaMapMarkerAlt />,
       image: "/assets/agr16-14.webp",
     },
     {
-      title: "Agriculture Monitoring",
-      description: "Enhance farming practices with detailed crop health analysis and irrigation checks. The XAG-S11’s thermal and optical sensors provide actionable insights for precision agriculture",
-      icon: <GiPlantRoots />,
+      title: "Wide Temperature Range",
+      description: "Performs reliably in extreme conditions, operating between -20°C and 50°C.",
+      icon: <FaThermometerHalf />,
       image: "/assets/agr16-16.webp",
-    }
-    
+    },
+    {
+      title: "Stable and Smooth Flight Control",
+      description: "Features a 3-axis gimbal and customized motors for precise and stable flight, even in challenging wind conditions.",
+      icon: <FaBalanceScale />,
+      image: "/assets/agr16-12.webp",
+    },
   ];
 
+  // Automatically change active card every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % data.length);
@@ -53,8 +55,7 @@ function Section5() {
 
   return (
     <section className='s11-sec-5'>
-        <h2 className="s11-sec-5-title">Surveillance and Monitoring Applications</h2>
-        <p className="s11-sec-5-desc">The XAG-S11 is designed for critical surveillance and monitoring tasks across various industries. Its advanced camera system and reliable performance make it a versatile solution for diverse use cases</p>
+        <h2 className="s11-sec-5-title">Features of XAG-S11</h2>
       <div className="s11-sec-5-container">
         {/* Navigation Index */}
         <div className="s11-sec-5-index">
@@ -98,4 +99,4 @@ function Section5() {
   );
 }
 
-export default Section5;
+export default Section6;
