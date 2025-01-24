@@ -34,8 +34,8 @@ const Section9 = () => {
       </h2>
       <div className="agr10-sec-9-container">
         <div className="agr10-sec-9-video" data-aos="fade-right" data-aos-duration="500">
-          <video autoPlay loop>
-            <source src="/assets/video.webm" type="video/mp4" />
+          <video  autoPlay loop muted controls >
+            <source src="/sam/2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

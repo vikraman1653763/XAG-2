@@ -14,7 +14,7 @@ function Section4() {
         </ul>
       </div>
       <div className='agr10-sec-4-video'>
-        <video src='/assets/batReveal.webm'
+        <video src='/sam/1.mp4'
         loop autoPlay muted playsInline >
         Your browser does not support the video tag.
       </video>

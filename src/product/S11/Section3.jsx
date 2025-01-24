@@ -6,7 +6,7 @@ function Section3() {
   <div className="s11-sec-3-container">
     <div className="s11-sec-3-video">
       <video controls>
-        <source src="your-video-url.mp4" type="video/mp4"/>
+        <source src="/sam/11.mp4" type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
     </div>

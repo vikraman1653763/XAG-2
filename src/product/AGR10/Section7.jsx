@@ -4,22 +4,22 @@ const data = [
   {
     title: 'Crop Spraying',
     desc: 'Efficient and precise distribution of pesticides and herbicides for optimal crop health.',
-    image: '/assets/agr16-15.webp',
+    image: '/sam/3.jpg',
   },
   {
     title: 'Fertilizer Spreading',
     desc: 'Uniform application of fertilizers to enhance soil fertility and crop yield.',
-    image: '/assets/agr16-13.webp',
+    image: '/sam/4.jpg',
   },
   {
     title: 'Seed Sowing',
     desc: 'Seamless dispersal of seeds over large fields, saving time and labor.',
-    image: '/assets/agr16-11.webp',
+    image: '/sam/5.jpg',
   },
   {
     title: 'Precision Monitoring',
     desc: 'Advanced monitoring tools for accurate assessment of crop conditions.',
-    image: '/assets/agr16-16.webp',
+    image: '/sam/6.jpg',
   },
 ];
 function Section7() {

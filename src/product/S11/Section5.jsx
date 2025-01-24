@@ -14,31 +14,31 @@ function Section5() {
       title: "Surveillance and Security",
       description: "Monitor large areas like industrial sites, borders, and restricted zones with precision. The 30x optical zoom camera and thermal sensor ensure clear imaging in both day and night conditions",
       icon: <MdOutlineSecurity />,
-      image: "/assets/agr16-12.webp",
+      image: "/sam/12.jpg",
     },
     {
       title: "Search and Rescue",
       description: "Assist in locating missing persons and evaluating disaster-hit areas. The drone’s endurance and thermal imaging capabilities make it a vital tool for rescue missions.",
       icon: <FaHandsHelping  />,
-      image: "/assets/agr16-13.webp",
+      image: "/sam/13.jpg",
     },
     {
       title: "Infrastructure Inspection",
       description: "Inspect critical infrastructure such as power lines, pipelines, and wind turbines. The stable 3-axis gimbal and high-resolution imaging provide detailed visual data for accurate assessments",
       icon: <GiBinoculars/>,
-      image: "/assets/agr16-15.webp",
+      image: "/sam/14.jpg",
     },
     {
       title: "Environmental Monitoring",
       description: "Track environmental changes, monitor wildlife, or assess land use with advanced sensors. The drone’s range and imaging features allow for efficient data collection over vast areas",
       icon: <FaEnvira />,
-      image: "/assets/agr16-14.webp",
+      image: "/sam/15.jpg",
     },
     {
       title: "Agriculture Monitoring",
       description: "Enhance farming practices with detailed crop health analysis and irrigation checks. The XAG-S11’s thermal and optical sensors provide actionable insights for precision agriculture",
       icon: <GiPlantRoots />,
-      image: "/assets/agr16-16.webp",
+      image: "/sam/16.jpg",
     }
     
   ];
@@ -46,9 +46,9 @@ function Section5() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % data.length);
-    }, 5000); // 5000ms = 5 seconds
+    }, 5000); 
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval); 
   }, [data.length]);
 
   return (
