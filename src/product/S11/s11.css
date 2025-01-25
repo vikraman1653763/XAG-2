@@ -377,3 +377,57 @@
     width: 100%;
     height: 100%;
   }
+
+/* ############################################## SEC 6 ##################################### */
+
+  
+.s11-sec-7-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em 13rem;
+}
+
+.s11-sec-7-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.s11-sec-7-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.s11-sec-7-video {
+  flex: 2;
+  width: 500px;
+  z-index: 3;
+}
+
+.s11-sec-7-video-placeholder {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #d4d4d4;
+}
+
+.s11-sec-7-content {
+  flex: 2;
+}
+
+.s11-sec-7-title {
+  font-size: var(--fs-l);
+  margin-bottom: 10px;
+  color: #9BF00B;
+}
+
+.s11-sec-7-description {
+  font-size: 1rem;
+  color: #d4d4d4;
+}
+
