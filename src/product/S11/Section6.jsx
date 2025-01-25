@@ -35,7 +35,7 @@ function Section6() {
         </div>
       </aside>
       <aside className='s11-sec-6-img'>
-        <img src='/assets/fcsample.png' alt="Transmitter" />
+        <img src='/assets/s11img.png' alt="Transmitter" />
       </aside>
     </div>
   );

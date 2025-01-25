@@ -171,7 +171,7 @@
   
   /* Card details */
   .s11-sec-4-card-detail {
-    font-size: var(--fs-s);
+    font-size: var(--fs-xs);
     color: #d4d4d4;
     width: auto;
     padding: .5em;
@@ -312,12 +312,12 @@
   .s11-sec-6{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     padding: 7rem 13rem;
     background-color:hsla(0,0%,0%,1);
   background-image:
-  radial-gradient(at 100% 53%, hsla(82, 91%, 49%, 0.411) 0px, transparent 50%),
-  radial-gradient(at 100% 48%, hsla(82,91%,49%,0.05) 0px, transparent 50%);
+  radial-gradient(at 100% 53%, hsla(0, 0%, 100%, 0.411) 0px, transparent 50%),
+  radial-gradient(at 100% 48%, hsla(0, 0%, 5%, 0.747) 0px, transparent 50%);
   background-attachment: local;
   }
   
@@ -370,7 +370,7 @@
   
   }
   .s11-sec-6-img{
-    width: 40%;
+    width: 50%;
   }
   .s11-sec-6-img img{
     object-fit: cover;
