@@ -547,7 +547,7 @@
     width: 100%;
   }
   .agr10-sec-2-wrapper ,.agr10-sec-2-card:last-child>.agr10-sec-2-wrapper,.agr10-sec-2-card:first-child>.agr10-sec-2-wrapper{
-    width: 100%;
+    width: 70%;
     border-radius: .5em !important;
     margin: .5em;
   }
