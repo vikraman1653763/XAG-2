@@ -378,7 +378,7 @@
     height: 100%;
   }
 
-/* ############################################## SEC 6 ##################################### */
+/* ############################################## SEC 7 ##################################### */
 
   
 .s11-sec-7-container {
@@ -431,3 +431,96 @@
   color: #d4d4d4;
 }
 
+
+/* ############################################## SEC 8 ##################################### */
+
+/* Section Container */
+.s11-sec-8 {
+  background: linear-gradient(to top, #9cf00b38, #000);
+  color: #fff;
+  padding: 2em 13rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Inner Container */
+.s11-sec-8-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+/* Left Content */
+.s11-sec-8-content {
+  flex: 1;
+  margin-bottom: 20px;
+  max-width: 50%;
+}
+
+.s11-sec-8-title {
+  font-size:var(--fs-xl);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.s11-sec-8-description {
+  font-size: var(--fs-s);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.s11-sec-8-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.s11-sec-8-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--fs-s);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #9BF00B;
+  border: 1px solid black;
+}
+.s11-sec-8-btn:hover{
+  background-color: transparent;
+  border: 1px solid #9bf00b;
+  color:#9BF00B;
+  
+}
+
+
+/* Right Visual */
+.s11-sec-8-visual {
+  flex: 1;
+  text-align: center;
+  max-width: 40%;
+}
+
+.s11-sec-8-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .s11-sec-8-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .s11-sec-8-content,
+  .s11-sec-8-visual {
+    max-width: 100%;
+  }
+
+  .s11-sec-8-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-const S11Sec7 = () => {
+const Section7 = () => {
   const cards = [
     {
       id: 1,
@@ -41,7 +41,7 @@ const S11Sec7 = () => {
           <div className="s11-sec-7-video">
             <div className="s11-sec-7-video-placeholder">
             <video className="s11-sec-7-video-placeholder" autoPlay loop muted>
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              <source src="/sam/11.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             </div>
@@ -56,5 +56,5 @@ const S11Sec7 = () => {
   );
 };
 
-export default S11Sec7;
+export default Section7;
 
