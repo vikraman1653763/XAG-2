@@ -5,7 +5,7 @@ function Section3() {
     <section className="s11-sec-3">
   <div className="s11-sec-3-container">
     <div className="s11-sec-3-video">
-      <video controls>
+      <video loop autoPlay muted>
         <source src="/sam/11.mp4" type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
