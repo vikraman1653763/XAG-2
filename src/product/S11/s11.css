@@ -149,8 +149,9 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
     box-shadow: 2px 2px 5px #444444, -2px -2px 5px #444444;
   }
-  .s11-sec-4-card:hover .s11-sec-4-card-icon svg{
-    color: #9bf00b;
+  .s11-sec-4-card:hover .s11-sec-4-card-title,
+    .s11-sec-4-card:hover .s11-sec-4-card-icon svg{
+      color: #9bf00b;
   }
   .s11-sec-4-card-data{
     width: 50%;
@@ -161,12 +162,11 @@
     text-align: center;
     
   }
-  /* Card title */
-  .s11-sec-4-card-title {
+   .s11-sec-4-card-title {
     font-size: var(--fs-l);
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #9bf00b;
+    color: #d4d4d4;
   }
   
   /* Card details */
@@ -245,7 +245,6 @@
     gap: 0.5rem;
     cursor: pointer;
     padding: 0.5rem 1rem;
-    border: 1px solid #9BF00B; 
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease;
     color: #d4d4d4; /* Text color */
@@ -292,18 +291,18 @@
     height: auto;
     border-radius: 12px;
     margin-bottom: 1rem;
-    border: 2px solid #9bf00b; /* Primary color for image border */
   }
   
   .s11-sec-5-card-title {
-    font-size: 1.5rem;
+    font-size: var(--fs-l);
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #9bf00b; /* Primary color for titles */
+    color: #9bf00b; 
   }
+
   
   .s11-sec-5-card-description {
-    font-size: 1rem;
+    font-size: var(--fs-s);
     color: #d4d4d4; /* Text color */
   }
   

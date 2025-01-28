@@ -814,9 +814,6 @@
   }
 }
 
-
-
-/* Tablet View for Section 4 */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .agr10-sec-2 {
     padding: .5em;
