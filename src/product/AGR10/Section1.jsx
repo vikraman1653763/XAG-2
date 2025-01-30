@@ -59,11 +59,11 @@ const Section1 = () => {
 
             preloadImages();
 
-            // Set canvas dimensions
+          
             canvas.width = 2560;
             canvas.height = 1440;
 
-            // Draw the first image
+         
             imgRef.current.src = currentFrame(1);
         }
 
