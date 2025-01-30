@@ -1,7 +1,7 @@
 // AGR10.jsx
 import React from 'react';
 import './agr10.css';
-import Section1 from '../AGR16/Section1';
+import Section1 from './Section1';
 import Section2 from './Section2';
 import Section3 from './Section3';
 import Section4 from './Section4';

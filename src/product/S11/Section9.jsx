@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Battery360Viewer = () => {
   const totalFrames = 100; // Total number of images
   const [frame, setFrame] = useState(1);
@@ -28,5 +27,4 @@ const Battery360Viewer = () => {
     />
   );
 };
-
 export default Battery360Viewer;
