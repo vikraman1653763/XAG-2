@@ -61,7 +61,7 @@ const Section1 = () => {
 
             // Set canvas dimensions
             canvas.width = 2560;
-            canvas.height = 1200;
+            canvas.height = 1500;
 
             // Draw the first image
             imgRef.current.src = currentFrame(1);
