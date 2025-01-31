@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import shade from "/assets/shade.webp";
 import image1 from '/assets/demo9.webp';
 import image3 from '/assets/demo3.webp';
+import image2 from '/assets/demo4.webp';
 import image4 from '/assets/demo10.webp';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -136,7 +137,7 @@ const items = [
     description: "Xrotor Tek India AG-FMU is perfect for agricultural spraying, offering real-time tracking, support for nine languages, and future upgrades like live video streaming",
   },
   {
-    image: image3,
+    image: image2,
     title: "AGRI DRONE",
     topic: "AGR-10",
     link: '/agr16',
