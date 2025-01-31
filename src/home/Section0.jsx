@@ -153,4 +153,6 @@ const items = [
     description: "Xpower Plus is designed for long-lasting power in drones, ensuring extended flight times and reliable performance for agricultural and industrial tasks.",
   },
 ];
+
+
 export default HomeCarousel;
