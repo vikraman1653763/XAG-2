@@ -92,7 +92,7 @@ const HomeCarousel = () => {
               </Link>
             </button>
 
-            </div>
+            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
           </div>
         ))}
       </div>
