@@ -1,0 +1,55 @@
+/* model.css */
+.container-3d {
+    position: relative;  /* Important for positioning the overlay */
+    display: flex;
+    width: auto;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 1em;
+    background-color: #000000;
+    cursor: grab; /* Indicates that the area is draggable */
+  }
+  
+  .canvas-3d {
+    width: 50% !important;
+    height: 100% !important;
+    background-color: #1f1f1f;
+    background-image: url('/assets/modelbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    border-radius: 20px;
+    z-index: 10;
+  }
+  /* src/style/model.css */
+.interaction-hint {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    z-index: 20;
+    animation: fadeOut 4s forwards;
+    pointer-events: none; /* Let clicks pass through */
+    display: flex;
+    align-items: center;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
