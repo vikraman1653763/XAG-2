@@ -15,12 +15,14 @@
     width: 50% !important;
     height: 100% !important;
     background-color: #1f1f1f;
-    background-image: url('/assets/modelbg.png');
+    /* background-image: url('/assets/modelbg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-clip: border-box;
+    background-clip: border-box; */
     background-position: center;
     border-radius: 20px;
+    background: rgb(227,227,227);
+background: radial-gradient(circle, #807F7F 0%, #3d3d3d 45%, #000000 100%);
     z-index: 10;
   }
   /* src/style/model.css */

@@ -6,7 +6,7 @@ import Loader from './Loader.jsx';
 import { MdOutline3dRotation } from 'react-icons/md'; // Import the icon
 import '../style/model.css';
 
-const MODEL_URL = '/assets/model/05.glb';
+const MODEL_URL = '/assets/model/11.glb';
 
 const Model = () => {
   const { scene } = useGLTF(MODEL_URL);
@@ -37,7 +37,7 @@ const ModelViewer = () => {
           <Model />
           <OrbitControls
             autoRotate          
-            autoRotateSpeed={2} 
+            autoRotateSpeed={3} 
             enablePan
             enableZoom
             enableRotate
