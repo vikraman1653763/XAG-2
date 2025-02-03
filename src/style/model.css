@@ -5,7 +5,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     cursor: grab; 
   }
   
@@ -15,8 +15,9 @@
     background-color: #1f1f1f;
     background-position: center;
     border-radius: 20px;
-    background: rgb(227,227,227);
-background: radial-gradient(circle, #4e4e4e 0%, #1b1b1b 45%, #000000 100%);
+    background: radial-gradient(circle, #679e08 0%, #365303 45%, #1e2e01 100%);
+    background: linear-gradient(to top, rgb(32, 32, 32), #adadad, #ffffff);
+
     z-index: 3;
   }
   /* src/style/model.css */

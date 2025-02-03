@@ -32,8 +32,8 @@ const ModelViewer = () => {
       )}
       <Suspense fallback={<Loader />}>
         <Canvas className='canvas-3d' camera={{ position: [60, 20, 125], fov: 100 }}>
-          <ambientLight intensity={1} />
-          <directionalLight position={[5, 15, 5]} />
+          <ambientLight intensity={2} />
+          <directionalLight position={[5, 5, 5]} />
           <Model />
           <OrbitControls
             autoRotate          
