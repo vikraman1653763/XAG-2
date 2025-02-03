@@ -1,5 +1,6 @@
 import React from 'react'
 import { WiStars } from "react-icons/wi";
+import ModelViewer from '../../components/ModelViewer.jsx';
 
 function Section4() {
   return (
@@ -18,6 +19,8 @@ function Section4() {
         loop autoPlay muted playsInline >
         Your browser does not support the video tag.
       </video>
+      <ModelViewer />
+
         </div> 
       <p></p>
     </div>

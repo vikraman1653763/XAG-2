@@ -1,6 +1,5 @@
 // AGR10.jsx
 import React from 'react';
-import ModelViewer from '../../components/ModelViewer.jsx';
 
 import './agr10.css';
 import Section1 from './Section1';
@@ -17,7 +16,6 @@ const Agr10 = () => {
   return (
     <div>
       <Section1 />
-      <ModelViewer />
       <Section3 />
       <Section4 />
       <Section2 />
