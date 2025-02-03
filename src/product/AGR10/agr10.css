@@ -123,12 +123,13 @@
 
 /* ############section4 ##############  */
 .agr10-sec-4{
-  margin: 3em 0em;
-  padding: 1em 13rem;
+  padding: 1em 3rem;
   color: #d4d4d4;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: start;
+  height: 50vh;
 }
 .agr10-sec-4-content{
   display: flex;
@@ -167,17 +168,17 @@
   font-size: var(--fs-s);
 }
 .agr10-sec-4-video{
-  width: 40%;
-  height: 50%;
+  position: relative;
+  width: 40% !important;
+  height: 100% !important;
+  align-items: start ;
+  background-color: lightblue;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
 
-  text-align: center;
 }
-.agr10-sec-4-video video{
-  width: 100%;
-  object-fit: contain;
-    border-radius: 10px;
-  object-position: center;
-}
+
 /* #################################section5############################ */
 .agr10-sec-5 {
   display: flex;
