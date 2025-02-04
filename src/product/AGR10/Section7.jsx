@@ -18,11 +18,17 @@ const Section7 = () => {
       description:
         "Ensure even nutrient distribution across fields, promoting healthy crop growth. Maximize soil fertility with precise application, reducing wastage.",
     },
-    
     {
-      id: 5,
+      id: 3,
+      videoTitle: "Precision Monitoring",
+      image: '/assets/agr10-02.webp',
+      description:
+        "Utilize advanced aerial analytics to assess crop health and detect issues early. Optimize yield potential with real-time insights and data-driven decisions.",
+    },
+    {
+      id: 4,
       videoTitle: "Fish Feeding",
-      image: '/assets/agr10-03.webp', 
+      image: '/assets/agr10-04.webp', 
       description:
         "Automate the feeding process in aquaculture with uniform pellet distribution. Enhance fish growth and reduce feed waste through precise aerial feeding.",
     },
