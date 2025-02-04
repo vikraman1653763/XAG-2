@@ -1,35 +1,57 @@
 import React, { useState } from 'react';
 
 const media = [
-    {
-      title: 'Detachable Tank',
-      video: '/sam/7.mp4',
-      content: (
+  {
+    title: 'Detachable Tank',
+    index: 'Tank',
+    video: '/sam/7.mp4',
+    content: (
+      <>
         <p>
           Experience seamless operations with the AGR 16's detachable tank, designed for hassle-free maintenance and swift refills. This innovation minimizes downtime and enhances productivity for diverse agricultural needs.
         </p>
-      ),
-    },
-    
-    {
-      title: 'Precision Sprayer',
-      video: '/sam/7.mp4',
-      content: (
+      </>
+    ),
+  },
+  {
+    title: 'High-Performance Motor',
+    index: 'Motor',
+    video: '/sam/7.mp4',
+    content: (
+      <>
         <p>
-          Achieve unmatched accuracy with the AGR 16's high-precision sprayer. Designed to deliver uniform spray patterns, it ensures optimal coverage and reduces wastage, tailored for modern farming techniques.
+          Power through demanding agricultural tasks with AGR 16's high-performance motor. Engineered for efficiency, it delivers optimal thrust, stability, and longevity, ensuring reliable operation under varying field conditions.
         </p>
-      ),
-    },
-    {
-      title: 'Efficient  Spreader',
-      video: '/sam/7.mp4',
-      content: (
+      </>
+    ),
+  },
+  {
+    title: 'Precision Nozzle System',
+    index: 'Nozzle',
+    video: '/sam/7.mp4',
+    content: (
+      <>
         <p>
-          Adapt to various farming needs with the AGR 16's versatile spreader. Engineered for efficiency, it handles multiple applications with ease, offering a reliable solution for spreading tasks.
+          Maximize spray efficiency with AGR 16’s advanced precision nozzles. Designed to reduce drift and optimize droplet size, they provide uniform coverage, improving pesticide and fertilizer application accuracy.
         </p>
-      ),
-    },
-  ];  
+      </>
+    ),
+  },
+  {
+    title: 'AI-Enabled Camera',
+    index: 'Camera',
+    video: '/sam/7.mp4',
+    content: (
+      <>
+        <p>
+          Enhance agricultural insights with AGR 16’s AI-enabled camera. Offering real-time monitoring and intelligent obstacle detection, it ensures accurate navigation and optimized field mapping for precision farming.
+        </p>
+      </>
+    ),
+  },
+];
+
+
 function Section8() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentMedia = media[currentIndex];
@@ -52,7 +74,7 @@ function Section8() {
               }`}
               onClick={() => setCurrentIndex(index)}
             >
-              {item.title}
+              {item.index}
             </button>
           ))}
         </div>

@@ -399,16 +399,18 @@
 
 .agr10-sec-8-index {
   display: flex;
+  width: auto;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: left;
   margin-left: 1em;
+  gap: 2em;
 }
 
 .agr10-sec-8-index-item {
   background: transparent;
   border: none;
   color: #d4d4d4;
-  text-align: left;
+  text-align: center;
   padding: auto;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -429,6 +431,7 @@
 
 .agr10-sec-8-description h3 {
   font-size: var(--fs-l);
+  font-weight:500;
   color: #9bf00b;
   margin-bottom: 1rem;
 }
