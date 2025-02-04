@@ -18,7 +18,6 @@ function Section4() {
         loop autoPlay muted playsInline >
         Your browser does not support the video tag.
       </video>
-
         </div> 
       <p></p>
     </div>

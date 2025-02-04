@@ -1,101 +1,59 @@
-import React, { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from "framer-motion";
-const data = [
-  {
-    title: 'Crop Spraying',
-    desc: 'Efficient and precise distribution of pesticides and herbicides for optimal crop health.',
-    image: '/sam/3.jpg',
-  },
-  {
-    title: 'Fertilizer Spreading',
-    desc: 'Uniform application of fertilizers to enhance soil fertility and crop yield.',
-    image: '/sam/4.jpg',
-  },
-  {
-    title: 'Seed Sowing',
-    desc: 'Seamless dispersal of seeds over large fields, saving time and labor.',
-    image: '/sam/5.jpg',
-  },
-  {
-    title: 'Precision Monitoring',
-    desc: 'Advanced monitoring tools for accurate assessment of crop conditions.',
-    image: '/sam/6.jpg',
-  },
-];
-function Section7() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const handleClick = (index) => {
-    setActiveIndex(index);
-  };
-  useEffect(()=>{
-    const times= setInterval(() => {
-      setActiveIndex((prev)=>(prev+1)%data.length)    
-    }, 5000);
-    return()=>clearInterval(times)
-  },[data.length])
-  
-  
-  return (
-    <div className="agr10-sec-7"
-    >
-      <div className="agr10-sec-7-index-container">
-       
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
+const Section7 = () => {
+  const cards = [
+    {
+      id: 1,
+      videoTitle: "Crop Spraying",
+      image: '/assets/agr10-02.webp',
+      description:
+        "Deliver precise pesticide and herbicide coverage, ensuring optimal crop protection. Reduce chemical usage while enhancing efficiency for sustainable farming.",
+    },
+    {
+      id: 2,
+      videoTitle: "Fertilizer Spreading",
+      image: '/assets/agr10-03.webp',
+      description:
+        "Ensure even nutrient distribution across fields, promoting healthy crop growth. Maximize soil fertility with precise application, reducing wastage.",
+    },
     
-        {data.map((app, index) => (
-          <div
-          className={`agr10-sec-7-index ${activeIndex === index ? 'active' : ''}`}
-          key={index}
-          onClick={() => handleClick(index)}
-          >
-            <img src={app.image} alt={app.title} className="agr10-sec-7-img" />
+    {
+      id: 5,
+      videoTitle: "Fish Feeding",
+      image: '/assets/agr10-03.webp', 
+      description:
+        "Automate the feeding process in aquaculture with uniform pellet distribution. Enhance fish growth and reduce feed waste through precise aerial feeding.",
+    },
+  ];
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
+  return (
+    <section className="agr10-sec-7-container">
+      {cards.map((card) => (
+        <div key={card.id} className="agr10-sec-7-card">
+          <div className="agr10-sec-7-image">
+            <img
+              className="agr10-sec-7-image-placeholder"
+              src={card.image}
+              alt={card.videoTitle}
+            />
           </div>
-        ))}
-      <AnimatePresence  mode='wait'>
-      
-          <motion.div
-              key={activeIndex}
-              className='agr10-sec-7-content'
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              exit={{opacity:0}}
-              transition={{duration:0.5,ease:'easeInOut'}}
-              >
-            <h4>
-            {data[activeIndex].title}
-            </h4>
-            <p>{data[activeIndex].desc}</p>
-          </motion.div>
-            <div
-              className="agr10-sec-7-roulette"
-              style={{
-                transform: `rotate(${activeIndex * (360 / data.length)}deg)`,
-              }}
-              >
-            </div>
-
-        </AnimatePresence>
-      <AnimatePresence  mode='wait'>
-      <motion.div className="agr10-sec-7-images"
-       key={activeIndex}
-       initial={{opacity:0}}
-       animate={{opacity:1}}
-       exit={{opacity:0}}
-       transition={{duration:0.3, ease:'easeInOut'}}
-       style={{
-         backgroundImage:`linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7)),url(${data[activeIndex].image})`,
-         backgroundSize:'cover',
-         backgroundPosition:'center',
-        }}/>
-        </AnimatePresence>
-    </div>
+          <div className="agr10-sec-7-content" data-aos={card.id % 2 === 0 ? 'fade-left' : 'fade-right'}>
+            <h2 className="agr10-sec-7-title">{card.videoTitle}</h2>
+            <p className="agr10-sec-7-description">{card.description}</p>
+          </div>
         </div>
+      ))}
+    </section>
   );
-}
+};
+
 export default Section7;
-
-
-
-
-
-

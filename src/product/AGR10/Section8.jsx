@@ -10,18 +10,10 @@ const media = [
         </p>
       ),
     },
-    {
-      title: 'High-Capacity Tank',
-      video: '/sam/8.mp4',
-      content: (
-        <p>
-          The AGR 16 boasts a 16-liter tank, offering extended operational time with fewer refills. Ideal for large-scale farming, it ensures efficiency and maximizes performance on every task.
-        </p>
-      ),
-    },
+    
     {
       title: 'Precision Sprayer',
-      video: '/sam/9.mp4',
+      video: '/sam/7.mp4',
       content: (
         <p>
           Achieve unmatched accuracy with the AGR 16's high-precision sprayer. Designed to deliver uniform spray patterns, it ensures optimal coverage and reduces wastage, tailored for modern farming techniques.
@@ -30,16 +22,14 @@ const media = [
     },
     {
       title: 'Efficient  Spreader',
-      video: '/sam/10.mp4',
+      video: '/sam/7.mp4',
       content: (
         <p>
           Adapt to various farming needs with the AGR 16's versatile spreader. Engineered for efficiency, it handles multiple applications with ease, offering a reliable solution for spreading tasks.
         </p>
       ),
     },
-  ];
-
-  
+  ];  
 function Section8() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentMedia = media[currentIndex];
