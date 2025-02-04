@@ -13,17 +13,17 @@ const Section7 = () => {
     },
     {
       id: 2,
+      videoTitle: "Precision Monitoring",
+      image: '/assets/agr10-02.webp',
+      description:
+      "Utilize advanced aerial analytics to assess crop health and detect issues early. Optimize yield potential with real-time insights and data-driven decisions.",
+    },
+    {
+      id: 3,
       videoTitle: "Fertilizer Spreading",
       image: '/assets/agr10-03.webp',
       description:
         "Ensure even nutrient distribution across fields, promoting healthy crop growth. Maximize soil fertility with precise application, reducing wastage.",
-    },
-    {
-      id: 3,
-      videoTitle: "Precision Monitoring",
-      image: '/assets/agr10-02.webp',
-      description:
-        "Utilize advanced aerial analytics to assess crop health and detect issues early. Optimize yield potential with real-time insights and data-driven decisions.",
     },
     {
       id: 4,

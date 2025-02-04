@@ -264,6 +264,7 @@
 .agr10-sec-6-btn-container {
   display: flex;
   gap: .5em;
+  margin: 1rem 0em;
 }
 .agr10-sec-6-btn-container button{
   font-size: var(--fs-s);
@@ -363,8 +364,6 @@
   }
 }
 
-
-
 /* ######################section 8############## */
 .agr10-sec-8-container {
   display: flex;
@@ -401,7 +400,7 @@
 .agr10-sec-8-index {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 1em;
 }
 
