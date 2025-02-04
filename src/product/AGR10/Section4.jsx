@@ -1,6 +1,5 @@
 import React from 'react'
 import { WiStars } from "react-icons/wi";
-import ModelViewer from '../../components/ModelViewer.jsx';
 
 function Section4() {
   return (
@@ -15,8 +14,10 @@ function Section4() {
         </ul>
       </div>
       <div className='agr10-sec-4-video'>
-        
-      <ModelViewer />
+        <video src='/assets/agr10-01.webm'
+        loop autoPlay muted playsInline >
+        Your browser does not support the video tag.
+      </video>
 
         </div> 
       <p></p>
