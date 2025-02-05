@@ -69,6 +69,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
+    background-color: #143a27;
     position: relative;
     -ms-overflow-style: -ms-autohiding-scrollbar; 
     overflow-y: scroll;
