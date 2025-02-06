@@ -13,7 +13,7 @@ const Section7 = () => {
   ];
   useEffect(() => {
     AOS.init({
-        duration: 900,
+        duration: 300,
         mirror: false,
     });
   }, []);
