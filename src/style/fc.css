@@ -1,7 +1,7 @@
 
 
 .fc-tab-container{
-background-color: #000000;
+background-color: transparent;
 width: 100%;
 height: 100%;
 color: #d4d4d4;
@@ -12,7 +12,7 @@ position: relative;
 
 }
 .fc-index-container{
-  background-color: #6e5c5c00;
+  background-color: transparent;
   width: 100%;
   position: sticky;
   display: flex;
@@ -159,7 +159,7 @@ color: #d4d4d4;
   display: flex;
   flex-direction: column;
   align-items: first baseline;
-  background-color: #000000;
+  background-color: #0d1a03;
   color: #d4d4d4;
   top: 30%; /* Adjusted for lower fixed deck */
   width: 50vw;
@@ -290,7 +290,7 @@ height: max-content;
   justify-content: center;
   align-items: center;
   padding: 7rem 13rem;
-  background-color:hsla(0,0%,0%,1);
+  background-color:transparent;
 background-image:
 radial-gradient(at 100% 53%, hsla(82, 91%, 49%, 0.411) 0px, transparent 50%),
 radial-gradient(at 100% 48%, hsla(82,91%,49%,0.05) 0px, transparent 50%);
@@ -416,7 +416,7 @@ backdrop-filter: blur(6px);
   flex-direction: column;
   align-items: center;
   padding: 3rem 2rem;
-  background-color: #000000;
+  background-color: transparent;
   color: #d4d4d4;
   text-align: center;
   background-image:

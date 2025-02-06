@@ -2,6 +2,8 @@ import React from 'react'
 function Section6() {
   return (
     <div className='agr10-sec-6'>
+      <section className='agr10-sec-6-content'>
+
         <h3>Ready to elevate your agricultural operations?</h3>
         <p>Take your agricultural operations to the next level with our innovative solutions</p>
         <div className='agr10-sec-6-btn-container'>
@@ -9,6 +11,7 @@ function Section6() {
             <button>Get a Quote</button>
             <button>Download Brochure</button>
         </div>
+      </section>
     </div>
   )
 }

@@ -19,11 +19,9 @@ const SectionVision = () => {
       <div className="content-center">
         <div className="header">
           <div className="title" >
-            <h2>What's Our</h2>
+            <h2>What's Our Vision</h2>
           </div>
-          <div className="text-effect"  data-aos="fade-up">
-            <h2>Vision</h2>
-          </div>
+         
         </div>
         <div className="content">
           <div className="aboutcard" data-aos="fade-up">

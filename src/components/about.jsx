@@ -15,7 +15,7 @@ function About() {
       <SectionAbout />
       <SectionVision />
       <SectionMission />
-      <SectionCore/>
+      {/* <SectionCore/> */}
       <Section6/>
       <SectionFAQ/>
     </div>

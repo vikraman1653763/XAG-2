@@ -73,7 +73,7 @@ const data =[
 
 function Section5() {
     useEffect(() => {
-        AOS.init({ duration: 500 ,offset: 300,});
+        AOS.init({ duration: 500 });
       }, []);
 
   return (

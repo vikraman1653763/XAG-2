@@ -57,23 +57,26 @@
     --fs-xxxl: 8rem; 
 }
 
-  
- 
-
-html {
+/* html {
     scrollbar-width: thin;
-    scrollbar-color: #7FB00B #0C0C0C;
+    scrollbar-color: #bb1d25 transparent;
     scroll-behavior: smooth;
-}
+} */
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #051c27;
     position: relative;
     -ms-overflow-style: -ms-autohiding-scrollbar; 
     overflow-y: scroll;
     margin: 0;
     padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: #011302;
 }
 a{
     color: white ;
@@ -120,6 +123,8 @@ main{
 
 ::-webkit-scrollbar-thumb {
     background-color: #9BF00B;
+    background: linear-gradient(180deg, #bb1d25, #bb1d25, #580773);
+
     border-radius: 10px;
     border: 3px solid #0C0C0C;
 }
@@ -162,6 +167,7 @@ main{
     text-align: center;
     width: 70%;
 }
+
 
 .image-text h3 {
     color: white;

@@ -19,7 +19,7 @@
   }
   .agr10-sec-2-card:nth-child(odd) {
     flex-direction: row; 
-    background-color: #000000;
+    background-color: transparent;
   }
   
   .agr10-sec-2-card:nth-child(even) {
@@ -250,10 +250,16 @@
 .agr10-sec-6{
   height: 50vh;
   color: #d4d4d4;
-  background-image: url('/assets/demo3.webp');
+  background-image: url('/assets/demo4.webp');
   background-size:cover;
   padding: 1em 13rem;
-  background-position: 100% 60%;
+  background-position: 100% 70%;
+  display: flex;
+  align-items: center;
+}
+.agr10-sec-6-content{
+  width: 50%;
+
 }
 .agr10-sec-6 h3{
   font-size: var(--fs-xl);
@@ -371,7 +377,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-color: #000;
+  background-color: transparent;
   color: #d4d4d4;
 }
 

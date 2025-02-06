@@ -229,7 +229,7 @@
 
 /* .training-section */
 .training-section {
-  background-color: #000000;
+  background-color: transparent;
   text-align: center;
 }
 
@@ -253,7 +253,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: #1d1d1d;
+  background-color: transparent;
   border-radius: 10px;
   width: 100%;
   height: clamp(10vh, 70vh, 100vh);

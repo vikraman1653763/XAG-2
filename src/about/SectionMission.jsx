@@ -17,10 +17,8 @@ const SectionMission = () => {
   return (
     <section className="mission">
       <div className="head">
-        <h2 className="heading">What's Our</h2>
-        <div className="misson-texteffect">
-          <h2 data-aos="fade-up">MISSION</h2>
-        </div>
+        <h2 className="heading">What's Our MISSION</h2>
+        
       </div>
       <div className="content">
         <div data-aos="fade-up" className="mission-card">

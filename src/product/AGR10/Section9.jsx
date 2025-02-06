@@ -29,19 +29,19 @@ const Section9 = () => {
   }, []);
   return (
     <section className="agr10-sec-9">
-      <h2 className="agr10-sec-9-title" data-aos="fade-up" data-aos-duration="500">
+      <h2 className="agr10-sec-9-title" data-aos="fade-up" data-aos-duration="300">
         Precision and Stability Redefined
       </h2>
       <div className="agr10-sec-9-container">
-        <div className="agr10-sec-9-video" data-aos="fade-right" data-aos-duration="500">
+        <div className="agr10-sec-9-video" data-aos="fade-right" data-aos-duration="300">
           <video  autoPlay loop muted controls >
             <source src="/sam/2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="agr10-sec-9-content" data-aos="fade-left" data-aos-duration="500">
+        <div className="agr10-sec-9-content" data-aos="fade-left" data-aos-duration="300">
           {data.map((xy, i) => (
-            <div key={i} className="agr10-sec-9-card" data-aos="fade-up" data-aos-duration="500">
+            <div key={i} className="agr10-sec-9-card" data-aos="fade-up" data-aos-duration="300">
               <h4>{xy.title}</h4>
               <p>{xy.detail}</p>
             </div>

@@ -46,7 +46,7 @@ function Section2() {
 
 
    useEffect(() => {
-      AOS.init({ duration: 500, disable: 'mobile',});
+      AOS.init({ duration: 300, disable: 'mobile',});
   }, []);
 
   return (

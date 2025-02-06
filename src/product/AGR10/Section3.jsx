@@ -11,8 +11,8 @@ function Section3() {
 
   return (
     <div className='agr10-sec-3'>
-      <h2 data-aos="fade-up" data-aos-duration="1000" > Revolutionizing Agriculture <br/> One Flight at a Time</h2>
-      <aside className='agr10-sec-3-design' data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500" data-aos-easing="ease-in-out">
+      <h2 data-aos="fade-up" data-aos-duration="500" > Revolutionizing Agriculture <br/> One Flight at a Time</h2>
+      <aside className='agr10-sec-3-design' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500" data-aos-easing="ease-in-out">
           < PiGearFineBold className='agr10-sec-3-gear-1'/>
           < PiGearFineBold className='agr10-sec-3-gear-2'/>
           < PiGearFineBold className='agr10-sec-3-gear-3'/>
