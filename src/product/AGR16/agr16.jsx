@@ -17,12 +17,7 @@ import Section11 from './Section11.jsx';
 import Section12 from './Section12.jsx';
 
 const AGR16 = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      mirror: true,
-    });
-  }, []);
+ 
 
   return (
     <div >

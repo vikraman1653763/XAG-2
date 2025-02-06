@@ -1,6 +1,6 @@
 .bat-sec-2{
     width: 99vw;
-    height: 70vh;
+    height: 50vh;
     padding: 1em 13rem;
    display: flex;
    justify-content: center;
@@ -23,7 +23,8 @@
     justify-content: center;
     align-items: center;
     width: 99vw;
-    height: 100vh;
+    height: auto;
+    margin: 3em 0;
 }
   
   .bat-sec3-content {
@@ -185,8 +186,9 @@
   }
   
   .bat-sec-6-index .s-active {
-    color: #9bf00b;
-    border-bottom: 1px solid #9bf00b;
+      color: #bb1d25;
+
+    border-bottom: 1px solid #bb1d25;
   }
   
   .bat-sec-6-index-item {
@@ -541,10 +543,10 @@
 }
 
 .bat-sec-11-button {
-  padding: 12px 24px;
+  padding: .5em;
   font-size: 1rem;
-  color: rgb(0, 0, 0);
-  background-color: #9BF00B;
+  color:white;
+  background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -552,9 +554,11 @@
 }
 
 .bat-sec-11-button:hover {
-  background-color: rgba(0, 0, 0);
-  color: #9BF00B;
-  transform: scale(1.05); /* Adds a slight zoom effect on hover */
+  background:rgba(0, 0, 0, 0.212);
+  border: 1px solid #bb1d25;
+  transform: scale(1.05); 
+  color: #bb1d25;
+
 }
 
 
@@ -736,9 +740,8 @@
   }
 
   .bat-sec-6-index-item.s-active {
-    color: #9bf00b;
+    
     font-weight: 600;
-    border-bottom: 2px solid #9bf00b;
   }
 
   .bat-sec-6-content-mobile {
@@ -1103,10 +1106,6 @@
     transition: all 0.3s ease;
   }
   
-  .bat-sec-6-index-item.s-active {
-    color: #9bf00b;
-    border-bottom: 2px solid #9bf00b;
-  }
   
   .bat-sec-6-content {
     display: flex;
@@ -1169,9 +1168,7 @@
   }
 
   .bat-sec-6-index-item.s-active {
-    color: #9bf00b;
     font-weight: 600;
-    border-bottom: 2px solid #9bf00b;
   }
 
   .bat-sec-6-content {

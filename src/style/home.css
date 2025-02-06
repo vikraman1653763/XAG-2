@@ -243,7 +243,6 @@ background: none;
     margin-top: 24px;
     font-size: var(--fs-s);
     color: rgb(212, 212, 212);
-   word-spacing: .5em;
 }
 
 .carousel-container {
@@ -426,7 +425,7 @@ background: none;
     overflow: hidden;
     background-size: cover;
     filter: blur(.5px);
-
+    position: relative;
 
 }
 
@@ -509,23 +508,24 @@ background: none;
 .item a {
     display: flex;
     width: fit-content;
-    padding: 14px 14px;
+    padding: .4em;
     justify-content: center;
     align-items: center;
-    border-radius: 17px;
+    border-radius: 5px;
     background: #9bf00b;
     color: #0a0a0a;
     font-size: var(--fs-s);
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;  
 }
 
 .item-vertical-text {
-    transform: rotate(-90deg)  translate(-10%);
-    transform-origin: 30px 45px;
+    position: absolute;
+    transform: rotate(-90deg)  translate(-18%);
+    transform-origin: 5% 20%;
     transition: all .5s ease;
     display: flex;
     flex-flow: column ;
@@ -1040,7 +1040,7 @@ background: none;
 .profile-img {
     width: 100%;
     height: 100%;
-    color: #9BF00B;
+    color: #bb1d25;
     transform: scale(.6);
 }
 
@@ -1173,21 +1173,26 @@ background: none;
 
 #sec-8 .content_sec .left a {
     background: #9BF00B;
-    font-size: var(--fs-m);
-    padding: .4em;
-    border-radius: 16px;
-    font-weight: 700;
+    font-size: var(--fs-s);
+    padding: .2em;
+    border-radius: 5px;
+    font-weight: normal;
     border: none;
     width: fit-content;
     margin-top: 20px;
     cursor: pointer;
-    color: black;
+    color: white;
+    background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
+    border: 1px solid #bb1d25;
     
 }
 
 #sec-8 .content_sec .left a:hover{
     color: rgb(255, 255, 255);
-    background: black;
+    background: rgba(0, 0, 0, 0.493);
+    color: #bb1d25;
+
+    border: 1px solid #bb1d25;
 }
 
 #sec-8 .content_sec .right {

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Section8() {
 
      useEffect(() => {
-        AOS.init({ duration: 1000 }); 
+        AOS.init({ duration: 300 }); 
       }, []);
 
     return (

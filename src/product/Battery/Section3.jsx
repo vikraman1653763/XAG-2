@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Section3 = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration:500 });
   }, []);
   return (
     <div className="bat-sec3-container">
@@ -27,6 +27,7 @@ const Section3 = () => {
       <div className="bat-sec3-video-wrapper">
         <video
         data-aos="fade-up"
+        data-aos-duration='300'
           className="bat-sec3-video"
           src="/assets/batReveal.webm"
           loop

@@ -48,7 +48,8 @@ position: relative;
   height: .2em;
   border-radius: 2em;
   transition: left .4s linear, width 0.4s linear; 
-  background: #9bf00b;
+  background:#bb1d25;
+  
 }
 
 
@@ -395,8 +396,8 @@ backdrop-filter: blur(6px);
 .fc-sec-12-button {
   padding: 12px 24px;
   font-size: 1rem;
-  color: rgb(0, 0, 0);
-  background-color: #9BF00B;
+  color: rgb(255, 255, 255);
+  background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -404,8 +405,8 @@ backdrop-filter: blur(6px);
 }
 
 .fc-sec-12-button:hover {
-  background-color: rgba(0, 0, 0);
-  color:#9BF00B;
+  background: rgba(0, 0, 0);
+  color:#bb1d25;
   transform: scale(1.05); /* Adds a slight zoom effect on hover */
 }
 
@@ -612,7 +613,7 @@ background-attachment: local;
 
 .fc-sec-14 h3 strong{
 
-  color: #9BF00B;
+  color: #bb1d25;
 }
 
 
