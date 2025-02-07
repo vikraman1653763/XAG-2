@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #9cf00be8;
+    background-color: #000000e8;
     display: flex;
     flex-direction: column;
 }
@@ -35,6 +35,7 @@
     font-size: var(--fs-s);
     font-weight: 500;
     line-height: 24px;
+    color: #fff;
 }
 
 .part-2 {
@@ -53,6 +54,7 @@
     font-size: var(--fs-m);
     font-weight: 700;
     margin-bottom: 1.2rem;
+    color: #9BF00B;
 }
 
 ul li {
@@ -74,7 +76,7 @@ ul li {
 .part-22 ul li a,
 .part-23 ul li a {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 
 .part-4 {
@@ -82,7 +84,7 @@ ul li {
 }
 
 .part-4 h3 {
-    color: #202020;
+    color: #fff;
     font-size: var(--fs-m);
     font-weight: 700;
     margin-bottom: 1.3rem;
@@ -111,10 +113,11 @@ ul li {
 .left_content p {
     font-size: var(--fs-s);
     font-weight: 500;
+    color: #fff;
 }
 
 .left_content a {
-    color: black;
+    color: #fff;
     margin-right: 1rem;
     font-size: var(--fs-s);
     font-weight: 500;
@@ -125,14 +128,20 @@ ul li {
     display: flex;
     gap: 1rem;
 }
-
-.right_content img {
+.right_content svg{
     color: black;
     cursor: pointer;
     width: 2rem;
     height: 2rem;
+    padding: .01em;
+    border-radius: 5px;
+    background: linear-gradient(150deg, #bb1d25, #bb1d25, #580773);
 }
-
+.right_content svg:hover{
+    color: #bb1d25;
+    background: #000;
+    border: 1px solid #bb1d25;
+}
 .yt, .tw {
     padding: 3px;
     border-radius: 20%;

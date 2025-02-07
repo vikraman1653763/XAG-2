@@ -1,10 +1,17 @@
 import React from 'react';
-import '/src/style/footer.css';
+import '../style/footer.css';
 import facebook from '/assets/facebook.svg';
 import youtube from '/assets/youtube.svg';
 import twitter from '/assets/twitter.svg';
 import instagram from '/assets/instagram.svg';
 import linkedin from '/assets/linkedin.svg';
+
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaYoutubeSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <footer>
@@ -63,12 +70,12 @@ const Footer = () => {
                         <a href="/sitemap.xml">Site Map</a>
                     </div>
                     <div className="right_content">
-
-                    <img src={facebook} alt='facebook'/>
-                    <img src={instagram}  alt='instagram'/>
-                    <img src={linkedin} alt='linkedin'/>
-                    <img className='tw' src={twitter} alt='twitter'/>
-                    <img className='yt' src={youtube} alt='youtube'/>
+                    <FaFacebookSquare />
+<FaYoutubeSquare/>
+<FaInstagramSquare/>
+<FaTwitterSquare/>
+<FaLinkedin/>
+                   
 
                         
                     </div>
