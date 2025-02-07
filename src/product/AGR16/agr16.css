@@ -588,7 +588,7 @@
 }
 .brochure-btn,.contact-us-btn:hover, .get-quote-btn:hover{
     background-color: #bb1d25;
-    background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
+    background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, #580773 100%);
     color: white;
     border: 1px solid black;
 }

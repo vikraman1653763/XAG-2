@@ -7,8 +7,6 @@ import { serverUrl } from '../constant';
 
 const SectionForm = () => {
   const navigate = useNavigate();
-
-
   const [companyName, setCompanyName] = useState('');
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');

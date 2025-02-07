@@ -38,13 +38,10 @@
     font-style: normal;
     font-display: swap;
 }
-
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 :root {
     --fs-xxs: .5rem; 
@@ -56,13 +53,11 @@
     --fs-xxl: 4rem;  
     --fs-xxxl: 8rem; 
 }
-
 /* html {
     scrollbar-width: thin;
     scrollbar-color: #bb1d25 transparent;
     scroll-behavior: smooth;
 } */
-
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -75,19 +70,16 @@ body {
     background-clip: content-box;
     background-size: cover;
     background-attachment: fixed;
-
     background-color: #011302;
 }
 a{
     color: white ;
     text-decoration: none !important;
 }
-
 p {
     font-size: var(--fs-s);
 }
 span{
-
     text-align: center;
     color: #000;
     text-transform: uppercase;
@@ -96,17 +88,10 @@ span{
 }
 .error{
     color: red;
-    
 }
 main{
-    margin-top: 2rem;
-    
+    margin-top: 2rem;   
 }
-
-
-
-
-
 .final-frame-mobile{
     width: 99vw;
     object-fit: contain;
