@@ -1,0 +1,147 @@
+.product-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 10%;
+    color: aliceblue;
+    justify-content: center;
+    width: 100%;
+    min-height: 500px;
+    gap: 1em;
+  }
+  
+  /* Left Side */
+  .product-form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(184, 184, 184, 0.24);
+    border-radius: 10px;
+    width: 40%;
+    min-width: 300px;
+    padding: 2em;
+    /* Background Image */
+    background-image: url('/assets/agr16TopDown.webp');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: -200% center;
+}
+
+  
+  .product-form-heading h1 {
+    font-size: var(--fs-m);
+    font-weight: 500;
+    color: white;
+  }
+  
+  .product-form-heading h6 {
+    font-size: var(--fs-xs);
+    color: #ccc;
+    font-weight: 500;
+  }
+  
+  /* Right Side */
+  .product-form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 350px;
+    background: #222;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .product-form-right form {
+    width: 100%;
+  }
+  
+  /* Input Fields */
+  .p-f-company,
+  .p-f-phone,
+  .p-f-email,
+  .p-f-message {
+    border: 1px solid rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #333;
+    border-radius: 5px;
+  }
+  
+  .p-f-company label,
+  .p-f-phone label,
+  .p-f-email label,
+  .p-f-message label {
+    font-size: var(--fs-xs);
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .p-f-company input,
+  .p-f-phone input,
+  .p-f-email input,
+  .p-f-message textarea {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: var(--fs-xs);
+    background: #444;
+    color: white;
+    width: 100%;
+  }
+  
+  .p-f-message textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .p-f-button {
+    color: white;
+    padding: .3em .5em;
+    font-size: var(--fs-s);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%); ;
+  }
+  
+  .p-f-button:hover {
+    color: #bb1d25;
+    background: transparent;
+    border: 1px solid #bb1d25;
+  }
+  
+  .p-f-button:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .product-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-form-left,
+    .product-form-right {
+      width: 100%;
+    }
+  }
+  

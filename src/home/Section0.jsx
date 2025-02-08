@@ -140,7 +140,7 @@ const items = [
     image: image2,
     title: "AGRI DRONE",
     topic: "AGR-10",
-    link: '/agr16',
+    link: '/agr10',
     clas:'',
     description: "The AGR-10 is a hexacopter UAS from Xagrotor Tek, built for precise farming. It uses advanced technology and a custom flight controller to help farmers work more efficiently and improve productivity.",
   },

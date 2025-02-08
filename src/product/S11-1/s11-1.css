@@ -1,0 +1,222 @@
+/*############################################################## section2 ##############################################################*/
+.s11-01-sec-2-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+
+.s11-01-sec-2-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.s11-01-sec-2-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.s11-01-sec-2-card:hover {
+    transform: translateY(-5px);
+}
+
+.s11-01-sec-2-icon {
+    font-size: var(--fs-l);
+    color: #527e07;
+    margin-bottom: 10px;
+}
+
+.s11-01-sec-2-card-title {
+    font-size: var(--fs-s);
+    font-weight: bold;
+}
+
+.s11-01-sec-2-card-data {
+    font-size: var(--fs-xs);
+    color: #555;
+}
+
+
+/*############################################################## section3 ##############################################################*/
+.s11-01-sec-3-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s11-01-sec-3-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s11-01-sec-3-overlay {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.s11-01-sec-3-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.s11-01-sec-3-description {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 600px;
+    margin: auto;
+}
+
+/*############################################################## section4 ##############################################################*/
+
+
+.s11-01-sec-4-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.s11-01-sec-4-title {
+    font-size: var(--fs-l);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.s11-01-sec-4-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.s11-01-sec-4-card {
+    width:500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.s11-01-sec-4-card:hover {
+    transform: translateY(-5px);
+}
+
+.s11-01-sec-4-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.s11-01-sec-4-card-title {
+    font-size:var(--fs-s);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.s11-01-sec-4-card-description {
+    font-size: var(--fs-xs);
+    color: aliceblue;
+    margin-top: 5px;
+}
+/*############################################################## section5 ##############################################################*/
+
+.s11-01-sec-5-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.s11-01-sec-5-title {
+    font-size: var(--fs-l);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.s11-01-sec-5-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+}
+
+.s11-01-sec-5-card {
+    position: relative;
+    background: white;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.s11-01-sec-5-card:hover {
+    transform: translateY(-5px);
+}
+
+.s11-01-sec-5-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.s11-01-sec-5-card-title {
+    position:absolute;
+    font-size: var(--fs-s);
+    font-weight: bold;
+    margin-top: 10px;
+    top: 0%;
+    left: 5%;
+    color: aliceblue;
+}
+
+.s11-01-sec-5-card-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/*############################################################## section 6 ##############################################################*/
+
+.s11-01-sec-6-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.s11-01-sec-6-title {
+    font-size: var(--fs-l);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.s11-01-sec-6-logo {
+    width: 120px;
+    height: auto;
+    margin: 0 30px;
+}

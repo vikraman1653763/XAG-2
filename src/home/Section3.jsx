@@ -53,7 +53,7 @@ const Section3 = () => {
                         <h3>AGRI DRONE</h3>
                         <h4 >AGR 16</h4>
                         <p    >Your ultimate agri-drone solution, revolutionizing precision farming. Elevate your agricultural practices with unparalleled efficiency and data-driven insights.</p>
-                        <a href="#"    >View Product</a>
+                        <a href="/agr16">View Product</a>
                     </div>
                 </div>
                 <div id="scopeProduct2" className="item item-2">
@@ -61,7 +61,7 @@ const Section3 = () => {
                         <h3   >Flight Controller</h3>
                         <h4   >Xrotor tek india</h4>
                         <p    className="d-none">a customized flight controller for precise handling for extensive field coverage. Developed by Xagrotor Tek Private Limited</p>
-                        <a    className="d-none" href="#">View Product</a>
+                        <a    className="d-none" href="/flight-controller">View Product</a>
                     </div>
                 </div>
                 <div id="scopeProduct3" className="item item-3">
@@ -69,7 +69,7 @@ const Section3 = () => {
                         <h3   >AGRI DRONE</h3>
                         <h4   >AGR 10</h4>
                         <p    className="d-none">Boost your farming with the AGR-16 drone, capable of carrying 16 liters to tackle large fields efficiently. Designed by Xagrotor Tek Private Limited, which makes crop management easy and effective.</p>
-                        <a    className="d-none" href="#">View Product</a>
+                        <a    className="d-none" href="/agr10">View Product</a>
                     </div>
                 </div>
                 <div id="scopeProduct4" className="item item-4">
@@ -77,7 +77,7 @@ const Section3 = () => {
                         <h3   >Battery</h3>
                         <h4   >X power plus</h4>
                         <p    className="d-none">Explore our extensive selection of drone batteries, featuring over 30 varieties to power different models efficiently. Which ensures long-lasting performance and reliability for all your agricultural drone needs</p>
-                        <a    className="d-none" href="#">View Product</a>
+                        <a    className="d-none" href="/Batteries">View Product</a>
                     </div>
                 </div>
             </div>
