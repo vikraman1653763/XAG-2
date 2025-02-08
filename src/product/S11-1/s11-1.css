@@ -187,8 +187,8 @@
 
 .s11-01-sec-5-card-title {
     position:absolute;
-    font-size: var(--fs-s);
-    font-weight: bold;
+    font-size: var(--fs-l);
+    font-weight: 500;
     margin-top: 10px;
     top: 0%;
     left: 5%;

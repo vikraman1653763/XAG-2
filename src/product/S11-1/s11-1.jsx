@@ -11,10 +11,10 @@ function S11() {
   return (
     <div>
       <Section3/>
+      <Section6/>
       <Section2/>
       <Section4/>
       <Section5/>
-      <Section6/>
       <Section1/>
       {/* <ProductForm/> */}
     </div>
