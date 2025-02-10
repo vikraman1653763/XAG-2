@@ -113,11 +113,10 @@ nav ul li a:hover, nav ul span:hover{
     margin: 0;
     flex-direction: column;
     /* position: absolute; */
-    background: black;
+    background: #171818;
     border: none;
     width: auto;
     align-items: start;
-    /* transform: translate(-4.5em, -10px); */
     text-transform: uppercase;
     border-radius: 5px;
     gap: 4px;
