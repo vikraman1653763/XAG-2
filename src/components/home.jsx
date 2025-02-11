@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/home.css';
-import Section0 from '../home/Section0';
+import Section1 from '../home/Section1';
 import Section2 from '../home/Section2';
 import Section3 from '../home/Section3';
 import Section4 from '../home/Section4';
@@ -12,7 +12,8 @@ import Section9 from '../home/Section9';
 function Home() {
   return (
     <div className='Home-page'>
-    <Section0/>
+      <Section1/>
+    {/* <Section0/> */}
       <Section2/>
       <Section3/>
       <Section4/>

@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const HomeCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
-  const [hasLoaded, setHasLoaded] = useState(false); // State to ensure carousel starts only after fully loaded
+  const [hasLoaded, setHasLoaded] = useState(false); 
   const intervalRef = useRef(null);
   const [offsetY, setOffsetY] = useState(0);
 
@@ -30,7 +30,7 @@ const HomeCarousel = () => {
   const startAutoSlide = () => {
     intervalRef.current = setInterval(() => {
       handleNext();
-    }, 7000); // 7 seconds interval
+    }, 7000); 
   };
 
   const stopAutoSlide = () => {
@@ -61,9 +61,9 @@ const HomeCarousel = () => {
     return () => stopAutoSlide();
   }, [hasLoaded]);
   
-  // Ensure the carousel only starts after the component has loaded
+  
   useEffect(() => {
-    setHasLoaded(true); // Mark the component as fully loaded
+    setHasLoaded(true); 
   }, []);
   
   return (

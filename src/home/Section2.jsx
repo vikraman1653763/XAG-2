@@ -11,6 +11,7 @@ const Section2 = () => {
             duration: 1000,
             mirror: false,
             offset:10,
+            disable: "mobile",
         });
       }, []);
 
@@ -74,10 +75,10 @@ const Section2 = () => {
             <div className="bg-layer">
                 <div className="text-container" >
                     <div>
-                        <h3 className="one" data-aos="fade-up" data-aos-delay='800'>About</h3>
-                        <h1 className="two" data-aos="fade-up" data-aos-delay='900'>xagrotor tek</h1>
+                        <h3 className="one" data-aos="fade-up">About</h3>
+                        <h1 className="two" data-aos="fade-up">xagrotor tek</h1>
                     </div>
-                    <p data-aos="fade-up" data-aos-delay='1000'>Xagrotor Tek Private Limited, founded in 2023, is a pioneering company based in Pondicherry, India. We specialize in developing advanced agricultural drone technology aimed at improving farming practices. Our innovative solutions help farmers manage their crops more efficiently, reduce costs, and increase yields. With a strong commitment to sustainability, we promote precision farming techniques that benefit both farmers and the environment. Our team of experts is dedicated to pushing the boundaries of agricultural technology, ensuring that our products meet the highest standards of quality and reliability.</p>
+                    <p data-aos="fade-up" >Xagrotor Tek Private Limited, founded in 2023, is a pioneering company based in Pondicherry, India. We specialize in developing advanced agricultural drone technology aimed at improving farming practices. Our innovative solutions help farmers manage their crops more efficiently, reduce costs, and increase yields. With a strong commitment to sustainability, we promote precision farming techniques that benefit both farmers and the environment. Our team of experts is dedicated to pushing the boundaries of agricultural technology, ensuring that our products meet the highest standards of quality and reliability.</p>
                 </div>
                 <div className="carousel-container" data-aos="fade-up">
                     <div className="mySlides animate">
