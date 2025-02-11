@@ -2,9 +2,8 @@
     display: flex;
     position: relative;
     justify-content: center;
-    height: 100vh;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    background-color:transparent;
 }
 
 .home-car-2-shade {
@@ -19,13 +18,12 @@
 }
 
 .home-car-2-item {
-    position: absolute;
+    position: relative;
     min-width: 100%;
+    min-height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
 }
 
 .home-car-2-introduce {
@@ -36,6 +34,7 @@
     transform: translate(-10%, -60%);
     color: white;
     padding: 1em;
+    z-index: 2;
 }
 
 
@@ -82,11 +81,11 @@
 
 .home-car-2-image {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     position: relative;
-    z-index: -1;
-    object-fit: contain;
-    object-position: top;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 .home-car-2-arrows-container {
@@ -97,7 +96,7 @@
     display: flex;
     justify-content:space-between;
     overflow: hidden;
-    z-index: 0;
+    z-index: 2;
 }
 
 .home-car-2-prev, 
@@ -112,6 +111,7 @@
     width: 3rem;
     height: 3rem;
     color: white;
+    z-index: 3;
 }
 
 .home-car-2-carousel:hover .home-car-2-arrows-container {
@@ -124,16 +124,16 @@
 /* Tablet View */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .home-car-2-carousel {
-        height: 500px;
-        max-height:1000px ;
+    
         position: relative;
+        object-fit: contain;
     }
 
     .home-car-2-introduce {
         width: 60%;
         top: 55%;
-        left: 8%;
-        transform: translate(0%, -50%);
+        left: 5%;
+        transform: translate(-5%, -50%);
         padding: 1em;
     }
 
@@ -157,9 +157,15 @@
     }
 
     
+.home-car-2-image {
+    width: 100vw;
+    height:auto;
+    z-index: 1;
+    object-fit: contain;
+    object-position: center;
+}
     .home-car-2-arrows-container {
-        position: absolute;
-        top: 40%;
+        top: 50%;
     }
 
     .home-car-2-prev svg,

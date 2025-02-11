@@ -93,7 +93,7 @@ const HomeWindowCard = () => {
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.6, ease: "easeInOut" }}
+          transition={{ duration: 0.2, ease: "easeInOut" }}
         >
           <img src={items[currentIndex].image} className="home-car-2-image" alt={items[currentIndex].title} />
           <div className="home-car-2-introduce">
@@ -134,10 +134,6 @@ const HomeWindowCard = () => {
           </div>
         </motion.div>
       </AnimatePresence>
-
-      <img src={shade} alt="shade" className="home-car-2-shade" style={{
-          transform: `translateY(-${offsetY * .5}px)`,
-        }} />
       <div className="home-car-2-arrows-container">
         <button className="home-car-2-prev" aria-label="Previous Slide" onClick={handlePrev}>
           <IoIosArrowBack />
@@ -146,6 +142,10 @@ const HomeWindowCard = () => {
           <IoIosArrowForward />
         </button>
       </div>
+
+      <img src={shade} alt="shade" className="home-car-2-shade" style={{
+          transform: `translateY(-${offsetY * .5}px)`,
+        }} />
     </div>
   );
 };
