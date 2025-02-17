@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../style/navbar.css';
 import {  motion } from 'framer-motion';
 
-
 const navVariants = {
    open: {
     clipPath: "inset(0% 0% 0% 0% round 10px)",
@@ -24,9 +23,6 @@ const navVariants = {
     },
   },
 };
-
-
-
 
 const itemVariants = {
   open: {
@@ -65,7 +61,6 @@ const menuVariants = {
 
 const hamburgerVariants = {
   open: { rotate: 225 , y: 10,backgroundColor:'#9BF00B' },
-
   closed: { rotate: 0, y: 0 },
 };
 
@@ -76,7 +71,6 @@ const middleLineVariants = {
 
 const bottomLineVariants = {
   open: { rotate: -225 , y: -6 ,backgroundColor:'#9BF00B'},
-
   closed: { rotate: 0, y: 0 },
 };
 const Navbar = () => {
@@ -92,9 +86,8 @@ const Navbar = () => {
 
   const toggleSubmenu = () => {
     setSubmenuOpen(true);
- 
-
   };
+
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if(submenuOpen && submenuRef.current && !submenuRef.current.contains(event.target)){
@@ -108,9 +101,6 @@ const Navbar = () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };
   }, [submenuOpen, submenuRef]);
-
-
-
 
   return (
     <nav>

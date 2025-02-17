@@ -117,20 +117,6 @@ const handleSubmit = async (e)=>{
         </form>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
         <div className="contact_form-right" data-aos="fade-up">
           <div className="email-right">
