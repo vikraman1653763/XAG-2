@@ -14,7 +14,7 @@ const Section7 = () => {
     {
       id: 2,
       videoTitle: "Precision Monitoring",
-      image: '/assets/agr10-02.webp',
+      image: '/assets/agr10-05.webp',
       description:
       "Utilize advanced aerial analytics to assess crop health and detect issues early. Optimize yield potential with real-time insights and data-driven decisions.",
     },

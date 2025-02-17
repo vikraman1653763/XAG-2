@@ -1,16 +1,17 @@
 import React from "react";
 import { FaBatteryFull, FaWeightHanging, FaRuler, FaClock, FaWifi, FaWind, FaTachometerAlt, FaMicrochip, FaCogs, FaMapMarkedAlt } from "react-icons/fa";
+import {  LiaSortAmountUpSolid} from "react-icons/lia";
+import { GiThermometerHot } from "react-icons/gi";
 
 const specs = [
-    { icon: <FaBatteryFull />, title: "Battery Capacity", data: "16,000mAh" },
-    { icon: <FaWeightHanging />, title: "Payload Capacity", data: "10KG" },
-    { icon: <FaRuler />, title: "Dimensions", data: "1992 x 1799 x 427 mm" },
-    { icon: <FaClock />, title: "Flight Time", data: "30 Minutes" },
-    { icon: <FaWifi />, title: "Control Range", data: "5KM" },
-    { icon: <FaWind />, title: "Wind Resistance", data: "8 m/s" },
-    { icon: <FaTachometerAlt />, title: "Max Speed", data: "6 m/s" },
-    { icon: <FaMicrochip />, title: "Processor", data: "Quad-Core ARM Cortex" },
-    { icon: <FaCogs />, title: "Operating Modes", data: "Manual & Auto" },
+    { icon: <FaWifi />, title: "Control Range", data: "10KM" },
+    { icon: <FaClock />, title: "Flight Time", data: "75 Minutes" },
+    { icon: <FaTachometerAlt />, title: "Max Speed", data: "12 m/s" },
+    { icon: <LiaSortAmountUpSolid />, title: "Service Ceiling", data: "4500m AMSL" },
+    { icon: <GiThermometerHot />, title: "Operating Temperature", data: "-20°C to 50°C" },
+    { icon: <FaWind />, title: "Wind Resistance", data: "12 m/s" },
+
+   
 ];
 
 const Section2 = () => {

@@ -4,7 +4,7 @@ const media = [
   {
     title: 'Detachable Tank',
     index: 'Tank',
-    video: '/sam/7.mp4',
+    video: '/assets/agr10-06.webm',
     content: (
       <>
         <p>

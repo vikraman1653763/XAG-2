@@ -177,10 +177,8 @@ const Career = () => {
                         {error}
                     </div>
                     )} */}
-
             </section>
         </>
     );
 };
-
 export default Career;
