@@ -8,8 +8,8 @@ const media = [
     content: (
       <>
         <p>
-          Experience seamless operations with the AGR 16's detachable tank, designed for hassle-free maintenance and swift refills. This innovation minimizes downtime and enhances productivity for diverse agricultural needs.
-        </p>
+        The AGR 10 features a 10-liter detachable tank for easy maintenance, quick refills, and reduced downtime, ensuring better productivity for farming.
+                </p>
       </>
     ),
   },
@@ -20,7 +20,7 @@ const media = [
     content: (
       <>
         <p>
-          Power through demanding agricultural tasks with AGR 16's high-performance motor. Engineered for efficiency, it delivers optimal thrust, stability, and longevity, ensuring reliable operation under varying field conditions.
+        The AGR 10's high-performance motor provides strong thrust, stability, and durability. It is heat- and waterproof, ensuring reliable performance in harsh field conditions.
         </p>
       </>
     ),
@@ -32,8 +32,7 @@ const media = [
     content: (
       <>
         <p>
-          Maximize spray efficiency with AGR 16’s advanced precision nozzles. Designed to reduce drift and optimize droplet size, they provide uniform coverage, improving pesticide and fertilizer application accuracy.
-        </p>
+        AGR 10’s precision nozzles reduce drift and optimize droplet size for even coverage, ensuring accurate pesticide and fertilizer application.        </p>
       </>
     ),
   },
@@ -44,8 +43,7 @@ const media = [
     content: (
       <>
         <p>
-          Enhance agricultural insights with AGR 16’s AI-enabled camera. Offering real-time monitoring and intelligent obstacle detection, it ensures accurate navigation and optimized field mapping for precision farming.
-        </p>
+        The AGR 10’s AI-enabled camera provides real-time monitoring and smart obstacle detection, ensuring precise navigation and efficient field mapping for farming.        </p>
       </>
     ),
   },

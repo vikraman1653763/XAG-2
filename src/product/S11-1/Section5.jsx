@@ -2,16 +2,28 @@ import React from "react";
 
 const droneOutputs = [
     {
-        image: "/assets/battery001.webp",
-        title: "Cartografía de Precisión",
+        image: "/assets/s11-06.webp",
+        title: "Reconnaissance Missions",
     },
     {
-        image: "/assets/battery001.webp",
-        title: "Análisis de Cultivos",
+        image: "/assets/s11-07.webp",
+        title: "Border Surveillance",
     },
     {
-        image: "/assets/battery001.webp",
-        title: "Imágenes Térmicas",
+        image: "/assets/s11-08.webp",
+        title: "Thermal Imaging",
+    },
+    {
+        image: "/assets/s11-09.webp",
+        title: "Forest Fire Detection",
+    },
+    {
+        image: "/assets/s11-10.webp",
+        title: "Search and Rescue Operations",
+    },
+    {
+        image: "/assets/s11-11.webp",
+        title: "Infrastructure Inspection",
     }
 ];
 
@@ -19,7 +31,7 @@ const droneOutputs = [
 const Section5 = () => {
     return (
         <section className="s11-01-sec-5-container">
-            <h2 className="s11-01-sec-5-title">Drone Output</h2>
+            <h2 className="s11-01-sec-5-title">Application of XAG-S11</h2>
             <div className="s11-01-sec-5-cards">
                 {droneOutputs.map((output, index) => (
                     <div key={index} className="s11-01-sec-5-card">

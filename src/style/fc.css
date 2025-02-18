@@ -159,9 +159,9 @@ color: #d4d4d4;
   display: flex;
   flex-direction: column;
   align-items: first baseline;
-  background-color: #0d1a03;
+  background-color: #171818;
   color: #d4d4d4;
-  top: 30%; /* Adjusted for lower fixed deck */
+  top: 30%; 
   width: 50vw;
   height:20vh;
   border: 2px solid rgb(51, 51, 51);
