@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-
+  
 const Section7 = () => {
   const cards = [
     {
@@ -40,7 +40,6 @@ const Section7 = () => {
       easing: 'ease-in-out',
     });
   }, []);
-
   return (
     <section className="agr10-sec-7-container">
       {cards.map((card) => (

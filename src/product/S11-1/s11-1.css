@@ -2,7 +2,7 @@
 .s11-01-sec-2-container {
     text-align: center;
     padding: 50px 20px;
-    background: #f8f9fa;
+    background: #222;
 }
 
 
@@ -16,7 +16,7 @@
 }
 
 .s11-01-sec-2-card {
-    background: white;
+    background: aliceblue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@
 
 .s11-01-sec-2-icon {
     font-size: var(--fs-l);
-    color: #527e07;
+    color: #bb1d25;
     margin-bottom: 10px;
 }
 
@@ -94,6 +94,7 @@
     padding: 50px 20px;
     background: transparent;
     color: aliceblue;
+    background: #222;
 }
 
 .s11-01-sec-4-title {
@@ -152,7 +153,7 @@
 }
 
 .s11-01-sec-5-title {
-    font-size: var(--fs-l);
+    font-size: var(--fs-xl);
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -208,13 +209,14 @@
 .s11-01-sec-6-container {
     text-align: center;
     padding: 50px 20px;
-    background: #f8f9fa;
+    background: #222;
 }
 
 .s11-01-sec-6-title {
     font-size: var(--fs-l);
     font-weight: bold;
     margin-bottom: 20px;
+    color: white;
 }
 
 .s11-01-sec-6-logo {
@@ -232,6 +234,7 @@
     overflow-x: hidden;
     position: relative;
     height: 50vh;
+    background-color: transparent;
 
   }
   .s11-sec-7::before {
@@ -298,3 +301,59 @@
     font-size: var(--fs-s);
     color: #d4d4d4;
   }
+
+
+  /* ###################################section 8 ############################## */
+  .s11-sec-8-container {
+    width: 100%;
+    padding: 2em 10em;
+    background: #fff;
+  }
+  
+  .s11-sec-8-title {
+    font-size: var(--fs-xl);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .s11-sec-8-content {
+    display: flex;
+    
+}
+.s11-sec-8-content > *{
+    border: 1px solid #222;
+    padding: 1em;
+    border-radius: 1em;
+    margin: .2em;
+}
+
+  /* First Container: Left 60% - Right 40% */
+  .s11-sec-8-60-40 .s11-sec-8-left {
+    width: 60%;
+
+  }
+  .s11-sec-8-60-40 .s11-sec-8-right {
+    width: 40%;
+  }
+  
+  /* Second Container: Left 40% - Right 60% */
+  .s11-sec-8-40-60 .s11-sec-8-left {
+    width: 40%;
+  }
+  .s11-sec-8-40-60 .s11-sec-8-right {
+    width: 60%;
+  }
+  
+  .s11-sec-8-subtitle {
+    font-size: var(--fs-l);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .s11-sec-8-left p,
+  .s11-sec-8-right p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
