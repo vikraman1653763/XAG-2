@@ -19,10 +19,10 @@ const Agr10 = () => {
       <Section3 />
       <Section4 />
       <Section2 />
-      <Section5 />
-      <Section9 />
-      <Section7 />
       <Section8 />
+      <Section5 />
+      <Section7 />
+      <Section9 />
       <Section6 />
     </div>
   );
