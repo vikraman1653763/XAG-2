@@ -2,7 +2,8 @@
 .s11-01-sec-2-container {
     text-align: center;
     padding: 50px 20px;
-    background: #222;
+    background: transparent;
+
 }
 
 
@@ -94,11 +95,11 @@
     padding: 50px 20px;
     background: transparent;
     color: aliceblue;
-    background: #222;
+    background: transparent;
 }
 
 .s11-01-sec-4-title {
-    font-size: var(--fs-l);
+    font-size: var(--fs-xl);
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -146,16 +147,28 @@
 /*############################################################## section5 ##############################################################*/
 
 .s11-01-sec-5-container {
-    text-align: center;
-    padding: 50px 20px;
-    background: #f8f9fa;
-    height: max-content;
+  text-align: center;
+  padding: 50px 20px;
+  height: max-content;
+  background: linear-gradient(180deg, black 0%, white 100%);
 }
+
+
 
 .s11-01-sec-5-title {
     font-size: var(--fs-xl);
     font-weight: bold;
     margin-bottom: 20px;
+   
+      background: linear-gradient(150deg, rgb(143, 143, 143) 60%, rgb(180, 180, 180) 75%, white 100%);
+      
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      display: inline-block;
+  
+  
 }
 
 .s11-01-sec-5-cards {
@@ -209,14 +222,20 @@
 .s11-01-sec-6-container {
     text-align: center;
     padding: 50px 20px;
-    background: #222;
+    background: #000000;
 }
 
 .s11-01-sec-6-title {
-    font-size: var(--fs-l);
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: white;
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: linear-gradient(150deg, rgb(49, 49, 49) 10%, white 60% , black 100%);
+  background: linear-gradient(20deg,black white,white,white,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; 
 }
 
 .s11-01-sec-6-logo {
@@ -234,22 +253,10 @@
     overflow-x: hidden;
     position: relative;
     height: 50vh;
-    background-color: transparent;
+    background-color: black;
 
   }
-  .s11-sec-7::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%) rotate(45deg); 
-    width: 300px; 
-    height: 300px; 
-    background-color: #9bf00b; 
-    filter: blur(100px); 
-    z-index: -1; 
-    opacity: 0.4;
-  }
+
   .s11-sec-7::after {
     content: "";
     position: absolute;
@@ -293,7 +300,13 @@
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: var(--fs-xl);
-    color: #9bf00b;
+    background: linear-gradient(150deg, rgb(49, 49, 49) 10%, white 60% , black 100%);
+    background: linear-gradient(20deg,black white,white,white,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block; 
   }
   
   .s11-sec-7-desc p {
@@ -302,58 +315,79 @@
     color: #d4d4d4;
   }
 
-
-  /* ###################################section 8 ############################## */
-  .s11-sec-8-container {
-    width: 100%;
-    padding: 2em 10em;
-    background: #fff;
-  }
-  
-  .s11-sec-8-title {
-    font-size: var(--fs-xl);
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  
-  .s11-sec-8-content {
-    display: flex;
-    
-}
-.s11-sec-8-content > *{
-    border: 1px solid #222;
-    padding: 1em;
-    border-radius: 1em;
-    margin: .2em;
+/* ################################### Section 8 ############################## */
+.s11-sec-8-container {
+  width: 100%;
+  padding: 2em 10em;
+  background: #fff;
 }
 
-  /* First Container: Left 60% - Right 40% */
-  .s11-sec-8-60-40 .s11-sec-8-left {
-    width: 60%;
+.s11-sec-8-title {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
 
-  }
-  .s11-sec-8-60-40 .s11-sec-8-right {
-    width: 40%;
-  }
-  
-  /* Second Container: Left 40% - Right 60% */
-  .s11-sec-8-40-60 .s11-sec-8-left {
-    width: 40%;
-  }
-  .s11-sec-8-40-60 .s11-sec-8-right {
-    width: 60%;
-  }
-  
-  .s11-sec-8-subtitle {
-    font-size: var(--fs-l);
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .s11-sec-8-left p,
-  .s11-sec-8-right p {
-    font-size: 16px;
-    margin: 5px 0;
-  }
-  
+.s11-sec-8-content {
+  display: flex;
+  position: relative;
+}
+
+.s11-sec-8-content > * {
+  box-shadow: 2px 2px 3px #e4e3e3, -2px -2px 3px #e4e3e3;
+  padding: 1em;
+  border-radius: 0.3em;
+  margin: 0.2em;
+}
+
+/* First Container: Left 60% - Right 40% */
+.s11-sec-8-60-40 .s11-sec-8-left {
+  width: 60%;
+  position: relative;
+}
+
+.s11-sec-8-60-40 .s11-sec-8-right {
+  width: 40%;
+}
+
+/* Second Container: Left 40% - Right 60% */
+.s11-sec-8-40-60 .s11-sec-8-left {
+  width: 40%;
+}
+
+.s11-sec-8-40-60 .s11-sec-8-right {
+  width: 60%;
+  position: relative;
+}
+
+/* Third Container: Left 50% - Right 50% */
+.s11-sec-8-50-50 .s11-sec-8-left,
+.s11-sec-8-50-50 .s11-sec-8-right {
+  width: 50%;
+}
+
+.s11-sec-8-subtitle {
+  font-size: var(--fs-l);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.s11-sec-8-left p,
+.s11-sec-8-right p {
+  font-size: var(--fs-S);
+  margin: 5px 0;
+}
+
+.s11-sec-8-img-container {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 10%;
+  right: 10%;
+}
+
+.s11-sec-8-image {
+  width: 100%;
+  height: 100%;
+}

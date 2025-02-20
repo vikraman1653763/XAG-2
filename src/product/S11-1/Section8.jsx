@@ -1,5 +1,4 @@
 import React from "react";
-
 const Section8 = () => {
   // JSON Data for specifications
   const technicalSpecifications = [
@@ -14,7 +13,8 @@ const Section8 = () => {
           { name: "Max All Up Weight Including Payload", detail: "10 kg approx." },
           { name: "Overall Dimension (mm) (l×b×h)", detail: "1200 × 920 × 600 mm" },
           { name: "Compatible Payload", detail: "EO/IR Sensors, any Sony Camera integration, tailored for advanced surveillance, surveying, and LiDAR applications." }
-        ]
+        ],
+        image: "/assets/s11-13.png"
       },
       right: {
         title: "C2 Link & Payload",
@@ -41,9 +41,9 @@ const Section8 = () => {
           { name: "Rapid Readiness", detail: "Deployed in Under 2 Minutes" },
           { name: "Gust Wind Tolerance", detail: "Up to 12 m/s" },
           { name: "24/7 Mission Capable", detail: "Optimized for Day and Night Operations" }
-        ]
+        ],
+        image: "/assets/s11-12.png"
       },
-  
       left: {
         title: "Power Plant Details",
         specs: [
@@ -51,6 +51,25 @@ const Section8 = () => {
           { name: "Number of Motors", detail: "4" },
           { name: "Battery Capacity", detail: "30,000 mAh" },
           { name: "Propeller Details", detail: "24-inch Diameter" }
+        ]
+      }
+    },
+    {
+      layout: "50-50",
+      left: {
+        title: "Equipment Details",
+        specs: [
+          { name: "GNSS", detail: "Yes" },
+          { name: "Autonomous Flight Termination System or RTH", detail: "Yes" },
+          { name: "Flight Controller with Flight Data Logging Capability", detail: "Yes" }
+        ]
+      },
+      right: {
+        title: "Safety Features",
+        specs: [
+          { name: "Anti-collision System", detail: "Yes" },
+          { name: "Flashing Anti-collision Strobe Light", detail: "Yes, can be on/off via App" },
+          { name: "Geo-fencing Capability", detail: "Yes" }
         ]
       }
     }
@@ -64,26 +83,35 @@ const Section8 = () => {
         <div key={index} className={`s11-sec-8-content s11-sec-8-${section.layout}`}>
           {/* Left Section */}
           <div className={`s11-sec-8-left s11-sec-8-left-${section.layout}`}>
+            {section.left.image && (
+              <div className="s11-sec-8-img-container">
+                <img src={section.left.image} className="s11-sec-8-image" alt=""/>
+              </div>
+            )}
             <h3 className="s11-sec-8-subtitle">{section.left.title}</h3>
             <div className="s11-sec-8-para">
-
-            {section.left.specs.map((spec, idx) => (
+              {section.left.specs.map((spec, idx) => (
                 <p key={idx}>
-                <strong>{spec.name} :</strong> {spec.detail}
-              </p>
-            ))}
+                  <strong>{spec.name} :</strong> {spec.detail}
+                </p>
+              ))}
             </div>
           </div>
 
           {/* Right Section */}
           <div className={`s11-sec-8-right s11-sec-8-right-${section.layout}`}>
+            {section.right.image && (
+              <div className="s11-sec-8-img-container">
+                <img src={section.right.image} className="s11-sec-8-image" alt=""/>
+              </div>
+            )}
             <h3 className="s11-sec-8-subtitle">{section.right.title}</h3>
             <div className="s11-sec-8-para">
-            {section.right.specs.map((spec, idx) => (
+              {section.right.specs.map((spec, idx) => (
                 <p key={idx}>
-                <strong>{spec.name} :</strong> {spec.detail}
-              </p>
-            ))}
+                  <strong>{spec.name} :</strong> {spec.detail}
+                </p>
+              ))}
             </div>
           </div>
         </div>
