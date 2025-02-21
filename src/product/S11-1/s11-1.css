@@ -150,36 +150,32 @@
   text-align: center;
   padding: 50px 20px;
   height: max-content;
-  background: linear-gradient(180deg, black 0%, white 100%);
+  background: linear-gradient(180deg, black 0%, grey 10%, white 20%, white 100%);
 }
 
 
 
 .s11-01-sec-5-title {
-    font-size: var(--fs-xl);
-    font-weight: bold;
-    margin-bottom: 20px;
-   
-      background: linear-gradient(150deg, rgb(143, 143, 143) 60%, rgb(180, 180, 180) 75%, white 100%);
-      
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
-      display: inline-block;
+  font-size: var(--fs-xl);
+  margin-bottom: 20px;
+  background: linear-gradient(150deg, rgb(0, 0, 0) 60%, rgb(180, 180, 180) 75%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  }
   
-  
-}
-
-.s11-01-sec-5-cards {
+  .s11-01-sec-5-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     height: max-content;
-}
-
-.s11-01-sec-5-card {
+  }
+  
+  .s11-01-sec-5-card {
     position: relative;
     background: white;
     width: 33%;
@@ -188,20 +184,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
-}
-
-.s11-01-sec-5-card:hover {
+  }
+  
+  .s11-01-sec-5-card:hover {
     transform: translateY(-5px);
-}
-
-.s11-01-sec-5-image {
+  }
+  
+  .s11-01-sec-5-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
-
-.s11-01-sec-5-card-title {
+  }
+  
+  .s11-01-sec-5-card-title {
     position:absolute;
     font-size: var(--fs-l);
     font-weight: 500;
@@ -209,22 +205,22 @@
     top: 0%;
     left: 5%;
     color: aliceblue;
-}
-
-.s11-01-sec-5-card-description {
+  }
+  
+  .s11-01-sec-5-card-description {
     font-size: 16px;
     color: #555;
     margin-top: 5px;
-}
-
-/*############################################################## section 6 ##############################################################*/
-
-.s11-01-sec-6-container {
+  }
+  
+  /*############################################################## section 6 ##############################################################*/
+  
+  .s11-01-sec-6-container {
     text-align: center;
     padding: 50px 20px;
     background: #000000;
-}
-
+  }
+  
 .s11-01-sec-6-title {
   font-size: var(--fs-xl);
   font-weight: bold;
@@ -390,4 +386,33 @@
 .s11-sec-8-image {
   width: 100%;
   height: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .s11-01-sec-3-container {
+    width: 100vw;
+    border: 1px solid red;
+  }
+  .s11-01-sec-3-title {
+    font-size: 32px;
+  }
+  .s11-01-sec-3-description {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+  .s11-01-sec-3-container {
+    height: 500px;
+    width: 100vw;
+  }
+  .s11-01-sec-3-title {
+    font-size: var(--fs-l);
+  }
+  .s11-01-sec-3-description {
+    font-size: var(--fs-s);
+    padding: 15px;
+  }
 }

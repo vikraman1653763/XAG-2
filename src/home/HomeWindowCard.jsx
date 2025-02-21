@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import shade from "/assets/shade.webp";
 import image1 from '/assets/demo9.webp';
 import image3 from '/assets/demo3.webp';
-import image2 from '/assets/demo4.webp';
+import image2 from '/assets/demo11.webp';
 import image4 from '/assets/demo10.webp';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
