@@ -182,7 +182,8 @@
   display: flex;
   color: #d4d4d4;
   position: relative;
-  height: 300vh;
+  height: auto;
+  margin: 5em 0em;
   padding: 1em 13rem;
   justify-content: center;
 }
@@ -207,31 +208,33 @@
   padding: 1em 0em;
 
 }
-.agr10-sec-5-cards{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.agr10-sec-5-cards {
+  height:50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
 }
+
+
 .agr10-sec-5-card{
   display: flex;
-  gap: 1em;
   align-items: center;
-  width: auto;
+  width: 100%;
+  height: min-content;
 }
 .agr10-sec-5-image{
-  width: 10em;
-  border: 1px solid #ffffff6b;
+  width: 10%;
   text-align: center;
-  border-radius: 1em;
   
 }
 .agr10-sec-5-image svg{
-  width: 80%;
+  width: 100%;
   height: 100%;
   color: #9cf00b;
 }
 .agr10-sec-5-content{
+  border-radius: 1em;
+  padding: 1em .5em;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -308,13 +311,13 @@
   flex-direction: row-reverse;
 }
 
-.agr10-sec-7-image {
+.agr10-sec-7-video {
   flex: 2;
   width: 500px;
   z-index: 3;
 }
 
-.agr10-sec-7-image-placeholder {
+.agr10-sec-7-video-placeholder {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -353,7 +356,7 @@
     gap: 10px;
   }
 
-  .agr10-sec-7-image {
+  .agr10-sec-7-video {
     max-width: 100%;
   }
 
@@ -508,6 +511,78 @@
   font-size: var(--fs-m);
 }
 
+
+/* ####################section10 ######################## */
+.agr10-sec-10-container {
+  text-align: center;
+  padding: 50px 20px;
+  height: max-content;
+background-color: #fff;
+}
+
+.agr10-sec-10-title {
+  font-size: var(--fs-xl);
+  margin-bottom: 20px;
+  background: linear-gradient(150deg, rgb(0, 0, 0) 60%, rgb(180, 180, 180) 75%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.agr10-sec-10-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  height: max-content;
+}
+
+.agr10-sec-10-card {
+  position: relative;
+  background: white;
+  width: 33%;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.agr10-sec-10-card:hover {
+  transform: translateY(-5px);
+}
+
+.agr10-sec-10-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+
+.agr10-sec-10-card-title {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  font-size: var(--fs-l);
+  font-weight: 500;
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.agr10-sec-10-card-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
   .agr10-sec-2 {
     padding: 1em;
@@ -594,8 +669,11 @@
     padding: .2em;
   }
   .agr10-sec-5-cards {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .agr10-sec-5-card {
     flex-direction: column;
@@ -623,12 +701,23 @@
     padding: 1em;
     text-align: center;
     background-position: center;
+    
   }
+  .agr10-sec-6-content {
+    width: 100%;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  
   .agr10-sec-6 h3 {
     font-size: var(--fs-m);
   }
   .agr10-sec-6 p {
     font-size: var(--fs-xs);
+    font-weight: 500;
   }
   .agr10-sec-6-btn-container {
     flex-direction: column;
@@ -654,12 +743,12 @@
       padding: 15px;
     }
   
-    .agr10-sec-7-image {
+    .agr10-sec-7-video {
       width: 100%;
       max-width: 90%;
     }
   
-    .agr10-sec-7-image-placeholder {
+    .agr10-sec-7-video-placeholder {
       width: 100%;
       height: auto;
       max-height: 250px;
@@ -669,7 +758,7 @@
   
     .agr10-sec-7-content {
       width: 100%;
-      max-width: 90%;
+      max-width: 100%;
     }
   
     .agr10-sec-7-title {
@@ -756,6 +845,23 @@
   }
   .agr10-sec-9-card p{
     font-size: var(--fs-xs);
+  }
+  .agr10-sec-10-title{
+    font-size: var(--fs-m);
+  }
+  .agr10-sec-10-card-title{
+    font-size: var(--fs-m);
+  }
+  .agr10-sec-10-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .agr10-sec-10-card {
+    width: 90%;
+    height: auto;
+  }
+  .agr10-sec-10-image {
+    height: auto;
   }
 }
 
@@ -932,11 +1038,13 @@
     font-size: 1.2rem;
     padding: 1em;
   }
+  .agr10-sec-10-cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .agr10-sec-10-card {
+    width: 45%;
+    height: auto;
+  }
 }
-
-
-
-
-
-
 

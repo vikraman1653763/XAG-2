@@ -11,6 +11,7 @@ import Section6 from './Section6';
 import Section7 from './Section7';
 import Section8 from './Section8';
 import Section9 from './Section9';
+import Section10 from './Section10';
 
 const Agr10 = () => {
   return (
@@ -19,10 +20,11 @@ const Agr10 = () => {
       <Section3 />
       <Section4 />
       <Section2 />
-      <Section8 />
+      <Section9 />
+      {/* <Section8 /> */}
       <Section5 />
       <Section7 />
-      <Section9 />
+      <Section10/>
       <Section6 />
     </div>
   );

@@ -3,34 +3,54 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
   
 const Section7 = () => {
-  const cards = [
+  const media = [
     {
-      id: 1,
-      videoTitle: "Crop Spraying",
-      image: '/assets/agr10-02.webp',
-      description:
-        "Deliver precise pesticide and herbicide coverage, ensuring optimal crop protection. Reduce chemical usage while enhancing efficiency for sustainable farming.",
+      title: 'Detachable Tank',
+      index: 'Tank',
+      video: '/assets/agr10-06.webm',
+      content: (
+        <>
+          <p>
+            The AGR 10’s 10-liter detachable tank allows quick refills, easy maintenance, and reduced downtime for efficient farming.
+          </p>
+        </>
+      ),
     },
     {
-      id: 2,
-      videoTitle: "Precision Monitoring",
-      image: '/assets/agr10-05.webp',
-      description:
-      "Utilize advanced aerial analytics to assess crop health and detect issues early. Optimize yield potential with real-time insights and data-driven decisions.",
+      title: 'High-Performance Motor',
+      index: 'Motor',
+      video: '/sam/7.mp4',
+      content: (
+        <>
+          <p>
+            The AGR 10’s motor ensures strong thrust, stability, and durability with heat- and waterproof features for reliable performance.
+          </p>
+        </>
+      ),
     },
     {
-      id: 3,
-      videoTitle: "Fertilizer Spreading",
-      image: '/assets/agr10-03.webp',
-      description:
-        "Ensure even nutrient distribution across fields, promoting healthy crop growth. Maximize soil fertility with precise application, reducing wastage.",
+      title: 'Precision Nozzle System',
+      index: 'Nozzle',
+      video: '/sam/7.mp4',
+      content: (
+        <>
+          <p>
+            The precision nozzles ensure even pesticide and fertilizer distribution, reducing waste and improving application efficiency.
+          </p>
+        </>
+      ),
     },
     {
-      id: 4,
-      videoTitle: "Fish Feeding",
-      image: '/assets/agr10-04.webp', 
-      description:
-        "Automate the feeding process in aquaculture with uniform pellet distribution. Enhance fish growth and reduce feed waste through precise aerial feeding.",
+      title: 'AI-Enabled Camera',
+      index: 'Camera',
+      video: '/sam/7.mp4',
+      content: (
+        <>
+          <p>
+            The AI-enabled camera provides real-time monitoring, smart obstacle detection, and accurate field mapping for better navigation.
+          </p>
+        </>
+      ),
     },
   ];
 
@@ -40,20 +60,17 @@ const Section7 = () => {
       easing: 'ease-in-out',
     });
   }, []);
+
   return (
     <section className="agr10-sec-7-container">
-      {cards.map((card) => (
-        <div key={card.id} className="agr10-sec-7-card">
-          <div className="agr10-sec-7-image">
-            <img
-              className="agr10-sec-7-image-placeholder"
-              src={card.image}
-              alt={card.videoTitle}
-            />
+      {media.map((item, index) => (
+        <div key={item.index} className="agr10-sec-7-card">
+          <div className="agr10-sec-7-video">
+            <video className="agr10-sec-7-video-placeholder" src={item.video} autoPlay muted playsInline loop />
           </div>
-          <div className="agr10-sec-7-content" data-aos={card.id % 2 === 0 ? 'fade-left' : 'fade-right'}>
-            <h2 className="agr10-sec-7-title">{card.videoTitle}</h2>
-            <p className="agr10-sec-7-description">{card.description}</p>
+          <div className="agr10-sec-7-content" data-aos={index % 2 === 0 ? 'fade-left' : 'fade-right'}>
+            <h2 className="agr10-sec-7-title">{item.title}</h2>
+            <div className="agr10-sec-7-description">{item.content}</div>
           </div>
         </div>
       ))}

@@ -86,7 +86,6 @@ function Section5() {
             <div key={index} className='agr10-sec-5-card' data-aos='fade-up-left'>
                 <div className='agr10-sec-5-image'>{drone.Icon}</div>
                 <div className='agr10-sec-5-content'>
-
                 <h4>{drone.Feature}</h4>
                 <p>{drone.Specification}</p>
                 </div>
