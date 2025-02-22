@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import image1 from '/assets/demo9.webp';
-import image2 from '/assets/demo4.webp';
+import image2 from '/assets/demo11.webp';
 import image3 from '/assets/demo3.webp';
 import image4 from '/assets/demo10.webp';
 
