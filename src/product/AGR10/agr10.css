@@ -778,9 +778,7 @@ background-color: #000000;
     .agr10-sec-7-description {
       font-size: var(--fs-xs);
       line-height: 1.4;
-    }
-  
-  
+    } 
   .agr10-sec-8-container {
     flex-direction: column-reverse;
     text-align: center;
@@ -876,7 +874,6 @@ background-color: #000000;
     height: auto;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .agr10-sec-2 {
     padding: .5em;
