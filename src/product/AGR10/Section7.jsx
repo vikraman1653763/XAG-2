@@ -41,14 +41,14 @@ const Section7 = () => {
       ),
     },
     {
-      title: 'AI-Enabled Camera',
+      title: 'Advanced Obstacle Avoidance',
       index: 'Camera',
-      video: '/sam/7.mp4',
+      video: '/assets/agr10-07.webm',
       content: (
         <>
           <p>
-            The AI-enabled camera provides real-time monitoring, smart obstacle detection, and accurate field mapping for better navigation.
-          </p>
+          Designed to detect obstacles and varying terrain in real-time, ensuring smooth navigation and optimized spraying performance for precision agriculture.
+                    </p>
         </>
       ),
     },
