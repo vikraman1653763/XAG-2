@@ -13,7 +13,7 @@ nav {
     height: auto;
 }
 nav{
-    background:#171818;
+    background:#000000;
 
     width: 100%;
     display: flex;
@@ -113,7 +113,7 @@ nav ul li a:hover, nav ul span:hover{
     margin: 0;
     flex-direction: column;
     /* position: absolute; */
-    background: #171818;
+    background: #000000;
     border: none;
     width: auto;
     align-items: start;
