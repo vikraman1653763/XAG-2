@@ -11,20 +11,21 @@ const Section7 = () => {
       content: (
         <>
           <p>
-            The AGR 10’s 10-liter detachable tank allows quick refills, easy maintenance, and reduced downtime for efficient farming.
+          10-liter polyethylene detachable tank is lightweight, durable, reduced downtime and ensuring efficient farming
           </p>
+          <p>Allows quick refills, ensuring minimal downtime, and is designed for easy maintenance</p>
         </>
       ),
     },
     {
-      title: 'High-Performance Motor',
+      title: 'Powering Performance with X Power Plus',
       index: 'Motor',
       video: '/sam/7.mp4',
       content: (
         <>
           <p>
-            The AGR 10’s motor ensures strong thrust, stability, and durability with heat- and waterproof features for reliable performance.
-          </p>
+          The AGR 10 runs on the X Power Plus battery, providing strong thrust, stability, and durability. </p><p>Its motor, backed by a reliable power source, ensures smooth performance with heat- and waterproof protection.
+                    </p>
         </>
       ),
     },
