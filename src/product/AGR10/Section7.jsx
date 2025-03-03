@@ -21,7 +21,7 @@ const Section7 = () => {
     {
       title: 'Powering Performance with X Power Plus',
       index: 'Motor',
-      video: '/sam/7.mp4',
+      image :'/assets/agr10-09.webp',
       content: (
         <>
           <p>
