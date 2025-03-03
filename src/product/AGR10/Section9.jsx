@@ -33,12 +33,12 @@ const Section9 = () => {
         Precision and Stability Redefined
       </h2>
       <div className="agr10-sec-9-container">
-        <div className="agr10-sec-9-video" data-aos="fade-right" data-aos-duration="300">
+        {/* <div className="agr10-sec-9-video" data-aos="fade-right" data-aos-duration="300">
           <video  autoPlay loop muted controls >
             <source src="/sam/2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>
+        </div> */}
         <div className="agr10-sec-9-content" data-aos="fade-left" data-aos-duration="300">
           {data.map((xy, i) => (
             <div key={i} className="agr10-sec-9-card" data-aos="fade-up" data-aos-duration="300">

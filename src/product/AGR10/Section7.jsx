@@ -8,6 +8,7 @@ const Section7 = () => {
       title: 'Detachable Tank',
       index: 'Tank',
       video: '/assets/agr10-06.webm',
+      
       content: (
         <>
           <p>
@@ -32,7 +33,8 @@ const Section7 = () => {
     {
       title: 'Precision Nozzle System',
       index: 'Nozzle',
-      video: '/sam/7.mp4',
+      image :'/assets/agr10-08.webp',
+      
       content: (
         <>
           <p>
@@ -66,9 +68,25 @@ const Section7 = () => {
     <section className="agr10-sec-7-container">
       {media.map((item, index) => (
         <div key={item.index} className="agr10-sec-7-card">
-          <div className="agr10-sec-7-video">
-            <video className="agr10-sec-7-video-placeholder" src={item.video} autoPlay muted playsInline loop />
-          </div>
+         <div className="agr10-sec-7-video">
+  {item.video ? (
+    <video
+      className="agr10-sec-7-video-placeholder"
+      src={item.video}
+      autoPlay
+      muted
+      playsInline
+      loop
+    />
+  ) : (
+    <img
+      className="agr10-sec-7-video-placeholder"
+      src={item.image}
+      alt={item.title}
+    />
+  )}
+</div>
+
           <div className="agr10-sec-7-content" data-aos={index % 2 === 0 ? 'fade-left' : 'fade-right'}>
             <h2 className="agr10-sec-7-title">{item.title}</h2>
             <div className="agr10-sec-7-description">{item.content}</div>
