@@ -32,7 +32,7 @@ const Section8 = () => {
         <div className="bat-sec-7-video-wrapper">
         <video
           className="bat-sec-7-video"
-          src="/assets/battery4.webm"
+          src="/assets/battery3.webm"
           loop
           autoPlay
           muted

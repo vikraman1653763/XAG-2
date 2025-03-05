@@ -12,7 +12,7 @@ const Section10 = () => {
       drone: "AGR10",
       description:
         "Designed to optimize the AGR10 drone's capabilities, the X Power Plus battery supports compact yet powerful operations. It provides sufficient endurance for targeted spraying and seeding tasks, making it perfect for smaller farms and precision agriculture.",
-        image: "/assets/agr16-14.webp",
+        image: "/assets/agr10-02.webp",
     },
   ];
 

@@ -27,7 +27,7 @@ const Section7 = () => {
         <div className="bat-sec-7-video-wrapper">
         <video
           className="bat-sec-7-video"
-          src="/assets/battery3.webm"
+          src="/assets/battery5.webm"
           loop
           autoPlay
           muted
