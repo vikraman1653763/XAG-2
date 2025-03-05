@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Navbar = () => {
   const [mini, setMini] = useState(false);
   const [types, setTypes] = useState(null);
-  const location = useLocation(); // Hook to get the current route
+  const location = useLocation(); 
 
   const toggleFuture = () => {
     setMini(!mini);
@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   const toggleTypes = (index) => {
-    setTypes((prev) => (prev === index ? null : index)); // Toggle current index or close
+    setTypes((prev) => (prev === index ? null : index)); 
   };
 
   const droneLinks = [

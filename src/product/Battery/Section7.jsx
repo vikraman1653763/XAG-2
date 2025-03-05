@@ -22,8 +22,6 @@ const Section7 = () => {
     <div className="bat-sec-7-container">
         <h2 className="bat-sec-7-title">Key Features</h2>
         <div className="bat-sec-7-context-container">
-
-        
         <div className="bat-sec-7-video-wrapper">
         <video
           className="bat-sec-7-video"
