@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../../style/Battery.css';
 
 import BatteryBanner from"./BatteryBanner";
 import './battery.css'

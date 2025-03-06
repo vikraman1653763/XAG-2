@@ -48,7 +48,7 @@ position: relative;
   height: .2em;
   border-radius: 2em;
   transition: left .4s linear, width 0.4s linear; 
-  background:#bb1d25;
+  background:#9BF00B;
   
 }
 
@@ -159,7 +159,7 @@ color: #d4d4d4;
   display: flex;
   flex-direction: column;
   align-items: first baseline;
-  background-color: #171818;
+  background-color: #000000;
   color: #d4d4d4;
   top: 30%; 
   width: 50vw;
@@ -396,8 +396,8 @@ backdrop-filter: blur(6px);
 .fc-sec-12-button {
   padding: 12px 24px;
   font-size: 1rem;
-  color: rgb(255, 255, 255);
-  background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
+  color: rgb(0, 0, 0);
+  background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077327 100%);
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -406,7 +406,7 @@ backdrop-filter: blur(6px);
 
 .fc-sec-12-button:hover {
   background: rgba(0, 0, 0);
-  color:#bb1d25;
+  color:#9BF00B;
   transform: scale(1.05); /* Adds a slight zoom effect on hover */
 }
 
@@ -613,7 +613,7 @@ background-attachment: local;
 
 .fc-sec-14 h3 strong{
 
-  color: #bb1d25;
+  color: #9BF00B;
 }
 
 

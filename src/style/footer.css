@@ -135,12 +135,12 @@ ul li {
     height: 2rem;
     padding: .01em;
     border-radius: 5px;
-    background: linear-gradient(150deg, #bb1d25, #bb1d25, #580773);
+    background: linear-gradient(150deg, #9BF00B, #9BF00B, #035a07);
 }
 .right_content svg:hover{
-    color: #bb1d25;
+    color: #9BF00B;
     background: #000;
-    border: 1px solid #bb1d25;
+    border: 1px solid #9BF00B;
 }
 .yt, .tw {
     padding: 3px;

@@ -186,9 +186,9 @@
   }
   
   .bat-sec-6-index .s-active {
-      color: #bb1d25;
+      color: #9BF00B;
 
-    border-bottom: 1px solid #bb1d25;
+    border-bottom: 1px solid #9BF00B;
   }
   
   .bat-sec-6-index-item {
@@ -545,8 +545,8 @@
 .bat-sec-11-button {
   padding: .5em;
   font-size: 1rem;
-  color:white;
-  background:linear-gradient(150deg, rgba(187,29,37,1) 0%, rgba(187,29,37,1) 80%, rgba(88,7,115,1) 100%);
+  color:rgb(0, 0, 0);
+  background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -555,9 +555,9 @@
 
 .bat-sec-11-button:hover {
   background:rgba(0, 0, 0, 0.212);
-  border: 1px solid #bb1d25;
+  border: 1px solid #9BF00B;
   transform: scale(1.05); 
-  color: #bb1d25;
+  color: #9BF00B;
 
 }
 
