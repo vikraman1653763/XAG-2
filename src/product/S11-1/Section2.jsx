@@ -1,17 +1,16 @@
 import React from "react";
 import { FaBatteryFull, FaWeightHanging, FaRuler, FaClock, FaWifi, FaWind, FaTachometerAlt, FaMicrochip, FaCogs, FaMapMarkedAlt } from "react-icons/fa";
-import {  LiaSortAmountUpSolid} from "react-icons/lia";
-import { GiThermometerHot } from "react-icons/gi";
+import { GiThermometerHot ,GiMountains} from "react-icons/gi";
+import { IoMdClock,IoLogoGameControllerB ,IoIosSpeedometer } from "react-icons/io";
 
 const specs = [
-    { icon: <FaWifi />, title: "Control Range", data: "10KM" },
-    { icon: <FaClock />, title: "Flight Time", data: "75 Minutes" },
-    { icon: <FaTachometerAlt />, title: "Max Speed", data: "12 m/s" },
-    { icon: <LiaSortAmountUpSolid />, title: "Service Ceiling", data: "4500m AMSL" },
+    { icon: <IoLogoGameControllerB />, title: "Control Range", data: "10KM+" },
+    { icon: <IoMdClock />, title: "Flight Time", data: ">75 Minutes" },
+    { icon: <IoIosSpeedometer  />, title: "Max Speed", data: "20 m/s" },
+    { icon: <GiMountains />, title: "Service Ceiling", data: "5000m+ AMSL" },
     { icon: <GiThermometerHot />, title: "Operating Temperature", data: "-20°C to 50°C" },
     { icon: <FaWind />, title: "Wind Resistance", data: "12 m/s" },
 
-   
 ];
 
 const Section2 = () => {

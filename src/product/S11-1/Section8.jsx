@@ -5,61 +5,60 @@ const Section8 = () => {
     {
       layout: "60-40",
       left: {
-        title: "RPA Details",
+        title: "Model Details",
         specs: [
-          { name: "RPA Category", detail: "Small Category" },
-          { name: "RPA Type", detail: "Quad Copter, VTOL" },
-          { name: "Antenna Type", detail: "Dual RTK Antenna" },
-          { name: "Max All Up Weight Including Payload", detail: "10 kg approx." },
+          { name: "Model Name", detail: "XAG-S11" },
+          { name: "Model Type", detail: "Quad Copter" },
+          { name: "GPS Type", detail: "Dual RTK Antenna" },
+          { name: "Max Payload", detail: "10kg+" },
           { name: "Overall Dimension (mm) (l×b×h)", detail: "1200 × 920 × 600 mm" },
-          { name: "Compatible Payload", detail: "EO/IR Sensors, any Sony Camera integration, tailored for advanced surveillance, surveying, and LiDAR applications." }
+          { name: "Compatible Payload", detail: "Depends on the model" }
         ],
-        image: "/assets/s11-13.png"
+       
       },
       right: {
-        title: "C2 Link & Payload",
+        title: "Power Plant Details",
         specs: [
-          { name: "Equipment Detail", detail: "2.4 GHz" },
-          { name: "Communication Range", detail: "5km, can be extendable up to 10km" },
-          { name: "Payload Type", detail: "Customizable Payload" },
-          { name: "Default Payload", detail: "Sony 24.1 MP" }
+          { name: "Engine/Motor", detail: "BLDC Motor" },
+          { name: "Number of Motors", detail: "4" },
+          { name: "Battery Type", detail: "Semi solid Battery" },
+          { name: "Propeller Details", detail: "24-inch Diameter" },
+          { name: "Propeller Material", detail: "carbon fiber-reinforced polymer (CFRP)" },
+          
         ]
       }
     },
     {
       layout: "40-60",
       right: {
-        title: "Performance Details",
+        title:"",
         specs: [
-          { name: "Max Endurance", detail: "75 minutes" },
-          { name: "Max Range", detail: "10 km" },
-          { name: "Max Speed", detail: "12 m/s" },
-          { name: "Cruise Speed", detail: "7 m/s" },
-          { name: "Service Ceiling", detail: "4500 m AMSL" },
-          { name: "Operating Temperature", detail: "-20°C to 50°C" },
-          { name: "Operating Altitude", detail: "120m AGL default / can be unlocked up to 1000m" },
-          { name: "Rapid Readiness", detail: "Deployed in Under 2 Minutes" },
-          { name: "Gust Wind Tolerance", detail: "Up to 12 m/s" },
-          { name: "24/7 Mission Capable", detail: "Optimized for Day and Night Operations" }
-        ],
-        image: "/assets/s11-12.png"
+         ],
       },
       left: {
-        title: "Power Plant Details",
+       
+        title: "RC Details",
         specs: [
-          { name: "Engine/Motor", detail: "BLDC Motor" },
-          { name: "Number of Motors", detail: "4" },
-          { name: "Battery Capacity", detail: "30,000 mAh" },
-          { name: "Propeller Details", detail: "24-inch Diameter" }
+          { name: "Radio frequency", detail: "2.4 GHz" },
+          { name: "Communication Range", detail: "5km+" },
+          { name: "Display", detail: "7-inch high-definition, high-brightness LCD touchscreen" },
+          { name: "Dimensions ", detail: "308 x 148 x 72 mm" },
+          { name: "Weight ", detail: "1440 g" },
+          { name: "Battery Life ", detail: "Up to 10 hours" },
+          { name: "Fast Charging ", detail: "30W PD charging" },
+          { name: "Waterproof Level ", detail: "IP4X" }
         ]
       }
     },
     {
       layout: "50-50",
       left: {
-        title: "Equipment Details",
+        title: "Mission Feature",
         specs: [
-          { name: "GNSS", detail: "Yes" },
+          {name : "Autonomous " , detail : "Yes"},
+          {name : "Semi Autonomous " , detail : "Yes"},
+          {name : "Manual Autopilot" , detail : "Yes"},
+          {name : "Full Autopilot" , detail : "Yes"},
           { name: "Autonomous Flight Termination System or RTH", detail: "Yes" },
           { name: "Flight Controller with Flight Data Logging Capability", detail: "Yes" }
         ]
@@ -67,11 +66,15 @@ const Section8 = () => {
       right: {
         title: "Safety Features",
         specs: [
-          { name: "Anti-collision System", detail: "Yes" },
-          { name: "Flashing Anti-collision Strobe Light", detail: "Yes, can be on/off via App" },
-          { name: "Geo-fencing Capability", detail: "Yes" }
+            { name: "Anti-collision System", detail: "Yes" },
+            { name: "Flashing Anti-collision Strobe Light", detail: "Yes, can be on/off via App" },
+            { name: "Battery Fail Safe", detail: "Yes" },
+            { name: "Return to Home (RC Fail)", detail: "Yes" },
+            { name: "GCS Fail Safe", detail: "Yes" },
+            { name: "Geo-fencing Capability", detail: "Yes" }
         ]
-      }
+    }
+    
     }
   ];
 

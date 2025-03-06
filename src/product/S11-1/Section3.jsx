@@ -8,9 +8,9 @@ const Section3 = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="s11-01-sec-3-overlay">
-                <h1 className="s11-01-sec-3-title">Revolutionizing Aerial Technology</h1>
+                <h1 className="s11-01-sec-3-title">Transforming Aerial Surveying with Advanced Imaging</h1>
                 <p className="s11-01-sec-3-description">
-                    Experience next-gen drone solutions with high efficiency, precision, and advanced automation.
+                Experience cutting-edge drone technology with advanced automation, high precision, and unmatched efficiency.
                 </p>
             </div>
         </section>

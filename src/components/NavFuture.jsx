@@ -27,17 +27,13 @@ const Navbar = () => {
       ],
     },
     {
-      type: 'Surveillance Drone',
+      type: 'S11',
       models: [
-        { name: 'VTOL', link: '/vtol' },
-        { name: 'Quadcopter', link: '/Quadcopter' },
-      ],
-    },
-    {
-      type: 'Military Drone',
-      models: [
-        { name: 'LW-50', link: '/lw-50' },
-        { name: 'HW-60', link: '/hw-60' },
+        { name: 'Survey', link: '/s1101' },
+        { name: 'Surveillance', link: '/s1102' },
+        { name: 'Inspection', link: '/s1103' },
+        { name: 'Emergency', link: '/s1104' },
+
       ],
     },
     {

@@ -1005,7 +1005,6 @@
     color: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.493);
     color: #9BF00B;
-
     border: 1px solid #9BF00B;
 }
 
@@ -1074,7 +1073,28 @@
     font-size: 1em;
     color: #d4d4d4;
   }
+    /*############################################################## client ##############################################################*/
   
+    .client-container {
+        text-align: center;
+        padding: 50px 20px;
+        background: #000000;
+      }
+      
+    .client-title {
+      font-size: var(--fs-xl);
+      font-weight: bold;
+      margin-bottom: 20px;
+    
+      color: rgb(255, 255, 255);
+      display: inline-block; 
+    }
+    
+    .client-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 20px;
+    }
  
   
   /* Small Screens: Mobile */
@@ -1106,6 +1126,12 @@
     .cert-certificate-details p {
       font-size: var(--fs-xs);
     }
+    .client-container{
+        padding: 1em;
+      }
+      .client-title{
+        font-size: var(--fs-l);
+      }
   }
   
 
@@ -1808,4 +1834,7 @@
         width: 70%;
         text-align: center;
     }
+    .client-container{
+        padding: 1em 5em;
+      }
 }

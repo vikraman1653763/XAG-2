@@ -17,32 +17,46 @@
 }
 
 .s11-01-sec-2-card {
-    background: aliceblue;
+    background: rgb(0, 0, 0);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1PX solid #9bf00b;
+    box-shadow: 0 4px 8px rgba(231, 226, 226, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
+.s11-01-sec-2-cards :first-child{
+  border-radius: 100px 0px 0px 0px; 
+} 
+.s11-01-sec-2-cards :nth-child(3){
+  border-radius: 0px 100px 0px 0px; 
+}
+.s11-01-sec-2-cards :nth-child(4){
+  border-radius: 0px 0px 0px 100px; 
+}
+.s11-01-sec-2-cards :nth-child(6){
+  border-radius: 0px 0px 100px 0px; 
+}
 .s11-01-sec-2-card:hover {
     transform: translateY(-5px);
 }
 
 .s11-01-sec-2-icon {
-    font-size: var(--fs-l);
-    color: #bb1d25;
+    font-size: var(--fs-xl);
+    color: #9bf00b;
     margin-bottom: 10px;
+  }
+  .s11-01-sec-2-icon svg{
+  border-radius: 0% !important;
 }
-
 .s11-01-sec-2-card-title {
     font-size: var(--fs-s);
     font-weight: bold;
+    color: #FFF;
 }
 
 .s11-01-sec-2-card-data {
     font-size: var(--fs-xs);
-    color: #555;
+    color: #ffffff;
 }
 
 
@@ -216,28 +230,7 @@
     margin-top: 5px;
   }
   
-  /*############################################################## section 6 ##############################################################*/
-  
-  .s11-01-sec-6-container {
-    text-align: center;
-    padding: 50px 20px;
-    background: #000000;
-  }
-  
-.s11-01-sec-6-title {
-  font-size: var(--fs-xl);
-  font-weight: bold;
-  margin-bottom: 20px;
 
-  color: rgb(255, 255, 255);
-  display: inline-block; 
-}
-
-.s11-01-sec-6-logo {
-    width: 120px;
-    height: auto;
-    margin: 0 30px;
-}
 
 /* #################################################### section 7################################################ */
 
@@ -294,8 +287,7 @@
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: var(--fs-xl);
-    background: linear-gradient(150deg, rgb(49, 49, 49) 10%, white 60% , black 100%);
-    background: linear-gradient(20deg,black white,white,white,black);
+    background-color: #FFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -410,12 +402,7 @@
   .s11-sec-7-desc h2{
     font-size: var(--fs-l);
   }
-  .s11-01-sec-6-container{
-    padding: 1em;
-  }
-  .s11-01-sec-6-title{
-    font-size: var(--fs-l);
-  }
+
   .s11-01-sec-2-container{
     padding: 1em;
   }
@@ -498,9 +485,7 @@
   .s11-sec-7 {
     padding: 2em 5rem;
   }
-  .s11-01-sec-6-container{
-    padding: 1em 5em;
-  }
+  
   .s11-01-sec-4-container{
     padding: 1em 1rem
   }

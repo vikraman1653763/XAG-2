@@ -11,10 +11,9 @@ function Section7() {
       </video>
     </div>
     <div className="s11-sec-7-desc">
-      <h2>SKYWATCH 360</h2>
+      <h2>S11- Survey</h2>
       <p>
-        The XAG-S11 is a reliable industrial drone built with a sturdy carbon fiber frame and advanced motors, 
-        making it suitable for tasks like surveillance, structural inspections, farming, and rescue operations.
+      The XAG-S11 is a reliable industrial drone engineered with an aviation-grade aluminum alloy and carbon fiber frame, ensuring durability and suitability for demanding environments
       </p>
     </div>
   </div>
