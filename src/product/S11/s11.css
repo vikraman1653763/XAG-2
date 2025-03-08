@@ -69,7 +69,7 @@
     height: 100%;
   }
 
-/* ############################################## SECtion usecase ##################################### */
+/* ############################################## S11 usecase ##################################### */
 
   
 .s11-usecase-slider {
@@ -215,7 +215,7 @@
 .s11-usecase-btn svg:hover {
   color: #555;
 }
-/* ################################################################### Spec ################################### */
+/* ################################################################### S11 Spec ################################### */
 
 
 .s11-spec-container {
@@ -278,7 +278,7 @@ border-radius: 0% !important;
   color: #ffffff;
 }
 
-/* ################################### Section 8 ############################## */
+/* ################################### Section tech ############################## */
 .s11-tech-container {
   width: 100%;
 
@@ -332,4 +332,59 @@ border-radius: 0% !important;
   margin: 5px 0;
   color: #000000;
   font-size: 1rem;
+}
+
+/* ################################### S11 ADV ############################## */
+
+.s11-adv-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 100%;
+  margin: auto;
+  padding: 1em 13rem;
+}
+
+.s11-adv-item {
+  display: flex;
+  align-items: center;
+}
+
+.s11-adv-row {
+  flex-direction: row;
+}
+
+.s11-adv-row-reverse {
+  flex-direction: row-reverse;
+}
+.s11-adv-row-reverse > .s11-adv-content{
+  text-align: end;
+}
+.s11-adv-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.s11-adv-image img {
+  height: auto;
+  border-radius: 10px;
+}
+
+.s11-adv-content {  
+  max-width: 50%;
+}
+
+.s11-adv-title {
+  font-size: var(--fs-xl);
+  background: linear-gradient(180deg, #9BF00B 0%, #9BF00B 50%, #077322 100%);  font-weight: normal;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.s11-adv-details {
+  font-size: var(--fs-s);
+  color: #ffffff;
 }

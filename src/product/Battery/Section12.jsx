@@ -10,21 +10,21 @@ function Section12() {
         setBatteries(data.batteries);
     }, []);
 
-    useEffect(() => {
-        const sr = ScrollReveal({
-            reset: false,
-            duration: 500,
-            easing: 'steps(1111)',
-            distance: '10px',
-            origin:"bottom",
-            disable: 'mobile',
-        });
+    // useEffect(() => {
+    //     const sr = ScrollReveal({
+    //         reset: false,
+    //         duration: 500,
+    //         easing: 'steps(1111)',
+    //         distance: '10px',
+    //         origin:"bottom",
+    //         disable: 'mobile',
+    //     });
 
-        sr.reveal('.battery-card');
-        return () => {
-            sr.destroy();
-        };
-    }, [batteries]);
+    //     sr.reveal('.battery-card');
+    //     return () => {
+    //         sr.destroy();
+    //     };
+    // }, [batteries]);
   return (
     <div>
       <div id="battery-container">
