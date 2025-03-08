@@ -1,30 +1,7 @@
 import React, { useState } from "react";
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
-const slideData = [
-  {
-    index: 0,
-    headline: "LiDAR Vision Snapshot",
-    src: "/assets/s11-lidar.webm",
-  },
-  {
-    index: 1,
-    headline: "Terrain Mastery in Motion",
-    src: "/assets/s11-2d.webm",
-  },
-  {
-    index: 2,
-    headline: "For Your Current Mood",
-    button: "Listen",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
-  },
-  {
-    index: 3,
-    headline: "Focus On The Writing",
-    button: "Get Focused",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
-  },
-];
+
 
 const Slide = ({ slide, isActive, position }) => {
   return (
@@ -41,9 +18,9 @@ const Slide = ({ slide, isActive, position }) => {
   );
 };
 
-const Usecase = () => {
+const Usecase = ({ data }) => {
   const [current, setCurrent] = useState(0);
-  const totalSlides = slideData.length;
+  const totalSlides = data.length;
 
   const handlePreviousClick = () => {
     setCurrent((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
@@ -56,7 +33,7 @@ const Usecase = () => {
   return (
     <div className="s11-usecase-slider">
       <ul className="s11-usecase-slider__wrapper">
-        {slideData.map((slide, index) => {
+        {data.map((slide, index) => {
           let diff = index - current;
           if (diff > 1) diff -= totalSlides;
           if (diff < -1) diff += totalSlides;
