@@ -6,14 +6,12 @@ const slideData = [
   {
     index: 0,
     headline: "LiDAR Vision Snapshot",
-    button: "Shop now",
     src: "/assets/s11-lidar.webm",
   },
   {
     index: 1,
-    headline: "In The Wilderness",
-    button: "Book travel",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    headline: "Terrain Mastery in Motion",
+    src: "/assets/s11-2d.webm",
   },
   {
     index: 2,

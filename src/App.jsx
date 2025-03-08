@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/NewNav.jsx';
+import Navbar from './navbar/Navbar.jsx';
 
 import ScrollToTop from './components/ScrollToTop.jsx';
 import UpButton from './components/upButton.jsx';
@@ -36,6 +36,9 @@ const TestimonialList = lazy(() => import('./admin/testimonialList.jsx'));
 const NotFound = lazy(() => import('./components/NotFound.jsx'));
 const FormSuccess = lazy(() => import('./components/success.jsx'));
 
+const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
+
+
 const App = () => {
   return (
     <Router>
@@ -51,6 +54,7 @@ const App = () => {
             <Route path="/agr10" element={<AGR10 />} />
             <Route path="/s11" element={<S11 />} />
             <Route path="/s1101" element={<S1101 />} />
+            <Route path="/survey" element={<Survey />} />
             <Route path="/batteries" element={<Battery />} />
             <Route path="/battery/:ID" element={<BatteryDetails />} />
             <Route path="/flight-controller" element={<FlightController />} />
@@ -59,8 +63,10 @@ const App = () => {
             <Route path="/blog/:id" element={<BlogDetails />} />
             <Route path="/career" element={<Career />} />
             <Route path="/dealer" element={<Dealer />} />
+
             <Route path="/login" element={<Login />} />
             <Route path="/success" element={<FormSuccess />} />
+
             <Route path="/admin" element={<ProtectedRoute element={Admin} />} />
             <Route path="/admin/blogs" element={<ProtectedRoute element={<BlogList />} />} />
             <Route path="/admin/careers" element={<ProtectedRoute element={<CareerList />} />} />
