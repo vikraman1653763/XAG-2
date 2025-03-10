@@ -5,14 +5,18 @@ import Sec2 from '../S11/S11-Usecase.jsx';
 import Sec3 from '../S11/S11-Techspec.jsx';
 import Sec4 from '../S11/S11-Adv.jsx';
 import Sec5 from '../S11/S11-Payload.jsx';
-import { payloadData ,slideData } from './surveyData.js';
+import Sec6 from '../S11/S11-Types.jsx';
+import Sec7 from '../S11/S11-Intro.jsx';
+import { introData, payloadData ,slideData, typeData } from './surveyData.js';
 
 function Survey() {
   return (
     <div>
+      <Sec7 data={introData}/>
       <Sec1/>
       <Sec5 data={payloadData}/>
       <Sec2 data={slideData}/>
+      <Sec6 data={typeData}/>
       <Sec4/>
       <Sec3/>
     </div>

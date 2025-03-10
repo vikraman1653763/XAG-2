@@ -20,7 +20,7 @@ export const payloadData =  [
 export const slideData = [
   {
     index: 0,
-    headline: "LiDAR Vision Snapshot",
+    headline: "Urban Mapping",
     src: "/assets/s11-lidar.webm",
   },
   {
@@ -40,4 +40,20 @@ export const slideData = [
     button: "Get Focused",
     src: "https://www.w3schools.com/html/mov_bbb.mp4",
   },
+];
+
+export const introData = [
+  { name: "XT-30", image: "/assets/s11-01.webp" },
+  { name: "XT-10a", image: "/assets/s11-02.webp" },
+  { name: "XT-MS", image: "/assets/s11-03.webp" },
+  { name: "XT-Lidar", image: "/assets/s11-04.webp" }
+];
+
+
+export const typeData = [
+  { name: "XT-30", image: "/assets/s11-01.webp" },
+  { name: "XT-10a", image: "/assets/s11-02.webp" },
+  { name: "Xag-Multi Spectral", image: "/assets/s11-03.webp" },
+  { name: "XAG-Lidar", image: "/assets/s11-04.webp" },
+  { name: "Sony Alpha 600", image: "/assets/s11-03.webp" }
 ];

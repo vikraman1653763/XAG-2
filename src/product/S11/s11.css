@@ -343,7 +343,19 @@ border-radius: 0% !important;
   max-width: 100%;
   margin: auto;
   padding: 1em 13rem;
+  
+  /* Radial Gradient Background */
+  background: radial-gradient(circle, #363636 20%, black 100%);
+  
+  /* Fixed Background */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  
+  /* Ensures Content Scrolls, but BG stays fixed */
+  min-height: 200vh; /* Ensures content is taller than viewport */
 }
+
 
 .s11-adv-item {
   display: flex;
@@ -365,9 +377,11 @@ border-radius: 0% !important;
   justify-content: center;
   align-items: center;
   width: 50%;
+  height: auto;
 }
 .s11-adv-image img {
-  height: auto;
+  width: 100%;
+  object-fit: contain;
   border-radius: 10px;
 }
 
@@ -377,14 +391,16 @@ border-radius: 0% !important;
 
 .s11-adv-title {
   font-size: var(--fs-xl);
-  background: linear-gradient(180deg, #9BF00B 0%, #9BF00B 50%, #077322 100%);  font-weight: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #9BF00B 0%, #9BF00B 50%, #077322 100%);  
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
-.s11-adv-details {
+.s11-adv-description {
   font-size: var(--fs-s);
   color: #ffffff;
 }
@@ -504,3 +520,136 @@ border-radius: 0% !important;
   opacity: 1;
   transform: translateX(-100px) rotate(90deg);
 }
+
+/* ################################################################### S11-types###############################################  */
+
+.s11-type-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Common Background for Transparent Images */
+.s11-type-image-container {
+  max-width: 50vw;
+  width:50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Makes sure elements inside can be absolutely positioned */
+  background: url("/assets/s11-01.webp") center/contain no-repeat; /* Set drone as static background */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Payload Images */
+.s11-type-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures payload fits perfectly without distortion */
+  position: absolute; /* Keeps payloads aligned with the drone */
+}
+
+
+/* Buttons */
+.s11-type-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.s11-type-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #9BF00B;
+  border: 1px solid #9BF00B;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.s11-type-button.active {
+  background-color: #9bf00b;
+  color: #000000;
+}
+
+.s11-type-button:hover {
+  background-color: #9bf00b;
+  color: #000000;
+}
+
+/* #################################################### s11-intro ############################################### */
+/* Full-Screen Background */
+.s11-intro-container {
+  width: 99vw;
+  height: 90vh;
+  background: url("/assets/s11-survey-battery.webp") center/cover no-repeat;
+  display: flex;
+  justify-content: flex-start; /* Align title & payloads to left */
+  align-items: center;
+  text-align: left;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  padding-left: 5rem; /* Space from left */
+}
+
+/* Title Section */
+.s11-intro-content {
+  z-index: 2;
+  max-width:100%;
+}
+
+.s11-intro-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #9bf00b, #005c08, #9bf00b);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 4s linear infinite;
+}
+
+/* Keyframes for moving gradient animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.s11-intro-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* Payload Images Container (Bottom Left) */
+.s11-intro-payloads {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 10px;
+}
+
+/* Payload Images - Scale Down to Fit in One Row */
+.s11-intro-payload-image {
+  width: 10em;
+  height: 10em; 
+  margin: 1em;
+
+  
+}
+
+

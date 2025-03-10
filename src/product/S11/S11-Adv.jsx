@@ -2,70 +2,46 @@ import React from "react";
 
 const features = [
   {
-    feature: "Easy Battery Installation and Replacement",
-    details: [
-      "Designed for quick and hassle-free battery swaps.",
-      "Ensures minimal downtime and seamless operation.",
-      "Reduces maintenance efforts for better efficiency."
-    ],
-    image: "/assets/drone.webp"
+    "feature": "Easy Battery Installation and Replacement",
+    "description": "Engineered for quick and hassle-free battery swaps, ensuring minimal downtime and uninterrupted operation. Its lightweight design allows easy handling by a single person, reducing maintenance efforts and maximizing efficiency in field operations.",
+    "image": "/assets/s11-survey-battery.webp"
   },
   {
-    feature: "Folding Quad Design",
-    details: [
-      "Compact and portable with foldable arms.",
-      "Allows easy transportation and quick setup.",
-      "Enhances convenience for field operations."
-    ],
-    image: "/assets/drone.webp"
+    "feature": "Folding Quad Design",
+    "description": "The folding quad design functions like an umbrella, allowing quick and effortless folding for easy transportation. Its lightweight structure ensures it can be carried by a single person, making it ideal for field operations where portability is key.",
+    "image": "/assets/s11-survey-fold.webp"
   },
   {
-    feature: "Obstacle and Terrain Sensor",
-    details: [
-      "Real-time obstacle detection for safe flights.",
-      "Smart terrain adaptation for stable navigation.",
-      "Reduces risks in complex environments."
-    ],
-    image: "/assets/drone.webp"
+    "feature": "Obstacle and Terrain Sensor",
+    "description": "Equipped with real-time obstacle detection and intelligent terrain adaptation, this system ensures highly accurate and automated flight adjustments, enhancing safety and stability while reducing risks in complex environments.",
+    "image": "/assets/drone.webp"
   },
   {
-    feature: "FC X Rotor Tek Flight Controller",
-    details: [
-      "Precision-engineered for stable flight performance.",
-      "Enhanced responsiveness and intelligent control.",
-      "Optimized for autonomous and manual operations."
-    ],
-    image: "/assets/drone.webp"
+    "feature": "XAG-RC Transmitter",
+    "description": "A high-performance transmitter with long-range connectivity, precision control, and an ergonomic design for an intuitive pilot experience. Engineered for reliability, it ensures seamless and responsive operation in all flight conditions.",
+    "image": "/assets/s11-Rc.webp"
   },
   {
-    feature: "MK32 Transmitter",
-    details: [
-      "High-performance transmitter with long-range control.",
-      "Ergonomic design for an intuitive pilot experience.",
-      "Reliable connectivity for uninterrupted operation."
-    ],
-    image: "/assets/drone.webp"
-  }
+    "feature": "X Rotor Tek India",
+    "description": "XAG's own FC X Rotor Tek India is precision-engineered for superior flight stability, offering highly responsive and intelligent control for both autonomous and manual operations. Designed for reliability, it ensures accurate navigation and seamless flight performance in diverse conditions.",
+    "image": "/assets/s11-fc.webp"
+},
 ];
 
-function Advance() {
+function Advance() {  
   return (
     <div className="s11-adv-container">
-      {features.map((feature, index) => (
+      {features.map((item, index) => (
         <div
           key={index}
           className={`s11-adv-item ${index % 2 === 0 ? "s11-adv-row" : "s11-adv-row-reverse"}`}
         >
           <div className="s11-adv-image">
-            <img src={feature.image} alt={feature.feature} />
+            <img src={item.image} alt={item.feature} />
           </div>
           <div className="s11-adv-content">
-            <h3 className="s11-adv-title">{feature.feature}</h3>
-            <ul className="s11-adv-details">
-              {feature.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
-              ))}
-            </ul>
+            <h3 className="s11-adv-title">{item.feature}</h3>
+            <p className="s11-adv-description">{item.description}</p>
           </div>
         </div>
       ))}

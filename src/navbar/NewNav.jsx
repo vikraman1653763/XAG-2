@@ -80,7 +80,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/agr10" onClick={resetMenus}>
                       <img
-                        src="/assets/nav1.png"
+                        src="/assets/nav1.webp"
                         alt="AGR10"
                         className="submenu-image"
                       />
@@ -88,7 +88,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/agr16" onClick={resetMenus}>
                       <img
-                        src="/assets/nav3.png"
+                        src="/assets/nav3.webp"
                         alt="AGR16"
                         className="submenu-image"
                       />
@@ -118,7 +118,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/survey" onClick={resetMenus}>
                       <img
-                        src="/assets/nav4.png"
+                        src="/assets/nav4.webp"
                         alt="Survey"
                         className="submenu-image"
                       />
@@ -164,7 +164,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/flight-controller" onClick={resetMenus}>
                       <img
-                        src="/assets/nav2.png"
+                        src="/assets/nav2.webp"
                         alt="Flight Controller"
                         className="submenu-image"
                       />
@@ -172,7 +172,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/batteries" onClick={resetMenus}>
                       <img
-                        src="/assets/nav5.png"
+                        src="/assets/nav5.webp"
                         alt="Batteries"
                         className="submenu-image"
                       />
