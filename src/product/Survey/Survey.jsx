@@ -17,7 +17,7 @@ function Survey() {
       <Sec5 data={payloadData}/>
       <Sec2 data={slideData}/>
       <Sec6 data={typeData}/>
-      <Sec4/>
+      <Sec4 model="survey"/>
       <Sec3/>
     </div>
   )

@@ -118,7 +118,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/survey" onClick={resetMenus}>
                       <img
-                        src="/assets/nav4.webp"
+                        src="/assets/nav5.webp"
                         alt="Survey"
                         className="submenu-image"
                       />
@@ -172,7 +172,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/batteries" onClick={resetMenus}>
                       <img
-                        src="/assets/nav5.webp"
+                        src="/assets/nav4.webp"
                         alt="Batteries"
                         className="submenu-image"
                       />
