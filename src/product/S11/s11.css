@@ -584,7 +584,6 @@ border-radius: 0% !important;
 .s11-intro-container {
   width: 99vw;
   height: 90vh;
-  background: url("/assets/s11-survey-battery.webp") center/cover no-repeat;
   display: flex;
   justify-content: flex-start; /* Align title & payloads to left */
   align-items: center;
@@ -592,8 +591,12 @@ border-radius: 0% !important;
   position: relative;
   color: white;
   overflow: hidden;
-  padding-left: 5rem; /* Space from left */
+  padding-left: 5rem; 
+  margin-top: 4.7em;
+  background: url("/assets/s11-survey-fold.webp") center/contain no-repeat;
+  background-position: 150%;
 }
+
 
 /* Title Section */
 .s11-intro-content {

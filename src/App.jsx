@@ -15,8 +15,7 @@ const About = lazy(() => import('./components/about.jsx'));
 const Contact = lazy(() => import('./components/contact.jsx'));
 const AGR16 = lazy(() => import('./product/AGR16/agr16.jsx'));
 const AGR10 = lazy(() => import('./product/AGR10/agr10.jsx'));
-const S11 = lazy(() => import('./product/S11/S11.jsx'));
-const S1101 = lazy(() => import('./product/S11-1/s11-1.jsx'));
+
 const Battery = lazy(() => import('./product/Battery/Battery.jsx'));
 const BatteryDetails = lazy(() => import('./product/Battery/BatteryDetails.jsx'));
 const FlightController = lazy(() => import('./product/FlightController/FlightController.jsx'));
@@ -37,6 +36,7 @@ const NotFound = lazy(() => import('./components/NotFound.jsx'));
 const FormSuccess = lazy(() => import('./components/success.jsx'));
 
 const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
+const Surveillance = lazy(() => import('./product/surveillance/surveillance.jsx'));
 
 
 const App = () => {
@@ -52,9 +52,10 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/agr16" element={<AGR16 />} />
             <Route path="/agr10" element={<AGR10 />} />
-            <Route path="/s11" element={<S11 />} />
-            <Route path="/s1101" element={<S1101 />} />
+  
             <Route path="/survey" element={<Survey />} />
+            <Route path="/surveillance" element={<Surveillance />} />
+            
             <Route path="/batteries" element={<Battery />} />
             <Route path="/battery/:ID" element={<BatteryDetails />} />
             <Route path="/flight-controller" element={<FlightController />} />

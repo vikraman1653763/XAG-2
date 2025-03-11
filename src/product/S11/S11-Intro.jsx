@@ -31,17 +31,16 @@ const Intro = ({data}) =>{
         animate={{ x: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 50, damping: 10 }}
       >
-        <h1 className="s11-intro-title">S11-Survey</h1>
-        <p className="s11-intro-subtitle">Transforming Aerial Surveying with Advanced Imaging</p>
+        <h1 className="s11-intro-title">{data.title}</h1>
+        <p className="s11-intro-subtitle">{data.subtitle}</p>
       </motion.div>
 
       {/* Bottom-Left Payload Images*/}
       <motion.div className="s11-intro-payloads">
-        {data.map((payload, index) => (
+        {data.images.map((image, index) => (
           <motion.img 
             key={index}
-            src={payload.image}
-            alt={payload.name}
+            src={image}
             className="s11-intro-payload-image"
             variants={getItemVariants(index)}
             initial="hidden"

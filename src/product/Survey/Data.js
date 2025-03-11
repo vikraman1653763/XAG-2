@@ -1,4 +1,4 @@
-export const payloadData =  [
+export const usageData =  [
   {
     "title": "GIS Mapping",
     "desc": "Capture geospatial data with precision, enabling detailed analysis and accurate land surveying."
@@ -42,15 +42,20 @@ export const slideData = [
   },
 ];
 
-export const introData = [
-  { name: "XT-30", image: "/assets/s11-01.webp" },
-  { name: "XT-10a", image: "/assets/s11-02.webp" },
-  { name: "XT-MS", image: "/assets/s11-03.webp" },
-  { name: "XT-Lidar", image: "/assets/s11-04.webp" }
-];
+export const introData = {
+  title: "S11-Survey",
+  subtitle: "Transforming Aerial Surveying with Advanced Imaging",
+  images: [
+    "/assets/s11-01.webp",
+    "/assets/s11-02.webp",
+    "/assets/s11-03.webp",
+    "/assets/s11-04.webp"
+  ]
+};
 
 
-export const typeData = [
+
+export const payloadData = [
   { name: "XT-30", image: "/assets/s11-01.webp" },
   { name: "XT-10a", image: "/assets/s11-02.webp" },
   { name: "Xag-Multi Spectral", image: "/assets/s11-03.webp" },

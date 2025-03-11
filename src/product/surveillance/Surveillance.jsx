@@ -9,7 +9,7 @@ import Sec6 from '../S11/S11-Types.jsx';
 import Sec7 from '../S11/S11-Intro.jsx';
 import {introData, payloadData , usageData ,slideData} from './Data.js';
 
-function Survey() {
+function Surveillance() {
   return (
     <div>
       <Sec7 data={introData}/>
@@ -17,10 +17,10 @@ function Survey() {
       <Sec5 data={usageData}/>
       <Sec2 data={slideData}/>
       <Sec6 data={payloadData}/>
-      <Sec4 model="survey"/>
+      <Sec4 model="surveillance"/>
       <Sec3/>
     </div>
   )
 }
 
-export default Survey
+export default Surveillance

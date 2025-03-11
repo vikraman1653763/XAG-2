@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 // Define images for different models
 const modelImages = {
@@ -17,7 +20,7 @@ const modelImages = {
   }
 };
 
-// Default Features (First Two Images Will Change Based on Model)
+
 const defaultFeatures = [
   {
     "feature": "Easy Battery Installation and Replacement",
@@ -58,6 +61,17 @@ function Advance({ model }) {
     return item;
   });
 
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: "ease-in-out", 
+      once: true, 
+      offset:120
+    });
+  }, []);
+ 
+
   return (
     <div className="s11-adv-container">
       {features.map((item, index) => (
@@ -69,7 +83,7 @@ function Advance({ model }) {
             <img src={item.image} alt={item.feature} />
           </div>
           <div className="s11-adv-content">
-            <h3 className="s11-adv-title">{item.feature}</h3>
+            <h3 className="s11-adv-title" data-aos="fade-up"   data-aos-offset="100">{item.feature} </h3>
             <p className="s11-adv-description">{item.description}</p>
           </div>
         </div>
