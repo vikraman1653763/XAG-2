@@ -37,6 +37,8 @@ const FormSuccess = lazy(() => import('./components/success.jsx'));
 
 const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
 const Surveillance = lazy(() => import('./product/surveillance/surveillance.jsx'));
+const Inspection = lazy(() => import('./product/Inspection/Inspection.jsx'));
+const Rescue = lazy(() => import('./product/Rescue/Rescue.jsx'));
 
 
 const App = () => {
@@ -55,7 +57,10 @@ const App = () => {
   
             <Route path="/survey" element={<Survey />} />
             <Route path="/surveillance" element={<Surveillance />} />
-            
+            <Route path="/inspection" element={<Inspection/>} />
+            <Route path="/rescue" element={<Rescue/>} />
+
+
             <Route path="/batteries" element={<Battery />} />
             <Route path="/battery/:ID" element={<BatteryDetails />} />
             <Route path="/flight-controller" element={<FlightController />} />

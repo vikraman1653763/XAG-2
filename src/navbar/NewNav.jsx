@@ -140,13 +140,13 @@ const WindowNavbar = () => {
                       />
                       <span>Inspection</span>
                     </Link>
-                    <Link to="/emergency" onClick={resetMenus}>
+                    <Link to="/rescue" onClick={resetMenus}>
                       <img
-                        src="/assets/emergency.webp"
-                        alt="Emergency"
+                        src="/assets/Rescue.webp"
+                        alt="Rescue"
                         className="submenu-image"
                       />
-                      <span>Emergency</span>
+                      <span>Rescue</span>
                     </Link>
                   </div>
                 )}

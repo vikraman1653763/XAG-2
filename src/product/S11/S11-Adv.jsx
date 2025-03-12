@@ -8,15 +8,22 @@ const modelImages = {
   survey: {
     first: "/assets/s11-survey-battery.webp",
     second: "/assets/s11-survey-fold.webp",
-    third: "/assets/drone.webp"
+    third: "/assets/drone.webp",
   },
-  rescue: {
-    first: "/assets/rescue-battery.webp",
-    second: "/assets/rescue-fold.webp"
+  surveillance: {
+    first: "/assets/s11-survey-battery.webp",
+    second: "/assets/s11-survey-fold.webp",
+    third: "/assets/drone.webp",
   },
   inspection: {
-    first: "/assets/inspection-battery.webp",
-    second: "/assets/inspection-fold.webp"
+    first: "/assets/s11-survey-battery.webp",
+    second: "/assets/s11-survey-fold.webp",
+    third: "/assets/drone.webp",
+  }, 
+  rescue: {
+    first: "/assets/s11-survey-battery.webp",
+    second: "/assets/s11-survey-fold.webp",
+    third: "/assets/drone.webp",
   }
 };
 
@@ -35,7 +42,7 @@ const defaultFeatures = [
   {
     "feature": "Obstacle and Terrain Sensor",
     "description": "Equipped with real-time obstacle detection and intelligent terrain adaptation, this system ensures highly accurate and automated flight adjustments, enhancing safety and stability while reducing risks in complex environments.",
-    "image": ""
+    "image": "" // Will be replaced dynamically
   },
   {
     "feature": "XAG-RC Transmitter",
