@@ -69,10 +69,10 @@ const WindowNavbar = () => {
           {isProductOpen && (
             <div className="new-nav-dropdown-menu horizontal">
               {/* Agri Section */}
-              <div className="new-nav-dropdown-section">
+              <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("agri", e)}>
                 <span
                   className="new-nav-dropdown-header"
-                  onClick={(e) => handleCategoryClick("agri", e)}
+                 
                 >
                   Agri
                 </span>
@@ -107,10 +107,10 @@ const WindowNavbar = () => {
               </div>
 
               {/* S11 Section */}
-              <div className="new-nav-dropdown-section">
+              <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
-                  onClick={(e) => handleCategoryClick("s11", e)}
+                 
                 >
                   S11
                 </span>
@@ -153,10 +153,10 @@ const WindowNavbar = () => {
               </div>
 
               {/* Accessories Section */}
-              <div className="new-nav-dropdown-section">
+              <div className="new-nav-dropdown-section" onClick={(e) => handleCategoryClick("accessories", e)} >
                 <span
                   className="new-nav-dropdown-header"
-                  onClick={(e) => handleCategoryClick("accessories", e)}
+                  
                 >
                   Accessories
                 </span>

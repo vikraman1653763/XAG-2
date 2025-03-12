@@ -13,6 +13,7 @@ import './style/app.css';
 const Footer = lazy(() => import('./components/Footer'));
 const About = lazy(() => import('./components/about.jsx'));
 const Contact = lazy(() => import('./components/contact.jsx'));
+
 const AGR16 = lazy(() => import('./product/AGR16/agr16.jsx'));
 const AGR10 = lazy(() => import('./product/AGR10/agr10.jsx'));
 

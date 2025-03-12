@@ -65,7 +65,8 @@
 
 /* Each category section in the dropdown */
 .new-nav-dropdown-section {
-  flex: 1; /* Ensures each section takes equal space */
+  flex: 1; 
+  
   text-align: center;
 }
 
