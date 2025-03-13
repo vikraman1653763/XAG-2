@@ -112,13 +112,13 @@
   padding: 10px;
   border-radius: 5px;
   transition: 0.3s;
-  font-size: 16px;
-  width: auto;
-  min-width: 320px;
+  font-size: var(--fs-s);
+  width: clamp(200px, 100%, 300px);
   text-align: center;
   border: 1px solid rgb(31, 30, 30);
-
 }
+
+
 .new-nav-submenu a:hover {
   background-color: #272727;
   transform: scale(1.05);

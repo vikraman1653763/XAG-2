@@ -100,7 +100,7 @@ const WindowNavbar = () => {
                         alt="AGR20"
                         className="submenu-image"
                       />
-                      <span>AGR20</span>
+                      <li>AGR20</li>
                     </Link>
                   </div>
                 )}
@@ -126,27 +126,27 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/surveillance" onClick={resetMenus}>
                       <img
-                        src="/assets/surveillance.webp"
+                        src="/assets/nav5.webp"
                         alt="Surveillance"
                         className="submenu-image"
                       />
-                      <span>Surveillance</span>
+                      <li>Surveillance</li>
                     </Link>
                     <Link to="/inspection" onClick={resetMenus}>
                       <img
-                        src="/assets/inspection.webp"
+                        src="/assets/nav5.webp"
                         alt="Inspection"
                         className="submenu-image"
                       />
-                      <span>Inspection</span>
+                      <li>Inspection</li>
                     </Link>
                     <Link to="/rescue" onClick={resetMenus}>
                       <img
-                        src="/assets/Rescue.webp"
+                        src="/assets/nav5.webp"
                         alt="Rescue"
                         className="submenu-image"
                       />
-                      <span>Rescue</span>
+                      <li>Rescue</li>
                     </Link>
                   </div>
                 )}
