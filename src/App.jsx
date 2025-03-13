@@ -28,7 +28,7 @@ const Dealer = lazy(() => import('./components/Dealer.jsx'));
 const Login = lazy(() => import('./components/Login.jsx'));
 
 const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
-const Surveillance = lazy(() => import('./product/Surveillance/Surveillance.jsx'));
+const Surveillance = lazy(() => import('./product/surveillance/Surveillance.jsx'));
 const Inspection = lazy(() => import('./product/Inspection/Inspection.jsx'));
 const Rescue = lazy(() => import('./product/Rescue/Rescue.jsx'));
 
