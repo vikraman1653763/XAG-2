@@ -26,6 +26,12 @@ const BlogDetails = lazy(() => import('./blog/BlogDetails.jsx'));
 const Career = lazy(() => import('./components/Career.jsx'));
 const Dealer = lazy(() => import('./components/Dealer.jsx'));
 const Login = lazy(() => import('./components/Login.jsx'));
+
+const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
+const Surveillance = lazy(() => import('./product/Surveillance/Surveillance.jsx'));
+const Inspection = lazy(() => import('./product/Inspection/Inspection.jsx'));
+const Rescue = lazy(() => import('./product/Rescue/Rescue.jsx'));
+
 const Admin = lazy(() => import('./admin/admin.jsx'));
 const BlogUpdate = lazy(() => import('./admin/BlogUpdate.jsx'));
 const CareerUpdate = lazy(() => import('./admin/CareerUpdate.jsx'));
@@ -33,13 +39,9 @@ const TestimonialUpdate = lazy(() => import('./admin/testimonialUpdate.jsx'));
 const BlogList = lazy(() => import('./admin/BlogList.jsx'));
 const CareerList = lazy(() => import('./admin/CareerList.jsx'));
 const TestimonialList = lazy(() => import('./admin/testimonialList.jsx'));
+
 const NotFound = lazy(() => import('./components/NotFound.jsx'));
 const FormSuccess = lazy(() => import('./components/success.jsx'));
-
-const Survey = lazy(() => import('./product/Survey/Survey.jsx'));
-const Surveillance = lazy(() => import('./product/surveillance/surveillance.jsx'));
-const Inspection = lazy(() => import('./product/Inspection/Inspection.jsx'));
-const Rescue = lazy(() => import('./product/Rescue/Rescue.jsx'));
 
 
 const App = () => {
