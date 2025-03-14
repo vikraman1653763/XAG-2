@@ -112,7 +112,7 @@ const WindowNavbar = () => {
                   className="new-nav-dropdown-header"
                  
                 >
-                  S11
+                  Industrial
                 </span>
                 {isSubmenuOpen("s11") && (
                   <div className="new-nav-submenu">

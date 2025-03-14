@@ -709,7 +709,7 @@ border-radius: 0% !important;
   justify-content: center;
   align-items: center;
   position: relative; /* Makes sure elements inside can be absolutely positioned */
-  background: url("/assets/s11-01.webp") center/contain no-repeat; /* Set drone as static background */
+  background: url("/assets/s11-survey-fold.webp") center/contain no-repeat; /* Set drone as static background */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
@@ -809,6 +809,7 @@ border-radius: 0% !important;
   margin-top: 4.7em;
   background: url("/assets/s11-survey-fold.webp") center/contain no-repeat;
   background-position: 150%;
+  background-color: #292929;
 }
 
 
@@ -857,16 +858,16 @@ border-radius: 0% !important;
   display: flex;
   width: auto;
   height: auto;
-  gap: 10px;
+  gap: 1em;
 }
 
 /* Payload Images - Scale Down to Fit in One Row */
 .s11-intro-payload-image {
-  width: 10em;
-  height: 10em; 
+  width: auto;
+  height: 7em; 
   margin: 1em;
-
-  
+  background: #ffffff;
+  border-radius: 10px;
 }
 
 

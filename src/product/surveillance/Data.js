@@ -68,10 +68,10 @@ export const introData = {
   title: "S11-Surveillance",
   subtitle: "Redefining Aerial Security with Cutting-Edge Intelligence",
   images: [
-    "/assets/s11-01.webp",
-    "/assets/s11-02.webp",
-    "/assets/s11-03.webp",
-    "/assets/s11-04.webp"
+    "/assets/s11-xt-10a.webp",
+    "/assets/s11-xag-lidar.webp",
+    "/assets/s11-xt-30.webp",
+    "/assets/s11-xag-lidar.webp"
   ]
 };
 
