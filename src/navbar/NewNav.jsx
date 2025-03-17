@@ -156,7 +156,6 @@ const WindowNavbar = () => {
               <div className="new-nav-dropdown-section" onClick={(e) => handleCategoryClick("accessories", e)} >
                 <span
                   className="new-nav-dropdown-header"
-                  
                 >
                   Accessories
                 </span>
