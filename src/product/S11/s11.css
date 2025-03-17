@@ -390,7 +390,7 @@ border-radius: 0% !important;
 
   .s11-tech-box {
     flex: 0 0 100%;
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -771,6 +771,11 @@ border-radius: 0% !important;
     height: 40vh;
   }
 
+  .s11-bg-image, .s11-type-image {
+    width: 100%;
+    height: auto;
+  }
+
   .s11-type-button {
     padding: 12px 24px;
     font-size: 1rem;
@@ -784,23 +789,26 @@ border-radius: 0% !important;
 
   .s11-type-buttons {
     align-items: center;
-    width: 99%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .s11-type-button {
-    width: 80%;
-    padding:10px 5px;
+    width: 50%;
+    padding: 10px 5px;
     font-size: var(--fs-xs);
-    border: 1px solid royalblue;
+    border: 1px solid rgb(47, 47, 48);
   }
 
   .s11-type-image-container {
-    max-width: 80vw;
-    width: 80vw;
-    height: 35vh;
+    max-width: 90vw;
+    width: 90vw;
+    height: 25vh;
   }
 
-  .s11-type-image {
+  .s11-bg-image, .s11-type-image {
     width: 100%;
     height: auto;
   }
@@ -948,13 +956,14 @@ border-radius: 0% !important;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 2rem;
-  gap: 10px;
+  margin-top: 1rem;
+  gap: 1px;
 }
 
 .s11-intro-mobile-payload-image {
-  width: 5em;
-  height: 5em;
+  width: auto;
+  height: 4rem;
+  border: 1px solid rgb(48, 47, 47);
   margin: 1em;
   border-radius: 10px;
 }
