@@ -50,15 +50,16 @@ export const introData = {
     "/assets/s11-xt-10a.webp",
     "/assets/s11-xag-lidar.webp",
     "/assets/s11-xt-30.webp",
+    "/assets/s11/s11-sony.png",
   ]
 };
 
 
 
 export const payloadData = [
-  { name: "XT-30", image: "/assets/s11-xt-30.webp" },
-  { name: "XT-10a", image: "/assets/s11-xt-10a.webp" },
-  { name: "Xag-Multi Spectral", image: "/assets/s11-xt-msc.webp" },
-  { name: "XAG-Lidar", image: "/assets/s11-xag-lidar.webp" },
-  { name: "Sony Alpha 600", image: "/assets/s11-xt-30.webp" }
+  { name: "XT-30", image: "/assets/s11/s11-pay-xt30.png" },
+  { name: "XT-10a", image: "/assets/s11/s11-pay-xt10a.png" },
+  { name: "Xag-Multi Spectral", image: "/assets/s11/s11-pay-ms.png" },
+  { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.png" },
+  { name: "Sony Alpha 600", image: "/assets/s11/s11-pay-sony.png" }
 ];

@@ -441,7 +441,7 @@ border-radius: 0% !important;
   height: auto;
 }
 .s11-adv-image img {
-  width: 50%;
+  width: 100%;
   object-fit: contain;
   border-radius: 10px;
 }
@@ -692,7 +692,6 @@ border-radius: 0% !important;
 }
 
 /* ################################################################### S11-types###############################################  */
-
 .s11-type-container {
   display: flex;
   flex-direction: column;
@@ -700,27 +699,42 @@ border-radius: 0% !important;
   gap: 20px;
 }
 
-/* Common Background for Transparent Images */
+/* Image Container */
 .s11-type-image-container {
   max-width: 50vw;
-  width:50vw;
+  width: 50vw;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Makes sure elements inside can be absolutely positioned */
-  background: url("/assets/s11-survey-fold.webp") center/contain no-repeat; /* Set drone as static background */
+  position: relative;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  background: radial-gradient(circle, #363636 20%, black 100%);
+}
+
+
+.s11-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /* This keeps the background on top */
 }
 
 /* Payload Images */
 .s11-type-image {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures payload fits perfectly without distortion */
-  position: absolute; /* Keeps payloads aligned with the drone */
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensures payload images stay behind the drone */
 }
+
 
 
 /* Buttons */
