@@ -57,17 +57,17 @@ const defaultFeatures = [
   {
     "feature": "Retractable Landing Gear 90°",
     "description": "Designed for seamless deployment and retraction, the 90-degree retractable landing gear enhances aerodynamics and stability during flight. It provides increased clearance for payloads and ensures safe landings in diverse terrains.",
-    "image": "/assets/s11-ret.png"
+    "image": "/assets/s11/s11-90deg.webp"
   },
   {
     "feature": "Silicon Landing Gear Shock Pad",
     "description": "Integrated with high-durability silicon shock pads, the landing gear effectively absorbs impact forces, reducing stress on the frame and ensuring smooth landings even on rough terrain.",
-    "image": "/assets/s11-dam.png"
+    "image": "/assets/s11/s11-pad.png"
   },
   {
     "feature": "redundant design of HerePro ",
     "description": "Integrated into the S11 for enhanced visibility and operational awareness, HerePro’s 50 ProfiLEDs provide real-time status indication and customizable lighting effects for improved night operations and situational awareness.",
-    "image": "/assets/s11/s11-gps.webp"
+    "image": "/assets/s11/s11-here.webp"
   }
 ];
 
