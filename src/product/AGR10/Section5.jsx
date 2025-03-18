@@ -24,20 +24,22 @@ const data =[
         "Icon": <PiWindBold/>,
         "Specification": "8 m/s"
     },
+    
     {
-        "Feature": "Operating Altitude",
-        "Icon": <TbArrowAutofitHeight/>,
-        "Specification": "30 meters"
+        "Feature": "Failsafe Features",
+        "Icon": <AiOutlineSafety/>,
+        "Specification": "Battery Low Voltage, RTL"
     },
     {
         "Feature": "Payload Options",
         "Icon": <FaPeopleCarry/>,
         "Specification": "Sprayer (10L), Spreader (10kg)"
     },
+   
     {
-        "Feature": "Range",
-        "Icon": <GiPathDistance/>,
-        "Specification": "1000 meters"
+        "Feature": "Operating Altitude",
+        "Icon": <TbArrowAutofitHeight/>,
+        "Specification": "30 meters"
     },
     {
         "Feature": "Endurance",
@@ -45,10 +47,11 @@ const data =[
         "Specification": "10 minutes"
     },
     {
-        "Feature": "Failsafe Features",
-        "Icon": <AiOutlineSafety/>,
-        "Specification": "Battery Low Voltage, RTL"
+        "Feature": "Range",
+        "Icon": <GiPathDistance/>,
+        "Specification": "1000 meters"
     },
+   
     {
         "Feature": "Deployment Time",
         "Icon": <BiSolidPlaneTakeOff/>,
@@ -60,20 +63,20 @@ const data =[
         "Specification": "T12 + Mobile Support"
     },
     {
+        "Feature": "Dimensions",
+        "Icon": <TbDimensions/>,
+        "Specification": "1992 x 1799 x 427 mm"
+    },
+    {
         "Feature": "Software",
         "Icon": <FaCode/>,
         "Specification": "AGS"
     },
-    {
-        "Feature": "Dimensions",
-        "Icon": <TbDimensions/>,
-        "Specification": "1992 x 1799 x 427 mm"
-    }
 ]
 
 function Section5() {
     useEffect(() => {
-        AOS.init({ duration: 500 ,offset: 300,});
+        AOS.init({ duration: 500 });
       }, []);
 
   return (
@@ -86,7 +89,6 @@ function Section5() {
             <div key={index} className='agr10-sec-5-card' data-aos='fade-up-left'>
                 <div className='agr10-sec-5-image'>{drone.Icon}</div>
                 <div className='agr10-sec-5-content'>
-
                 <h4>{drone.Feature}</h4>
                 <p>{drone.Specification}</p>
                 </div>

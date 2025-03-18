@@ -18,6 +18,7 @@ const Section1 = () => {
             setIsMobile(window.innerWidth <= 768);
         };
         
+        
         window.addEventListener('resize', handleResize);
 
         if (!isMobile) {
@@ -42,6 +43,7 @@ const Section1 = () => {
                 drawImage(imgRef.current);
             };
 
+            
             
             window.addEventListener('scroll', () => {
                 const scrollTop = html.scrollTop;

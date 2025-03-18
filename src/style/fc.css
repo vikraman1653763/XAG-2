@@ -1,7 +1,7 @@
 
 
 .fc-tab-container{
-background-color: #000000;
+background-color: transparent;
 width: 100%;
 height: 100%;
 color: #d4d4d4;
@@ -9,9 +9,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
+
 }
 .fc-index-container{
-  background-color: #6e5c5c00;
+  background-color: transparent;
   width: 100%;
   position: sticky;
   display: flex;
@@ -47,7 +48,8 @@ position: relative;
   height: .2em;
   border-radius: 2em;
   transition: left .4s linear, width 0.4s linear; 
-  background: #9bf00b;
+  background:#9BF00B;
+  
 }
 
 
@@ -62,13 +64,14 @@ position: relative;
   display: flex;
   flex-direction: column;
   /* padding: 1rem 13rem; */
-  justify-content: flex-start; /* Changed to align content to the start */
+  justify-content: flex-start; 
+  scroll-snap-type:y mandatory;
 }
 .fc-box {
   display: flex;
   height: 100vh;
   
-  scroll-snap-align: start; 
+  scroll-snap-align: end !important; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +161,7 @@ color: #d4d4d4;
   align-items: first baseline;
   background-color: #000000;
   color: #d4d4d4;
-  top: 30%; /* Adjusted for lower fixed deck */
+  top: 30%; 
   width: 50vw;
   height:20vh;
   border: 2px solid rgb(51, 51, 51);
@@ -287,7 +290,7 @@ height: max-content;
   justify-content: center;
   align-items: center;
   padding: 7rem 13rem;
-  background-color:hsla(0,0%,0%,1);
+  background-color:transparent;
 background-image:
 radial-gradient(at 100% 53%, hsla(82, 91%, 49%, 0.411) 0px, transparent 50%),
 radial-gradient(at 100% 48%, hsla(82,91%,49%,0.05) 0px, transparent 50%);
@@ -394,7 +397,7 @@ backdrop-filter: blur(6px);
   padding: 12px 24px;
   font-size: 1rem;
   color: rgb(0, 0, 0);
-  background-color: #9BF00B;
+  background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077327 100%);
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
@@ -402,7 +405,7 @@ backdrop-filter: blur(6px);
 }
 
 .fc-sec-12-button:hover {
-  background-color: rgba(0, 0, 0);
+  background: rgba(0, 0, 0);
   color:#9BF00B;
   transform: scale(1.05); /* Adds a slight zoom effect on hover */
 }
@@ -413,7 +416,7 @@ backdrop-filter: blur(6px);
   flex-direction: column;
   align-items: center;
   padding: 3rem 2rem;
-  background-color: #000000;
+  background-color: transparent;
   color: #d4d4d4;
   text-align: center;
   background-image:

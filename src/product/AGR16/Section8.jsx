@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Section8() {
 
      useEffect(() => {
-        AOS.init({ duration: 1000 }); 
+        AOS.init({ duration: 300 }); 
       }, []);
 
     return (
@@ -27,7 +27,7 @@ function Section8() {
             <div className="agr16-sec-8-buttons">
                 <Link to="/contact" data-aos="fade-up" data-aos-offset='100' className="agr16-sec-8-btn contact-us-btn">Contact Us</Link>
                 <Link to="#" data-aos="fade-up" data-aos-offset='200' className="agr16-sec-8-btn brochure-btn">Download Brochure</Link>
-                <Link to="#" data-aos="fade-up" data-aos-offset='300' className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
+                <Link to="/dealer" data-aos="fade-up" data-aos-offset='300' className="agr16-sec-8-btn get-quote-btn">Get a Quote</Link>
             </div>
             </div>
         </div>

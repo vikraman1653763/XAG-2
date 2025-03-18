@@ -7,7 +7,7 @@ const Section9 = () => {
     },
     {
       id: 2,
-      image: '/assets/certificate1.webp', 
+      image: '/assets/certificate2.webp', 
     }
   ];
 

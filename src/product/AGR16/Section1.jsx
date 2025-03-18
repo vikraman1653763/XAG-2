@@ -12,7 +12,7 @@ const Section1 = () => {
     const frameCount = 60;
     const images = useRef([]);
     const currentFrame = index => (
-`/Imagesequence/${index.toString().padStart(1, '0')}.webp`
+        `/Imagesequence/${index.toString().padStart(4, '0')}.webp`
     );
 
     useEffect(() => {
@@ -77,12 +77,12 @@ const Section1 = () => {
                 <img src={currentFrame(60)} alt="Final Frame" className="final-frame-mobile" />
             ) : (
                 <>
+                    <canvas ref={canvasRef} id="img-seq"></canvas>
                     <div className={`fc-scroll-downs ${!showScroll ? 'hide' : ''}`}>
                         <div className="fc-mousey">
                             <div className="fc-scroller"></div>
                         </div>  
                     </div>
-                    <canvas ref={canvasRef} id="img-seq"></canvas>
                     <div id="outer-layer-2">
                         <img src={shade} alt="shade" className="scroll-shade" />
                     </div>

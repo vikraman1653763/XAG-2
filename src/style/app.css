@@ -6,6 +6,7 @@
     font-display: swap;
 }
 
+
 @font-face {
     font-family: 'Poppins';
     src: url('/assets/Poppins-Regular.ttf') format('truetype');
@@ -37,13 +38,10 @@
     font-style: normal;
     font-display: swap;
 }
-
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 :root {
     --fs-xxs: .5rem; 
@@ -55,37 +53,33 @@
     --fs-xxl: 4rem;  
     --fs-xxxl: 8rem; 
 }
-
-  
- 
-
-html {
+/* html {
     scrollbar-width: thin;
-    scrollbar-color: #7FB00B #0C0C0C;
+    scrollbar-color: #9BF00B transparent;
     scroll-behavior: smooth;
-    scroll-snap-type:y mandatory;
-    scroll-snap-align: start;
-}
-
+} */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #000000;
     position: relative;
     -ms-overflow-style: -ms-autohiding-scrollbar; 
     overflow-y: scroll;
     margin: 0;
     padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
 }
 a{
     color: white ;
     text-decoration: none !important;
 }
-
 p {
     font-size: var(--fs-s);
 }
 span{
-
     text-align: center;
     color: #000;
     text-transform: uppercase;
@@ -94,17 +88,11 @@ span{
 }
 .error{
     color: red;
-    
 }
+
 main{
-    margin-top: 3rem;
-    
+    margin-top: 4rem;   
 }
-
-
-
-
-
 .final-frame-mobile{
     width: 99vw;
     object-fit: contain;
@@ -121,6 +109,8 @@ main{
 
 ::-webkit-scrollbar-thumb {
     background-color: #9BF00B;
+    background: linear-gradient(180deg, #9BF00B, #9BF00B, #00580f);
+
     border-radius: 10px;
     border: 3px solid #0C0C0C;
 }
@@ -164,6 +154,7 @@ main{
     width: 70%;
 }
 
+
 .image-text h3 {
     color: white;
     font-size: var(--fs-xxl); /* 64px */
@@ -184,7 +175,7 @@ main{
 }
 @media screen and (max-width: 767px) {
     main{
-        margin-top: 3.5em;
+        margin-top: 0em;
         overflow: hidden;
     }
 
@@ -213,7 +204,7 @@ main{
     }
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         main{
-            margin-top: 3.5em;   
+            margin-top: 1.8em;   
         }
     
         .banner {

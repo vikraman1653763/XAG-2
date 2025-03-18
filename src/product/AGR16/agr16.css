@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 1em 13rem;
+    padding: 1em 10rem;
 }
 
 .agr16-sec-2 ::before{
@@ -35,7 +35,7 @@
     height: auto;
     width: 99vw;
     position: relative;
-    padding: 0rem 13rem;
+    padding: 0rem 10rem;
     
 }
 
@@ -77,7 +77,7 @@
 }
 .agr16-sec-3 h3 span {
     color: rgb(58, 58, 58);
-    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
+    background:linear-gradient(180deg, #9BF00B 0%, #9BF00B 50%, #077322 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -141,7 +141,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    padding: 3em 13rem;
+    padding: 3em 10rem;
     background-color: #00000000;
     height: 100vh;
     position: relative;
@@ -249,118 +249,94 @@
   }
   
 /* ################################################ section 5 ################################################ */
-
+/* Container for the entire Section5 */
 .agr16-sec-5 {
-    color: #d4d4d4;
+  color: #d4d4d4;
+  padding: 2em 0;
 }
 
-.agr16-sec-5-container {
-    margin-bottom: 20px;
-  height: 500vh;
-  position: relative;
-  padding: 0em 13rem;
-}
 
-.agr16-sec-5-container-sticky {
-    position: sticky;
-    top: 25%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: flex-start;
-    overflow: hidden;
-    border-radius: 1em;
 
+/* Grid container for the cards */
+.agr16-sec-5-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 32px;                         /* Space between cards */
+  padding: 1em 10em;                 /* Adjust as needed */
+  align-items: center;
 }
-.agr16-sec-5-container-sticky .title{
-    color: #ffffff;
- 
-    font-size: var(--fs-xxl);
-    margin-bottom: 1em;
+.agr16-sec-5-container .title{
+  font-size: var(--fs-xxl);
 }
-.agr16-sec-5-container-sticky .title span{
-    color: #9bf00b;
-    font-weight: 900;
+.agr16-sec-5-container h2 span{
+  background:linear-gradient(180deg, #9BF00B 0%, #9BF00B 50%, #07732b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.agr16-sec-5-scroll-content {
-    display: flex;
-    gap: 32px;
-    width: 300vw;
-
- 
-}
-
+/* Basic card styling */
 .agr16-sec-5-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    width: 50vw;
-    height: 50vh;
-    border-radius: 1em;
-    transition: all .3s ease-in-out;
-    box-shadow: inset 2em 2em 1em black inset 2em 2em 1em black;
-    background-color: rgb(0, 0, 0);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 40%;
-   position: relative;
-   overflow: hidden;
-   /* border-bottom: 1em; */
-   transition: all .3s ease-in-out;
+  position: relative;
+  background-color:rgba(255, 255, 255, 0.082);
+  border-radius: 1em;
+  padding: 1em;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid rgb(34, 34, 34);
+  
+}
 
-  }
-
-
-
-
+/* Hover effect for cards */
 .agr16-sec-5-card:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
-.agr16-sec-5-card:hover > h2{
-    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    border-radius: 0%;
-}
+
+
 .agr16-sec-5-card h2 {
-    font-size: var(--fs-xxxl);
-    font-weight: 800;
-    border-radius: 50%;
-    line-height: 100%;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
 
+.agr16-sec-5-card h3 {
+  font-size: var(--fs-s);
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
 
+.agr16-sec-5-card p {
+  font-size: 1rem;
+  color: #fff;
 }
-.agr16-sec-5-card h3{
-    font-size: var(--fs-m);
-    color: white;
-}
-.agr16-sec-5-card p{
-    font-size: var(--fs-s);
-    color: white;
-    padding: 0em 1em;
-}
-.agr16-sec-5-card img{
-  position: absolute;
+
+.agr16-sec-5-card img {
   width: 100%;
-  top: 0%;
-  left: 0%;
-  opacity: .2;
+  margin-top:1em;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
 }
-.agr16-sec-5-card:hover img{
-  opacity: 1;
-  transition: all .3s ease-in-out;
+
+
+.agr16-sec-5-card:last-child {
+  grid-column: 2;
 }
+
+
+
+
+
+
+
 /* ################################################ section 6 ################################################ */
 
 
 .agr16-sec-6 {
-    padding: 1em 13rem;
+    padding: 1em 10rem;
     height: 300vh;
   }
   
@@ -405,22 +381,24 @@
     padding: 10px 20px;
     font-size: var(--fs-s);
     font-weight:500;
-    background-color: #9bf00b;
-    color: black;
-    border: none;
+    border: 1px solid #000000;
+    background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077310 100%);
+   
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
   }
   .agr16-sec-6-learn-more-button a{
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   .agr16-sec-6-learn-more-button:hover {
-    color: #9bf00b;
-    background-color: black;
+    color: #9BF00B;
+    background-color: transparent;
+    border: 1px solid #9BF00B;
   }
   .agr16-sec-6-learn-more-button:hover>a {
-    color: #9bf00b;
+    color: #9BF00B;
    
   }
  .agr16-sec-6-image-section {
@@ -454,12 +432,12 @@
     display: flex;
     flex-direction: column;
     width: 99vw;
-    padding: 1em 13rem;
+    padding: 1em 10rem;
 }
 .agr16-sec-7 h2{
     color: #9bf00b;
     font-size: var(--fs-xxl);
-    background: linear-gradient(to top, rgb(0, 116, 20),#9bf00b, #9bf00b);
+    background: linear-gradient(to top, #007414,#9bf00b, #9bf00b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -536,7 +514,7 @@
 
 .agr16-sec-8 {
     text-align: center;
-    padding: 1em 13rem;
+    padding: 1em 10rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     height: 100vh;
@@ -598,15 +576,21 @@
     transition: all 0.3s ease;
 }
 
-.contact-us-btn, .get-quote-btn,.brochure-btn:hover{
-    background-color: black;
-    color: #9bf00b;
-    border: 1px solid #9bf00b;
+.contact-us-btn, .get-quote-btn{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #9BF00B;
+    border: 1px solid #9BF00B;
+} 
+.brochure-btn:hover{
+  background: black;
+  color: #9BF00B;
+  border: 1px solid #9BF00B;
 }
-
 .brochure-btn,.contact-us-btn:hover, .get-quote-btn:hover{
-    background-color: #9bf00b;
-    color: black;
+    background-color: #9BF00B;
+    background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077330 100%);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
 }
 
 .agr16-sec-8-btn:hover {
@@ -615,10 +599,10 @@
 
 
 .agr16-sec-9-container {
-    height: 700vh; /* Set the height of the scrollable container */
+    height: 500vh;
     position: relative;
     display: flex;
-    padding: 1em 13rem;
+    padding: 1em 10rem;
     
 }
 .agr16-sec-9-video-container{
@@ -689,7 +673,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #000;
+    background-color: transparent;
     color: #d4d4d4;
   }
   
@@ -754,7 +738,7 @@
   }
   
   .agr16-sec-11 {
-    padding: 1em 13rem;
+    padding: 1em 10rem;
     
   }
   .agr16-sec-11-index  .s-active{
@@ -828,7 +812,7 @@
     border-radius: 1em;
   }
   .agr16-sec-12{
-    padding: 1em 13rem;
+    padding: 1em 10rem;
     display: flex;
     width: 99vw;
     align-items: center;
@@ -927,47 +911,16 @@
     .agr16-sec-4-card p {
         font-size: var(--fs-xs); 
     }
-    .agr16-sec-5-container {
-        height: 100%;
-        width: 99vw; /* Adjust height for mobile */
-        padding:0em;
-        align-items: center;
-        justify-content: center;
-      }
-    
-      .agr16-sec-5-container-sticky {
-        position: relative;
-        top: auto;
-        overflow: visible;
+    .agr16-sec-5-cards {
+      flex-direction: column;
+      gap: 1em;
+      align-items: center;
     }
-    
-    .agr16-sec-5-container-sticky .title {
-        font-size: var(--fs-l); /* Smaller font size */
-        text-align: center;
-        width: 100%;
+   
+    .agr16-sec-5-cards {
+      grid-template-columns: 1fr;
+      padding: 1em;
     }
-    
-    .agr16-sec-5-scroll-content {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        width: 100%;
-        align-items: center;
-        padding: 0em;
-        margin: 0%;
-    }
-    
-      .agr16-sec-5-card {
-        width: 80%; 
-        height: auto; 
-        padding: .5em;
-        border-radius: 1em;
-        background-size: cover;
-        text-align: center;
-        background-size: 20%;
-        position: relative;
-        border: 1px solid #eee;
-      }
     
       .agr16-sec-5-card h2 {
         font-size: var(--fs-m); 
@@ -1346,14 +1299,14 @@ font-size: var(--fs-xs);
 
     .agr16-sec-5-container {
         height: auto; 
-        padding: 2em 2em;
+        padding: 1em;
     }
 
     .agr16-sec-5-container-sticky {
         position: relative; 
         top: auto;
     }
-    .agr16-sec-5-container-sticky .title {
+    .agr16-sec-5-container .title {
       font-size: var(--fs-xl);
     }
 
@@ -1366,18 +1319,17 @@ font-size: var(--fs-xs);
     }
    
 
-    .agr16-sec-5-card {
-      justify-content: center;
-      align-items: center;
-      width: 70vw !important;
-        height: auto; 
-        padding: 1.7em; 
-        border-radius: 1em;
-        background-size: cover;
-        background-position: center;
-        background-image: none !important;
+   
+    .agr16-sec-5-cards {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 1em;                    
     }
-
+    
+    .agr16-sec-5-card {
+      
+      width: 100% !important;
+      padding:.5em;       
+    }
     .agr16-sec-5-card h2 {
         font-size: var(--fs-xs);
         text-align: center;
@@ -1385,7 +1337,7 @@ font-size: var(--fs-xs);
     }
 
     .agr16-sec-5-card h3 {
-        font-size: var(--fs-m); 
+        font-size: var(--fs-s); 
         text-align: center;
 
     }
@@ -1395,11 +1347,21 @@ font-size: var(--fs-xs);
 
         font-size: var(--fs-s);
     }
-    .agr16-sec-5-container {
-        padding: 2em 2rem; 
-    }
+    
+  .agr16-sec-5-card img {
+  width: 100%;
 
-  
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+    .agr16-sec-5-cards {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 1em 5em;
+    }
+    .agr16-sec-5-card:last-child {
+      grid-column: auto;
+    }
    
     /* Tablet view for Section6 */
 .agr16-sec-6 {

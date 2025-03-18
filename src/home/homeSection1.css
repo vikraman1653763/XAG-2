@@ -1,0 +1,216 @@
+.home-car-2-carousel {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+.home-car-2-shade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 80%;
+    object-fit: cover;
+}
+
+.home-car-2-item {
+    position: relative;
+    min-width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-car-2-introduce {
+    width: 40em;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-10%, -60%);
+    color: white;
+    padding: 1em;
+    z-index: 2;
+}
+
+
+.home-car-2-title{
+    font-size: var(--fs-l);
+}
+.home-car-2-topic{
+    font-size: var(--fs-xxl);
+    line-height: var(--fs-xxl);
+}
+.home-car-2-des{
+    font-size: var(--fs-xs);
+}
+
+.home-car-2-seeMore {
+    margin-top: 1.2em;
+    padding: 0.5em 0.9em;
+    letter-spacing: 3px;
+    color: white !important;
+    font-weight: 530;
+    font-size: var(--fs-xs);
+    border: 1px solid white;
+    border-radius: 3em;
+    background: rgba(73, 72, 72, 0.15);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-car-2-seeMore a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-car-2-seeMore:hover {
+    transform: scale(1.03);
+    transition: all 0.4s ease-in-out;
+    background: none;
+    color: #9BF00B !important;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.home-car-2-image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-car-2-arrows-container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.home-car-2-prev, 
+.home-car-2-next {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.home-car-2-prev svg,
+.home-car-2-next svg {
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    z-index: 3;
+}
+
+.home-car-2-carousel:hover .home-car-2-arrows-container {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+
+
+/* Tablet View */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .home-car-2-carousel {
+    
+        position: relative;
+        object-fit: contain;
+    }
+
+    .home-car-2-introduce {
+        width: 60%;
+        top: 55%;
+        left: 5%;
+        transform: translate(-5%, -50%);
+        padding: 1em;
+    }
+
+    .home-car-2-title {
+        font-size: var(--fs-s);
+    }
+
+    .home-car-2-topic {
+        font-size: var(--fs-l);
+        line-height: var(--fs-l);
+    }
+
+    .home-car-2-des {
+        font-size: var(--fs-xs);
+    }
+
+    .home-car-2-seeMore {
+        padding: 0.5em 0.9em;
+        font-size: var(--fs-xs);
+        letter-spacing: 2px;
+    }
+
+    
+.home-car-2-image {
+    width: 100vw;
+    height:auto;
+    z-index: 1;
+    object-fit: contain;
+    object-position: center;
+}
+    .home-car-2-arrows-container {
+        top: 50%;
+    }
+
+    .home-car-2-prev svg,
+    .home-car-2-next svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* mobileCarousel.css */
+.mobile-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 1em;
+  }
+  
+  .mobile-carousel-card {
+    width: 100%;
+    max-width: 90%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-carousel-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .mobile-carousel-content {
+    text-align: center;
+  }
+  .mobile-carousel-content h2{
+    font-size: var(--fs-l);
+  }
+  .mobile-carousel-content h4{
+    font-size: var(--fs-s);
+  } 
+  .mobile-carousel-content p{
+    font-size: var(--fs-xs);
+  }
+  .mobile-carousel-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #9BF00B;
+    font-weight: 500;
+  }
+  

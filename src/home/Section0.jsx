@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import shade from "/assets/shade.webp";
 import image1 from '/assets/demo9.webp';
 import image3 from '/assets/demo3.webp';
+import image2 from '/assets/demo4.webp';
 import image4 from '/assets/demo10.webp';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -9,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const HomeCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
-  const [hasLoaded, setHasLoaded] = useState(false); // State to ensure carousel starts only after fully loaded
+  const [hasLoaded, setHasLoaded] = useState(false); 
   const intervalRef = useRef(null);
   const [offsetY, setOffsetY] = useState(0);
 
@@ -29,7 +30,7 @@ const HomeCarousel = () => {
   const startAutoSlide = () => {
     intervalRef.current = setInterval(() => {
       handleNext();
-    }, 7000); // 7 seconds interval
+    }, 7000); 
   };
 
   const stopAutoSlide = () => {
@@ -60,9 +61,9 @@ const HomeCarousel = () => {
     return () => stopAutoSlide();
   }, [hasLoaded]);
   
-  // Ensure the carousel only starts after the component has loaded
+  
   useEffect(() => {
-    setHasLoaded(true); // Mark the component as fully loaded
+    setHasLoaded(true); 
   }, []);
   
   return (
@@ -91,7 +92,7 @@ const HomeCarousel = () => {
               </Link>
             </button>
 
-            </div>
+            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
           </div>
         ))}
       </div>
@@ -136,10 +137,10 @@ const items = [
     description: "Xrotor Tek India AG-FMU is perfect for agricultural spraying, offering real-time tracking, support for nine languages, and future upgrades like live video streaming",
   },
   {
-    image: image3,
+    image: image2,
     title: "AGRI DRONE",
     topic: "AGR-10",
-    link: '/agr16',
+    link: '/agr10',
     clas:'',
     description: "The AGR-10 is a hexacopter UAS from Xagrotor Tek, built for precise farming. It uses advanced technology and a custom flight controller to help farmers work more efficiently and improve productivity.",
   },
@@ -152,4 +153,6 @@ const items = [
     description: "Xpower Plus is designed for long-lasting power in drones, ensuring extended flight times and reliable performance for agricultural and industrial tasks.",
   },
 ];
+
+
 export default HomeCarousel;

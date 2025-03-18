@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../../style/Battery.css';
 
 import BatteryBanner from"./BatteryBanner";
 import './battery.css'
@@ -31,7 +30,7 @@ const Battery = () => {
         <Section9/>
         <Section10/>
         <Section11/>
-        {/* <BatteryBanner/> */}
+        <BatteryBanner/>
         {/* <Section12/> */}
         
         </>

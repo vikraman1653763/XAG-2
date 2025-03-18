@@ -4,7 +4,7 @@
     height: 100vh;
     width: 99vw;
     overflow: hidden;
-    background-color: #000000;
+    background-color: transparent;
     overflow: hidden;
     top: 4rem;
     margin-bottom: 4rem;
@@ -110,7 +110,7 @@ object-position: top;
 
   .dealer-sec-2{
     height: 100%;
-    background: #00000000;
+    background: transparent;
   }
   
 
@@ -216,7 +216,7 @@ object-position: top;
 
   .dealer-section3 {
     padding: 2rem;
-    background-color: #000000;
+    background-color: transparent;
     border-radius: 8px;
     margin: 0 auto;
     color: rgba(240, 248, 255, 0.623);
@@ -315,7 +315,7 @@ object-position: top;
 
 .dealer-sec-4 {
   padding: 2rem;
-  background-color: #000000;
+  background-color: transparent;
   color: #d4d4d4;
   text-align: center;
 }

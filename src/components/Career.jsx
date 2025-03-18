@@ -64,10 +64,8 @@ const Career = () => {
     // ]);
 
     const { id } = useParams(); 
-
     const[items,setItems]=useState([])
     const[error,setError]= useState(null)
-
     const [selectedType, setSelectedType] = useState([]);
     const [selectedLocation, setSelectedLocation] = useState('All');
     const [selectedExperience, setSelectedExperience] = useState([]);
@@ -179,10 +177,8 @@ const Career = () => {
                         {error}
                     </div>
                     )} */}
-
             </section>
         </>
     );
 };
-
 export default Career;

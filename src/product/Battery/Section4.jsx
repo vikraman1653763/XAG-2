@@ -6,7 +6,7 @@ import check from '/assets/check.svg';
 const Section4 = () => {
   
   useEffect(() => {
-    AOS.init({ duration: 1000 }); 
+    AOS.init({ duration: 300 }); 
   }, []);
 
   return (

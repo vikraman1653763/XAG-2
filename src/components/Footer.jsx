@@ -1,10 +1,7 @@
 import React from 'react';
-import '/src/style/footer.css';
-import facebook from '/assets/facebook.svg';
-import youtube from '/assets/youtube.svg';
-import twitter from '/assets/twitter.svg';
-import instagram from '/assets/instagram.svg';
-import linkedin from '/assets/linkedin.svg';
+import '../style/footer.css';
+import { FaFacebookSquare, FaYoutubeSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <footer>
@@ -19,7 +16,7 @@ const Footer = () => {
                     <div className="part-2">
                         <div className="part-22">
                             <h3>Quick Links</h3>
-                        <ul className="list_links">
+                            <ul className="list_links">
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/training">Training</a></li>
                                 <li><a href="/blog">Blogs</a></li>
@@ -29,13 +26,12 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="part-23">
-                            <h3>Product</h3>
+                            <h3>Products</h3>
                             <ul>
-                            <li><a href="/agr16">Agr16</a></li>
-                        <li><a href="/agr16">Ag10</a></li>
-                        <li><a href="/flight-controller">Xrotor&nbsp;Tek</a></li>
-                        <li><a href="/Batteries">Batteries</a></li>
-
+                                <li><a href="/agr16">AGR16</a></li>
+                                <li><a href="/agr10">AGR10</a></li>
+                                <li><a href="/flight-controller">Xrotor Tek</a></li>
+                                <li><a href="/batteries">Batteries</a></li>
                             </ul>
                         </div>
                     </div>
@@ -63,14 +59,21 @@ const Footer = () => {
                         <a href="/sitemap.xml">Site Map</a>
                     </div>
                     <div className="right_content">
-
-                    <img src={facebook} alt='facebook'/>
-                    <img src={instagram}  alt='instagram'/>
-                    <img src={linkedin} alt='linkedin'/>
-                    <img className='tw' src={twitter} alt='twitter'/>
-                    <img className='yt' src={youtube} alt='youtube'/>
-
-                        
+                        <a href="https://www.facebook.com/share/1MupYvERC9/" target="_blank" rel="noopener noreferrer">
+                            <FaFacebookSquare />
+                        </a>
+                        <a href="https://youtube.com/@xagrotortek?si=AditypPNMBzHL7rT" target="_blank" rel="noopener noreferrer">
+                            <FaYoutubeSquare />
+                        </a>
+                        <a href="https://www.instagram.com/xagrotortek?igsh=d3puNXl6Y3hmYWpx" target="_blank" rel="noopener noreferrer">
+                            <FaInstagramSquare />
+                        </a>
+                        <a href="https://x.com/xagrotortek" target="_blank" rel="noopener noreferrer">
+                            <FaTwitterSquare />
+                        </a>
+                        <a href="https://www.linkedin.com/company/xagrotor-tek-private-limited/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin />
+                        </a>
                     </div>
                 </div>
             </div>

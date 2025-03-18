@@ -2,12 +2,9 @@
 import React, { useEffect, useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import '../../style/agr16.css';
-
-
+import './agr16.css';
 import Section1 from './Section1.jsx';
 import Section2 from './Section2.jsx';
-import './agr16.css';
 import Section3 from './Section3.jsx';
 import Section4 from './Section4.jsx';
 import Section5 from './Section5.jsx';
@@ -20,22 +17,14 @@ import Section11 from './Section11.jsx';
 import Section12 from './Section12.jsx';
 
 const AGR16 = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      mirror: true,
-    });
-  }, []);
+ 
 
   return (
     <div >
     
-      
-      
       <Section1/>
       <div className='agr16-body'>
       <Section2/>
-
       <Section3/>
       <Section4/>
       </div>
@@ -47,8 +36,6 @@ const AGR16 = () => {
       <Section11/>
       <Section12/>
       <Section8/>
-      
- 
     </div>
   );
 };

@@ -1,0 +1,52 @@
+/* model.css */
+.container-3d {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: grab; 
+  }
+  
+  .canvas-3d {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #1f1f1f;
+    background-position: center;
+    border-radius: 20px;
+    background: radial-gradient(circle, #679e08 0%, #365303 45%, #1e2e01 100%);
+    background: linear-gradient(to top, rgb(32, 32, 32), #adadad, #ffffff);
+
+    z-index: 3;
+  }
+  /* src/style/model.css */
+.interaction-hint {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    z-index: 20;
+    animation: fadeOut 4s forwards;
+    pointer-events: none; /* Let clicks pass through */
+    display: flex;
+    align-items: center;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

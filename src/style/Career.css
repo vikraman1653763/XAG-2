@@ -45,7 +45,7 @@
 .career-section {
     display: flex;
     padding: 20px;
-    background-color: #000000;
+    background-color: transparent;
     height: auto;
     overflow-y: auto;
     scrollbar-width: thin;

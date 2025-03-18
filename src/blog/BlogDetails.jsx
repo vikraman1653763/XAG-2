@@ -25,11 +25,9 @@ const BlogDetails = () => {
         };
         fetchBlog();
     }, [id]); 
-
     if (error) {
         return <div>{error}</div>;
     }
-
     if (!blog) {
         return <div>Loading...</div>;
     }

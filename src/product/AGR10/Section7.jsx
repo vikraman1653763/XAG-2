@@ -1,101 +1,100 @@
-import React, { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from "framer-motion";
-const data = [
-  {
-    title: 'Crop Spraying',
-    desc: 'Efficient and precise distribution of pesticides and herbicides for optimal crop health.',
-    image: '/assets/agr16-15.webp',
-  },
-  {
-    title: 'Fertilizer Spreading',
-    desc: 'Uniform application of fertilizers to enhance soil fertility and crop yield.',
-    image: '/assets/agr16-13.webp',
-  },
-  {
-    title: 'Seed Sowing',
-    desc: 'Seamless dispersal of seeds over large fields, saving time and labor.',
-    image: '/assets/agr16-11.webp',
-  },
-  {
-    title: 'Precision Monitoring',
-    desc: 'Advanced monitoring tools for accurate assessment of crop conditions.',
-    image: '/assets/agr16-16.webp',
-  },
-];
-function Section7() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const handleClick = (index) => {
-    setActiveIndex(index);
-  };
-  useEffect(()=>{
-    const times= setInterval(() => {
-      setActiveIndex((prev)=>(prev+1)%data.length)    
-    }, 5000);
-    return()=>clearInterval(times)
-  },[data.length])
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
   
-  
-  return (
-    <div className="agr10-sec-7"
-    >
-      <div className="agr10-sec-7-index-container">
-       
-
-    
-        {data.map((app, index) => (
-          <div
-          className={`agr10-sec-7-index ${activeIndex === index ? 'active' : ''}`}
-          key={index}
-          onClick={() => handleClick(index)}
-          >
-            <img src={app.image} alt={app.title} className="agr10-sec-7-img" />
-          </div>
-        ))}
-      <AnimatePresence  mode='wait'>
+const Section7 = () => {
+  const media = [
+    {
+      title: 'Detachable Tank',
+      index: 'Tank',
+      video: '/assets/agr10-06.webm',
       
-          <motion.div
-              key={activeIndex}
-              className='agr10-sec-7-content'
-              initial={{opacity:0}}
-              animate={{opacity:1}}
-              exit={{opacity:0}}
-              transition={{duration:0.5,ease:'easeInOut'}}
-              >
-            <h4>
-            {data[activeIndex].title}
-            </h4>
-            <p>{data[activeIndex].desc}</p>
-          </motion.div>
-            <div
-              className="agr10-sec-7-roulette"
-              style={{
-                transform: `rotate(${activeIndex * (360 / data.length)}deg)`,
-              }}
-              >
-            </div>
+      content: (
+        <>
+          <p>
+          10-liter polyethylene detachable tank is lightweight, durable, reduced downtime and ensuring efficient farming
+          </p>
+          <p>Allows quick refills, ensuring minimal downtime, and is designed for easy maintenance</p>
+        </>
+      ),
+    },
+    {
+      title: 'Powering Performance with X Power Plus',
+      index: 'Motor',
+      image :'/assets/agr10-09.webp',
+      content: (
+        <>
+          <p>
+          The AGR 10 runs on the X Power Plus battery, providing strong thrust, stability, and durability. </p><p>Its motor, backed by a reliable power source, ensures smooth performance with heat- and waterproof protection.
+                    </p>
+        </>
+      ),
+    },
+    {
+      title: 'Precision Nozzle System',
+      index: 'Nozzle',
+      image :'/assets/agr10-08.webp',
+      
+      content: (
+        <>
+          <p>
+            The precision nozzles ensure even pesticide and fertilizer distribution, reducing waste and improving application efficiency.
+          </p>
+        </>
+      ),
+    },
+    {
+      title: 'Advanced Obstacle Avoidance',
+      index: 'Camera',
+      video: '/assets/agr10-07.webm',
+      content: (
+        <>
+          <p>
+          Designed to detect obstacles and varying terrain in real-time, ensuring smooth navigation and optimized spraying performance for precision agriculture.
+                    </p>
+        </>
+      ),
+    },
+  ];
 
-        </AnimatePresence>
-      <AnimatePresence  mode='wait'>
-      <motion.div className="agr10-sec-7-images"
-       key={activeIndex}
-       initial={{opacity:0}}
-       animate={{opacity:1}}
-       exit={{opacity:0}}
-       transition={{duration:0.3, ease:'easeInOut'}}
-       style={{
-         backgroundImage:`linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7)),url(${data[activeIndex].image})`,
-         backgroundSize:'cover',
-         backgroundPosition:'center',
-        }}/>
-        </AnimatePresence>
-    </div>
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
+  return (
+    <section className="agr10-sec-7-container">
+      {media.map((item, index) => (
+        <div key={item.index} className="agr10-sec-7-card">
+         <div className="agr10-sec-7-video">
+  {item.video ? (
+    <video
+      className="agr10-sec-7-video-placeholder"
+      src={item.video}
+      autoPlay
+      muted
+      playsInline
+      loop
+    />
+  ) : (
+    <img
+      className="agr10-sec-7-video-placeholder"
+      src={item.image}
+      alt={item.title}
+    />
+  )}
+</div>
+
+          <div className="agr10-sec-7-content" data-aos={index % 2 === 0 ? 'fade-left' : 'fade-right'}>
+            <h2 className="agr10-sec-7-title">{item.title}</h2>
+            <div className="agr10-sec-7-description">{item.content}</div>
+          </div>
         </div>
+      ))}
+    </section>
   );
-}
+};
+
 export default Section7;
-
-
-
-
-
-

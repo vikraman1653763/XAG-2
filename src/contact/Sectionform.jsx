@@ -7,8 +7,6 @@ import { serverUrl } from '../constant';
 
 const SectionForm = () => {
   const navigate = useNavigate();
-
-
   const [companyName, setCompanyName] = useState('');
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -119,20 +117,6 @@ const handleSubmit = async (e)=>{
         </form>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
         <div className="contact_form-right" data-aos="fade-up">
           <div className="email-right">
@@ -164,7 +148,7 @@ const handleSubmit = async (e)=>{
               <img src="/assets/Pin.webp" alt="" />
             </div>
             <h4>Factory Address</h4>
-            <p>Xagrotor tek private limited,No.7/5, M.G.R Road, Nedunchalai, Nagalkeni, Chennai-600044</p>
+            <p>No: 7/5, MGR Rd, Abdul Kalam Nagar, Shiva Shankar Nagar, Nagalkeni, Pallavaram, NEDUNCHALAI, Chennai, Tamil Nadu 600044</p>
             <a href="https://maps.app.goo.gl/rHaEUC2cBAiStfuc8" target="_blank" rel="noopener noreferrer">Get Directions</a>
           </div>
         </div>

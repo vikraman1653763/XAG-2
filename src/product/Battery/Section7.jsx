@@ -13,7 +13,7 @@ const Section7 = () => {
   ];
   useEffect(() => {
     AOS.init({
-        duration: 900,
+        duration: 300,
         mirror: false,
     });
   }, []);
@@ -22,12 +22,10 @@ const Section7 = () => {
     <div className="bat-sec-7-container">
         <h2 className="bat-sec-7-title">Key Features</h2>
         <div className="bat-sec-7-context-container">
-
-        
         <div className="bat-sec-7-video-wrapper">
         <video
           className="bat-sec-7-video"
-          src="/assets/battery3.webm"
+          src="/assets/battery5.webm"
           loop
           autoPlay
           muted

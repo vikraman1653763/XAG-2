@@ -10,7 +10,6 @@ const Section11 = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    // Scroll to the specified section after navigation
     useEffect(() => {
         if (location.hash) {
             const element = document.getElementById(location.hash.substring(1));

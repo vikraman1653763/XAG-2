@@ -229,7 +229,7 @@
 
 /* .training-section */
 .training-section {
-  background-color: #000000;
+  background-color: transparent;
   text-align: center;
 }
 
@@ -253,7 +253,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: #1d1d1d;
+  background-color: transparent;
   border-radius: 10px;
   width: 100%;
   height: clamp(10vh, 70vh, 100vh);
@@ -337,7 +337,7 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  border: 1px solid rgb(0, 0, 0);
+  border: none;
 }
 
 
@@ -346,8 +346,7 @@
 .day-nav button.selected ,.day-nav button:hover{
   transition: all .5s ease-in-out;
   color: #9BF00B;
-  border-radius: 2em;
-  border: 1px solid rgba(255, 255, 255, 0.301);
+  border-radius: 5px;
 }
 
 .day-content{

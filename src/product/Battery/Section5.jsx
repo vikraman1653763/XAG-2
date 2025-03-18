@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 const Section5 = () => {
 
     useEffect(() => {
-      AOS.init({ duration: 1000 }); 
+      AOS.init({ duration: 300 }); 
     }, []);
 
   const specifications = [

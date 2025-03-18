@@ -1,0 +1,238 @@
+/* General Navbar Styling */
+.new-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 15px 20px;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+
+.new-nav-logo img {
+  height: 40px;
+}
+
+/* Navigation Links */
+.new-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.new-nav-links a:hover {
+  color: #9BF00B;
+}
+
+/* Mobile Menu Icon */
+.new-nav-menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Full-Width Dropdown Menu */
+.new-nav-dropdown {
+  position: relative;
+}
+
+/* Full-width dropdown menu */
+.new-nav-dropdown-menu {
+  position: fixed; /* Ensures it spans full width */
+  top: 60px;
+  left: 0;
+  width: 100vw; /* Full window width */
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1000;
+  border-top: 2px solid #9BF00B;
+}
+
+/* Each category section in the dropdown */
+.new-nav-dropdown-section {
+  flex: 1; 
+  
+  text-align: center;
+}
+
+/* Category Title */
+.new-nav-dropdown-header {
+  font-weight: normal;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-size: var(--fs-s);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.new-nav-dropdown-header:hover {
+  color: #9BF00B;
+  border-bottom: 2px solid #9BF00B;
+}
+
+/* Submenu layout: Horizontal full-width */
+.new-nav-submenu {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px;
+  position: fixed;
+  top: 15%;
+  left: 0%;
+  width: 100vw;
+  border-top: 2px solid #9BF00B;
+
+  background-color: #000000;
+}
+
+.new-nav-submenu a {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  list-style: none;
+  color: #ffffff;
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: var(--fs-s);
+  width: clamp(200px, 100%, 300px);
+  text-align: center;
+  border: 1px solid rgb(31, 30, 30);
+}
+
+
+.new-nav-submenu a:hover {
+  background-color: #272727;
+  transform: scale(1.05);
+}
+
+/* Submenu Images */
+.submenu-image {
+  width: 100%;
+  height: 10em;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+/* ################################# mobile and tablet */
+/* MobileNavbar.css */
+
+.mobile-nav-container {
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.mobile-nav-logo-img {
+  font-size: 20px;
+  width: var(--fs-xxl);
+}
+
+.mobile-nav-menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.mobile-nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 0;
+  border-bottom: 1px solid #222;
+}
+
+.mobile-nav-links a:hover {
+  color: #9BF00B;
+}
+
+.mobile-nav-dropdown {
+  border-bottom: 1px solid #222;
+  padding: 10px 0;
+}
+
+.mobile-nav-dropdown-title {
+  font-weight: normal;
+  cursor: pointer;
+  display: block;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.mobile-nav-dropdown-title:hover {
+  color: #9BF00B;
+}
+
+.mobile-nav-dropdown-menu {
+  padding-left: 15px;
+  background-color: #000000;
+}
+
+.mobile-nav-dropdown-menu > div {
+  border-bottom: 1px solid #222;
+  padding: 5px 0;
+}
+
+.mobile-nav-dropdown-header {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 0;
+  color: #ffffff;
+}
+
+.mobile-nav-dropdown-header:hover {
+  color: #9BF00B;
+}
+
+.mobile-nav-submenu {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.mobile-nav-submenu a {
+  display: block;
+  padding: 6px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.mobile-nav-submenu a:hover {
+  color: #9BF00B;
+}
