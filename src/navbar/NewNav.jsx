@@ -94,20 +94,20 @@ const WindowNavbar = () => {
                       />
                       <li>AGR16</li>
                     </Link>
-                    <Link to="/agr20" onClick={resetMenus}>
+                    {/* <Link to="/agr20" onClick={resetMenus}>
                       <img
                         src="/assets/agr20.webp"
                         alt="AGR20"
                         className="submenu-image"
                       />
                       <li>AGR20</li>
-                    </Link>
+                    </Link> */}
                   </div>
                 )}
               </div>
 
               {/* S11 Section */}
-              <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
+              {/* <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
                  
@@ -150,7 +150,7 @@ const WindowNavbar = () => {
                     </Link>
                   </div>
                 )}
-              </div>
+              </div> */}
 
               {/* Accessories Section */}
               <div className="new-nav-dropdown-section" onClick={(e) => handleCategoryClick("accessories", e)} >
