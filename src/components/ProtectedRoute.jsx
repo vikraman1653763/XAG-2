@@ -9,6 +9,6 @@ const ProtectedRoute = ({ element: Component }) => {
     if (!token) {
       navigate('/login'); 
     } })
-  return isAuthenticated() ? <Component /> : <Navigate to="/Login" />;
+  return isAuthenticated() ? <Component /> : <Navigate to="/login" />;
 };
 export default ProtectedRoute;
