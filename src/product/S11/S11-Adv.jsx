@@ -47,12 +47,12 @@ const defaultFeatures = [
   {
     "feature": "XAG-RC Transmitter",
     "description": "A high-performance transmitter with long-range connectivity, precision control, and an ergonomic design for an intuitive pilot experience. Engineered for reliability, it ensures seamless and responsive operation in all flight conditions.",
-    "image": "/assets/s11-rc.png"
+    "image": "/assets/s11/s11-rc.png"
   },
   {
-    "feature": "X Rotor Tek India",
-    "description": "XAG's own FC X Rotor Tek India is precision-engineered for superior flight stability, offering highly responsive and intelligent control for both autonomous and manual operations. Designed for reliability, it ensures accurate navigation and seamless flight performance in diverse conditions.",
-    "image": "/assets/s11-fc.png"
+    "feature": "The Cube Orange+",
+    "description": "The Cube Orange+ from CubePilot is engineered for exceptional flight stability, providing precise and intelligent control for both autonomous and manual operations. Built for reliability, it ensures accurate navigation and seamless performance in a variety of conditions.",
+    "image": "/assets/s11/s11-fc.png"
   },
   {
     "feature": "Retractable Landing Gear 90°",
@@ -67,7 +67,7 @@ const defaultFeatures = [
   {
     "feature": "redundant design of HerePro ",
     "description": "Integrated into the S11 for enhanced visibility and operational awareness, HerePro’s 50 ProfiLEDs provide real-time status indication and customizable lighting effects for improved night operations and situational awareness.",
-    "image": "/assets/s11-gns.png"
+    "image": "/assets/s11/s11-gps.webp"
   }
 ];
 
