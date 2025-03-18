@@ -56,13 +56,13 @@ const App = () => {
             <Route path="/dealer" element={<Dealer />} />
             <Route path="/login" element={<Login />} />
             <Route path="/success" element={<FormSuccess />} />
-            <Route path="/admin" element={<ProtectedRoute element={<Admin />} />} />
-            <Route path="/admin/blogs" element={<ProtectedRoute element={<BlogList />} />} />
-            <Route path="/admin/careers" element={<ProtectedRoute element={<CareerList />} />} />
-            <Route path="/admin/testimonial" element={<ProtectedRoute element={<TestimonialList />} />} />
-            <Route path="/admin/blogs/new" element={<ProtectedRoute element={<BlogUpdate />} />} />
-            <Route path="/admin/careers/new" element={<ProtectedRoute element={<CareerUpdate />} />} />
-            <Route path="/admin/testimonials/new" element={<ProtectedRoute element={<TestimonialUpdate />} />} />
+            <Route path="/admin" element={<ProtectedRoute element={Admin } />} />
+            <Route path="/admin/blogs" element={<ProtectedRoute element={BlogList } />} />
+            <Route path="/admin/careers" element={<ProtectedRoute element={CareerList } />} />
+            <Route path="/admin/testimonial" element={<ProtectedRoute element={TestimonialList } />} />
+            <Route path="/admin/blogs/new" element={<ProtectedRoute element={BlogUpdate } />} />
+            <Route path="/admin/careers/new" element={<ProtectedRoute element={CareerUpdate } />} />
+            <Route path="/admin/testimonials/new" element={<ProtectedRoute element={TestimonialUpdate } />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
