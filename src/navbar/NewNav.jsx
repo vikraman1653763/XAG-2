@@ -74,7 +74,7 @@ const WindowNavbar = () => {
                   className="new-nav-dropdown-header"
                  
                 >
-                  Agri
+                    Agricultural
                 </span>
                 {isSubmenuOpen("agri") && (
                   <div className="new-nav-submenu">

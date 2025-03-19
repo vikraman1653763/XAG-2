@@ -51,14 +51,14 @@
 /* Full-width dropdown menu */
 .new-nav-dropdown-menu {
   position: fixed; /* Ensures it spans full width */
-  top: 60px;
+  top: 7%;
   left: 0;
   width: 100vw; /* Full window width */
   background-color: rgb(0, 0, 0);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 20px;
   z-index: 1000;
   border-top: 2px solid #9BF00B;
 }
@@ -94,11 +94,11 @@
   flex-wrap: nowrap;
   padding: 15px;
   position: fixed;
-  top: 20%;
+  top: 13%;
   left: 0%;
   width: 100vw;
   border-top: 2px solid #9BF00B;
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .new-nav-submenu a {
