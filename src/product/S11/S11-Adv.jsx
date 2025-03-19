@@ -8,7 +8,7 @@ const modelImages = {
   survey: {
     first: "/assets/s11/s11-survey-bat.png",
     second: "/assets/s11-survey-fold.webp",
-    third: "/assets/drone.webp",
+    third: "/assets/s11/s11-survey-sen.png",
   },
   surveillance: {
     first: "/assets/s11-survey-battery.webp",

@@ -107,9 +107,9 @@
   align-items: center;
   list-style: none;
   color: #ffffff;
-  background-color: #202020;
+  background-color: #000000;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: 0.3s;
   font-size: var(--fs-s);
   width: clamp(200px, 100%, 300px);
@@ -119,8 +119,7 @@
 
 
 .new-nav-submenu a:hover {
-  background-color: #272727;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* Submenu Images */
