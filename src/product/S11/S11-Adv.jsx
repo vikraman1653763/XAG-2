@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 // Define images for different models
 const modelImages = {
   survey: {
-    first: "/assets/s11/s11-survey-bat.png",
+    first: "/assets/s11/s11-survey-bat.webp",
     second: "/assets/s11-survey-fold.webp",
     third: "/assets/s11/s11-survey-sen.png",
   },

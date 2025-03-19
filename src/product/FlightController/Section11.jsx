@@ -35,7 +35,7 @@ function Section11() {
         </div>
       </aside>
       <aside className='fc-sec-11-img'>
-        <img src='/assets/fcsample.png' alt="Transmitter" />
+        <img src='/assets/fcsample.webp' alt="Transmitter" />
       </aside>
     </div>
   );
