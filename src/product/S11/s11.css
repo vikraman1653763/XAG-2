@@ -315,7 +315,7 @@ border-radius: 0% !important;
 
 /* Common box styling */
 .s11-tech-box {
-  background: #f9f9f9;
+  background: #000000;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -346,12 +346,12 @@ border-radius: 0% !important;
 
 .s11-tech-subtitle {
   font-size: var(--fs-m);
-  color: #222;
+  color: #ffffff;
 }
 
 .s11-tech-specs p {
   margin: 5px 0;
-  color: #000000;
+  color: #d4d4d4;
   font-size: 1rem;
 }
 
