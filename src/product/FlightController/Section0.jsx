@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import shade from "/assets/shadenew.png";
+import shade from "/assets/shadenew.webp";
 import '../../style/mouse.css';
 const Section0 = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

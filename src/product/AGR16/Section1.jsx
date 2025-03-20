@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import shade from "/assets/shadenew.png";
+import shade from "/assets/shadenew.webp";
 import '../../style/mouse.css';
 
 const Section1 = () => {
