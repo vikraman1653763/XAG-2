@@ -20,27 +20,26 @@ export const usageData =  [
 export const slideData = [
   {
     index: 0,
-    headline: "Urban Mapping",
+    headline: "Precision Urban Mapping",
     src: "/assets/s11-lidar.webm",
   },
   {
     index: 1,
-    headline: "Terrain Mastery in Motion",
-    src: "/assets/s11-2d.webm",
+    headline: "Mastering Terrain Analysis",
+    src: "/assets/s11/s11-survey-2d.webm",
   },
   {
     index: 2,
-    headline: "For Your Current Mood",
-    button: "Listen",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    headline: "Accurate Point Cloud Insights",
+    src: "/assets/s11/s11-survey-point.webm",
   },
   {
     index: 3,
-    headline: "Focus On The Writing",
-    button: "Get Focused",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    headline: "Immersive 3D Surveying",
+    src: "/assets/s11/s11-survey-3d.webm",
   },
 ];
+
 
 export const introData = {
   title: "S11-Survey",

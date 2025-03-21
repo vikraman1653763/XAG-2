@@ -1,13 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
-
-
 const Slide = ({ slide, isActive, position }) => {
+  const [thumbnail, setThumbnail] = useState(null);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const captureThumbnail = () => {
+      if (videoRef.current) {
+        const video = videoRef.current;
+        const canvas = document.createElement("canvas");
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        const ctx = canvas.getContext("2d");
+
+        video.currentTime = 0.1; // Capture frame at 0.1 second
+        video.onloadeddata = () => {
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+          setThumbnail(canvas.toDataURL("image/png")); // Convert to image URL
+        };
+      }
+    };
+    captureThumbnail();
+  }, []);
+
   return (
     <li className={`s11-usecase-slide s11-usecase-slide--${position} ${isActive ? "s11-usecase-slide--current" : ""}`}>
       <div className="s11-usecase-slide__video-wrapper">
-        <video className="s11-usecase-slide__video" autoPlay loop muted>
+        {!thumbnail ? (
+          <div className="s11-usecase-slide__loading">Loading...</div>
+        ) : (
+          <img className="s11-usecase-slide__thumbnail" src={thumbnail} alt={slide.headline} />
+        )}
+
+        <video
+          ref={videoRef}
+          className="s11-usecase-slide__video"
+          autoPlay
+          loop
+          muted
+          onPlay={() => setThumbnail(null)} // Hide thumbnail once the video plays
+        >
           <source src={slide.src} type="video/mp4" />
         </video>
       </div>
@@ -63,4 +96,3 @@ const Usecase = ({ data }) => {
 };
 
 export default Usecase;
-
