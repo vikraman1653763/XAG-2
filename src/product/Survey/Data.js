@@ -40,7 +40,6 @@ export const slideData = [
   },
 ];
 
-
 export const introData = {
   title: "S11-Survey",
   subtitle: "Transforming Aerial Surveying with Advanced Imaging",
@@ -52,8 +51,6 @@ export const introData = {
     "/assets/s11/s11-sony.png",
   ]
 };
-
-
 
 export const payloadData = [
   { name: "XT-30", image: "/assets/s11/s11-pay-xt30.png" },
