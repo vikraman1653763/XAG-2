@@ -24,6 +24,9 @@ const Training = lazy(() => import('./components/Training.jsx'));
 const Blog = lazy(() => import('./components/Blogs.jsx'));
 const BlogDetails = lazy(() => import('./blog/BlogDetails.jsx'));
 const Career = lazy(() => import('./components/Career.jsx'));
+const CareerForm = lazy(() => import('./career/CareerForm.jsx'));
+
+
 const Dealer = lazy(() => import('./components/Dealer.jsx'));
 const Login = lazy(() => import('./components/Login.jsx'));
 
@@ -71,6 +74,8 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogDetails />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/career/:id" element={<CareerForm />} />
+
             <Route path="/dealer" element={<Dealer />} />
 
             <Route path="/login" element={<Login />} />
