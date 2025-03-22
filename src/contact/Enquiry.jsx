@@ -5,12 +5,12 @@ import 'aos/dist/aos.css';
 const enquiryData=[
   {
     "title": "For Sales",
-    "description": "For any sales-related inquiries, including product information, pricing, and orders, please contact our sales team at sales@xagrotortek.in or call us at +91 9381028379.",
+    "description": "For any sales-related inquiries, including product information, pricing, and orders, please contact our sales team at sales@xagrotortek.in or call us at +91 8072913237.",
     "image": "/assets/choose5.webp"
   },
   {
     "title": "Help & services",
-    "description": "If you require servicing or maintenance for your Xagrotor Tek products, please submit a service request through our online portal or email service@xagrotortek.in.",
+    "description": "If you require servicing or maintenance for your Xagrotor Tek products, please submit a service request through our online portal or email info@xagrotortek.in.",
     "image": "/assets/choose2.webp"
   },
   {

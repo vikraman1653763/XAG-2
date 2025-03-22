@@ -717,8 +717,10 @@ border-radius: 0% !important;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background: radial-gradient(circle, #363636 20%, black 100%);
   padding: 1em;
+  background-image: url('/assets/s11/s11-bg.png');
+  background-size: cover; /* Optional: Ensures the image covers the entire container */
+  background-position: center; /* Optional: Centers the background image */
 }
 
 /* Image Container */
@@ -731,7 +733,9 @@ border-radius: 0% !important;
   align-items: center;
   position: relative;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
   overflow: hidden;
+  border-radius: 10px;
 }
 
 
@@ -766,7 +770,7 @@ border-radius: 0% !important;
 
 .s11-type-button {
   padding: 10px 20px;
-  background-color: #000;
+  background-color: #00000034;
   color: #9BF00B;
   border: 1px solid #9BF00B;
   border-radius: 5px;
