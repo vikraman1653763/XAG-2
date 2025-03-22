@@ -150,7 +150,21 @@
   .s11-usecase-slider__wrapper {
     height: 400px;
   }
-  
+  .s11-usecase-slide__video-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .s11-usecase-slide {
+    width: 90%;
+  }
+  .s11-usecase-slide__content{
+    position:static;
+    transform: none;
+  }
+  .s11-usecase-slide__headline{
+      font-size: var(--fs-s) ;
+ }
   .s11-usecase-slide {
     width: 90%;
   }
@@ -164,10 +178,6 @@
   .s11-usecase-slide--current {
     transform: scale(1);
     opacity: 1;
-  }
-  
-  .s11-usecase-slide__headline {
-    font-size: var(--fs-m);
   }
 
   .s11-usecase-slider__controls {
