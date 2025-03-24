@@ -18,11 +18,13 @@ const getItemVariants = (index) => ({
 const Intro = ({ data }) => {
   return (
     <motion.div 
-      className="s11-intro-container"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
+    className="s11-intro-container"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 1 }}
+    style={{ backgroundImage: `url(${data.bg})`}}
+  >
+  
       {/* Title and Subtitle */}
       <motion.div 
         className="s11-intro-content"
@@ -64,7 +66,7 @@ const IntroMobile = ({ data }) => {
     >
       {/* Background Image */}
       <motion.img 
-        src="/assets/s11-survey-fold.webp" 
+        src={data.bg} 
         alt="Background" 
         className="s11-intro-mobile-image"
         initial={{ opacity: 0 }}

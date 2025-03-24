@@ -718,9 +718,9 @@ border-radius: 0% !important;
   align-items: center;
   gap: 20px;
   padding: 1em;
-  background-image: url('/assets/s11/s11-bg.png');
-  background-size: cover; /* Optional: Ensures the image covers the entire container */
-  background-position: center; /* Optional: Centers the background image */
+  background-image: url('/assets/s11/s11-bg.webp');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Image Container */
@@ -856,7 +856,9 @@ border-radius: 0% !important;
   overflow: hidden;
   padding-left: 5rem; 
   margin-top: 4.7em;
-  background: url("/assets/s11-survey-fold.webp") center/contain no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   background-position: 150%;
   background-color: #292929;
 }

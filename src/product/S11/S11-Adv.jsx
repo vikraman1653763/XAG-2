@@ -6,9 +6,10 @@ import "aos/dist/aos.css";
 // Define images for different models
 const modelImages = {
   survey: {
-    first: "/assets/s11/s11-survey-bat.png",
-    second: "/assets/s11-survey-fold.webp",
-    third: "/assets/s11/s11-survey-sen.png",
+    first: "/assets/s11/s11-survey-bat.webp",
+    second: "/assets/s11/s11-survey-fold.webp",
+    third: "/assets/s11/s11-survey-sen.webp",
+    fourth:"/assets/s11/s11-survey-90deg.webp",
   },
   surveillance: {
     first: "/assets/s11-survey-battery.webp",
@@ -45,41 +46,42 @@ const defaultFeatures = [
     "image": "" // Will be replaced dynamically
   },
   {
+    "feature": "Retractable Landing Gear 90°",
+    "description": "Designed for seamless deployment and retraction, the 90-degree retractable landing gear enhances aerodynamics and stability during flight. It provides increased clearance for payloads and ensures safe landings in diverse terrains.",
+    "image": ""
+  },
+  {
     "feature": "XAG-RC Transmitter",
     "description": "A high-performance transmitter with long-range connectivity, precision control, and an ergonomic design for an intuitive pilot experience. Engineered for reliability, it ensures seamless and responsive operation in all flight conditions.",
-    "image": "/assets/s11/s11-rc.png"
+    "image": "/assets/s11/s11-rc.webp"
   },
   {
     "feature": "The Cube Orange+",
     "description": "The Cube Orange+ from CubePilot is engineered for exceptional flight stability, providing precise and intelligent control for both autonomous and manual operations. Built for reliability, it ensures accurate navigation and seamless performance in a variety of conditions.",
-    "image": "/assets/s11/s11-fc.png"
-  },
-  {
-    "feature": "Retractable Landing Gear 90°",
-    "description": "Designed for seamless deployment and retraction, the 90-degree retractable landing gear enhances aerodynamics and stability during flight. It provides increased clearance for payloads and ensures safe landings in diverse terrains.",
-    "image": "/assets/s11/s11-90deg.webp"
-  },
-  {
-    "feature": "Silicon Landing Gear Shock Pad",
-    "description": "Integrated with high-durability silicon shock pads, the landing gear effectively absorbs impact forces, reducing stress on the frame and ensuring smooth landings even on rough terrain.",
-    "image": "/assets/s11/s11-pad.png"
+    "image": "/assets/s11/s11-fc.webp"
   },
   {
     "feature": "redundant design of HerePro ",
     "description": "Integrated into the S11 for enhanced visibility and operational awareness, HerePro’s 50 ProfiLEDs provide real-time status indication and customizable lighting effects for improved night operations and situational awareness.",
     "image": "/assets/s11/s11-here.webp"
-  }
+  },
+  {
+    "feature": "Silicon Landing Gear Shock Pad",
+    "description": "Integrated with high-durability silicon shock pads, the landing gear effectively absorbs impact forces, reducing stress on the frame and ensuring smooth landings even on rough terrain.",
+    "image": "/assets/s11/s11-pad.webp"
+  },
 ];
 
 function Advance({ model }) {  
   // Get images based on model, or use default placeholders if not found
-  const selectedImages = modelImages[model] || { first: "/assets/s11-survey-battery.webp", second: "/assets/s11-survey-fold.webp" , third:"/assets/s11-survey-sensor.webp"};
+  const selectedImages = modelImages[model] || { first: "/assets/s11-survey-battery.webp", second: "/assets/s11-survey-fold.webp" , third:"/assets/s11-survey-sensor.webp" , fourth:"/assets/s11/s11-survey-90deg.webp"};
 
   // Update first two images dynamically
   const features = defaultFeatures.map((item, index) => {
     if (index === 0) return { ...item, image: selectedImages.first };
     if (index === 1) return { ...item, image: selectedImages.second };
     if (index === 2) return { ...item, image: selectedImages.third };
+    if (index === 3) return { ...item, image: selectedImages.fourth };
     return item;
   });
 
