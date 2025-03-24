@@ -124,7 +124,7 @@ const WindowNavbar = () => {
                       />
                       <li>Survey</li>
                     </Link>
-                    <Link to="/surveillance" onClick={resetMenus}>
+                    {/* <Link to="/surveillance" onClick={resetMenus}>
                       <img
                         src="/assets/nav5.webp"
                         alt="Surveillance"
@@ -147,7 +147,7 @@ const WindowNavbar = () => {
                         className="submenu-image"
                       />
                       <li>Rescue</li>
-                    </Link>
+                    </Link> */}
                   </div>
                 )}
               </div>
