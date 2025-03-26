@@ -68,10 +68,9 @@ export const introData = {
   title: "S11-Surveillance",
   subtitle: "Redefining Aerial Security with Cutting-Edge Intelligence",
   images: [
-    "/assets/s11-xt-10a.webp",
-    "/assets/s11-xag-lidar.webp",
-    "/assets/s11-xt-30.webp",
-    "/assets/s11-xag-lidar.webp"
+    "/assets/s11/s11-xt-10a.webp",
+    "/assets/s11/s11-xt-30.webp",
+
   ]
 };
 
@@ -84,9 +83,6 @@ export const payloadData = {
  items:[
   { name: "XT-30", image: "/assets/s11/s11-pay-xt30.webp" },
   { name: "XT-10a", image: "/assets/s11/s11-pay-xt10a.webp" },
-  { name: "Xag-Multi Spectral", image: "/assets/s11/s11-pay-ms.webp" },
-  { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.webp" },
-  { name: "Sony Alpha 600", image: "/assets/s11/s11-pay-sony.webp" }
  ]
 
 };

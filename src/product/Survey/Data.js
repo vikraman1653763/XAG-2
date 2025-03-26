@@ -47,9 +47,7 @@ export const introData = {
   bg:"/assets/s11/s11-survey-intro.webp",
   images: [
     "/assets/s11/s11-xt-msc.webp",
-    "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xag-lidar.webp",
-    "/assets/s11/s11-xt-30.webp",
     "/assets/s11/s11-sony.webp",
   ]
 };
@@ -58,8 +56,7 @@ export const payloadData = {
   
     bg:"/assets/s11/s11-pay-survey.webp",
    items:[
-    { name: "XT-30", image: "/assets/s11/s11-pay-xt30.webp" },
-    { name: "XT-10a", image: "/assets/s11/s11-pay-xt10a.webp" },
+ 
     { name: "Xag-Multi Spectral", image: "/assets/s11/s11-pay-ms.webp" },
     { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.webp" },
     { name: "Sony Alpha 600", image: "/assets/s11/s11-pay-sony.webp" }

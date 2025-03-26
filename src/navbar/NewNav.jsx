@@ -132,7 +132,7 @@ const WindowNavbar = () => {
                       />
                       <li>Surveillance</li>
                     </Link>
-                    {/* <Link to="/inspection" onClick={resetMenus}>
+                    <Link to="/inspection" onClick={resetMenus}>
                       <img
                         src="/assets/nav5.webp"
                         alt="Inspection"
@@ -147,7 +147,7 @@ const WindowNavbar = () => {
                         className="submenu-image"
                       />
                       <li>Rescue</li>
-                    </Link> */}
+                    </Link>
                   </div>
                 )}
               </div>

@@ -64,11 +64,14 @@ export const introData = {
 
 
 
+export const payloadData = {
+  
+  bg:"/assets/s11/s11-pay-survey.webp",
+ items:[
 
-export const payloadData = [
-  { name: "XT-30", image: "/assets/s11-01.webp" },
-  { name: "XT-10a", image: "/assets/s11-02.webp" },
-  { name: "Xag-Multi Spectral", image: "/assets/s11-03.webp" },
-  { name: "XAG-Lidar", image: "/assets/s11-04.webp" },
-  { name: "Sony Alpha 600", image: "/assets/s11-03.webp" }
-];
+  { name: "Xag-Multi Spectral", image: "/assets/s11/s11-pay-ms.webp" },
+  { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.webp" },
+  { name: "Sony Alpha 600", image: "/assets/s11/s11-pay-sony.webp" }
+ ]
+
+};
