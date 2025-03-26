@@ -838,12 +838,11 @@ border-radius: 0% !important;
 
 
 /* #################################################### s11-intro ############################################### */
-/* Full-Screen Background */
 .s11-intro-container {
   width: 99vw;
-  height: 90vh;
+  height: 92vh;
   display: flex;
-  justify-content: flex-start; /* Align title & payloads to left */
+  justify-content: flex-start; 
   align-items: center;
   text-align: left;
   position: relative;
@@ -853,8 +852,7 @@ border-radius: 0% !important;
   margin-top: 4.7em;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  background-position: 150%;
+  background-size: cover;
   background-color: #292929;
 }
 
@@ -866,18 +864,44 @@ border-radius: 0% !important;
 }
 
 .s11-intro-title {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
   margin-bottom: 10px;
-  background: linear-gradient(90deg, #9bf00b, #005c08, #9bf00b);
+  background: linear-gradient(90deg, #888888, #ffffff, #949494);
   background-size: 200% 200%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradientMove 4s linear infinite;
+  animation: gradientMove 7s linear infinite;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.185);
+  display: inline-block;
+  white-space: nowrap;
 }
 
-/* Keyframes for moving gradient animation */
+.s11-intro-title span {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+/* Delay each letter */
+.s11-intro-title span:nth-child(1) { animation-delay: 0s; }
+.s11-intro-title span:nth-child(2) { animation-delay: 0.1s; }
+.s11-intro-title span:nth-child(3) { animation-delay: 0.2s; }
+/* ...continue for as many letters as needed */
+.s11-intro-title span:nth-child(4) { animation-delay: 0.3s; }
+.s11-intro-title span:nth-child(5) { animation-delay: 0.4s; }
+/* and so on */
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Keyframes for gradient movement */
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -891,9 +915,11 @@ border-radius: 0% !important;
 }
 
 
+
 .s11-intro-subtitle {
   font-size: 1.5rem;
   margin-top: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Payload Images Container (Bottom Left) */
@@ -912,8 +938,13 @@ border-radius: 0% !important;
   width: auto;
   height: 7em; 
   margin: 1em;
-  background: #ffffff;
+ 
+  background: rgba(255, 255, 255, 0.103);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.116);
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 
@@ -922,9 +953,12 @@ border-radius: 0% !important;
 /* Tablet View */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s11-intro-container {
-    height: 80vh;
+  background-color: #000000;
     padding-left: 3rem;
-    background-position: 120%;
+    margin-top: 1em;
+    background-size: contain;
+    background-position: top;
+    height: 50vh;
   }
 
   .s11-intro-title {
@@ -932,12 +966,12 @@ border-radius: 0% !important;
   }
 
   .s11-intro-subtitle {
-    font-size: var(--fs-s);
+    font-size: var(--fs-);
   }
 
   .s11-intro-payload-image {
-    width: 4em;
-    height: 4em;
+    width: 100px;
+    height: 60px;
   }
 }
 /* ############################## Mobile View - Intro Section ############################## */

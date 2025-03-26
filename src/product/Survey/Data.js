@@ -44,7 +44,7 @@ export const introData = {
   title: "S11-Survey",
   subtitle: "Transforming Aerial Surveying with Advanced Imaging",
   bg:'/assets/s11/s11-surevy-intro.webp',
-  bg:"/assets/s11/s11-pay-survey.webp",
+  bg:"/assets/s11/s11-survey-intro.webp",
   images: [
     "/assets/s11/s11-xt-msc.webp",
     "/assets/s11/s11-xt-10a.webp",

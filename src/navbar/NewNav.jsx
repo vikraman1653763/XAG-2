@@ -124,7 +124,7 @@ const WindowNavbar = () => {
                       />
                       <li>Survey</li>
                     </Link>
-                    {/* <Link to="/surveillance" onClick={resetMenus}>
+                    <Link to="/surveillance" onClick={resetMenus}>
                       <img
                         src="/assets/nav5.webp"
                         alt="Surveillance"
@@ -132,7 +132,7 @@ const WindowNavbar = () => {
                       />
                       <li>Surveillance</li>
                     </Link>
-                    <Link to="/inspection" onClick={resetMenus}>
+                    {/* <Link to="/inspection" onClick={resetMenus}>
                       <img
                         src="/assets/nav5.webp"
                         alt="Inspection"
@@ -167,7 +167,7 @@ const WindowNavbar = () => {
                         alt="Flight Controller"
                         className="submenu-image"
                       />
-                      <li>Flight Controller</li>
+                      <li>Flight Controller</li>  
                     </Link>
                     <Link to="/batteries" onClick={resetMenus}>
                       <img
