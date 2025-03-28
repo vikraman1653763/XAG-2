@@ -65,7 +65,6 @@ export const introData = {
 
 
 export const payloadData = {
-  
   bg:"/assets/s11/s11-pay-survey.webp",
  items:[
 
