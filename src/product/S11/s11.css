@@ -854,8 +854,8 @@ border-radius: 0% !important;
   background-position: center;
   background-size: cover;
   background-color: #292929;
+  
 }
-
 
 /* Title Section */
 .s11-intro-content {
@@ -864,7 +864,7 @@ border-radius: 0% !important;
 }
 
 .s11-intro-title {
-  font-size: 5rem;
+  font-size: var(--fs-xxl);
   font-weight: bold;
   margin-bottom: 10px;
   background: linear-gradient(90deg, #888888, #ffffff, #949494);
@@ -873,9 +873,11 @@ border-radius: 0% !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 7s linear infinite;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.185);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.164);
   display: inline-block;
   white-space: nowrap;
+  font-family: 'Mono';
+
 }
 
 .s11-intro-title span {

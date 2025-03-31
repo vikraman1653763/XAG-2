@@ -110,16 +110,16 @@ const MobileNavbar = () => {
                   {activeSubmenu === "s11" && (
                     <div className="mobile-nav-submenu">
                       <Link to="/survey" onClick={resetMenus}>
-                        Survey
+                      XAG-Mapper
                       </Link>
                       <Link to="/surveillance" onClick={resetMenus}>
-                        Surveillance
+                      XAG-SkyWatch
                       </Link>
                       <Link to="/inspection" onClick={resetMenus}>
-                        Inspection
+                      XAG-Inspectra
                       </Link>
                       <Link to="/emergency" onClick={resetMenus}>
-                        Emergency
+                      XAG-ResQ
                       </Link>
                     </div>
                   )}

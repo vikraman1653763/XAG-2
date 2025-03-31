@@ -8,7 +8,6 @@ import Sec5 from '../S11/S11-Payload.jsx';
 import Sec6 from '../S11/S11-Types.jsx';
 import Sec7 from '../S11/S11-Intro.jsx';
 import {introData, payloadData , usageData ,slideData} from './Data.js';
-
 function Rescue() {
   return (
     <div>
@@ -22,5 +21,4 @@ function Rescue() {
     </div>
   )
 }
-
 export default Rescue

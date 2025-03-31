@@ -106,13 +106,13 @@ const WindowNavbar = () => {
                 )}
               </div>
 
-              {/* S11 Section */}
+              {/* QUAD Section */}
               <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
                  
                 >
-                  Industrial
+                  Industrial-Quadcopters
                 </span>
                 {isSubmenuOpen("s11") && (
                   <div className="new-nav-submenu">
@@ -122,7 +122,7 @@ const WindowNavbar = () => {
                         alt="Survey"
                         className="submenu-image"
                       />
-                      <li>Survey</li>
+                      <li>XAG-Mapper</li>
                     </Link>
                     <Link to="/surveillance" onClick={resetMenus}>
                       <img
@@ -130,7 +130,7 @@ const WindowNavbar = () => {
                         alt="Surveillance"
                         className="submenu-image"
                       />
-                      <li>Surveillance</li>
+                      <li>XAG-SkyWatch</li>
                     </Link>
                     <Link to="/inspection" onClick={resetMenus}>
                       <img
@@ -138,7 +138,7 @@ const WindowNavbar = () => {
                         alt="Inspection"
                         className="submenu-image"
                       />
-                      <li>Inspection</li>
+                      <li>XAG-Inspectra</li>
                     </Link>
                     <Link to="/rescue" onClick={resetMenus}>
                       <img
@@ -146,8 +146,54 @@ const WindowNavbar = () => {
                         alt="Rescue"
                         className="submenu-image"
                       />
-                      <li>Rescue</li>
+                      <li>XAG-ResQ</li>
                     </Link>
+                  </div>
+                )}
+              </div>
+
+               {/* QUAD Section */}
+               <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("hex", e)}>
+                <span
+                  className="new-nav-dropdown-header"
+                 
+                >
+                  Industrial-Hexacopters
+                </span>
+                {isSubmenuOpen("hex") && (
+                  <div className="new-nav-submenu">
+                    <Link to="/survey" onClick={resetMenus}>
+                      <img
+                        src="/assets/nav5.webp"
+                        alt="Survey"
+                        className="submenu-image"
+                      />
+                      <li>Hex-Mapping</li>
+                    </Link>
+                    <Link to="/surveillance" onClick={resetMenus}>
+                      <img
+                        src="/assets/nav5.webp"
+                        alt="Surveillance"
+                        className="submenu-image"
+                      />
+                      <li>Hex-Skywatch</li>
+                      </Link>
+                    <Link to="/inspection" onClick={resetMenus}>
+                      <img
+                        src="/assets/nav5.webp"
+                        alt="Inspection"
+                        className="submenu-image"
+                      />
+                      <li>Hex-Inspection</li>
+                      </Link>
+                    <Link to="/rescue" onClick={resetMenus}>
+                      <img
+                        src="/assets/nav5.webp"
+                        alt="Rescue"
+                        className="submenu-image"
+                      />
+                      <li>Hex-Resque</li>
+                      </Link>
                   </div>
                 )}
               </div>

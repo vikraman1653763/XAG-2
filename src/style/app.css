@@ -5,7 +5,14 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Mono';
+    src: url('/assets/Monoton.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+  }
+  
 
 @font-face {
     font-family: 'Poppins';

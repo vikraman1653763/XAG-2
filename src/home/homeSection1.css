@@ -40,8 +40,9 @@
     font-size: var(--fs-l);
 }
 .home-car-2-topic{
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xl);
     line-height: var(--fs-xxl);
+    font-family: 'Mono';
 }
 .home-car-2-des{
     font-size: var(--fs-xs);
