@@ -68,9 +68,9 @@ const Footer = () => {
                         <a href="https://www.instagram.com/xagrotortek?igsh=d3puNXl6Y3hmYWpx" target="_blank" rel="noopener noreferrer">
                             <FaInstagramSquare />
                         </a>
-                        <a href="https://x.com/xagrotortek" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://x.com/xagrotortek" target="_blank" rel="noopener noreferrer">
                             <FaTwitterSquare />
-                        </a>
+                        </a> */}
                         <a href="https://www.linkedin.com/company/xagrotor-tek-private-limited/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
