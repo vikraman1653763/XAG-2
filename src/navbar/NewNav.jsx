@@ -94,25 +94,25 @@ const WindowNavbar = () => {
                       />
                       <li>AGR16</li>
                     </Link>
-                    <Link to="/agr20" onClick={resetMenus}>
+                    {/* <Link to="/agr20" onClick={resetMenus}>
                       <img
                         src="/assets/agr20.webp"
                         alt="AGR20"
                         className="submenu-image"
                       />
                       <li>AGR20</li>
-                    </Link>
+                    </Link> */}
                   </div>
                 )}
               </div>
 
               {/* QUAD Section */}
-              <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
+              {/* <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
-                 
+        
                 >
-                  Industrial-Quadcopters
+                  Industrial
                 </span>
                 {isSubmenuOpen("s11") && (
                   <div className="new-nav-submenu">
@@ -150,53 +150,9 @@ const WindowNavbar = () => {
                     </Link>
                   </div>
                 )}
-              </div>
+              </div> */}
 
-               {/* QUAD Section */}
-               <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("hex", e)}>
-                <span
-                  className="new-nav-dropdown-header"
-                 
-                >
-                  Industrial-Hexacopters
-                </span>
-                {isSubmenuOpen("hex") && (
-                  <div className="new-nav-submenu">
-                    <Link to="/survey" onClick={resetMenus}>
-                      <img
-                        src="/assets/nav5.webp"
-                        alt="Survey"
-                        className="submenu-image"
-                      />
-                      <li>Hex-Mapping</li>
-                    </Link>
-                    <Link to="/surveillance" onClick={resetMenus}>
-                      <img
-                        src="/assets/nav5.webp"
-                        alt="Surveillance"
-                        className="submenu-image"
-                      />
-                      <li>Hex-Skywatch</li>
-                      </Link>
-                    <Link to="/inspection" onClick={resetMenus}>
-                      <img
-                        src="/assets/nav5.webp"
-                        alt="Inspection"
-                        className="submenu-image"
-                      />
-                      <li>Hex-Inspection</li>
-                      </Link>
-                    <Link to="/rescue" onClick={resetMenus}>
-                      <img
-                        src="/assets/nav5.webp"
-                        alt="Rescue"
-                        className="submenu-image"
-                      />
-                      <li>Hex-Resque</li>
-                      </Link>
-                  </div>
-                )}
-              </div>
+             
 
               {/* Accessories Section */}
               <div className="new-nav-dropdown-section" onClick={(e) => handleCategoryClick("accessories", e)} >

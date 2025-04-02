@@ -92,15 +92,15 @@ const MobileNavbar = () => {
                       <Link to="/agr16" onClick={resetMenus}>
                         AGR16
                       </Link>
-                      <Link to="/agr20" onClick={resetMenus}>
+                      {/* <Link to="/agr20" onClick={resetMenus}>
                         AGR20
-                      </Link>
+                      </Link> */}
                     </div>
                   )}
                 </div>
 
                 {/* S11 Section */}
-                <div>
+                {/* <div>
                   <div
                     onClick={() => handleSubmenuClick("s11")}
                     className="mobile-nav-dropdown-header"
@@ -123,7 +123,7 @@ const MobileNavbar = () => {
                       </Link>
                     </div>
                   )}
-                </div>
+                </div> */}
 
                 {/* Accessories Section */}
                 <div>

@@ -284,6 +284,35 @@
   background-color: #9cf00b;
   border-radius: .5em;
 }
+.agr10-sec-6-btn{
+  border-radius: 5px;
+  margin: .3em;
+  font-size: 1rem;
+  padding: 5px;
+  
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width:auto;
+  transition: all 0.3s ease;
+}
+
+.contact-us-btn, .get-quote-btn{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #9BF00B;
+  border: 1px solid #9BF00B;
+} 
+.brochure-btn:hover{
+background: black;
+color: #9BF00B;
+border: 1px solid #9BF00B;
+}
+.brochure-btn,.contact-us-btn:hover, .get-quote-btn:hover{
+  background-color: #9BF00B;
+  background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077330 100%);
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+}
 
 /* ########################### Section 7 ########################## */
 
