@@ -718,9 +718,10 @@ border-radius: 0% !important;
   align-items: center;
   gap: 20px;
   padding: 1em;
-  background-image: url('/assets/s11/s11-bg.webp');
+  /* background-image: url('/assets/s11/s11-bg.webp'); */
   background-size: cover;
   background-position: center;
+  background-color: #fff;
 }
 
 /* Image Container */

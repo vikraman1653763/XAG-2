@@ -63,12 +63,12 @@ const App = () => {
             <Route path="/agr16" element={<AGR16 />} />
             <Route path="/agr10" element={<AGR10 />} />
   
-            {/* <Route path="/survey" element={<Survey />} />
+            <Route path="/survey" element={<Survey />} />
             <Route path="/surveillance" element={<Surveillance />} />
             <Route path="/inspection" element={<Inspection/>} />
             <Route path="/rescue" element={<Rescue/>} />
 
-            <Route path="/mini" element={<Mini/>} /> */}
+            <Route path="/mini" element={<Mini/>} />
 
 
             <Route path="/batteries" element={<Battery />} />

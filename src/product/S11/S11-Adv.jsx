@@ -12,9 +12,10 @@ const modelImages = {
     fourth:"/assets/s11/s11-survey-90deg.webp",
   },
   surveillance: {
-    first: "/assets/s11-survey-battery.webp",
-    second: "/assets/s11/s11-survey-fold.webp",
-    third: "/assets/drone.webp",
+    first: "/assets/s11/s11-survillence-bat.png",
+    second: "/assets/s11/s11-survillence-fold.png",
+    third: "/assets/s11/s11-survillence-sen.png",
+    fourth:"/assets/s11/s11-survillence-90deg.png",
   },
   inspection: {
     first: "/assets/s11-survey-battery.webp",
@@ -48,7 +49,7 @@ const defaultFeatures = [
   {
     "feature": "Retractable Landing Gear 90°",
     "description": "Designed for seamless deployment and retraction, the 90-degree retractable landing gear enhances aerodynamics and stability during flight. It provides increased clearance for payloads and ensures safe landings in diverse terrains.",
-    "image": ""
+    "image": ""// Will be replaced dynamically
   },
   {
     "feature": "XAG-RC Transmitter",

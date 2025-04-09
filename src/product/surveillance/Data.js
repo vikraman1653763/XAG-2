@@ -64,25 +64,25 @@ export const slideData = [
   },
 ];
 
+
+
 export const introData = {
-  title: "S11-Surveillance",
-  subtitle: "Redefining Aerial Security with Cutting-Edge Intelligence",
+  title: "S11-Survey",
+  subtitle: "Transforming Aerial Surveying with Advanced Imaging",
+  bg:"/assets/s11/s11-survillence-intro.png",
   images: [
     "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xt-30.webp",
-
   ]
 };
 
 
-
-
 export const payloadData = {
   
-  bg:"/assets/s11/s11-pay-survey.webp",
+  bg:"/assets/s11/s11-survillence-bg.png",
  items:[
-  { name: "XT-30", image: "/assets/s11/s11-pay-xt30.webp" },
-  { name: "XT-10a", image: "/assets/s11/s11-pay-xt10a.webp" },
+  { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.png" },
+  { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.png" },
  ]
 
 };

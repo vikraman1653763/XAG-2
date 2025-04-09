@@ -107,7 +107,7 @@ const WindowNavbar = () => {
               </div>
 
               {/* QUAD Section */}
-              {/* <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
+              <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
         
@@ -150,7 +150,7 @@ const WindowNavbar = () => {
                     </Link>
                   </div>
                 )}
-              </div> */}
+              </div>
 
              
 
@@ -173,7 +173,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/batteries" onClick={resetMenus}>
                       <img
-                        src="/assets/nav4.webp"
+                        src="/assets/battt.png"
                         alt="Batteries"
                         className="submenu-image"
                       />
