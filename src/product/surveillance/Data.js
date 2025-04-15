@@ -64,12 +64,10 @@ export const slideData = [
   },
 ];
 
-
-
 export const introData = {
   title: "S11-Survey",
   subtitle: "Transforming Aerial Surveying with Advanced Imaging",
-  bg:"/assets/s11/s11-survillence-intro.png",
+  bg:"/assets/s11/s11-survillence-intro.webp",
   images: [
     "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xt-30.webp",
@@ -79,10 +77,10 @@ export const introData = {
 
 export const payloadData = {
   
-  bg:"/assets/s11/s11-survillence-bg.png",
+  bg:"/assets/s11/s11-survillence-bg.webp",
  items:[
-  { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.png" },
-  { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.png" },
+  { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.webp" },
+  { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.webp" },
  ]
 
 };

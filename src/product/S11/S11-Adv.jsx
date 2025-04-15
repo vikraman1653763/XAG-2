@@ -12,10 +12,10 @@ const modelImages = {
     fourth:"/assets/s11/s11-survey-90deg.webp",
   },
   surveillance: {
-    first: "/assets/s11/s11-survillence-bat.png",
-    second: "/assets/s11/s11-survillence-fold.png",
-    third: "/assets/s11/s11-survillence-sen.png",
-    fourth:"/assets/s11/s11-survillence-90deg.png",
+    first: "/assets/s11/s11-survillence-bat.webp",
+    second: "/assets/s11/s11-survillence-fold.webp",
+    third: "/assets/s11/s11-survillence-sen.webp",
+    fourth:"/assets/s11/s11-survillence-90deg.webp",
   },
   inspection: {
     first: "/assets/s11-survey-battery.webp",
