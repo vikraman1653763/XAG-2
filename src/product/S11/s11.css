@@ -76,27 +76,27 @@
 
 .s11-usecase-slide__content {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 20px;
+  transform: translate(-50% , -20px);
+  padding: 10px 5px;
   border-radius: 5px;
   color: white;
   text-align: center;
+  width: 100%;
 }
 .s11-usecase-slide--current .s11-usecase-slide__headline{
   opacity: 1;
 }
 /* Headline styling */
 .s11-usecase-slide__headline {
-
   opacity: 0;
   font-size: var(--fs-l);
   margin: 0;
   font-weight: 500;
+  
 }
 
-/* Action buttons inside slides */
 .s11-usecase-slide__action {
   background: #ff6600;
   color: white;
@@ -721,7 +721,7 @@ border-radius: 0% !important;
   background-image: url('/assets/s11/s11-bg.webp');
   background-size: cover;
   background-position: center;
-  background-color: #fff;
+  background-color: #ffffff00;
 }
 
 .s11-type-image-container {
@@ -746,6 +746,7 @@ border-radius: 0% !important;
   top: 0;
   left: 0;
   z-index: 2;
+  background-color: transparent;
 }
 
 .s11-type-image {
@@ -824,7 +825,6 @@ border-radius: 0% !important;
     max-width: 99%;
     width: 100vw;
     height: 25vh;
-    background-color: #fff;;
     border-radius: 10px;
   }
 

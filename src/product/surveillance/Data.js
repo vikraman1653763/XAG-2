@@ -35,32 +35,40 @@ export const usageData = [
     "title": "Vehicle Tracking",
     "desc": "Identify and follow suspect vehicles in high-risk areas with real-time location tracking."
   },
-  
 ];
 
   
 export const slideData = [
   {
+    index: 4,
+    headline: "High-Altitude Perimeter Monitoring",
+    src: "/assets/s11/s11-survillence-high.webm",
+  },
+  {
     index: 0,
-    headline: "Urban Mapping",
-    src: "/assets/s11-lidar.webm",
+    headline: "Forest Fire Surveillance ",
+    src: "/assets/s11/s11-survillence-fire.mp4",
   },
   {
     index: 1,
-    headline: "Terrain Mastery in Motion",
-    src: "/assets/s11-2d.webm",
+    headline: "Real-Time Crowd Surveillance",
+    src: "/assets/s11/s11-survillence-fire.webm",
   },
   {
     index: 2,
-    headline: "For Your Current Mood",
+    headline: "Real-Time Wildlife Surveillance",
     button: "Listen",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    src: "/assets/s11/s11-survillence-animal.webm",
   },
   {
     index: 3,
-    headline: "Focus On The Writing",
-    button: "Get Focused",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    headline: "Heat Signature Tracking for Animal Movements",
+     src: "/assets/s11/s11-survillence-animal.webm",
+  },
+  {
+    index: 5,
+    headline: "Progress Tracking and Safety Assurance for Construction Projects",
+     src: "/assets/s11/s11-survillence-construction.mp4",
   },
 ];
 
@@ -76,11 +84,9 @@ export const introData = {
 
 
 export const payloadData = {
-  
   bg:"/assets/s11/s11-survillence-bg.webp",
- items:[
+  items:[
   { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.webp" },
   { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.webp" },
  ]
-
 };
