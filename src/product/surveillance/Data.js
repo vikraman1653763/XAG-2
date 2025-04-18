@@ -52,7 +52,7 @@ export const slideData = [
   {
     index: 1,
     headline: "Real-Time Crowd Surveillance",
-    src: "/assets/s11/s11-survillence-fire.webm",
+    src: "/assets/s11/s11-survillence-animal.webm",
   },
   {
     index: 2,

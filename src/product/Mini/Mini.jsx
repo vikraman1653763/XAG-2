@@ -1,13 +1,15 @@
 import React from 'react'
 import MiniIntro from './Section1.jsx'
 import MiniSpecs from './Section2.jsx'
-import MiniFeatures from './Section3.jsx'
+import MiniApp from './Section3.jsx'
+import MiniFeature from './Section4.jsx'
 function Mini() {
   return (
     <div>
       <MiniIntro/>
       <MiniSpecs/>
-      <MiniFeatures/>
+      <MiniApp/>
+      <MiniFeature/>
     </div>
   )
 }
