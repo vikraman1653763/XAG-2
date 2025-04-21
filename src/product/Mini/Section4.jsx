@@ -46,7 +46,7 @@ const MiniFeature = () => {
       <div className="mini-feature-grid">
         {features.map((feature, index) => (
           <div
-            className="mini-feature-box"
+            className={`mini-feature-box box-${index}`}
             key={index}
             style={{ backgroundImage: `url(${feature.background})` }}
           >
@@ -57,6 +57,7 @@ const MiniFeature = () => {
           </div>
         ))}
       </div>
+
     </div>
   );
 };
