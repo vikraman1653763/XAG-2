@@ -4,7 +4,7 @@
     position: relative;
     width: 100%;
     height: 95vh;
-    background-image: url('/assets/Mini.jpg'); /* Replace with your image path */
+    background-image: url('/assets/Mini.jpg'); 
     background-size: contain;
     background-position: center;
     display: flex;
@@ -35,21 +35,20 @@
   }
 
   /* ################################################# Section 2 #############################################################  */
-  .mini-specs-container {
-    position: relative;
-    padding: 50px;
-    background-color: #f8f8f800;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
-  }
 
-  
+.mini-specs-container {
+  position: relative;
+  padding: 50px;
+  background-color: #f8f8f800;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
 
 .mini-specs-title {
   text-align: center;
-  font-size:var(--fs-xl);
+  font-size: var(--fs-xl);
   font-weight: bold;
   margin-bottom: 30px;
   color: #9BF00B;
@@ -57,41 +56,44 @@
 
 .mini-specs-list {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping of items */
-  gap: 20px; /* Space between items */
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .mini-specs-card {
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid transparent; /* Initial border is transparent */
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease, border 0.3s ease; /* Smooth transition for hover effect */
-    width: calc(33.33% - 20px); /* 3 cards per row with gap */
-    border-image: linear-gradient(45deg, #9BF00B, #000000) 1; /* Gradient border on hover */
-    border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, border 0.3s ease;
+  width: calc(50% - 20px); 
+  border-image: linear-gradient(270deg, #9BF00B,#000000,#000000, #9BF00B) 1;
 }
-.mini-specs-card:nth-child(3) ,.mini-specs-card:nth-child(6){
-    border-image: linear-gradient(45deg, black, #9BF00B) 1; 
+.mini-specs-card:nth-child(even){
+  border-image: linear-gradient(90deg, #9BF00B,#000000,#000000, #9BF00B) 1;
+
 }
-.mini-specs-card:nth-child(2) ,.mini-specs-card:nth-child(5){
-    border-image: linear-gradient(45deg, #345802, #345802) 1; 
+.mini-specs-desc {
+  margin-top: 8px;
+  font-size: var(--fs-s);
+  color: #cccccc;
+  line-height: 1.4;
+  text-align: center;
 }
-.mini-specs-card:hover {
-    transform: translateY(-10px);
-    border-image: linear-gradient(45deg, #9BF00B, #9BF00B, #4bb800) 1; 
-  }
-  
+
+
 
 .mini-specs-card-content {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  
 }
 
 .mini-specs-label {
@@ -105,28 +107,63 @@
   color: #ffffff;
 }
 
-/* Media queries for responsive design */
+.mini-specs-value span {
+  color: #9BF00B;
+  font-weight: 600;
+  font-size: var(--fs-xxl);
+  text-transform: none;
+  background: linear-gradient(180deg, #dfdfdf 0%, #d1d1d1 50%, #5f5f5f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: .6;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.mini-specs-value{
+  animation: pulse 1.5s ease-in-out;
+}
+
+
+@media (max-width: 1024px) {
+  .mini-specs-card {
+    width: calc(33.33% - 20px); 
+  }
+}
+
 @media (max-width: 768px) {
   .mini-specs-card {
-    width: calc(50% - 20px); /* 2 cards per row on medium screens */
+    width: calc(50% - 20px); 
   }
 }
 
 @media (max-width: 480px) {
   .mini-specs-card {
-    width: 100%; /* 1 card per row on small screens */
+    width: 100%; 
   }
 }
 
-  /* ################################################# Section 3 #############################################################  */
 
+  /* ################################################# Section 3 #############################################################  */
 
   .mini-apps-container {
     padding: 50px;
-    background-color: #00000000;
+    background-color: transparent;
     border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 4px 8px #0000001a;
+    margin: 5rem;
   }
   
   .mini-apps-title {
@@ -137,80 +174,65 @@
     color: #9BF00B;
   }
   
+  /* Layout Grid */
+  .mini-apps-grid {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
   .mini-apps-list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
+    width: 45%;
   }
   
-  .mini-app-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(22, 22, 22);
-    border: 1px solid #181818;
+  .mini-app-index-item {
+    background-color: #161616;
+    padding: 15px 20px;
     border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    border: 1px solid #222;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
-  .mini-app-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  /* Data container */
-  .mini-app-data {
-    display: flex;
-    flex-direction: column;
-    width: 45%; 
-  }
-  
-  .mini-app-video {
-    width: 50%; /* Video takes 50% of the width */
-    border-radius: 8px;
-    overflow: hidden;
+  .mini-app-index-item.active {
+    background-color: #1e1e1e;
+    border-left: 4px solid #9BF00B;
   }
   
   .mini-app-title {
-    font-size:var(--fs-l);
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #9BF00B;
+    font-size: var(--fs-l);
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 50%, #5f5f5f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
   }
   
   .mini-app-description {
-    font-size: 1rem;
+    font-size: var(--fs-xs);
     color: #ffffff;
+    margin-top: 8px;
   }
   
-  /* Using :nth-child to alternate row and row-reverse layout */
-  .mini-app-card:nth-child(odd) {
-    flex-direction: row; /* For odd cards, video on the right, text on the left */
+  .mini-app-video-display {
+    width: 55%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  .mini-app-card:nth-child(even) {
-    flex-direction: row-reverse; /* For even cards, video on the left, text on the right */
-  }
-  
-  /* Media queries for responsive design */
+  /* Responsive */
   @media (max-width: 768px) {
-    .mini-app-card {
-      flex-direction: column; /* Stack vertically on medium screens */
+    .mini-apps-grid {
+      flex-direction: column;
     }
   
-    .mini-app-data, .mini-app-video {
-      width: 100%; /* Full width for text and video on small screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .mini-app-card {
-      flex-direction: column; /* Stack vertically on very small screens */
-    }
-  
-    .mini-app-data, .mini-app-video {
-      width: 100%; /* Full width on very small screens */
+    .mini-apps-list,
+    .mini-app-video-display {
+      width: 100%;
     }
   }
   
@@ -225,8 +247,7 @@
     background-color: transparent;
     padding: 0em 10rem;
     box-sizing: border-box;
-    overflow: hidden; 
-    border: 1px solid red;
+    overflow-x: hidden; 
   }
   
   .mini-feature-container::before {
@@ -234,7 +255,7 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    top: -10%;
+    top: 1%;
     left: 30%;
     background: rgba(155, 255, 125, 0.479);
     border-radius: 50%;
