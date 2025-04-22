@@ -63,7 +63,7 @@ export const slideData = [
   {
     index: 3,
     headline: "Heat Signature Tracking for Animal Movements",
-     src: "/assets/s11/s11-survillence-animal.webm",
+     src: "/assets/s11/s11-survillence-heat.webm",
   },
   {
     index: 5,
