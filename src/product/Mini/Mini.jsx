@@ -4,14 +4,16 @@ import MiniSpecs from './Section2.jsx'
 import MiniApp from './Section3.jsx'
 import MiniFeature from './Section4.jsx'
 import MiniFunc from './Section5.jsx'
+import MiniRes from './Section6.jsx'
 function Mini() {
   return (
     <div>
       <MiniIntro/>
       <MiniSpecs/>
       <MiniApp/>
-      <MiniFeature/>
       <MiniFunc/>
+      <MiniFeature/>
+      <MiniRes/>
     </div>
   )
 }
