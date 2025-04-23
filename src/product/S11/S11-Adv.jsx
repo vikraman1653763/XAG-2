@@ -21,6 +21,8 @@ const modelImages = {
     first: "/assets/s11-survey-battery.webp",
     second: "/assets/s11-survey-fold.webp",
     third: "/assets/drone.webp",
+    fourth:"/assets/s11/s11-inspect-90deg.webp",
+
   }, 
   rescue: {
     first: "/assets/s11-survey-battery.webp",

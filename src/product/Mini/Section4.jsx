@@ -1,37 +1,48 @@
 import React from 'react';
 
 const features = [
-    {
-      title: 'Intelligent Flight Modes',
-      description: 'Features like Follow Me, Waypoints, and Point of Interest make it easier to capture professional shots with minimal effort.',
-      background: '/assets/Mini.jpg',
-    },
-    {
-      title: 'Compact & Foldable',
-      description: 'Its compact, foldable design makes it highly portable for on-the-go use.',
-      background: '/assets/Mini.jpg',
-    },
-    {
-      title: 'Quick Charging',
-      description: 'Fast recharge capability ensures you spend more time flying and less time waiting.',
-      background: '/assets/Mini.jpg',
-    },
-    {
-      title: 'Automatic Return to Home',
-      description: 'The drone has a fail-safe feature that automatically returns it to the takeoff point if the signal is lost or the battery is low.',
-      background: '/assets/Mini.jpg',
-    },
-    {
-      title: 'Enhanced Stability',
-      description: 'With a 3-axis gimbal and GPS/GLONASS positioning, the XAG-MINI provides stable, smooth flight even in challenging weather conditions.',
-      background: '/assets/Mini.jpg',
-    },
-    {
-      title: 'User-Friendly Control',
-      description: 'Easy-to-use app with intuitive controls and real-time camera preview for seamless operation.',
-      background: '/assets/Mini.jpg',
-    },
-  ];
+  {
+    title: 'Anti-Shake Gimbal',
+    description: 'Equipped with an advanced anti-shake gimbal to deliver ultra-smooth and stable footage, even during fast movements.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Gesture Photo Capture',
+    description: 'Easily snap photos with a simple hand gesture—perfect for hands-free selfies and creative shots.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Gesture Video Recording',
+    description: 'Start recording videos with intuitive gesture controls, making it easier to capture moments on the move.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Return to Home',
+    description: 'Automatically returns to the takeoff point when the signal is lost or battery runs low, ensuring safety and convenience.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Quick Charging',
+    description: 'Spend more time flying and less time charging with fast and efficient battery recharging.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'User-Friendly Control',
+    description: 'Control the drone effortlessly via an easy-to-use mobile app with real-time camera feed and intuitive UI.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Intelligent Flight Control',
+    description: 'Smart flight features like Follow Me and Waypoint Navigation allow automated, professional-grade flight paths.',
+    background: '/assets/nano/default.webp',
+  },
+  {
+    title: 'Obstacle Avoidance',
+    description: 'Advanced sensors detect and avoid obstacles in real-time, enhancing safety during flight.',
+    background: '/assets/nano/default.webp',
+  },
+];
+
 
 const MiniFeature = () => {
   return (

@@ -36,26 +36,35 @@ export const usageData = [
   
 export const slideData = [
   {
+    index: 4,
+    headline: "High-Altitude Perimeter Monitoring",
+    src: "/assets/s11/s11-survillence-high.webm",
+  },
+  {
     index: 0,
-    headline: "Urban Mapping",
-    src: "/assets/s11-lidar.webm",
+    headline: "Forest Fire Surveillance ",
+    src: "/assets/s11/s11-survillence-fire.mp4",
   },
   {
     index: 1,
-    headline: "Terrain Mastery in Motion",
-    src: "/assets/s11-2d.webm",
+    headline: "Real-Time Crowd Surveillance",
+    src: "/assets/s11/s11-survillence-crowd.webm",
   },
   {
     index: 2,
-    headline: "For Your Current Mood",
+    headline: "Real-Time Wildlife Surveillance",
     button: "Listen",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    src: "/assets/s11/s11-survillence-animal.webm",
   },
   {
     index: 3,
-    headline: "Focus On The Writing",
-    button: "Get Focused",
-    src: "https://www.w3schools.com/html/mov_bbb.mp4",
+    headline: "Heat Signature Tracking for Animal Movements",
+     src: "/assets/s11/s11-survillence-heat.webm",
+  },
+  {
+    index: 5,
+    headline: "Progress Tracking and Safety Assurance for Construction Projects",
+     src: "/assets/s11/s11-survillence-construction.mp4",
   },
 ];
 
@@ -63,9 +72,10 @@ export const introData = {
   title: "S11-Inspection",
   subtitle: "Precision Aerial Assessments for Critical Infrastructure & Safety",
   images: [
-    "/assets/s11-01.webp",
-    "/assets/s11-02.webp",
-    "/assets/s11-03.webp",
+    "/assets/s11/s11-xt-10a.webp",
+    "/assets/s11/s11-xt-30.webp",
+    "/assets/s11/s11-xag-lidar.webp",
+
   ]
 };
 
