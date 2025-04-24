@@ -89,5 +89,4 @@ export const payloadData = {
   { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.webp" },
   { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.webp" },
  ]
-
 };
