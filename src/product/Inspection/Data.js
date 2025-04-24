@@ -75,7 +75,7 @@ export const introData = {
     "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xt-30.webp",
     "/assets/s11/s11-xag-lidar.webp",
-
+    "/assets/s11/s11-xt-oblique.webp"
   ]
 };
 
@@ -88,5 +88,6 @@ export const payloadData = {
   { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.webp" },
   { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.webp" },
   { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.webp" },
+  { name: "XT-Oblique", image: "/assets/s11/s11-xt-oblique.webp" },
  ]
 };
