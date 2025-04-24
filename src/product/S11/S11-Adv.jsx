@@ -18,11 +18,10 @@ const modelImages = {
     fourth:"/assets/s11/s11-survillence-90deg.webp",
   },
   inspection: {
-    first: "/assets/s11-survey-battery.webp",
-    second: "/assets/s11-survey-fold.webp",
-    third: "/assets/drone.webp",
+    first: "/assets/s11/s11-inspect-bat.webp",
+    second: "/assets/s11/s11-inspect-fold.webp",
+    third: "/assets/s11/s11-inspect-sen.webp",
     fourth:"/assets/s11/s11-inspect-90deg.webp",
-
   }, 
   rescue: {
     first: "/assets/s11-survey-battery.webp",
