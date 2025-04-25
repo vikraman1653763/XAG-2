@@ -18,5 +18,4 @@ const Section10 = () => {
         </section>
     );
 };
-
 export default Section10;

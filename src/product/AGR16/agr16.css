@@ -911,7 +911,11 @@
     .agr16-sec-4-card p {
         font-size: var(--fs-xs); 
     }
+    .agr16-sec-5-container .title{
+      font-size: var(--fs-l);
+    }
     .agr16-sec-5-cards {
+      display: flex;
       flex-direction: column;
       gap: 1em;
       align-items: center;
@@ -921,7 +925,9 @@
       grid-template-columns: 1fr;
       padding: 1em;
     }
-    
+    .agr16-sec-5-card {
+      width: 90%;
+    }
       .agr16-sec-5-card h2 {
         font-size: var(--fs-m); 
       }
