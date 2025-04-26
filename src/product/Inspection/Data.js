@@ -35,37 +35,23 @@ export const usageData = [
 
   
 export const slideData = [
-  {
-    index: 4,
-    headline: "High-Altitude Perimeter Monitoring",
-    src: "/assets/s11/s11-survillence-high.webm",
-  },
+  
   {
     index: 0,
-    headline: "Forest Fire Surveillance ",
-    src: "/assets/s11/s11-survillence-fire.mp4",
+    headline: "Progress Tracking and Safety Assurance for Construction Projects",
+    src: "/assets/s11/s11-survillence-construction.mp4",
   },
   {
     index: 1,
-    headline: "Real-Time Crowd Surveillance",
-    src: "/assets/s11/s11-survillence-crowd.webm",
+    headline: "Chimney Inspection for Industrial Facilities",
+    src: "/assets/s11/s11-inspect-chimney.webm",
   },
   {
     index: 2,
-    headline: "Real-Time Wildlife Surveillance",
-    button: "Listen",
-    src: "/assets/s11/s11-survillence-animal.webm",
+    headline: "Offshore Oil Platform Inspection and Monitoring",
+    src: "/assets/s11/s11-inspect-sea.webm",
   },
-  {
-    index: 3,
-    headline: "Heat Signature Tracking for Animal Movements",
-     src: "/assets/s11/s11-survillence-heat.webm",
-  },
-  {
-    index: 5,
-    headline: "Progress Tracking and Safety Assurance for Construction Projects",
-     src: "/assets/s11/s11-survillence-construction.mp4",
-  },
+
 ];
 
 export const introData = {
@@ -82,12 +68,12 @@ export const introData = {
 
 export const payloadData = {
   
-  bg:"/assets/s11/s11-pay-survey.webp",
+  bg:"/assets/s11/s11-inspect-bg.webp",
  items:[
 
-  { name: "XAG-Lidar", image: "/assets/s11/s11-pay-xtlidar.webp" },
-  { name: "XT-30", image: "/assets/s11/s11-survillence-xt30.webp" },
-  { name: "XT-10a", image: "/assets/s11/s11-survillence-xt10a.webp" },
-  { name: "XT-Oblique", image: "/assets/s11/s11-xt-oblique.webp" },
+  { name: "XAG-Lidar", image: "/assets/s11/s11-inspect-blue-lidar.webp" },
+  { name: "XT-30", image: "/assets/s11/s11-inspect-xt30.webp" },
+  { name: "XT-10a", image: "/assets/s11/s11-inspect-xt10a.webp" },
+  { name: "XT-Oblique", image: "/assets/s11/s11-inspect-ob.webp" },
  ]
 };

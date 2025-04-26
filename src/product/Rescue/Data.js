@@ -29,8 +29,8 @@ export const usageData = [
 export const slideData = [
   {
     index: 4,
-    headline: "High-Altitude Perimeter Monitoring",
-    src: "/assets/s11/s11-survillence-high.webm",
+    headline: "Aerial Construction Site Inspection",
+    src: "/assets/s11/s11-survillence-construction.mp4",
   },
   {
     index: 0,
