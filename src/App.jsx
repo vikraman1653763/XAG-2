@@ -36,6 +36,7 @@ const Inspection = lazy(() => import('./product/Inspection/Inspection.jsx'));
 const Rescue = lazy(() => import('./product/Rescue/Rescue.jsx'));
 
 const Mini = lazy(() => import('./product/Mini/Mini.jsx'));
+const Xag30 = lazy(() => import('./product/Xag30/Xag30.jsx'));
 
 const Admin = lazy(() => import('./admin/admin.jsx'));
 const BlogUpdate = lazy(() => import('./admin/BlogUpdate.jsx'));
@@ -69,6 +70,8 @@ const App = () => {
             <Route path="/rescue" element={<Rescue/>} />
 
             <Route path="/mini" element={<Mini/>} />
+            
+            <Route path="/xag30" element={<Xag30/>} />
 
 
             <Route path="/batteries" element={<Battery />} />

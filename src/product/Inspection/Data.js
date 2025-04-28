@@ -51,6 +51,22 @@ export const slideData = [
     headline: "Offshore Oil Platform Inspection and Monitoring",
     src: "/assets/s11/s11-inspect-sea.webm",
   },
+  {
+    index: 3,
+    headline: "Precision Wind Turbine Inspection",
+    src: "/assets/s11/s11-inspect-wind.webm",
+  },
+  {
+    index: 4,
+    headline: "Telecom Tower Structural Assessment",
+    src: "/assets/s11/s11-inspect-tower.webm",
+  }, 
+  {
+    index: 5,
+    headline: "Heritage Building Structural Survey",
+    src: "/assets/s11/s11-inspect-heritage.webm",
+  },
+  
 
 ];
 
