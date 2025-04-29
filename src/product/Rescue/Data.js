@@ -64,9 +64,13 @@ export const introData = {
   title: "S11-Rescue",
   subtitle: "Rapid Aerial Support for Critical Emergency Operations",
   images: [
-    "/assets/s11/s11-xt-10a.webp",
-    "/assets/s11/s11-xt-30.webp",
-    "/assets/s11/s11-xag-lidar.webp",
+    "/assets/s11/em1.webp",
+    "/assets/s11/em2.webp",
+    "/assets/s11/em3.webp",
+    "/assets/s11/em4.webp",
+    "/assets/s11/em5.webp",
+    "/assets/s11/em6.webp",
+   
 
   ]
 };
