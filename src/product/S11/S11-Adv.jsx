@@ -24,9 +24,10 @@ const modelImages = {
     fourth:"/assets/s11/s11-inspect-90deg.webp",
   }, 
   rescue: {
-    first: "/assets/s11-survey-battery.webp",
-    second: "/assets/s11-survey-fold.webp",
-    third: "/assets/drone.webp",
+    first: "/assets/s11/s11-em-bat.webp",
+    second: "/assets/s11/s11-em-fold.webp",
+    third: "/assets/s11/s11-em-sen.webp",
+    fourth:"/assets/s11/s11-em-90deg.webp",
   }
 };
 

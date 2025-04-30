@@ -16,7 +16,7 @@ function Rescue() {
       <Sec1/>
       <Sec5 data={usageData}/>
       <Sec2 data={slideData}/>
-      <Sec4 model="Rescue"/>
+      <Sec4 model="rescue"/>
       <Sec3/>
     </div>
   )
