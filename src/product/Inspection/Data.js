@@ -75,9 +75,9 @@ export const introData = {
   subtitle: "Precision Aerial Assessments for Critical Infrastructure & Safety",
   images: [
     "/assets/s11/s11-xt-10a.webp",
+    "/assets/s11/s11-xt-oblique.webp",
     "/assets/s11/s11-xt-30.webp",
     "/assets/s11/s11-xag-lidar.webp",
-    "/assets/s11/s11-xt-oblique.webp"
   ]
 };
 
