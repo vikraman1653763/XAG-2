@@ -38,13 +38,13 @@ export const slideData = [
   
   {
     index: 0,
-    headline: "Progress Tracking and Safety Assurance for Construction Projects",
-    src: "/assets/s11/s11-survillence-construction.mp4",
+    headline: "Telecom Tower Structural Assessment",
+    src: "/assets/s11/s11-inspect-tower.webm",
   },
   {
     index: 1,
-    headline: "Chimney Inspection for Industrial Facilities",
-    src: "/assets/s11/s11-inspect-chimney.webm",
+    headline: "Precision Wind Turbine Inspection",
+    src: "/assets/s11/s11-inspect-wind.webm",
   },
   {
     index: 2,
@@ -53,13 +53,13 @@ export const slideData = [
   },
   {
     index: 3,
-    headline: "Precision Wind Turbine Inspection",
-    src: "/assets/s11/s11-inspect-wind.webm",
+    headline: "Chimney Inspection for Industrial Facilities",
+    src: "/assets/s11/s11-inspect-chimney.webm",
   },
   {
     index: 4,
-    headline: "Telecom Tower Structural Assessment",
-    src: "/assets/s11/s11-inspect-tower.webm",
+    headline: "Progress Tracking and Safety Assurance for Construction Projects",
+    src: "/assets/s11/s11-survillence-construction.mp4",
   }, 
   {
     index: 5,

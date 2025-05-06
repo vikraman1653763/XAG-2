@@ -25,40 +25,34 @@ export const usageData = [
   }
 ];
 
-  
 export const slideData = [
   {
-    index: 4,
-    headline: "Aerial Construction Site Inspection",
-    src: "/assets/s11/s11-em-medic.webm",
-  },
-  {
     index: 0,
-    headline: "Forest Fire Surveillance ",
-    src: "/assets/s11/s11-survillence-fire.mp4",
+    headline: "Fireball Deployment for Forest Fires",
+    src: "/assets/s11/s11-em-fire.webm",
   },
   {
     index: 1,
-    headline: "Real-Time Crowd Surveillance",
-    src: "/assets/s11/s11-survillence-crowd.webm",
+    headline: "Food Delivery in Flood Zones",
+    src: "/assets/s11/s11-em-food.webm",
   },
   {
     index: 2,
-    headline: "Real-Time Wildlife Surveillance",
-    button: "Listen",
-    src: "/assets/s11/s11-survillence-animal.webm",
+    headline: "Crowd Communication via Speaker",
+    src: "/assets/s11/s11-em-speaker.webm",
   },
   {
     index: 3,
-    headline: "Heat Signature Tracking for Animal Movements",
-     src: "/assets/s11/s11-survillence-heat.webm",
+    headline: "Life Jacket Air Deployment",
+    src: "/assets/s11/s11-em-life.webm",
   },
   {
-    index: 5,
-    headline: "Progress Tracking and Safety Assurance for Construction Projects",
-     src: "/assets/s11/s11-survillence-construction.mp4",
+    index: 4,
+    headline: "Medical Aid to Remote Locations",
+    src: "/assets/s11/s11-em-medic.webm",
   },
 ];
+
 
 export const introData = {
   title: "S11-Rescue",
@@ -70,6 +64,7 @@ export const introData = {
     "/assets/s11/em4.webp",
     "/assets/s11/em5.webp",
     "/assets/s11/em6.webp",
+    "/assets/s11/em7.webp",
    
 
   ]
