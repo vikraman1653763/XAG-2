@@ -57,6 +57,7 @@ export const slideData = [
 export const introData = {
   title: "S11-Rescue",
   subtitle: "Rapid Aerial Support for Critical Emergency Operations",
+  bg:"/assets/s11/s11-em-intro.webp",
   images: [
     "/assets/s11/em1.webp",
     "/assets/s11/em2.webp",

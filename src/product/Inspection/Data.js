@@ -72,7 +72,9 @@ export const slideData = [
 
 export const introData = {
   title: "S11-Inspection",
-  subtitle: "Precision Aerial Assessments for Critical Infrastructure & Safety",
+  subtitle: "Precision Aerial Assessments for Critical Infrastructure & Safety",  
+  bg:"/assets/s11/s11-inspect-intro.webp",
+
   images: [
     "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xt-oblique.webp",

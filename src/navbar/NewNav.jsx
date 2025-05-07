@@ -88,7 +88,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/agr16" onClick={resetMenus}>
                       <img
-                        src="/assets/nav3.webp"
+                        src="/assets/nav2.webp"
                         alt="AGR16"
                         className="submenu-image"
                       />
@@ -118,7 +118,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/survey" onClick={resetMenus}>
                       <img
-                        src="/assets/nav5.webp"
+                        src="/assets/nav3.webp"
                         alt="Survey"
                         className="submenu-image"
                       />
@@ -126,7 +126,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/surveillance" onClick={resetMenus}>
                       <img
-                        src="/assets/nav5.webp"
+                        src="/assets/nav4.webp"
                         alt="Surveillance"
                         className="submenu-image"
                       />
@@ -142,7 +142,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/rescue" onClick={resetMenus}>
                       <img
-                        src="/assets/nav5.webp"
+                        src="/assets/nav6.webp"
                         alt="Rescue"
                         className="submenu-image"
                       />
@@ -165,7 +165,7 @@ const WindowNavbar = () => {
                   <div className="new-nav-submenu">
                     <Link to="/flight-controller" onClick={resetMenus}>
                       <img
-                        src="/assets/nav2.webp"
+                        src="/assets/nav7.webp"
                         alt="Flight Controller"
                         className="submenu-image"
                       />
@@ -173,7 +173,7 @@ const WindowNavbar = () => {
                     </Link>
                     <Link to="/batteries" onClick={resetMenus}>
                       <img
-                        src="/assets/battt.png"
+                        src="/assets/nav8.webp"
                         alt="Batteries"
                         className="submenu-image"
                       />
