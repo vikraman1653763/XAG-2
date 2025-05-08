@@ -79,10 +79,9 @@ export const introData = {
     "/assets/s11/s11-xt-10a.webp",
     "/assets/s11/s11-xt-oblique.webp",
     "/assets/s11/s11-xt-30.webp",
-    "/assets/s11/s11-xag-lidar.webp",
+    "/assets/s11/s11-xag-blue.webp",
   ]
 };
-
 
 export const payloadData = {
   

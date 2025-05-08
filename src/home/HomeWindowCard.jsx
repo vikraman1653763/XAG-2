@@ -5,6 +5,7 @@ import image1 from '/assets/demo9.webp';
 import image3 from '/assets/demo3.webp';
 import image2 from '/assets/demo11.webp';
 import image4 from '/assets/demo10.webp';
+import image5 from '/assets/demo1.webp';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -36,6 +37,13 @@ const items = [
     topic: "Xpower Plus",
     link: '/Batteries',
     description: "Xpower Plus is designed for long-lasting power in drones, ensuring extended flight times and reliable performance for agricultural and industrial tasks.",
+  },
+  {
+    image: image5,
+    title: "INDUSTRIAL DRONE",
+    topic: "S-11",
+    link: '/inspection',
+    description: "Engineered for precision inspections, the S-11 Industrial Drone excels in challenging environments, offering reliable performance and extended endurance for critical infrastructure monitoring.",
   },
 ];
 
@@ -96,8 +104,8 @@ const HomeWindowCard = () => {
           transition={{ duration: 0.2, ease: "easeInOut" }}
         >
           <img src={items[currentIndex].image} className="home-car-2-image" alt={items[currentIndex].title} />
-          <div className="home-car-2-introduce">
-            <motion.div
+          <div className={`home-car-2-introduce ${items[currentIndex].topic === "S-11" ? "s11-highlight" : ""}`}>
+          <motion.div
               className="home-car-2-title"
               initial={{ opacity: 0, y: -20 ,filter: 'blur(10px)' }}
               animate={{ opacity: 1, y: 0 ,filter: 'blur(0px)'}}

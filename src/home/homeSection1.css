@@ -24,12 +24,13 @@
     align-items: center;
 }
 
+
 .home-car-2-introduce {
     width: 40em;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 10%;
-    transform: translate(-10%, -60%);
+    transform: translate(-10%, -50%);
     color: white;
     padding: 1em;
     z-index: 2;
@@ -116,8 +117,24 @@
     opacity: 1;
 }
 
+.s11-highlight .home-car-2-title,
+.s11-highlight .home-car-2-topic,
+.s11-highlight .home-car-2-des ,
+.s11-highlight .home-car-2-seeMore a {  
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px #e0e0e0;
+    color: black;
+    text-shadow: 
+      -1px -1px 0 white,
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+}
 
-
+.s11-highlight .home-car-2-seeMore {
+    color: black !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
 /* Tablet View */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .home-car-2-carousel {
