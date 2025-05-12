@@ -611,3 +611,41 @@
     rgb(185, 185, 185)
   );
 }
+    /* #################################################### section7 ######################################################  */
+
+    .xag25-fea-container {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.xag25-fea-block {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  width: 70%;
+  height: 70%;
+  
+}
+
+.xag25-fea-video {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.xag25-fea-heading {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: var(--fs-m); /* --fs-xl */
+  z-index: 2;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}

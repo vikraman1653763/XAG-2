@@ -47,5 +47,4 @@ const Xag24Gallery = () => {
     </div>
   );
 };
-
 export default Xag24Gallery;
