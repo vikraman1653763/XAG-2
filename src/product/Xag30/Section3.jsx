@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Xag25Specs = () => {
+const Xag30Specs = () => {
   const specs = [
     { feature: 'Communication', detail: '2.4 GHz', notes: 'Reliable Long-Range Link' },
     { feature: 'Endurance', detail: 'Up to 45 Min', notes: 'Extended Mission Time' },
@@ -20,10 +20,10 @@ const Xag25Specs = () => {
   ];
 
   return (
-    <section className="xag25-specs-section">
-      <div className="xag25-specs-container">
-        <h2 className="xag25-specs-title">Technical Specifications</h2>
-        <table className="xag25-specs-table">
+    <section className="xag30-specs-section">
+      <div className="xag30-specs-container">
+        <h2 className="xag30-specs-title">Technical Specifications</h2>
+        <table className="xag30-specs-table">
           <thead>
             <tr>
               <th>Feature</th>
@@ -34,9 +34,9 @@ const Xag25Specs = () => {
           <tbody>
             {specs.map((item, index) => (
               <tr key={index}>
-                <td className="xag25-specs-feature">{item.feature}</td>
-                <td className="xag25-specs-detail">{item.detail}</td>
-                <td className="xag25-specs-notes">{item.notes}</td>
+                <td className="xag30-specs-feature">{item.feature}</td>
+                <td className="xag30-specs-detail">{item.detail}</td>
+                <td className="xag30-specs-notes">{item.notes}</td>
               </tr>
             ))}
           </tbody>
@@ -46,4 +46,4 @@ const Xag25Specs = () => {
   );
 }
 
-export default Xag25Specs;
+export default Xag30Specs;

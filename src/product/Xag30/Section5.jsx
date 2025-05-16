@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Xag25Intro = () => {
+const Xag30Intro = () => {
   return (
-    <section className="xag25-intro-section">
-      <div className="xag25-intro-text-container">
+    <section className="xag30-intro-section">
+      <div className="xag30-intro-text-container">
         <motion.h1
-          className="xag25-intro-main"
+          className="xag30-intro-main"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -14,7 +14,7 @@ const Xag25Intro = () => {
           XAG 30
         </motion.h1>
         <motion.p
-          className="xag25-intro-subtitle"
+          className="xag30-intro-subtitle"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
@@ -26,4 +26,4 @@ const Xag25Intro = () => {
   );
 }
 
-export default Xag25Intro;
+export default Xag30Intro;

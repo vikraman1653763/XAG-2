@@ -15,26 +15,26 @@ const Xag24Gallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <div className="xag25-gallery-container">
-      <div className="xag25-gallery-left">
+    <div className="xag30-gallery-container">
+      <div className="xag30-gallery-left">
         {galleryItems.map((item, index) => (
           <img
             key={item.id}
             src={item.image}
             alt={`Thumbnail ${index + 1}`}
-            className={`xag25-gallery-thumb ${selectedIndex === index ? 'active' : ''}`}
+            className={`xag30-gallery-thumb ${selectedIndex === index ? 'active' : ''}`}
             onClick={() => setSelectedIndex(index)}
           />
         ))}
       </div>
       {/* Gallery Image on Left */}
-      <div className="xag25-gallery-right">
+      <div className="xag30-gallery-right">
             <AnimatePresence mode="wait">
                 <motion.img
                 key={galleryItems[selectedIndex].id}
                 src={galleryItems[selectedIndex].image}
                 alt={`Gallery Image ${selectedIndex + 1}`}
-                className="xag25-gallery-image"
+                className="xag30-gallery-image"
                 initial={{ opacity: 0, scale: 0.9 , x:-400}}
                 animate={{ opacity: 1, scale: 1 ,x:0}}
                 exit={{ opacity: 0, scale: 0.9 ,x:400}}
