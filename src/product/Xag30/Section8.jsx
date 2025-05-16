@@ -10,7 +10,6 @@ const features = [
   { description: 'Terrain-following sensor for altitude adaptation over uneven ground', video: '/assets/xag30/xag30-terrain.webm' }
 ];
 
-
 const Xag30Feature = () => {
   return (
     <div className="xag30-fea-container">
@@ -25,6 +24,7 @@ const Xag30Feature = () => {
             muted
             playsInline
           />
+
         </div>
       ))}
     </div>

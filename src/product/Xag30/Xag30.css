@@ -5,13 +5,11 @@
     padding: 4rem 2rem;
   }
   
-  /* Cards Container */
   .xag-30-high-cards-container {
     padding: 2rem;
     box-sizing: border-box;
   }
   
-  /* Grid Layout */
   .xag-30-high-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -20,7 +18,6 @@
     
   }
   
-  /* Header Block */
   .xag-30-high-header {
     background: #000000;
     border: 1px solid #1a1a1a;
@@ -35,7 +32,6 @@
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   }
   
-  /* Title inside Header */
   .xag-30-high-title {
     font-size: var(--fs-xl);
     font-weight: 700;
@@ -58,14 +54,12 @@
     border-radius: 2px;
   }
   
-  /* Description inside Header */
   .xag-30-high-desc {
     text-align: left;
     font-size: var(--fs-s);
     color: #d4d4d4;
   }
   
-  /* Common Card Style */
   .xag-30-high-card {
     background: linear-gradient(180deg, #9cf00b00, #9cf00b00,#9cf00b00,#9cf00b30,#9cf00b73, #9BF00B);
     border: 1px solid #a5a5a5;
@@ -79,12 +73,10 @@
     position: relative;
   }
   
-  /* Card hover effect */
   .xag-30-high-card:hover {
     transform: translateY(-5px);
   }
   
-  /* Number Badge */
   .xag-30-high-card-number {
       position: absolute;
       top: 0;
@@ -95,7 +87,6 @@
       padding: 6px 10px;
       border-radius: 50%;
     }
-    /* Top Section (Number + Icon) */
     .xag-30-high-card-top {
       display: flex;
       flex-direction: column;
@@ -105,7 +96,6 @@
     }
     
   
-  /* Icon */
   .xag-30-high-card-icon {
       color: #ffffff;
     height: 100%;
@@ -145,7 +135,6 @@
     grid-row: 1;
   }
   
-  /* Place remaining four cards */
   .xag-30-high-grid > .xag-30-high-card:nth-child(4) {
     grid-column: 1 / span 1;
     grid-row: 3;
@@ -163,8 +152,65 @@
     grid-row: 3;
   }
   
+    @media screen and (max-width: 767px) {
+  .xag-30-high-container {
+    padding: 1rem;
+  }
+  .xag-30-high-cards-container{
+    padding: 1rem;
+  }
+  .xag-30-high-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-  /* ############ Section2 ############ */
+  .xag-30-high-header {
+    grid-column: auto;
+    grid-row: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .xag-30-high-title {
+    font-size: var(--fs-m);
+    text-align: center;
+  }
+
+  .xag-30-high-desc {
+    font-size: var(--fs-xs);
+    text-align: center;
+  }
+
+  .xag-30-high-header-line {
+    height: 2px;
+    margin: 0.75rem 0;
+  }
+
+  .xag-30-high-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .xag-30-high-card-title {
+    font-size: var(--fs-s);
+  }
+
+  .xag-30-high-card-desc {
+    font-size: var(--fs-xs);
+  }
+
+  .xag-30-high-card-number {
+    font-size: var(--fs-xs);
+    padding: 4px 8px;
+  }
+
+  .xag-30-high-card-icon img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+  /* ############################################## Section2 ###################################################### */
   .xag30-about-section {
     background-color: transparent;
     padding: 3rem 5rem;
@@ -201,10 +247,21 @@
   }
 
 
-
+@media screen and (max-width: 767px) {
+  .xag30-about-section{
+    padding: 1em;
+  }
+  .xag30-about-description{
+    font-size: var(--fs-s);
+  }
+  .xag30-about-description span{
+    line-height: normal;
+  }
+}
 
   
-  /* ########## section 3 ########## */
+  /* ############################### section 3 ########################################## */
+
   .xag30-specs-section {
     background-color: #0f0f0f00;
     padding: 4rem 2rem;
@@ -295,7 +352,37 @@
   .xag30-specs-notes {
     text-align: left;
   }
-  
+  @media screen and (max-width: 767px) {
+  .xag30-specs-section {
+    padding: 2rem 1rem;
+  }
+
+  .xag30-specs-title {
+    font-size: var(--fs-m);
+  }
+
+  .xag30-specs-container {
+    overflow-x: auto;
+  }
+
+  .xag30-specs-table {
+    width: 100%;
+    min-width: 600px;
+    border-spacing: 0 8px;
+  }
+
+  .xag30-specs-table th,
+  .xag30-specs-table td {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .xag30-specs-table th {
+    font-size: 1rem;
+  }
+}
+
   /* ########## section 4 ########## */
 
   .xag30-usecases-section {
@@ -393,18 +480,52 @@
     line-height: 1.6;
   }
   
-  /* Responsive adjustment */
-  @media (max-width: 768px) {
-    .xag30-usecase-row {
-      flex-direction: column !important;
-    }
-  
-    .xag30-usecase-video,
-    .xag30-usecase-content {
-      width: 100%;
-      text-align: center;
-    }
+ @media screen and (max-width: 767px) {
+  .xag30-usecases-section {
+    padding: 2rem 1rem;
   }
+
+  .xag30-usecases-title {
+    font-size: var(--fs-m); /* Adjust as needed */
+    margin-bottom: .5rem;
+  }
+
+  .xag30-usecase-row {
+    flex-direction: column !important;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+  }
+
+  .xag30-usecase-video {
+    width: 100%;
+    min-width: unset;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .xag30-usecase-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .xag30-usecase-content {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .xag30-usecase-title {
+    font-size: var(--fs-s);
+    text-align: left;
+  }
+
+  .xag30-usecase-description {
+    font-size: var(--fs-xs);
+    text-align: left;
+  }
+}
+
   
   /* ################################### section 5 ########################################## */
 
@@ -468,8 +589,28 @@
     }
   }
   
+  @media screen and (max-width: 767px) {
+  .xag30-intro-section{
+    background-size: contain;
+    background-position: top;
+    height: 45vh;
+    width: 100vw;
+  }
+  .xag30-intro-text-container{
+    bottom: 0;
+    padding: 1em;
+    text-align: center;
+  }
+  .xag30-intro-main{
+    font-size: var(--fs-l);
+  }
+  .xag30-intro-subtitle{
+    font-size: var(--fs-s);
+  }
+
+  }
   
-    /* ########## section 6 ########## */
+    /* ########################################### section 6 #################################### */
 
     .xag30-cta-section {
       background-color: transparent;
@@ -532,16 +673,35 @@
       color: #0f0f0f;
     }
     
-    @media (max-width: 768px) {
-      .xag30-cta-title {
-        font-size: 2.2rem;
-      }
-    
-      .xag30-cta-subtext {
-        font-size: 1.2rem;
-      }
-    }
-    
+  @media (max-width: 767px) {
+  .xag30-cta-section {
+    padding: 2rem 1rem;
+  }
+
+  .xag30-cta-title {
+    font-size:var(--fs-m);
+    line-height: 1.3;
+  }
+
+  .xag30-cta-subtext {
+    font-size: var(--fs-s);
+    margin-bottom: 1rem;
+  }
+
+  .xag30-cta-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .xag30-cta-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+}
+
     /* #################################################### section7 ######################################################  */
 
 
@@ -602,6 +762,75 @@
     rgb(185, 185, 185)
   );
 }
+
+@media screen and (max-width: 767px) {
+  .xag30-gallery-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .xag30-gallery-left {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+
+  .xag30-gallery-left::-webkit-scrollbar {
+    height: 6px; 
+  }
+
+  .xag30-gallery-left::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .xag30-gallery-left::-webkit-scrollbar-thumb {
+    background-color: #9BF00B; 
+    border-radius: 10px;
+  }
+
+  /* For Firefox */
+  .xag30-gallery-left {
+    scrollbar-width: thin;
+    scrollbar-color: #9BF00B transparent;
+  }
+
+
+
+  .xag30-gallery-thumb {
+    width: 60px;
+    height: 60px;
+    max-height: none;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .xag30-gallery-thumb.active {
+    transform: scale(1.1) translateY(-5px);
+  }
+
+  .xag30-gallery-right {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .xag30-gallery-image {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+}
+
+
     /* #################################################### section7 ######################################################  */
 
     .xag30-fea-container {
@@ -642,4 +871,26 @@
   font-size: var(--fs-m); 
   z-index: 2;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+   @media screen and (max-width: 767px) {
+  .xag30-fea-container {
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+
+  .xag30-fea-block {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .xag30-fea-video {
+    border-radius: 8px;
+  }
+
+  .xag30-fea-heading {
+    font-size: var(--fs-xs); 
+    bottom: 5%;
+    padding: 0 0.5rem;
+    line-height: 1.2;
+  }
 }
