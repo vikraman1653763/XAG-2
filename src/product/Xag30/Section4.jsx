@@ -11,7 +11,7 @@ const Xag30UseCases = () => {
     {
       title: 'Battlefield Supply & Resupply',
       description: 'Rapid delivery of ammunition, medical supplies, and food to frontline troops. Automated resupply to reduce human risk.',
-      video: '/videos/battlefield.mp4',
+      video: '/assets/xag30/xag30-war.webm',
     },
     {
       title: 'Medical Evacuation & Aid Delivery',
@@ -21,7 +21,7 @@ const Xag30UseCases = () => {
     {
       title: 'Naval & Maritime Operations',
       description: 'Resupplying warships at sea. Supporting search-and-rescue (SAR) missions with real-time delivery.',
-      video: '/videos/naval.mp4',
+      video: '/assets/xag30/xag30-naval.webm',
     },
    
     {
