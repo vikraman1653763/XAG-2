@@ -16,7 +16,7 @@ const Xag30UseCases = () => {
     {
       title: 'Medical Evacuation & Aid Delivery',
       description: 'Transporting emergency kits, blood, and life-saving drugs to injured soldiers. Quick evacuation of wounded personnel.',
-      video: '/videos/medical.mp4',
+      video: '/assets/xag30/xag30-war.webm',
     },
     {
       title: 'Naval & Maritime Operations',
@@ -37,13 +37,13 @@ const Xag30UseCases = () => {
     {
       title: 'Aerial Food Delivery Missions',
       description: 'Using drones to deliver food in emergency, conflict, or inaccessible zones ensuring safe supply chain.',
-      video: '/videos/food.mp4',
+      video: '/assets/xag30/xag30-war.webm',
     },
     {
-  title: 'Island-to-Island Transport',
-  description: 'Designed for extended endurance, the XAG 30 enables reliable island-to-island missions over large water bodies. Its durable frame, high-capacity batteries, and intelligent navigation systems ensure secure transport of critical supplies in remote archipelagos.',
-  video: '/assets/xag30/xag30-island.webm',
-}
+      title: 'Island-to-Island Transport',
+      description: 'Designed for extended endurance, the XAG 30 enables reliable island-to-island missions over large water bodies. Its durable frame, high-capacity batteries, and intelligent navigation systems ensure secure transport of critical supplies in remote archipelagos.',
+      video: '/assets/xag30/xag30-island.webm',
+    }
 
   ];
 

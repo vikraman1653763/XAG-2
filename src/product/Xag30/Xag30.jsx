@@ -7,15 +7,15 @@ import Section4 from './Section4.jsx'
 import Section5 from './Section5.jsx'
 import Section6 from './Section6.jsx'
 import Section7 from './Section7.jsx'
-import ScrollExpandUseCases from './Section9.jsx'
+import Section9 from './Section9.jsx'
 
 function Xag30() {
   return (
     <div>
       <Section5/>
-      <ScrollExpandUseCases/>
       <Section2/>
       <Section1/>
+      <Section9/>
       <Section7/>
       <Section4/>
       <Section3/>
