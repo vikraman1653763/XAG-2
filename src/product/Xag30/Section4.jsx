@@ -13,11 +13,7 @@ const Xag30UseCases = () => {
       description: 'Rapid delivery of ammunition, medical supplies, and food to frontline troops. Automated resupply to reduce human risk.',
       video: '/assets/xag30/xag30-war.webm',
     },
-    {
-      title: 'Medical Evacuation & Aid Delivery',
-      description: 'Transporting emergency kits, blood, and life-saving drugs to injured soldiers. Quick evacuation of wounded personnel.',
-      video: '/assets/xag30/xag30-war.webm',
-    },
+    
     {
       title: 'Naval & Maritime Operations',
       description: 'Resupplying warships at sea. Supporting search-and-rescue (SAR) missions with real-time delivery.',
@@ -35,9 +31,9 @@ const Xag30UseCases = () => {
       video: '/assets/xag30/xag30-flood.webm',
     },
     {
-      title: 'Aerial Food Delivery Missions',
-      description: 'Using drones to deliver food in emergency, conflict, or inaccessible zones ensuring safe supply chain.',
-      video: '/assets/xag30/xag30-war.webm',
+      title: 'Aerial Medical & Food Aid Delivery',
+      description: 'Deploying drones to deliver essential medical supplies and food to remote, disaster-hit, or conflict zones, ensuring timely and safe relief support.',
+      video: '/assets/xag30/xag30-payload.webm',
     },
     {
       title: 'Island-to-Island Transport',
