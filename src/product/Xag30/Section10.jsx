@@ -10,15 +10,15 @@ const Xag30Feature = () => {
   });
 
   // Custom transforms
-  const topLeftX = useTransform(scrollYProgress, [0, 0.5], ['300px', '-100px']);
-  const bottomLeftX = useTransform(scrollYProgress, [0, 0.6], ['300px', '-300px']);
+  const topLeftX = useTransform(scrollYProgress, [0, 0.4], ['300px', '-100px']);
+  const bottomLeftX = useTransform(scrollYProgress, [0, 0.5], ['300px', '-300px']);
   const topRightY = useTransform(scrollYProgress, [0, 1], ['10px', '-40px']);
   const leftToRight = useTransform(scrollYProgress, [0, 0.4], ['-40px', '350px']);
   const upToDown = useTransform(scrollYProgress, [0, 0.4], ['300px', '0px']);
-  const centerToTop = useTransform(scrollYProgress, [0, 0.3], ['300px', '0px']);
+  const centerToTop = useTransform(scrollYProgress, [0.2, 0.4], ['300px', '0px']);
   const centerScale = useTransform(scrollYProgress, [0, 0.4], [0.4, 1]);
-  const bottomLeftRotate = useTransform(scrollYProgress, [0, 0.6], ['100deg', '0deg']);
-
+  const bottomLeftRotate = useTransform(scrollYProgress, [0, 0.4], ['100deg', '0deg']);
+  const blink =useTransform(scrollYProgress,[0.2,0.4],[0,1])
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -49,7 +49,7 @@ const Xag30Feature = () => {
        <motion.div
   className="xag30-feature-detail"
   style={{
-    y: centerToTop,scale: centerScale   }}
+    opacity:blink}}
 >
   <h2 className="xag30-feature-title">Unveiling the Core of Precision</h2>
   <p className="xag30-feature-subtext">

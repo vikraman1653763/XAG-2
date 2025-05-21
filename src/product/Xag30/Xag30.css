@@ -984,12 +984,14 @@
 .xag30-feature-top-left {
   top: 10%;
   left: 0;
+    width: 30%;
+  height: 30%;
 }
 
 .xag30-feature-top-right {
   top: 5%;
   right: 10%;
-  width: 30%;
+  width: 40%;
   height: 30%;
   
 }
@@ -1005,7 +1007,8 @@
 .xag30-feature-bottom-right {
   bottom: 10%;
   right: -7%;
- 
+  width: 35%;
+  height: 35%;
 }
 
 
