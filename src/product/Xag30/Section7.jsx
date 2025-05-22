@@ -27,7 +27,6 @@ const Xag24Gallery = () => {
           />
         ))}
       </div>
-      {/* Gallery Image on Left */}
       <div className="xag30-gallery-right">
             <AnimatePresence mode="wait">
                 <motion.img
