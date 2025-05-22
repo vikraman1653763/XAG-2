@@ -78,13 +78,13 @@ const Xag30Feature = () => {
         style={{ scale: centerScale }}
       />
       <motion.img
-        src="/assets/xag30/sensor.webp"
+        src="/assets/xag30/fc.webp"
         alt="Bottom Left"
         className="xag30-feature-img xag30-feature-bottom-left"
         style={{ rotate: bottomLeftRotate, x: bottomLeftX }}
-      />
+        />
       <motion.img
-        src="/assets/xag30/fc.webp"
+        src="/assets/xag30/sensor.webp"
         alt="Bottom Right"
         className="xag30-feature-img xag30-feature-bottom-right"
         style={{ y: upToDown }}
