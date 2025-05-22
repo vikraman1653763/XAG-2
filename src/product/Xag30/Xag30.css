@@ -533,7 +533,7 @@
   .xag30-intro-section {
     width: 100%;
     height: 100vh;
-    background: url('/assets/xag30/2.webp') center/cover no-repeat;
+    background: url('/assets/xag30/intro.webp') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
