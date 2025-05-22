@@ -575,7 +575,7 @@
   
   
   .xag30-intro-subtitle {
-    font-size: var(--fs-l);
+    font-size: var(--fs-m);
     color: #d4d4d4;
   }
 
@@ -1024,7 +1024,7 @@
   width: 50%;
   /* border: 1px solid #9BF00B; */
   box-shadow: 1px 1px 6px #9bf00b;
-
+  z-index: 2;
 }
 .xag30-feature-title {
   font-size: 2.2rem;
