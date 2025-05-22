@@ -9,7 +9,7 @@ const Xag30Feature = () => {
     offset: ["start end", "end start"],
   });
 
-  // Custom transforms
+  
   const topLeftX = useTransform(scrollYProgress, [0, 0.4], ['300px', '-100px']);
   const bottomLeftX = useTransform(scrollYProgress, [0, 0.5], ['300px', '-300px']);
   const topRightY = useTransform(scrollYProgress, [0, 1], ['10px', '-40px']);
@@ -47,18 +47,15 @@ const Xag30Feature = () => {
   return (
     <div className="xag30-feature-wrapper" ref={ref}>
        <motion.div
-  className="xag30-feature-detail"
-  style={{
-    opacity:blink}}
->
-  <h2 className="xag30-feature-title">Unveiling the Core of Precision</h2>
-  <p className="xag30-feature-subtext">
-    Experience the powerful synergy of camera vision, flight control, and intelligent sensors – engineered for mission-critical performance and dynamic responsiveness.
-  </p>
-</motion.div>
-
-
-
+          className="xag30-feature-detail"
+          style={{
+            opacity:blink}}
+        >
+          <h2 className="xag30-feature-title">Unveiling the Core of Precision</h2>
+          <p className="xag30-feature-subtext">
+            Experience the powerful synergy of camera vision, flight control, and intelligent sensors – engineered for mission-critical performance and dynamic responsiveness.
+          </p>
+        </motion.div>
       <motion.img
         src="/assets/xag30/cam.webp"
         alt="Top Left"
