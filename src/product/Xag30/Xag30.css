@@ -566,7 +566,7 @@
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 100%;
-    background: linear-gradient(0deg, #0091bd,#0091bd, #ffffff, #f5f5f5);
+    background: linear-gradient(0deg, black,rgb(255, 255, 255), #ffffff,#ffffff, #ffffff4e, #ffffff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -575,8 +575,9 @@
   
   
   .xag30-intro-subtitle {
-    font-size: var(--fs-m);
-    color: #d4d4d4;
+    font-size: 1.26em;
+    color: #ffffff;
+    font-weight: 400;
   }
 
 
@@ -596,7 +597,7 @@
   .xag30-intro-section{
     background-size: contain;
     background-position: top;
-    height: 45vh;
+    height: 48vh;
     width: 100vw;
   }
   .xag30-intro-text-container{
@@ -605,9 +606,10 @@
     text-align: center;
   }
   .xag30-intro-main{
-    font-size: var(--fs-l);
+    font-size: var(--fs-xl);
   }
   .xag30-intro-subtitle{
+    font-weight: normal;
     font-size: var(--fs-s);
   }
 
@@ -925,7 +927,7 @@
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
   .xag30-scroll-card-container {
-    margin-bottom: calc(100% + 2em);
+    margin-bottom: .5em;
   }
 
   .xag30-scroll-sec h2 {

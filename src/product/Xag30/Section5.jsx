@@ -19,8 +19,7 @@ const Xag30Intro = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          Tactical Heavy-Lift Drone for Rapid Logistics and Emergency Response
-        </motion.p>
+A tactical heavy-lift drone engineered for uncompromising performance and mission-critical operations in the most demanding conditions.</motion.p>
       </div>
     </section>
   );

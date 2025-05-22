@@ -38,7 +38,6 @@ const Xag30Feature = () => {
         <img src="/assets/xag30/cam.webp" className="xag30-feature-img" />
         <img src="/assets/xag30/fc.webp" className="xag30-feature-img" />
         <img src="/assets/xag30/sensor.webp" className="xag30-feature-img" />
-        <img src="/assets/xag30/cam.webp" className="xag30-feature-img" />
         <img src="/assets/xag30/payload.webp" className="xag30-feature-img" />
       </div>
     );
