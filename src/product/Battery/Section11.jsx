@@ -41,7 +41,9 @@ const Section11 = () => {
                 <div className="bat-sec-11-buttons">
                     <button className="bat-sec-11-button" onClick={handleContactUsClick} data-aos="fade-up" data-aos-offset='100'>Contact Us</button>
                     <button className="bat-sec-11-button" onClick={handleGetQuoteClick} data-aos="fade-up" data-aos-offset="200">Get a Quote</button>
+                    <a href='/assets/battery_brochure.pdf' download='X-Power Plus.pdf'>
                     <button className="bat-sec-11-button" data-aos="fade-up" data-aos-offset='300'>Download Brochure</button>
+                    </a>
                 </div>
             </div>
         </div>

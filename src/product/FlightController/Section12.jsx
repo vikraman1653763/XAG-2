@@ -37,7 +37,9 @@ useEffect(() => {
                 <div className="fc-sec-12-buttons">
                     <button className="fc-sec-12-button"  data-aos="fade-up" data-aos-offset='100' onClick={handleContactUsClick}>Contact Us</button>
                     <button className="fc-sec-12-button"   data-aos="fade-up" data-aos-offset='200' onClick={handleGetQuoteClick}>Get a Quote</button>
+                    <a href="/assets/fc_brochure.pdf" download="XAG-Xrotor tek India.pdf">
                     <button className="fc-sec-12-button"  data-aos="fade-up" data-aos-offset='300'>Download Brochure</button>
+                    </a>
                 </div>
             </div>
         </div>
