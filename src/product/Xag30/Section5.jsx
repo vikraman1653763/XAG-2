@@ -13,6 +13,7 @@ const Xag30Intro = () => {
         >
           XAG 30
         </motion.h1>
+        
         <motion.p
           className="xag30-intro-subtitle"
           initial={{ opacity: 0, y: 50 }}

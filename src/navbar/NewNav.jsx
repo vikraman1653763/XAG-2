@@ -112,6 +112,7 @@ const WindowNavbar = () => {
                   className="new-nav-dropdown-header"
         
                 >
+                  
                   Industrial
                 </span>
                 {isSubmenuOpen("s11") && (

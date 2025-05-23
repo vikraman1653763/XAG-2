@@ -61,6 +61,7 @@ const Xag30Feature = () => {
         className="xag30-feature-img xag30-feature-top-left"
         style={{ x: topLeftX }}
       />
+      
       <motion.img
         src="/assets/xag30/payload.webp"
         alt="Top Right"

@@ -31,6 +31,7 @@ const Section11 = () => {
   }, []);
 
     return (
+        
         <div className="bat-sec-11-container">
             <div className="bat-sec-11-content">
                 <img src={logo} className='bat-sec-11-content-img'/>

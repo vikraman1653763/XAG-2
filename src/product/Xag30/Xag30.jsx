@@ -26,4 +26,5 @@ function Xag30() {
   )
 }
 
+
 export default Xag30
