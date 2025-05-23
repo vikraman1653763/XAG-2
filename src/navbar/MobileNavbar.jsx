@@ -109,6 +109,9 @@ const MobileNavbar = () => {
                   </div>
                   {activeSubmenu === "s11" && (
                     <div className="mobile-nav-submenu">
+                      <Link to="/xag30" onClick={resetMenus}>
+                      XAG-30
+                      </Link>
                       <Link to="/survey" onClick={resetMenus}>
                       XAG-Mapper
                       </Link>

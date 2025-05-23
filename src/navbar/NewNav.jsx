@@ -116,6 +116,16 @@ const WindowNavbar = () => {
                 </span>
                 {isSubmenuOpen("s11") && (
                   <div className="new-nav-submenu">
+                    <Link to="/xag30" onClick={resetMenus}>
+                      <img
+                        src="/assets/xag30/g3.webp"
+                        alt="xag30"
+                        className="submenu-image"
+                      />
+                      <li>XAG-30</li>
+                    </Link>
+
+
                     <Link to="/survey" onClick={resetMenus}>
                       <img
                         src="/assets/nav3.webp"
