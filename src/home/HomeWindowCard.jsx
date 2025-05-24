@@ -6,6 +6,7 @@ import image3 from '/assets/demo3.webp';
 import image2 from '/assets/demo11.webp';
 import image4 from '/assets/demo10.webp';
 import image5 from '/assets/demo1.webp';
+import image6 from '/assets/demo2.webp';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -45,6 +46,14 @@ const items = [
     link: '/inspection',
     description: "Engineered for precision inspections, the S-11 Industrial Drone excels in challenging environments, offering reliable performance and extended endurance for critical infrastructure monitoring.",
   },
+  {
+    image: image6,
+    title: "LOGISTIC DRONE",
+    topic: "XAG-30",
+    link: '/xag30',
+    description: "Designed for efficient logistics operations, the XAG-30 drone ensures fast, secure, and reliable transportation of goods, even across demanding terrains and remote locations.",
+  }
+
 ];
 
 const HomeWindowCard = () => {

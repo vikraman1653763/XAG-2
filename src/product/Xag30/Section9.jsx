@@ -1,5 +1,4 @@
-// React Component (Section9.jsx)
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 
 const features = [
   { description: 'Effortless folding mechanism for rapid deployment', video: '/assets/xag30/xag30-fold.webm' },
@@ -10,22 +9,59 @@ const features = [
 ];
 
 function Section9() {
+  const videoRefs = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          const video = entry.target;
+          if (entry.isIntersecting) {
+            video.play().catch(() => {}); // Autoplay fallback
+          } else {
+            video.pause();
+          }
+        });
+      },
+      {
+        threshold: 0.6, // 60% of video must be in view
+      }
+    );
+
+    videoRefs.current.forEach(video => {
+      if (video) observer.observe(video);
+    });
+
+    return () => {
+      videoRefs.current.forEach(video => {
+        if (video) observer.unobserve(video);
+      });
+    };
+  }, []);
+
   return (
     <div className='xag30-scroll-sec'>
       <section className='xag30-scroll-card-container'>
         {features.map((feature, index) => (
-          <div 
+          <div
             className='xag30-scroll-card'
             key={index}
             style={{
-              '--card-z-index': index, 
+              '--card-z-index': index,
               '--card-stack-index': features.length - index,
-              width: `${50 + (index * 0.5)}vw`
+              width: `${50 + index * 0.5}vw`,
             }}
           >
             <p>{feature.description}</p>
             <div className='xag30-scroll-card-details'>
-              <video className='xag30-scroll-video' src={feature.video} autoPlay muted loop playsInline></video>
+              <video
+                ref={el => (videoRefs.current[index] = el)}
+                className='xag30-scroll-video'
+                src={feature.video}
+                muted
+                loop
+                playsInline
+              ></video>
             </div>
           </div>
         ))}
