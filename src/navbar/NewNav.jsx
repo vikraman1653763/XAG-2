@@ -20,17 +20,14 @@ const WindowNavbar = () => {
     setLockedCategory(null);
   };
 
-  // Toggle the product dropdown on click
   const handleProductClick = (e) => {
     e.stopPropagation();
     setIsProductOpen((prev) => !prev);
-    // When closing the product menu, also close any open submenu
     if (isProductOpen) {
       setLockedCategory(null);
     }
   };
 
-  // Toggle locking for a submenu category (opens if closed; closes if open)
   const handleCategoryClick = (category, e) => {
     e.stopPropagation();
     if (lockedCategory === category) {
@@ -40,7 +37,6 @@ const WindowNavbar = () => {
     }
   };
 
-  // A submenu is open only if it matches the locked category
   const isSubmenuOpen = (category) => lockedCategory === category;
 
   return (
@@ -62,17 +58,13 @@ const WindowNavbar = () => {
         <Link to="/about" onClick={resetMenus}>
           ABOUT
         </Link>
-
-        {/* PRODUCT DROPDOWN */}
         <div className="new-nav-dropdown" onClick={handleProductClick}>
           <a className="new-nav-dropdown-title">PRODUCT</a>
           {isProductOpen && (
             <div className="new-nav-dropdown-menu horizontal">
-              {/* Agri Section */}
               <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("agri", e)}>
                 <span
-                  className="new-nav-dropdown-header"
-                 
+                  className="new-nav-dropdown-header"              
                 >
                     Agricultural
                 </span>
@@ -105,14 +97,12 @@ const WindowNavbar = () => {
                   </div>
                 )}
               </div>
-
               {/* QUAD Section */}
               <div className="new-nav-dropdown-section"  onClick={(e) => handleCategoryClick("s11", e)}>
                 <span
                   className="new-nav-dropdown-header"
         
-                >
-                  
+                >                
                   Industrial
                 </span>
                 {isSubmenuOpen("s11") && (
@@ -162,9 +152,6 @@ const WindowNavbar = () => {
                   </div>
                 )}
               </div>
-
-             
-
               {/* Accessories Section */}
               <div className="new-nav-dropdown-section" onClick={(e) => handleCategoryClick("accessories", e)} >
                 <span
