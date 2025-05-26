@@ -8,8 +8,6 @@ const WindowNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isProductOpen, setIsProductOpen] = useState(false);
   const [lockedCategory, setLockedCategory] = useState(null);
-
-  // Reset all menus on route change
   useEffect(() => {
     resetMenus();
   }, [location]);
