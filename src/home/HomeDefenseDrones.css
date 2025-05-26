@@ -1,0 +1,159 @@
+.home-defense-wrapper {
+    padding: 1rem ;
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    flex-direction: column;
+}
+
+.home-defense-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.home-defense-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9bff0b;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.home-defense-header p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d4d4d4;
+  font-size: 1rem;
+}
+
+
+.home-defense-zigzag {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 1rem;
+  width: 80%;
+}
+
+.home-defense-zigzag-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+
+.home-defense-zigzag-row.left {
+    flex-direction: row;
+    background: linear-gradient(to right, white, white, transparent);
+}
+
+.home-defense-zigzag-row.right {
+    flex-direction: row-reverse;
+}
+
+.home-defense-zigzag-image img {
+    width: 700px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.home-defense-zigzag-content {
+    max-width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-defense-zigzag-content h3 {
+    font-size:var(--fs-l);
+    margin-bottom: 0.5rem;
+      color: #9bff0b;
+    text-transform: uppercase;
+
+}
+
+.home-defense-zigzag-content p {
+  font-size:var(--fs-s);
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .home-defense-zigzag {
+    width: 90%;
+  }
+
+  .home-defense-zigzag-image img {
+    width: 90vw;
+  }
+
+  .home-defense-zigzag-content {
+    max-width: 90%;
+    padding: 1rem 0;
+  }
+
+  .home-defense-header h2 {
+    font-size: var(--fs-l);
+  }
+
+  .home-defense-header p {
+    font-size: var(--fs-xs);
+  }
+
+  .home-defense-zigzag-content h3 {
+    font-size: var(--fs-m);
+  }
+
+  .home-defense-zigzag-content p {
+    font-size: var(--fs-xs);
+  }
+}
+
+/* Mobile view (max-width: 600px) */
+@media (max-width: 768px) {
+  .home-defense-wrapper {
+    padding: 0.5rem;
+  }
+
+  .home-defense-zigzag-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-defense-zigzag-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 0%;
+}
+.home-defense-zigzag-row{
+      gap: 0em;
+
+  }
+  .home-defense-header h2 {
+    font-size: var(--fs-m);
+  }
+
+  .home-defense-header p {
+    font-size: var(--fs-xs);
+  }
+
+  .home-defense-zigzag-content h3 {
+    font-size: var(--fs-s);
+  }
+
+  .home-defense-zigzag-content p {
+    font-size: var(--fs-xs);
+  }
+}
