@@ -39,20 +39,20 @@ const items = [
     link: '/Batteries',
     description: "Xpower Plus is designed for long-lasting power in drones, ensuring extended flight times and reliable performance for agricultural and industrial tasks.",
   },
-  {
-    image: image5,
-    title: "INDUSTRIAL DRONE",
-    topic: "S-11",
-    link: '/inspection',
-    description: "Engineered for precision inspections, the S-11 Industrial Drone excels in challenging environments, offering reliable performance and extended endurance for critical infrastructure monitoring.",
-  },
-  {
-    image: image6,
-    title: "LOGISTIC DRONE",
-    topic: "XAG-30",
-    link: '/xag30',
-    description: "Designed for efficient logistics operations, the XAG-30 drone ensures fast, secure, and reliable transportation of goods, even across demanding terrains and remote locations.",
-  }
+  // {
+  //   image: image5,
+  //   title: "INDUSTRIAL DRONE",
+  //   topic: "S-11",
+  //   link: '/inspection',
+  //   description: "Engineered for precision inspections, the S-11 Industrial Drone excels in challenging environments, offering reliable performance and extended endurance for critical infrastructure monitoring.",
+  // },
+  // {
+  //   image: image6,
+  //   title: "LOGISTIC DRONE",
+  //   topic: "XAG-30",
+  //   link: '/xag30',
+  //   description: "Designed for efficient logistics operations, the XAG-30 drone ensures fast, secure, and reliable transportation of goods, even across demanding terrains and remote locations.",
+  // }
 
 ];
 

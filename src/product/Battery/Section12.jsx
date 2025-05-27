@@ -27,18 +27,18 @@ function Section12() {
     // }, [batteries]);
   return (
     <div>
-      <div id="battery-container">
+      <div id="bat-12-container">
             {data.map((battery,index) => (
-                <div className="battery-card" key={index}>
-                    <div className="battery-image">
+                <div className="bat-12-card" key={index}>
+                    <div className="bat-12-image">
                         <img src={battery.image} alt="Product" />
                     </div> 
-                    <div className="battery-info">
-                        <h2 className="battery-title">{battery.Model}</h2>
+                    <div className="bat-12-info">
+                        <h2 className="bat-12-title">{battery.Model}</h2>
                         {/* <p className="battery-model">{battery.Model}</p> */}
-                        <div className='battery-card-footer'>
-                            <div className="battery-price">₹{battery.price}</div>
-                            <Link to={`/battery/${battery.ID}`} className="add-to-cart">Details</Link>
+                        <div className='bat-12-card-footer'>
+                            <div className="bat-12-price">₹{battery.price}</div>
+                            <Link to={`/battery/${battery.ID}`} className="bat-12-add-to-cart">Details</Link>
                         </div>
                     </div>
                 </div>
