@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10rem;
+    gap: 1em;
     padding: 20px;
   }
   
@@ -12,7 +12,7 @@
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
@@ -22,21 +22,23 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
-  /* Image styling */
   .bat-12-image {
     width: 100%;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f9f9f9;
   }
   
-  .bat-12-image img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-  }
+ .bat-12-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.3);
+}
+
   
   /* bat-12 info */
   .bat-12-info {
@@ -67,18 +69,21 @@
   
   /* Details button */
   .bat-12-add-to-cart {
-    background: #007bff;
-    color: #fff;
+    background: linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);    
+    color: #000;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 5px;
-    font-size: 14px;
-    transition: background 0.3s;
+    font-weight: 500;
+    font-size: var(--fs-s);
+    transition: background 0.3s ease-in-out;
   }
   
-  .bat-12-add-to-cart:hover {
-    background: #9bf00b;
-  }
+  .bat-12-add-to-cart:hover { 
+        transition: background 0.3s ease-in-out;
+      color: #9bf00b;
+      background: linear-gradient(150deg, #000 0%, #000 80%, #9BF00B 100%);
+     }
   
   /* Responsive Design */
   @media (max-width: 768px) {

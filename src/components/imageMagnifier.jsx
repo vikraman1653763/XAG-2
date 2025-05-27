@@ -23,8 +23,8 @@ const ImageMagnifier=({imgurl})=>{
             <img className="mag-img" src={imgurl}/>
             {showMag && <div style={{
                     position:'absolute',
-                    left:`${cursor.x-100}px`,
-                    top:`${cursor.y-100}px`,
+                    left:`${cursor.x-120}px`,
+                    top:`${cursor.y-120}px`,
                     pointerEvents:'none'
                 }}>
                 <div className="mag-image"

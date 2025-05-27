@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import batteriesData from '../../Batteries.json';
+import batteriesData from './Batteries.json';
 import '../../style/BatteryDetails.css';
 import caution from '/assets/caution.svg';
 import fire from '/assets/fire.svg';

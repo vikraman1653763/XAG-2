@@ -18,9 +18,11 @@
     position: relative;
 }
 .mag-img{
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     width: 600px;
-    height: 500px;
+    height: 600px;
+    object-fit: cover;
     background-color: rgb(46, 46, 46);
     background-image: radial-gradient(circle, #ffffff, #ededee, #dddbdc, #ccc9ca, #bcb8b8);}
 
@@ -29,6 +31,7 @@
     width: 250px;
     height: 250px;
     border: 2px solid wheat;
+    border-radius: 50%;
 }
 
 
@@ -42,7 +45,7 @@
     flex-grow: 1;
     font-weight: 800;
     color:#9BF00B;
-    font-size: 50px;
+    font-size: var(--fs-l);
 }
 .indi-battery-info h3{
     flex-grow: 1;
@@ -76,7 +79,7 @@
 }
 
 .indi-battery-specs table {
-    font-size: 1.5em;
+    font-size: var(--fs-s);
     width: 100%;
     border-collapse: collapse;
 }
@@ -92,15 +95,15 @@
 }
 
 .indi-battery-caution h2, .indi-battery-benefits h2,.indi-battery-specs h2 {
-    font-size: 2.5em;
+    font-size: var(--fs-l);
     color: #9BF00B;
     margin-bottom: 10px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 150%;
 }
 .indi-battery-caution p{
-    font-size: 1rem;
+    font-size: var(--fs-s);
     color: #e9e9e9;
     margin-bottom: 10px;
 }
@@ -108,6 +111,7 @@
 .indi-battery-caution ul{
     list-style-type: none;
     padding: 0;
+    font-size: var(--fs-s);
 }
 
 .indi-battery-caution li,.indi-battery-benefits li {
@@ -120,6 +124,7 @@
     align-items: start;
     border: 2px solid #4e504f;
     width: 100vw;
+    font-size: var(--fs-s);
 
 }
 .indi-battery-caution li img,.indi-battery-benefits img{
@@ -135,13 +140,11 @@
     justify-content:flex-start;
     align-items:flex-end;
     transition: transform ease-in-out;
-
 }
 .safety-measure img{
     width: 60px;
     margin: 20px;
-    height:50px;
-    
+    height:50px;    
 }
 .safety-measure img:hover{
     transform: scale(1.4) ;

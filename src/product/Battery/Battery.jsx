@@ -31,7 +31,7 @@ const Battery = () => {
         <Section10/>
         <Section11/>
         {/* <BatteryBanner/> */}
-        {/* <Section12/> */}
+        <Section12/>
         
         </>
     );
