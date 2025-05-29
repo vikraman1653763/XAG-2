@@ -61,20 +61,19 @@
     },
     {
         "ID": 4,
-        "Product": "260Wh/kg -10C-LION -",
+        "Product": "260Wh/kg-10C-LION -",
         "Model": "ZXGT-18S40Ah",
         "type": "SEMI SOLID",
         "description": "The ZXGT-18S40Ah model offers a 69.3v rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 2772whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 18 cells rated at 3.85 V each.",
         "price": "340",
         "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
         "image": "/batteryPic/4.webp",
         "name": "X Power Plus",
         "specs": {
             "Rated Voltage": "69.3v",
             "Capacity-Ah": "40 AH",
             "Wattage": "2772wh",
-            "Cell Rated Voltage": "3.85 V",
+            "Cell Rated Voltage": "3.85V",
             "Cells": 18,
             "Dimensions": "150x50x30mm"
         }
