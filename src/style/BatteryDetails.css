@@ -57,7 +57,9 @@
     font-size: 2em;
     margin-bottom: 10px;
 }
-
+.indi-battery-desc{
+    width: 95%;
+}
 .indi-battery-price {
     font-size: 1.5em;
     color: #ffffff;

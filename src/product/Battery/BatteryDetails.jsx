@@ -52,14 +52,14 @@ const BatteryDetails = () => {
                 <div className="indi-battery-info">
                     <h2>{battery.name}</h2>
                    
-                        <h3>{battery.Model}</h3>
+                        <h3>{battery.MODEL}</h3>
                    
                     <div className="indi-battery-price">
-                        <span className='rupee'>₹</span>
-                        {battery.price}</div>
+                        <span className='rupee'></span>
+                        {battery.TYPE}</div>
                    
                         <p>Inclusive of all taxes</p>
-                        <p>{battery.description}</p>
+                        <p className='indi-battery-desc'>{battery.description}</p>
                    
                     <div className='safety-measure'>
                         <img src={mii} alt="mii"/>
@@ -70,10 +70,7 @@ const BatteryDetails = () => {
                         <img src={umberlla} alt="umberlla"/>
                     </div>
                     <div className='connector-image'>
-                        { battery.connectorImages.map((image,index)=>(
-                            <img src={image} key={index} alt={`Connector ${index+1}`} title={`${connecterTitle(image)}`}/>
-                        ))}
-                  
+                            <img src={battery.connectorImages}/>                  
                     </div>
                 </div>
             </div>

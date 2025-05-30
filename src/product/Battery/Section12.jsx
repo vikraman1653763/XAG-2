@@ -15,10 +15,10 @@ function Section12() {
                         <img src={battery.image} alt="Product" />
                     </div> 
                     <div className="bat-12-info">
-                        <h2 className="bat-12-title">{battery.Model}</h2>
+                        <h2 className="bat-12-title">{battery.MODEL}</h2>
                         {/* <p className="battery-model">{battery.Model}</p> */}
                         <div className='bat-12-card-footer'>
-                            <div className="bat-12-price">₹{battery.price}</div>
+                            <div className="bat-12-price">{battery.TYPE}</div>
                             <Link to={`/battery/${battery.ID}`} className="bat-12-add-to-cart">Details</Link>
                         </div>
                     </div>

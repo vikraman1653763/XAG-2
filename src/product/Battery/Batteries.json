@@ -1,521 +1,758 @@
 [
-    {
-        "ID": 1,
-        "Product": "260Wh/kg -10C-LION -",
-        "Model": "ZXGT-6S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-6S40Ah model offers a 23.1V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 924whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 6 cells rated at 3.85 V each.",
-        "price": "282",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/1.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "23.1V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "924wh",
-            "Cell Rated Voltage": "3.85 V",
-            "Cells": 6,
-            "Dimensions": "150x50x30mm"
-        }
+  {
+    "ID": 1,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-16Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/1.webp",
+    "specs": {
+      "CAPACITY": "16000 mAh",
+      "VOLTAGE": "46.2 V",
+      "SERIES": 12,
+      "C-RATING": 25,
+      "Wh": 739.2,
+      "DIMENSIONS": "172x74x220mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 2,
-        "Product": "260Wh/kg -10C-LION -",
-        "Model": "ZXGT-12S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S40Ah model offers a 46.2V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 1848whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.85 V each.",
-        "price": "168",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/2.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "46.2V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "1848wh",
-            "Cell Rated Voltage": "3.85 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-16Ah model offers a 46.2 V voltage and 16000 mAh capacity, making it ideal for high-performance applications. With a wattage of 739.2 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.85 V each."
+  },
+  {
+    "ID": 2,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-21Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/2.webp",
+    "specs": {
+      "CAPACITY": "21000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 932.4,
+      "DIMENSIONS": "152x82x270mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 3,
-        "Product": "260Wh/kg -10C-LION -",
-        "Model": "ZXGT-14S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S40Ah model offers a 53.9V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 2156whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.85 V each.",
-        "price": "126",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/3.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "53.9V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "2156wh",
-            "Cell Rated Voltage": "3.85 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 3,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-21Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/3.webp",
+    "specs": {
+      "CAPACITY": "21000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 932.4,
+      "DIMENSIONS": "229x74x174mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 4,
-        "Product": "260Wh/kg-10C-LION -",
-        "Model": "ZXGT-18S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-18S40Ah model offers a 69.3v rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 2772whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 18 cells rated at 3.85 V each.",
-        "price": "340",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-        "image": "/batteryPic/4.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "69.3v",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "2772wh",
-            "Cell Rated Voltage": "3.85V",
-            "Cells": 18,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 4,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-22Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/4.webp",
+    "specs": {
+      "CAPACITY": "22000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 976.8,
+      "DIMENSIONS": "129x74x195mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 5,
-        "Product": "270Wh/kg -10C-LION ",
-        "Model": "ZXGT-6S54Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-6S54Ah model offers a 22.2V rated voltage and 54 AH capacity, making it ideal for high-performance applications. With a wattage of 1198.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 6 cells rated at 3.7 V each.",
-        "price": "434",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/5.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "22.2V",
-            "Capacity-Ah": "54 AH",
-            "Wattage": "1198.8wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 6,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-22Ah model offers a 44.4 V voltage and 22000 mAh capacity, making it ideal for high-performance applications. With a wattage of 976.8 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 5,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-24Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/5.webp",
+    "specs": {
+      "CAPACITY": "24000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1065.6,
+      "DIMENSIONS": "183x75x244mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 6,
-        "Product": "270Wh/kg -10C-LION ",
-        "Model": "ZXGT-12S30Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S30Ah model offers a 44.4V rated voltage and 30 AH capacity, making it ideal for high-performance applications. With a wattage of 1332whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "386",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/6.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "30 AH",
-            "Wattage": "1332wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-24Ah model offers a 44.4 V voltage and 24000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1065.6 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 6,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-25.2Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/6.webp",
+    "specs": {
+      "CAPACITY": "25200 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1305.36,
+      "DIMENSIONS": "148x94x290mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 7,
-        "Product": "270Wh/kg -10C-LION ",
-        "Model": "ZXGT-14S30Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S30Ah model offers a 51.8V rated voltage and 30 AH capacity, making it ideal for high-performance applications. With a wattage of 1554whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.7 V each.",
-        "price": "342",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/7.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "30 AH",
-            "Wattage": "1554wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 7,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-25.2Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/7.webp",
+    "specs": {
+      "CAPACITY": "25200 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1118.9,
+      "DIMENSIONS": "185x74x243mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 8,
-        "Product": "270Wh/kg -10C-LION ",
-        "Model": "ZXGT-18S30Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-18S30Ah model offers a 66.6v rated voltage and 30 AH capacity, making it ideal for high-performance applications. With a wattage of 1998WhWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 18 cells rated at 3.7 V each.",
-        "price": "193",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/8.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "66.6v",
-            "Capacity-Ah": "30 AH",
-            "Wattage": "1998Wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 18,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-25.2Ah model offers a 44.4 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1118.9 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 8,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-25.2Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/8.webp",
+    "specs": {
+      "CAPACITY": "25200 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 11,
+      "Wh": 1305.36,
+      "DIMENSIONS": "164x96x262mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 9,
-        "Product": "270Wh/kg -10C-LION ",
-        "Model": "ZXGT-24s54Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-24s54Ah model offers a 88.8V rated voltage and 54 AH capacity, making it ideal for high-performance applications. With a wattage of 4795.2whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 24 cells rated at 3.7 V each.",
-        "price": "443",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/9.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "88.8V",
-            "Capacity-Ah": "54 AH",
-            "Wattage": "4795.2wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 24,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 9,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-30Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/9.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1332,
+      "DIMENSIONS": "130x89x216mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 10,
-        "Product": "320Wh/kg -10C-LION ",
-        "Model": "ZXGT-12S36Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S36Ah model offers a 44.4V rated voltage and 36 AH capacity, making it ideal for high-performance applications. With a wattage of 1598.4WhWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "233",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/10.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "36 AH",
-            "Wattage": "1598.4Wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-30Ah model offers a 44.4 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1332 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 10,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-30Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/10.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1554,
+      "DIMENSIONS": "150x84x211mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 11,
-        "Product": "320Wh/kg -10C-LION ",
-        "Model": "ZXGT-14S36Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S36Ah model offers a 51.8V rated voltage and 36 AH capacity, making it ideal for high-performance applications. With a wattage of 1864.8WhWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.7 V each.",
-        "price": "321",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/11.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "36 AH",
-            "Wattage": "1864.8Wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-30Ah model offers a 51.8 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1554 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 11,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-30Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/11.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "53.9 V",
+      "SERIES": 14,
+      "C-RATING": 25,
+      "Wh": 1617,
+      "DIMENSIONS": "168x106x264mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 12,
-        "Product": "320Wh/kg -10C-LION ",
-        "Model": "ZXGT-18S36Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-18S36Ah model offers a 66.6v rated voltage and 36 AH capacity, making it ideal for high-performance applications. With a wattage of 2397.6WhWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 18 cells rated at 3.7 V each.",
-        "price": "416",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/12.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "66.6v",
-            "Capacity-Ah": "36 AH",
-            "Wattage": "2397.6Wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 18,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-30Ah model offers a 53.9 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1617 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.85 V each."
+  },
+  {
+    "ID": 12,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-36Ah",
+    "TYPE": "Li-Ion",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/12.webp",
+    "specs": {
+      "CAPACITY": "36000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1598.4,
+      "DIMENSIONS": "172x90x245mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 13,
-        "Product": "300Wh/kg -10C-LION",
-        "Model": "ZXGT-6S32Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-6S32Ah model offers a 22.2V rated voltage and 32 AH capacity, making it ideal for high-performance applications. With a wattage of 710.4whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 6 cells rated at 3.7 V each.",
-        "price": "233",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/13.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "22.2V",
-            "Capacity-Ah": "32 AH",
-            "Wattage": "710.4wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 6,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 13,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-36Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/13.webp",
+    "specs": {
+      "CAPACITY": "36000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1598.4,
+      "DIMENSIONS": "133x89x215mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 14,
-        "Product": "300Wh/kg -10C-LION",
-        "Model": "ZXGT-7S32Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-7S32Ah model offers a 25.9V rated voltage and 32 AH capacity, making it ideal for high-performance applications. With a wattage of 828.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 7 cells rated at 3.7 V each.",
-        "price": "418",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/14.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "25.9V",
-            "Capacity-Ah": "32 AH",
-            "Wattage": "828.8wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 7,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 14,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-40Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/14.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1776,
+      "DIMENSIONS": "133x85x209mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 15,
-        "Product": "300Wh/kg -10C-LION",
-        "Model": "ZXGT-8s17.5Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-8s17.5Ah model offers a 29.6V rated voltage and 17.5 AH capacity, making it ideal for high-performance applications. With a wattage of 518whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 8 cells rated at 3.7 V each.",
-        "price": "307",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/15.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "29.6V",
-            "Capacity-Ah": "17.5 AH",
-            "Wattage": "518wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 8,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-40Ah model offers a 44.4 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1776 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 15,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-40Ah",
+    "TYPE": "Li-Po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/15.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "46.2 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1848,
+      "DIMENSIONS": "139x106x241mm",
+      "USED_FOR": "Agri"
     },
-    {
-        "ID": 16,
-        "Product": "300Wh/kg -10C-LION",
-        "Model": "ZXGT-12S32Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S32Ah model offers a 44.4V rated voltage and 32 AH capacity, making it ideal for high-performance applications. With a wattage of 1420.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "227",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/16.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "32 AH",
-            "Wattage": "1420.8wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-40Ah model offers a 46.2 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1848 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.85 V each."
+  },
+   {
+    "ID": 16,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-9S-11.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/16.webp",
+    "specs": {
+      "CAPACITY": "11000 mAh",
+      "VOLTAGE": "34.6 V",
+      "SERIES": 9,
+      "C-RATING": 10,
+      "Wh": 381.2,
+      "DIMENSIONS": "75x62x168mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 17,
-        "Product": "300Wh/kg -10C-LION",
-        "Model": "ZXGT-14S48Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S48Ah model offers a 51.8V rated voltage and 48 AH capacity, making it ideal for high-performance applications. With a wattage of 2486.4whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.7 V each.",
-        "price": "497",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/17.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "48 AH",
-            "Wattage": "2486.4wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-9S-11.0Ah model offers a 34.6 V voltage and 11000 mAh capacity, making it ideal for high-performance applications. With a wattage of 381.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 9 cells rated at 3.84 V each."
+  },
+  {
+    "ID": 17,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-4S-16.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/17.webp",
+    "specs": {
+      "CAPACITY": "16000 mAh",
+      "VOLTAGE": "14.8 V",
+      "SERIES": 4,
+      "C-RATING": 10,
+      "Wh": 236.8,
+      "DIMENSIONS": "75x34x198mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 18,
-        "Product": "236Wh/kg -10C-LION",
-        "Model": "ZXGT-4S16Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-4S16Ah model offers a 14.8V rated voltage and 16 AH capacity, making it ideal for high-performance applications. With a wattage of 236.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 4 cells rated at 3.7 V each.",
-        "price": "138",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/18.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "14.8V",
-            "Capacity-Ah": "16 AH",
-            "Wattage": "236.8wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 4,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-4S-16.0Ah model offers a 14.8 V voltage and 16000 mAh capacity, making it ideal for high-performance applications. With a wattage of 236.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 4 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 18,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-8S-17.5Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/18.webp",
+    "specs": {
+      "CAPACITY": "17500 mAh",
+      "VOLTAGE": "29.6 V",
+      "SERIES": 8,
+      "C-RATING": 10,
+      "Wh": 518,
+      "DIMENSIONS": "76x62x195mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 19,
-        "Product": "310Wh/kg -10C-LION -SEMI SOLID",
-        "Model": "ZXGT-12S67AH",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S67AH model offers a 44.4V rated voltage and 67 AH capacity, making it ideal for high-performance applications. With a wattage of 2974.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "495",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/19.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "67 AH",
-            "Wattage": "2974.8wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-8S-17.5Ah model offers a 29.6 V voltage and 17500 mAh capacity, making it ideal for high-performance applications. With a wattage of 518 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 8 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 19,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-28.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/19.webp",
+    "specs": {
+      "CAPACITY": "28000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1450.4,
+      "DIMENSIONS": "141x77x195mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 20,
-        "Product": "310Wh/kg -10C-LION -SEMI SOLID",
-        "Model": "ZXGT-14S67AH",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S67AH model offers a 51.8V rated voltage and 67 AH capacity, making it ideal for high-performance applications. With a wattage of 3470.6whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.7 V each.",
-        "price": "369",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/20.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "67 AH",
-            "Wattage": "3470.6wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-28.0Ah model offers a 51.8 V voltage and 28000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1450.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 20,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-30.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/20.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1332,
+      "DIMENSIONS": "130x89x216mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 21,
-        "Product": "976Wh/kg -10C-LION -SEMI SOLID",
-        "Model": "ZXGT-12S22AH",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S22AH model offers a 44.4V rated voltage and 22 AH capacity, making it ideal for high-performance applications. With a wattage of 976.8whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 44.4 V each.",
-        "price": "166",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/21.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "22 AH",
-            "Wattage": "4462.2wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 18,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-30.0Ah model offers a 44.4 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1332 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 21,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-30.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/21.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1554,
+      "DIMENSIONS": "138x91x211mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 22,
-        "Product": "340Wh/kg -10C-LION ",
-        "Model": "ZXGT-6S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-6S40Ah model offers a 22.2V rated voltage and 40 AH  capacity, making it ideal for high-performance applications. With a wattage of 888whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 6 cells rated at 3.7 V each.",
-        "price": "295",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/22.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "22.2V",
-            "Capacity-Ah": "40 AH ",
-            "Wattage": "888wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 6,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-14S-30.0Ah model offers a 51.8 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1554 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 22,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-30.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/22.webp",
+    "specs": {
+      "CAPACITY": "30000 mAh",
+      "VOLTAGE": "66.6 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 1998,
+      "DIMENSIONS": "176x90x221mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 23,
-        "Product": "340Wh/kg -10C-LION ",
-        "Model": "ZXGT-12S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-12S40Ah model offers a 44.4V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 1776whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "244",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/23.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "44.4V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "1776wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 12,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-18S-30.0Ah model offers a 66.6 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1998 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 23,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-32.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/23.webp",
+    "specs": {
+      "CAPACITY": "32000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1420.8,
+      "DIMENSIONS": "134x89x223mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 24,
-        "Product": "340Wh/kg -10C-LION ",
-        "Model": "ZXGT-14S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S40Ah model offers a 51.8V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 2072whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 14 cells rated at 3.7 V each.",
-        "price": "241",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/24.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "2072wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-12S-32.0Ah model offers a 44.4 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1420.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 24,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-7S-32.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/24.webp",
+    "specs": {
+      "CAPACITY": "32000 mAh",
+      "VOLTAGE": "25.9 V",
+      "SERIES": 7,
+      "C-RATING": 10,
+      "Wh": 828.8,
+      "DIMENSIONS": "90x80x220mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 25,
-        "Product": "340Wh/kg -10C-LION ",
-        "Model": "ZXGT-18S40Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-18S40Ah model offers a 66.6V rated voltage and 40 AH capacity, making it ideal for high-performance applications. With a wattage of 2664whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 18 cells rated at 3.7 V each.",
-        "price": "371",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/25.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "66.6V",
-            "Capacity-Ah": "40 AH",
-            "Wattage": "2664wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 18,
-            "Dimensions": "150x50x30mm"
-        }
+    "description": "The XRT-7S-32.0Ah model offers a 25.9 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 828.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 7 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 25,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-6S-32.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/25.webp",
+    "specs": {
+      "CAPACITY": "32000 mAh",
+      "VOLTAGE": "22.2 V",
+      "SERIES": 6,
+      "C-RATING": 10,
+      "Wh": 710.4,
+      "DIMENSIONS": "90x65x219mm",
+      "USED_FOR": "Industry"
     },
-    {
-        "ID": 26,
-        "Product": "1450Wh/kg -10C-LION ",
-        "Model": "ZXGT-14S28Ah",
-        "type": "SEMI SOLID",
-        "description": "The ZXGT-14S28Ah model offers a 51.8V rated voltage and 28 AH capacity, making it ideal for high-performance applications. With a wattage of 1450whWh and semi solid cell type, it ensures optimal efficiency and reliability. Suitable for various industrial uses with 12 cells rated at 3.7 V each.",
-        "price": "371",
-        "connectorImages": ["/connector/c1.webp", "/connector/c2.webp", "/connector/c5.webp", "/connector/c3.webp", "/connector/c4.webp"],
-
-        "image": "/batteryPic/26.webp",
-        "name": "X Power Plus",
-        "specs": {
-            "Rated Voltage": "51.8V",
-            "Capacity-Ah": "28 AH",
-            "Wattage": "2664wh",
-            "Cell Rated Voltage": "3.7 V",
-            "Cells": 14,
-            "Dimensions": "150x50x30mm"
-        }
-    }
+    "description": "The XRT-6S-32.0Ah model offers a 22.2 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 710.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 26,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-32.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/26.webp",
+    "specs": {
+      "CAPACITY": "32000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1657.6,
+      "DIMENSIONS": "153x87x224mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-32.0Ah model offers a 51.8 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1657.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 27,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-32.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/27.webp",
+    "specs": {
+      "CAPACITY": "32000 mAh",
+      "VOLTAGE": "66.6 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 2131.2,
+      "DIMENSIONS": "196x90x220mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-18S-32.0Ah model offers a 66.6 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2131.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 28,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-33.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/28.webp",
+    "specs": {
+      "CAPACITY": "33000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 1709.4,
+      "DIMENSIONS": "155x90x225mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-33.0Ah model offers a 51.8 V voltage and 33000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1709.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 29,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-36.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/29.webp",
+    "specs": {
+      "CAPACITY": "36000 mAh",
+      "VOLTAGE": "66.6 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 2397.6,
+      "DIMENSIONS": "191x85x219mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-18S-36.0Ah model offers a 66.6 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2397.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 30,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-6S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/30.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "22.2 V",
+      "SERIES": 6,
+      "C-RATING": 10,
+      "Wh": 888,
+      "DIMENSIONS": "89x66x222mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-6S-40.0Ah model offers a 22.2 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 888 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
+  },
+   {
+    "ID": 31,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-6S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/31.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "23.1 V",
+      "SERIES": 6,
+      "C-RATING": 10,
+      "Wh": 924,
+      "DIMENSIONS": "106x72x243mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-6S-40.0Ah model offers a 23.1 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 924 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.85 V each."
+  },
+  {
+    "ID": 32,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/32.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "53.9 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 2156,
+      "DIMENSIONS": "163x107x247mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-40.0Ah model offers a 53.9 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2156 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.85 V each."
+  },
+  {
+    "ID": 33,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/33.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 2072,
+      "DIMENSIONS": "153x90x217mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-40.0Ah model offers a 51.8 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2072 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 34,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/34.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "66.6 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 2664,
+      "DIMENSIONS": "195x89x222mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-18S-40.0Ah model offers a 66.6 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2664 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 35,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-40.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/35.webp",
+    "specs": {
+      "CAPACITY": "40000 mAh",
+      "VOLTAGE": "69.3 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 2772,
+      "DIMENSIONS": "206x107x248mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-18S-40.0Ah model offers a 69.3 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2772 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.85 V each."
+  },
+  {
+    "ID": 36,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-45.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/36.webp",
+    "specs": {
+      "CAPACITY": "45000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 1998,
+      "DIMENSIONS": "143x89x253mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-12S-45.0Ah model offers a 44.4 V voltage and 45000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1998 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 37,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-48.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/37.webp",
+    "specs": {
+      "CAPACITY": "48000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 2486.4,
+      "DIMENSIONS": "289x75x206mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-48.0Ah model offers a 51.8 V voltage and 48000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2486.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 38,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-6S-54.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/38.webp",
+    "specs": {
+      "CAPACITY": "54000 mAh",
+      "VOLTAGE": "22.2 V",
+      "SERIES": 6,
+      "C-RATING": 10,
+      "Wh": 1198.8,
+      "DIMENSIONS": "120x89x214mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-6S-54.0Ah model offers a 22.2 V voltage and 54000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1198.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 39,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-24S-54.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/39.webp",
+    "specs": {
+      "CAPACITY": "54000 mAh",
+      "VOLTAGE": "88.8 V",
+      "SERIES": 24,
+      "C-RATING": 10,
+      "Wh": 4795.2,
+      "DIMENSIONS": "237x177x217mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-24S-54.0Ah model offers a 88.8 V voltage and 54000 mAh capacity, making it ideal for high-performance applications. With a wattage of 4795.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 24 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 40,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-12S-67.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/40.webp",
+    "specs": {
+      "CAPACITY": "67000 mAh",
+      "VOLTAGE": "44.4 V",
+      "SERIES": 12,
+      "C-RATING": 10,
+      "Wh": 2974.8,
+      "DIMENSIONS": "140x43x344mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-12S-67.0Ah model offers a 44.4 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2974.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 41,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-14S-67.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/41.webp",
+    "specs": {
+      "CAPACITY": "67000 mAh",
+      "VOLTAGE": "51.8 V",
+      "SERIES": 14,
+      "C-RATING": 10,
+      "Wh": 3470.6,
+      "DIMENSIONS": "162x104x344mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-14S-67.0Ah model offers a 51.8 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 3470.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
+  },
+  {
+    "ID": 42,
+    "name": "X POWER PLUS",
+    "MODEL": "XRT-18S-67.0Ah",
+    "TYPE": "Li-po",
+    "connectorImages": "/connector/c1.webp",
+    "image": "/batteryPic/42.webp",
+    "specs": {
+      "CAPACITY": "67000 mAh",
+      "VOLTAGE": "66.6 V",
+      "SERIES": 18,
+      "C-RATING": 10,
+      "Wh": 4462.2,
+      "DIMENSIONS": "209x105x340mm",
+      "USED_FOR": "Industry"
+    },
+    "description": "The XRT-18S-67.0Ah model offers a 66.6 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 4462.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
+  }
 ]
