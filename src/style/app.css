@@ -126,19 +126,16 @@ main{
     background-color: #7FB00B;
 }
 
-/* Example CSS for styling selected text */
 ::selection {
     background: #9BF00B;
     color: #000000;
 }
 
-/* For Firefox */
 ::-moz-selection {
     background: #9BF00B;
     color: #000000;
 }
 
-  /* Banner code  */
 .banner {
     width: 99vw;
     position: relative;
@@ -164,9 +161,9 @@ main{
 
 .image-text h3 {
     color: white;
-    font-size: var(--fs-xxl); /* 64px */
+    font-size: var(--fs-xxl);
     text-transform: uppercase;
-    line-height: var(--fs-xl); /* 72px */
+    line-height: var(--fs-xl);
     font-weight: 800;
     margin-bottom: 24px;
 }
@@ -176,7 +173,7 @@ main{
 }
 
 .image-text p {
-    font-size: var(--fs-s); /* 18px */
+    font-size: var(--fs-s); 
     font-weight: 500;
     color: white;
 }
