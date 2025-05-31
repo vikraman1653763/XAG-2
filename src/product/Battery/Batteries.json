@@ -4,7 +4,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-16Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/1.webp",
     "specs": {
       "CAPACITY": "16000 mAh",
@@ -22,7 +29,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-21Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/2.webp",
     "specs": {
       "CAPACITY": "21000 mAh",
@@ -40,7 +54,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-21Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/3.webp",
     "specs": {
       "CAPACITY": "21000 mAh",
@@ -58,7 +79,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-22Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/4.webp",
     "specs": {
       "CAPACITY": "22000 mAh",
@@ -76,7 +104,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-24Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/5.webp",
     "specs": {
       "CAPACITY": "24000 mAh",
@@ -94,7 +129,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-25.2Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/6.webp",
     "specs": {
       "CAPACITY": "25200 mAh",
@@ -112,7 +154,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-25.2Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/7.webp",
     "specs": {
       "CAPACITY": "25200 mAh",
@@ -130,7 +179,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-25.2Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/8.webp",
     "specs": {
       "CAPACITY": "25200 mAh",
@@ -148,7 +204,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-30Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/9.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -166,7 +229,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-30Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/10.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -184,7 +254,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-30Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/11.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -202,7 +279,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-36Ah",
     "TYPE": "Li-Ion",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/12.webp",
     "specs": {
       "CAPACITY": "36000 mAh",
@@ -220,7 +304,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-36Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/13.webp",
     "specs": {
       "CAPACITY": "36000 mAh",
@@ -238,7 +329,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-40Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/14.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -256,7 +354,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-40Ah",
     "TYPE": "Li-Po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/15.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -274,7 +379,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-9S-11.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/16.webp",
     "specs": {
       "CAPACITY": "11000 mAh",
@@ -292,7 +404,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-4S-16.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/17.webp",
     "specs": {
       "CAPACITY": "16000 mAh",
@@ -310,7 +429,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-8S-17.5Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/18.webp",
     "specs": {
       "CAPACITY": "17500 mAh",
@@ -328,7 +454,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-28.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/19.webp",
     "specs": {
       "CAPACITY": "28000 mAh",
@@ -346,7 +479,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-30.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/20.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -364,7 +504,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-30.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/21.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -382,7 +529,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-30.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/22.webp",
     "specs": {
       "CAPACITY": "30000 mAh",
@@ -400,7 +554,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-32.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/23.webp",
     "specs": {
       "CAPACITY": "32000 mAh",
@@ -418,7 +579,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-7S-32.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/24.webp",
     "specs": {
       "CAPACITY": "32000 mAh",
@@ -436,7 +604,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-6S-32.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/25.webp",
     "specs": {
       "CAPACITY": "32000 mAh",
@@ -454,7 +629,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-32.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/26.webp",
     "specs": {
       "CAPACITY": "32000 mAh",
@@ -472,7 +654,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-32.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/27.webp",
     "specs": {
       "CAPACITY": "32000 mAh",
@@ -490,7 +679,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-33.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/28.webp",
     "specs": {
       "CAPACITY": "33000 mAh",
@@ -508,7 +704,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-36.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/29.webp",
     "specs": {
       "CAPACITY": "36000 mAh",
@@ -526,7 +729,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-6S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/30.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -544,7 +754,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-6S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/31.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -562,7 +779,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/32.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -580,7 +804,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/33.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -598,7 +829,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/34.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -616,7 +854,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-40.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/35.webp",
     "specs": {
       "CAPACITY": "40000 mAh",
@@ -634,7 +879,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-45.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/36.webp",
     "specs": {
       "CAPACITY": "45000 mAh",
@@ -652,7 +904,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-48.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/37.webp",
     "specs": {
       "CAPACITY": "48000 mAh",
@@ -670,7 +929,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-6S-54.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/38.webp",
     "specs": {
       "CAPACITY": "54000 mAh",
@@ -688,7 +954,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-24S-54.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/39.webp",
     "specs": {
       "CAPACITY": "54000 mAh",
@@ -706,7 +979,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-12S-67.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/40.webp",
     "specs": {
       "CAPACITY": "67000 mAh",
@@ -724,7 +1004,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-14S-67.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/41.webp",
     "specs": {
       "CAPACITY": "67000 mAh",
@@ -742,7 +1029,14 @@
     "name": "X POWER PLUS",
     "MODEL": "XRT-18S-67.0Ah",
     "TYPE": "Li-po",
-    "connectorImages": "/connector/c1.webp",
+"connectorImages": [
+  "/connector/c1.webp",
+  "/connector/c2.webp",
+  "/connector/c3.webp",
+  "/connector/c4.webp",
+  "/connector/c5.webp"
+],
+
     "image": "/batteryPic/42.webp",
     "specs": {
       "CAPACITY": "67000 mAh",

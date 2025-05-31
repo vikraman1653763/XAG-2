@@ -69,8 +69,12 @@ const BatteryDetails = () => {
                         <img src={CE} alt="CE"/>
                         <img src={umberlla} alt="umberlla"/>
                     </div>
-                    <div className='connector-image'>
-                            <img src={battery.connectorImages}/>                  
+                   
+                      <div className='connector-image'>
+                        { battery.connectorImages.map((image,index)=>(
+                            <img src={image} key={index} alt={`Connector ${index+1}`} title={`${connecterTitle(image)}`}/>
+                        ))}
+
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@
     border-radius: 20px;
     width: 600px;
     height: 600px;
-    object-fit: cover;
+    object-fit: contain;
     background-color: rgb(46, 46, 46);
     background-image: radial-gradient(circle, #ffffff, #ededee, #dddbdc, #ccc9ca, #bcb8b8);}
 

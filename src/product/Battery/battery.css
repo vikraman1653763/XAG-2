@@ -502,7 +502,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 80vh;
+  height: 100vh;
+  background-image: url('/assets/batterybg.webp');
 }
 
 .bat-sec-11-content {
@@ -524,12 +525,15 @@
   font-size: var(--fs-xl);
   font-weight: bold;
   margin-bottom: 20px;
+  color: #000;
+  text-shadow: 2px 2px 5px #9BF00B;
 }
 
 .bat-sec-11-subtext {
   font-size: var(--fs-s);
   margin-bottom: 40px;
-  color: #d4d4d4;
+  color: #000000;
+  font-weight: 500;
 }
 
 .bat-sec-11-subtext span {
@@ -545,8 +549,8 @@
 .bat-sec-11-button {
   padding: .5em;
   font-size: 1rem;
-  color:rgb(0, 0, 0);
-  background:linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);
+  color:rgb(255, 249, 249);
+  background:black;
   border: 1px solid #000;
   border-radius: 5px;
   cursor: pointer;
