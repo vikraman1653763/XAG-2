@@ -13,9 +13,9 @@
       "C-RATING": 25,
       "Wh": 739.2,
       "DIMENSIONS": "172x74x220mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-16Ah model offers a 46.2 V voltage and 16000 mAh capacity, making it ideal for high-performance applications. With a wattage of 739.2 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.85 V each."
+    "description": "The XRT-12S-16Ah model offers a 46.2 V voltage and 16000 mAh capacity, making it ideal for high-performance applications. With a wattage of 739.2 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.85 V each."
   },
   {
     "ID": 2,
@@ -31,9 +31,9 @@
       "C-RATING": 10,
       "Wh": 932.4,
       "DIMENSIONS": "152x82x270mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 3,
@@ -49,9 +49,9 @@
       "C-RATING": 10,
       "Wh": 932.4,
       "DIMENSIONS": "229x74x174mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-21Ah model offers a 44.4 V voltage and 21000 mAh capacity, making it ideal for high-performance applications. With a wattage of 932.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 4,
@@ -67,9 +67,9 @@
       "C-RATING": 10,
       "Wh": 976.8,
       "DIMENSIONS": "129x74x195mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-22Ah model offers a 44.4 V voltage and 22000 mAh capacity, making it ideal for high-performance applications. With a wattage of 976.8 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-22Ah model offers a 44.4 V voltage and 22000 mAh capacity, making it ideal for high-performance applications. With a wattage of 976.8 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 5,
@@ -85,9 +85,9 @@
       "C-RATING": 10,
       "Wh": 1065.6,
       "DIMENSIONS": "183x75x244mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-24Ah model offers a 44.4 V voltage and 24000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1065.6 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-24Ah model offers a 44.4 V voltage and 24000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1065.6 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 6,
@@ -103,9 +103,9 @@
       "C-RATING": 10,
       "Wh": 1305.36,
       "DIMENSIONS": "148x94x290mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 14 cells rated at 3.7 V each."
   },
   {
     "ID": 7,
@@ -121,9 +121,9 @@
       "C-RATING": 10,
       "Wh": 1118.9,
       "DIMENSIONS": "185x74x243mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-25.2Ah model offers a 44.4 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1118.9 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-25.2Ah model offers a 44.4 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1118.9 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 8,
@@ -139,9 +139,9 @@
       "C-RATING": 11,
       "Wh": 1305.36,
       "DIMENSIONS": "164x96x262mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+    "description": "The XRT-14S-25.2Ah model offers a 51.8 V voltage and 25200 mAh capacity, making it ideal for high-performance applications. With a wattage of 1305.36 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 14 cells rated at 3.7 V each."
   },
   {
     "ID": 9,
@@ -157,9 +157,9 @@
       "C-RATING": 10,
       "Wh": 1332,
       "DIMENSIONS": "130x89x216mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-30Ah model offers a 44.4 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1332 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-30Ah model offers a 44.4 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1332 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 10,
@@ -175,9 +175,9 @@
       "C-RATING": 10,
       "Wh": 1554,
       "DIMENSIONS": "150x84x211mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-14S-30Ah model offers a 51.8 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1554 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.7 V each."
+    "description": "The XRT-14S-30Ah model offers a 51.8 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1554 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 14 cells rated at 3.7 V each."
   },
   {
     "ID": 11,
@@ -193,9 +193,9 @@
       "C-RATING": 25,
       "Wh": 1617,
       "DIMENSIONS": "168x106x264mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-14S-30Ah model offers a 53.9 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1617 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 14 cells rated at 3.85 V each."
+    "description": "The XRT-14S-30Ah model offers a 53.9 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1617 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 14 cells rated at 3.85 V each."
   },
   {
     "ID": 12,
@@ -211,9 +211,9 @@
       "C-RATING": 10,
       "Wh": 1598.4,
       "DIMENSIONS": "172x90x245mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Ion cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 13,
@@ -229,9 +229,9 @@
       "C-RATING": 10,
       "Wh": 1598.4,
       "DIMENSIONS": "133x89x215mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-36Ah model offers a 44.4 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1598.4 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 14,
@@ -247,9 +247,9 @@
       "C-RATING": 10,
       "Wh": 1776,
       "DIMENSIONS": "133x85x209mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-40Ah model offers a 44.4 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1776 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.7 V each."
+    "description": "The XRT-12S-40Ah model offers a 44.4 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1776 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.7 V each."
   },
   {
     "ID": 15,
@@ -265,9 +265,9 @@
       "C-RATING": 10,
       "Wh": 1848,
       "DIMENSIONS": "139x106x241mm",
-      "USED_FOR": "Agri"
+      "Used for": "Agricultural"
     },
-    "description": "The XRT-12S-40Ah model offers a 46.2 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1848 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agri uses with 12 cells rated at 3.85 V each."
+    "description": "The XRT-12S-40Ah model offers a 46.2 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1848 Wh and Li-Po cell type, it ensures optimal efficiency and reliability. Suitable for various Agricultural uses with 12 cells rated at 3.85 V each."
   },
    {
     "ID": 16,
@@ -283,7 +283,7 @@
       "C-RATING": 10,
       "Wh": 381.2,
       "DIMENSIONS": "75x62x168mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-9S-11.0Ah model offers a 34.6 V voltage and 11000 mAh capacity, making it ideal for high-performance applications. With a wattage of 381.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 9 cells rated at 3.84 V each."
   },
@@ -301,7 +301,7 @@
       "C-RATING": 10,
       "Wh": 236.8,
       "DIMENSIONS": "75x34x198mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-4S-16.0Ah model offers a 14.8 V voltage and 16000 mAh capacity, making it ideal for high-performance applications. With a wattage of 236.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 4 cells rated at 3.7 V each."
   },
@@ -319,7 +319,7 @@
       "C-RATING": 10,
       "Wh": 518,
       "DIMENSIONS": "76x62x195mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-8S-17.5Ah model offers a 29.6 V voltage and 17500 mAh capacity, making it ideal for high-performance applications. With a wattage of 518 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 8 cells rated at 3.7 V each."
   },
@@ -337,7 +337,7 @@
       "C-RATING": 10,
       "Wh": 1450.4,
       "DIMENSIONS": "141x77x195mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-28.0Ah model offers a 51.8 V voltage and 28000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1450.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -355,7 +355,7 @@
       "C-RATING": 10,
       "Wh": 1332,
       "DIMENSIONS": "130x89x216mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-12S-30.0Ah model offers a 44.4 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1332 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
   },
@@ -373,7 +373,7 @@
       "C-RATING": 10,
       "Wh": 1554,
       "DIMENSIONS": "138x91x211mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-30.0Ah model offers a 51.8 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1554 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -391,7 +391,7 @@
       "C-RATING": 10,
       "Wh": 1998,
       "DIMENSIONS": "176x90x221mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-30.0Ah model offers a 66.6 V voltage and 30000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1998 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
   },
@@ -409,7 +409,7 @@
       "C-RATING": 10,
       "Wh": 1420.8,
       "DIMENSIONS": "134x89x223mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-12S-32.0Ah model offers a 44.4 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1420.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
   },
@@ -427,7 +427,7 @@
       "C-RATING": 10,
       "Wh": 828.8,
       "DIMENSIONS": "90x80x220mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-7S-32.0Ah model offers a 25.9 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 828.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 7 cells rated at 3.7 V each."
   },
@@ -445,7 +445,7 @@
       "C-RATING": 10,
       "Wh": 710.4,
       "DIMENSIONS": "90x65x219mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-6S-32.0Ah model offers a 22.2 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 710.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
   },
@@ -463,7 +463,7 @@
       "C-RATING": 10,
       "Wh": 1657.6,
       "DIMENSIONS": "153x87x224mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-32.0Ah model offers a 51.8 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1657.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -481,7 +481,7 @@
       "C-RATING": 10,
       "Wh": 2131.2,
       "DIMENSIONS": "196x90x220mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-32.0Ah model offers a 66.6 V voltage and 32000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2131.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
   },
@@ -499,7 +499,7 @@
       "C-RATING": 10,
       "Wh": 1709.4,
       "DIMENSIONS": "155x90x225mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-33.0Ah model offers a 51.8 V voltage and 33000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1709.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -517,7 +517,7 @@
       "C-RATING": 10,
       "Wh": 2397.6,
       "DIMENSIONS": "191x85x219mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-36.0Ah model offers a 66.6 V voltage and 36000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2397.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
   },
@@ -535,7 +535,7 @@
       "C-RATING": 10,
       "Wh": 888,
       "DIMENSIONS": "89x66x222mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-6S-40.0Ah model offers a 22.2 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 888 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
   },
@@ -553,7 +553,7 @@
       "C-RATING": 10,
       "Wh": 924,
       "DIMENSIONS": "106x72x243mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-6S-40.0Ah model offers a 23.1 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 924 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.85 V each."
   },
@@ -571,7 +571,7 @@
       "C-RATING": 10,
       "Wh": 2156,
       "DIMENSIONS": "163x107x247mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-40.0Ah model offers a 53.9 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2156 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.85 V each."
   },
@@ -589,7 +589,7 @@
       "C-RATING": 10,
       "Wh": 2072,
       "DIMENSIONS": "153x90x217mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-40.0Ah model offers a 51.8 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2072 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -607,7 +607,7 @@
       "C-RATING": 10,
       "Wh": 2664,
       "DIMENSIONS": "195x89x222mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-40.0Ah model offers a 66.6 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2664 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
   },
@@ -625,7 +625,7 @@
       "C-RATING": 10,
       "Wh": 2772,
       "DIMENSIONS": "206x107x248mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-40.0Ah model offers a 69.3 V voltage and 40000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2772 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.85 V each."
   },
@@ -643,7 +643,7 @@
       "C-RATING": 10,
       "Wh": 1998,
       "DIMENSIONS": "143x89x253mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-12S-45.0Ah model offers a 44.4 V voltage and 45000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1998 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
   },
@@ -661,7 +661,7 @@
       "C-RATING": 10,
       "Wh": 2486.4,
       "DIMENSIONS": "289x75x206mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-48.0Ah model offers a 51.8 V voltage and 48000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2486.4 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -679,7 +679,7 @@
       "C-RATING": 10,
       "Wh": 1198.8,
       "DIMENSIONS": "120x89x214mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-6S-54.0Ah model offers a 22.2 V voltage and 54000 mAh capacity, making it ideal for high-performance applications. With a wattage of 1198.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 6 cells rated at 3.7 V each."
   },
@@ -697,7 +697,7 @@
       "C-RATING": 10,
       "Wh": 4795.2,
       "DIMENSIONS": "237x177x217mm",
-      "USED_FOR": "Industry"
+      "USED FOR": "Industry"
     },
     "description": "The XRT-24S-54.0Ah model offers a 88.8 V voltage and 54000 mAh capacity, making it ideal for high-performance applications. With a wattage of 4795.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 24 cells rated at 3.7 V each."
   },
@@ -715,7 +715,7 @@
       "C-RATING": 10,
       "Wh": 2974.8,
       "DIMENSIONS": "140x43x344mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-12S-67.0Ah model offers a 44.4 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 2974.8 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 12 cells rated at 3.7 V each."
   },
@@ -733,7 +733,7 @@
       "C-RATING": 10,
       "Wh": 3470.6,
       "DIMENSIONS": "162x104x344mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-14S-67.0Ah model offers a 51.8 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 3470.6 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 14 cells rated at 3.7 V each."
   },
@@ -751,7 +751,7 @@
       "C-RATING": 10,
       "Wh": 4462.2,
       "DIMENSIONS": "209x105x340mm",
-      "USED_FOR": "Industry"
+      "Used for": "Industry"
     },
     "description": "The XRT-18S-67.0Ah model offers a 66.6 V voltage and 67000 mAh capacity, making it ideal for high-performance applications. With a wattage of 4462.2 Wh and li-po cell type, it ensures optimal efficiency and reliability. Suitable for various Industry uses with 18 cells rated at 3.7 V each."
   }
