@@ -91,6 +91,7 @@ const BatteryDetails = () => {
                         ))}
                     </tbody>
                 </table>
+                
             </div>
 
             <section className="indi-battery-caution">
