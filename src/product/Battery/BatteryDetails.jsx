@@ -78,7 +78,6 @@ const BatteryDetails = () => {
                     </div>
                 </div>
             </div>
-
             <div className="indi-battery-specs">
                 <h2 className='listright'>Specifications</h2>
                 <table>
@@ -91,7 +90,6 @@ const BatteryDetails = () => {
                         ))}
                     </tbody>
                 </table>
-                
             </div>
 
             <section className="indi-battery-caution">
