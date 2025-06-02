@@ -108,6 +108,7 @@ const BatteryDetails = () => {
                 </ul>
             </section>
 
+
             <section className="indi-battery-benefits">
                 <h2 className='listright'>Benefits</h2>
                 <ul>
