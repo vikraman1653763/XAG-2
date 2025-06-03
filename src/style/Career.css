@@ -1,8 +1,8 @@
-@font-face{
-  font-family: karla;
-  src:url(/assets/karla.ttf);
-  font-weight: 300;
-}
+    @font-face{
+        font-family: karla;
+        src:url(/assets/karla.ttf);
+        font-weight: 300;
+    }
 
 .no-Jobs{
     text-align: center;
@@ -13,17 +13,17 @@
     justify-content: center;
     align-items: center;
     padding: 7rem 13rem;
-  }
-  .noJobText{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height:auto;
-  }
-  
-  .noJobText h2{
+}
+.noJobText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height:auto;
+}
+
+.noJobText h2{
     font-size: var(--fs-xl);
     text-transform: uppercase;
     font-weight: 500;
