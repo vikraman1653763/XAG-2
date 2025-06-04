@@ -538,8 +538,8 @@
 
 .bat-sec-11-subtext span {
   color: #9BF00B;
-}
-
+     line-height: normal;
+  }
 .bat-sec-11-buttons {
   display: flex;
   gap: 20px;
@@ -555,6 +555,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+ 
 }
 
 .bat-sec-11-button:hover {
@@ -940,12 +941,13 @@
       flex-direction: row;
       gap: 10px;
       font-size: var(--fs-s);
+      flex-wrap: wrap;
     }
   
     .bat-sec-11-button {
       padding: 0.2em 0.5em;
       font-size: 0.9rem;
-      width: 30%;
+      width: 100%;
     }
 }
 
@@ -1394,7 +1396,7 @@
   }
 
   .bat-sec-11-buttons {
-    gap: 15px;
+    gap: auto;
   }
 
   .bat-sec-11-button {
