@@ -69,8 +69,9 @@
   
   /* Details button */
   .bat-12-add-to-cart {
-    background: linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);    
-    color: #000;
+    /* background: linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);    */
+    background: black; 
+    color: #ffffff;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 5px;
