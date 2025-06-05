@@ -7,7 +7,6 @@
     padding: 20px;
   }
   
-  /* Individual bat-12 card */
   .bat-12-card {
     background: #fff;
     border-radius: 10px;
@@ -22,16 +21,16 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
-  .bat-12-image {
+.bat-12-image {
     width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f9f9f9;
-  }
+}
   
- .bat-12-image img {
+.bat-12-image img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
@@ -53,7 +52,6 @@
     margin-bottom: 10px;
   }
   
-  /* Price and details section */
   .bat-12-card-footer {
     display: flex;
     justify-content: space-between;
@@ -69,7 +67,6 @@
   
   /* Details button */
   .bat-12-add-to-cart {
-    /* background: linear-gradient(150deg, #9BF00B 0%, #9BF00B 80%, #077307 100%);    */
     background: black; 
     color: #ffffff;
     text-decoration: none;
@@ -80,14 +77,13 @@
     transition: background 0.3s ease-in-out;
   }
   
-  .bat-12-add-to-cart:hover { 
-        transition: background 0.3s ease-in-out;
-      color: #9bf00b;
-      background: linear-gradient(150deg, #000 0%, #000 80%, #9BF00B 100%);
-     }
+.bat-12-add-to-cart:hover { 
+    transition: background 0.3s ease-in-out;
+    color: #9bf00b;
+    background: linear-gradient(150deg, #000 0%, #000 80%, #9BF00B 100%);
+}
   
 
-  /* Tablet view (768px and below) */
 @media (max-width: 768px) {
   #bat-12-container {
     gap: 0.8em;

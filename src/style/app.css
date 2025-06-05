@@ -190,50 +190,50 @@ main{
     .banner img {
         object-position: top;
     }
-        .image-text {
-            width: 100%;
-            font-size: var(--fs-xs);
-            padding:0px ;
-        }
-    
-        .image-text h3 {
-            font-size: var(--fs-m); 
-            line-height: 0px; 
-        }
-    
-        .image-text p {
-            font-size: var(--fs-xs);
-            font-weight: normal;
-        }
+    .image-text {
+        width: 100%;
+        font-size: var(--fs-xs);
+        padding:0px ;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        main{
-            margin-top: 1.8em;   
-        }
-    
-        .banner {
-            margin-top: 4rem;
-        }
-    
-        .banner img {
-            height: auto;
-        }
-    
-        .image-text {
-            width: 80%;
-        }
-    
-        .image-text h3 {
-            font-size: var(--fs-xl);
-            line-height: var(--fs-xl); 
-        }
-    
-        .image-text p {
-            font-size: var(--fs-m); 
-            font-weight: normal;
-        }
-        
+
+    .image-text h3 {
+        font-size: var(--fs-m); 
+        line-height: 0px; 
     }
+
+    .image-text p {
+        font-size: var(--fs-xs);
+        font-weight: normal;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    main{
+        margin-top: 1.8em;   
+    }
+
+    .banner {
+        margin-top: 4rem;
+    }
+
+    .banner img {
+        height: auto;
+    }
+
+    .image-text {
+        width: 80%;
+    }
+
+    .image-text h3 {
+        font-size: var(--fs-xl);
+        line-height: var(--fs-xl); 
+    }
+
+    .image-text p {
+        font-size: var(--fs-m); 
+        font-weight: normal;
+    }
+    
+}
 
 
 

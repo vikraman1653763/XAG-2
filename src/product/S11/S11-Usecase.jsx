@@ -25,12 +25,20 @@ const Slide = ({ slide, isActive, position }) => {
   }, []);
 
   return (
-    <li className={`s11-usecase-slide s11-usecase-slide--${position} ${isActive ? "s11-usecase-slide--current" : ""}`}>
+    <li
+      className={`s11-usecase-slide s11-usecase-slide--${position} ${
+        isActive ? "s11-usecase-slide--current" : ""
+      }`}
+    >
       <div className="s11-usecase-slide__video-wrapper">
         {!thumbnail ? (
           <div className="s11-usecase-slide__loading">Loading...</div>
         ) : (
-          <img className="s11-usecase-slide__thumbnail" src={thumbnail} alt={slide.headline} />
+          <img
+            className="s11-usecase-slide__thumbnail"
+            src={thumbnail}
+            alt={slide.headline}
+          />
         )}
 
         <video
@@ -71,7 +79,14 @@ const Usecase = ({ data }) => {
           if (diff > 1) diff -= totalSlides;
           if (diff < -1) diff += totalSlides;
 
-          const positionClass = diff === -1 ? "prev" : diff === 0 ? "current" : diff === 1 ? "next" : "";
+          const positionClass =
+            diff === -1
+              ? "prev"
+              : diff === 0
+              ? "current"
+              : diff === 1
+              ? "next"
+              : "";
           return (
             <Slide
               key={slide.index}
