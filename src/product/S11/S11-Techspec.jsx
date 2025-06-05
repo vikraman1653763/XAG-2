@@ -10,8 +10,11 @@ const Tech = () => {
         { name: "Model Type", detail: "Quad Copter" },
         { name: "GPS Type", detail: "Dual RTK Antenna" },
         { name: "Max Payload", detail: "10kg+" },
-        { name: "Overall Dimension (mm) (l×b×h)", detail: "1200 × 920 × 600 mm" },
-        { name: "Compatible Payload", detail: "Depends on the model" }
+        {
+          name: "Overall Dimension (mm) (l×b×h)",
+          detail: "1200 × 920 × 600 mm",
+        },
+        { name: "Compatible Payload", detail: "Depends on the model" },
       ],
     },
     {
@@ -21,7 +24,10 @@ const Tech = () => {
         { name: "Number of Motors", detail: "4" },
         { name: "Battery Type", detail: "Semi solid Battery" },
         { name: "Propeller Details", detail: "24-inch Diameter" },
-        { name: "Propeller Material", detail: "Carbon Fiber-Reinforced Polymer (CFRP)" },
+        {
+          name: "Propeller Material",
+          detail: "Carbon Fiber-Reinforced Polymer (CFRP)",
+        },
       ],
     },
     {
@@ -34,7 +40,7 @@ const Tech = () => {
         { name: "Weight", detail: "1440 g" },
         { name: "Battery Life", detail: "Up to 10 hours" },
         { name: "Fast Charging", detail: "30W PD charging" },
-        { name: "Waterproof Level", detail: "IP4X" }
+        { name: "Waterproof Level", detail: "IP4X" },
       ],
     },
     {
@@ -45,18 +51,21 @@ const Tech = () => {
         { name: "Manual Autopilot", detail: "Yes" },
         { name: "Full Autopilot", detail: "Yes" },
         { name: "Autonomous Flight Termination System or RTH", detail: "Yes" },
-        { name: "Flight Controller with Data Logging", detail: "Yes" }
+        { name: "Flight Controller with Data Logging", detail: "Yes" },
       ],
     },
     {
       title: "Safety Features",
       specs: [
         { name: "Anti-collision System", detail: "Yes" },
-        { name: "Flashing Anti-collision Strobe Light", detail: "Yes, toggleable via app" },
+        {
+          name: "Flashing Anti-collision Strobe Light",
+          detail: "Yes, toggleable via app",
+        },
         { name: "Battery Fail Safe", detail: "Yes" },
         { name: "Return to Home (RC Fail)", detail: "Yes" },
         { name: "GCS Fail Safe", detail: "Yes" },
-        { name: "Geo-fencing Capability", detail: "Yes" }
+        { name: "Geo-fencing Capability", detail: "Yes" },
       ],
     },
   ];

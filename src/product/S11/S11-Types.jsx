@@ -11,7 +11,9 @@ function Types({ data }) {
         {data.items.map((type, index) => (
           <button
             key={index}
-            className={`s11-type-button ${index === activeIndex ? "active" : ""}`}
+            className={`s11-type-button ${
+              index === activeIndex ? "active" : ""
+            }`}
             onClick={() => setActiveIndex(index)}
           >
             {type.name}
@@ -22,11 +24,7 @@ function Types({ data }) {
       {/* Image Container */}
       <div className="s11-type-image-container">
         {/* Background Drone Image */}
-        <img
-          src={data.bg}
-          alt="Drone Background"
-          className="s11-bg-image"
-        />
+        <img src={data.bg} alt="Drone Background" className="s11-bg-image" />
 
         {/* Animated Payload Image */}
         <AnimatePresence mode="wait">

@@ -2,31 +2,30 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const getItemVariants = (index) => ({
-  hidden: { scale: 0.5, opacity: 0 },  
-  show: { 
-    scale: 1.2,  
+  hidden: { scale: 0.5, opacity: 0 },
+  show: {
+    scale: 1.2,
     opacity: 1,
-    transition: { 
-      type: "spring", 
-      stiffness: 80, 
-      damping: 10, 
-      delay: index * 0.3 
-    }
-  }
+    transition: {
+      type: "spring",
+      stiffness: 80,
+      damping: 10,
+      delay: index * 0.3,
+    },
+  },
 });
 
 const Intro = ({ data }) => {
   return (
-    <motion.div 
-    className="s11-intro-container"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 1 }}
-    style={{ backgroundImage: `url(${data.bg})`}}
-  >
-  
+    <motion.div
+      className="s11-intro-container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      style={{ backgroundImage: `url(${data.bg})` }}
+    >
       {/* Title and Subtitle */}
-      <motion.div 
+      <motion.div
         className="s11-intro-content"
         initial={{ x: "-100px", opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -39,7 +38,7 @@ const Intro = ({ data }) => {
       {/* Payload Images */}
       <motion.div className="s11-intro-payloads">
         {data.images.map((image, index) => (
-          <motion.img 
+          <motion.img
             key={index}
             src={image}
             className="s11-intro-payload-image"
@@ -51,23 +50,20 @@ const Intro = ({ data }) => {
       </motion.div>
     </motion.div>
   );
-}
-
-
-
+};
 
 const IntroMobile = ({ data }) => {
   return (
-    <motion.div 
+    <motion.div
       className="s11-intro-mobile-container"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       {/* Background Image */}
-      <motion.img 
-        src={data.bg} 
-        alt="Background" 
+      <motion.img
+        src={data.bg}
+        alt="Background"
         className="s11-intro-mobile-image"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -75,7 +71,7 @@ const IntroMobile = ({ data }) => {
       />
 
       {/* Title and Subtitle */}
-      <motion.div 
+      <motion.div
         className="s11-intro-mobile-content"
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -88,7 +84,7 @@ const IntroMobile = ({ data }) => {
       {/* Payload Images */}
       <motion.div className="s11-intro-mobile-payloads">
         {data.images.map((image, index) => (
-          <motion.img 
+          <motion.img
             key={index}
             src={image}
             alt={`Payload ${index + 1}`}
@@ -102,8 +98,6 @@ const IntroMobile = ({ data }) => {
     </motion.div>
   );
 };
-
-
 
 const ResponsiveIntro = ({ data }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);

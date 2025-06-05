@@ -8,8 +8,8 @@ const Payload = ({ data }) => {
   useEffect(() => {
     AOS.init({
       duration: 500,
-      easing: "ease-out", 
-      once: true, 
+      easing: "ease-out",
+      once: true,
     });
   }, []);
 
