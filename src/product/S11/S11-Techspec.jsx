@@ -1,7 +1,6 @@
 import React from "react";
 
 const Tech = () => {
-  // JSON Data for specifications – now five objects for a 2 (top) / 3 (bottom) layout
   const technicalSpecifications = [
     {
       title: "Model Details",
@@ -70,7 +69,6 @@ const Tech = () => {
     },
   ];
 
-  // Split the data into two rows:
   const topRow = technicalSpecifications.slice(0, 2);
   const bottomRow = technicalSpecifications.slice(2);
 

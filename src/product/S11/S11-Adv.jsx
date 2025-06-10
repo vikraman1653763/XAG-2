@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// Define images for different models
 const modelImages = {
   survey: {
     first: "/assets/s11/s11-survey-bat.webp",
@@ -82,7 +81,6 @@ const defaultFeatures = [
 ];
 
 function Advance({ model }) {
-  // Get images based on model, or use default placeholders if not found
   const selectedImages = modelImages[model] || {
     first: "/assets/s11-survey-battery.webp",
     second: "/assets/s11-survey-fold.webp",
@@ -90,7 +88,6 @@ function Advance({ model }) {
     fourth: "/assets/s11/s11-survey-90deg.webp",
   };
 
-  // Update first two images dynamically
   const features = defaultFeatures.map((item, index) => {
     if (index === 0) return { ...item, image: selectedImages.first };
     if (index === 1) return { ...item, image: selectedImages.second };

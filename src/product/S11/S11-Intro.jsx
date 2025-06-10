@@ -24,7 +24,6 @@ const Intro = ({ data }) => {
       transition={{ duration: 1 }}
       style={{ backgroundImage: `url(${data.bg})` }}
     >
-      {/* Title and Subtitle */}
       <motion.div
         className="s11-intro-content"
         initial={{ x: "-100px", opacity: 0 }}
@@ -35,7 +34,6 @@ const Intro = ({ data }) => {
         <p className="s11-intro-subtitle">{data.subtitle}</p>
       </motion.div>
 
-      {/* Payload Images */}
       <motion.div className="s11-intro-payloads">
         {data.images.map((image, index) => (
           <motion.img
@@ -60,7 +58,6 @@ const IntroMobile = ({ data }) => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      {/* Background Image */}
       <motion.img
         src={data.bg}
         alt="Background"
@@ -69,8 +66,6 @@ const IntroMobile = ({ data }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       />
-
-      {/* Title and Subtitle */}
       <motion.div
         className="s11-intro-mobile-content"
         initial={{ y: -20, opacity: 0 }}
@@ -81,7 +76,6 @@ const IntroMobile = ({ data }) => {
         <p className="s11-intro-mobile-subtitle">{data.subtitle}</p>
       </motion.div>
 
-      {/* Payload Images */}
       <motion.div className="s11-intro-mobile-payloads">
         {data.images.map((image, index) => (
           <motion.img

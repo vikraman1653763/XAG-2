@@ -6,7 +6,6 @@ function Types({ data }) {
 
   return (
     <div className="s11-type-container">
-      {/* Buttons */}
       <div className="s11-type-buttons">
         {data.items.map((type, index) => (
           <button
@@ -20,13 +19,9 @@ function Types({ data }) {
           </button>
         ))}
       </div>
-
-      {/* Image Container */}
       <div className="s11-type-image-container">
-        {/* Background Drone Image */}
         <img src={data.bg} alt="Drone Background" className="s11-bg-image" />
 
-        {/* Animated Payload Image */}
         <AnimatePresence mode="wait">
           <motion.img
             key={data.items[activeIndex].image}

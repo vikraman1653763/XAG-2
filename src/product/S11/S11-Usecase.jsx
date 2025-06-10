@@ -14,10 +14,10 @@ const Slide = ({ slide, isActive, position }) => {
         canvas.height = video.videoHeight;
         const ctx = canvas.getContext("2d");
 
-        video.currentTime = 0.1; // Capture frame at 0.1 second
+        video.currentTime = 0.1; 
         video.onloadeddata = () => {
           ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-          setThumbnail(canvas.toDataURL("image/png")); // Convert to image URL
+          setThumbnail(canvas.toDataURL("image/png")); 
         };
       }
     };
@@ -47,7 +47,7 @@ const Slide = ({ slide, isActive, position }) => {
           autoPlay
           loop
           muted
-          onPlay={() => setThumbnail(null)} // Hide thumbnail once the video plays
+          onPlay={() => setThumbnail(null)} 
         >
           <source src={slide.src} type="video/mp4" />
         </video>
