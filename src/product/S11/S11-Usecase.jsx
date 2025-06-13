@@ -97,7 +97,7 @@ const Usecase = ({ data }) => {
           );
         })}
 
-        <div className="s11-usecase-slider__controls">
+        <div className="s11-usecase-slider__controls"> 
           <button className="s11-usecase-btn" onClick={handlePreviousClick}>
             <IoIosArrowDropleft />
           </button>
